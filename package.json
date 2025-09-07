@@ -1,0 +1,29 @@
+{
+  "name": "spwa-plugin",
+  "version": "1.0.0",
+  "description": "A growing collection of WooCommerce enhancements: speed, cart, UX, and more in one plugin.",
+  "main": "index.js",
+  "scripts": {
+    "start": "wp-scripts start",
+    "build": "wp-scripts build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-icons": "^5.5.0",
+    "react-router-dom": "^7.6.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.27.1",
+    "@babel/preset-env": "^7.27.1",
+    "@babel/preset-react": "^7.27.1",
+    "@wordpress/scripts": "^30.15.0",
+    "babel-loader": "^10.0.0",
+    "webpack": "^5.99.7",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.1"
+  }
+}
