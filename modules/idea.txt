@@ -1,0 +1,187 @@
+1. user install and use the free addons
+2. first time premium addon will be disable and configure  text will up upgrade now
+3. after purchase check license if activated then enable premum addons
+
+
+
+/**
+     * Load all premium modules if license is valid
+     */
+    // private function load_premium_modules() {
+    //     if ( function_exists( 'spwa_is_license_valid' ) && spwa_is_license_valid() ) {
+    //         $premium_modules = glob( $this->plugin_path . 'premium/*/*.php' );
+    //         if ( $premium_modules ) {
+    //             foreach ( $premium_modules as $module ) {
+    //                 if ( is_file( $module ) ) {
+    //                     include_once $module;
+    //                 }
+    //             }
+    //         }
+    //     }
+    // }
+
+Perfect 👍 You’re thinking like a serious premium plugin developer now.
+What you want is basically:
+
+Domain binding → A license key should only work on the registered domain(s).
+
+Anti-piracy / Code protection → Even if someone gets your code, they cannot easily crack or re-use it.
+
+Let’s break it down step by step:
+
+1. License + Domain Binding 🔑🌍
+
+When a customer buys your plugin, you not only generate a license key but also bind it to a domain.
+
+How it works:
+
+Customer installs plugin → they enter license key in your settings panel.
+
+Plugin sends license key + current site URL to your licensing server (your site).
+
+Your server checks:
+
+✅ If the license exists
+
+✅ If it’s active and not expired
+
+✅ If the domain matches the registered one
+
+Example flow:
+
+Database structure (on your server where you sell licenses):
+
+CREATE TABLE wp_plugin_licenses (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  license_key VARCHAR(64) NOT NULL,
+  domain VARCHAR(255),
+  status ENUM('active','inactive','expired') DEFAULT 'inactive',
+  expiry_date DATE,
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+
+Validation API (on your server):
+
+function spwa_validate_license(WP_REST_Request $request) {
+  global $wpdb;
+  $license = sanitize_text_field($request['license_key']);
+  $domain  = sanitize_text_field($request['domain']);
+
+  $row = $wpdb->get_row(
+    $wpdb->prepare("SELECT * FROM wp_plugin_licenses WHERE license_key = %s", $license)
+  );
+
+  if (!$row) {
+    return ['success' => false, 'message' => 'Invalid license'];
+  }
+
+  if ($row->status !== 'active' || strtotime($row->expiry_date) < time()) {
+    return ['success' => false, 'message' => 'License expired'];
+  }
+
+  // If no domain registered yet → register this domain
+  if (empty($row->domain)) {
+    $wpdb->update('wp_plugin_licenses', ['domain' => $domain], ['id' => $row->id]);
+  }
+
+  // Check domain match
+  if ($row->domain !== $domain) {
+    return ['success' => false, 'message' => 'License already registered on another domain'];
+  }
+
+  return ['success' => true, 'message' => 'License valid'];
+}
+
+
+Client side (inside your plugin):
+
+$license = get_option('spwa_license_key');
+$domain  = home_url();
+
+$response = wp_remote_post('https://yourdomain.com/wp-json/speedpress/v1/validate-license', [
+  'body' => [
+    'license_key' => $license,
+    'domain'      => $domain,
+  ],
+]);
+
+
+✅ Result: If they share the license → it won’t work on another domain.
+
+2. Preventing Code Piracy (Harder Part) 🔒
+
+WordPress plugins are GPL, meaning you cannot legally encrypt your entire plugin.
+But you can still protect your premium logic (like module loading, license validation, core algorithms).
+
+Techniques:
+
+Code Obfuscation
+
+Use tools like JS/TS obfuscators
+ for React build.
+
+Use PHP Obfuscators (like ionCube, Zend Guard, or open-source ones).
+
+This makes reverse engineering harder.
+
+Remote Checks
+
+Keep sensitive parts of code (like premium algorithm, templates, or assets) on your server.
+
+Plugin fetches them via API only if license is valid.
+
+If license invalid → premium code never loads.
+
+Kill-Switch
+
+Plugin checks license at regular intervals (e.g., weekly).
+
+If invalid or server unreachable for long → disable premium features.
+
+Partial SaaS Approach
+
+Example: Elementor, WP Rocket, etc.
+
+Core plugin works locally, but premium features require remote API data (so cracked copies don’t fully work).
+
+3. Realistic Setup for You 🔧
+
+Since you’re building 100+ addons with free & premium modules, the best approach is:
+
+Step 1: Create a license server plugin on your selling site (manages keys, domain binding, API).
+
+Step 2: In your main plugin:
+
+Add license settings page (React admin UI)
+
+Save key to DB (wp_options)
+
+On load, validate against your server
+
+If invalid → auto-disable /modules/premium/
+
+Step 3 (Optional, for piracy protection):
+
+Obfuscate premium PHP & JS files before release.
+
+Load sensitive features via API from your server.
+
+Example Workflow
+
+Customer buys → gets license key.
+
+They install your plugin → enter key in Admin → Validate.
+
+Your API binds license → domain.
+
+If someone copies plugin + license:
+
+Domain mismatch → ❌ Plugin won’t work.
+
+If someone cracks code:
+
+Obfuscation + API dependency makes it time-wasting & difficult.
+
+👉 Question:
+Do you want me to write you a ready-to-use "License Manager" system (server + plugin side) that you can reuse across all your addons? That way you only maintain one license API, and every addon integrates with it. Would you like me to draft that system?

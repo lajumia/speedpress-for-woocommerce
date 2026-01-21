@@ -36,8 +36,8 @@ class SPWA_Public {
      */
     public function enqueue_assets() {
         $build_dir   = $this->path . 'public/build/';
-        $script_file = $build_dir . 'index.js';
-        $style_file  = $build_dir . 'index.css';
+        $script_file = $build_dir . 'public.bundle.js';
+        $style_file  = $build_dir . 'public.bundle.css';
 
         // Verify that the compiled React assets exist
         if (!file_exists($script_file)) {
@@ -46,23 +46,21 @@ class SPWA_Public {
 
         $build_url = $this->url . 'public/build/';
 
-        $index_dep = include_once SPWA_PATH . 'public/build/index.asset.php';
+        $index_dep = include_once SPWA_PATH . 'public/build/public.bundle.asset.php';
         wp_enqueue_script(
             'spwa-public-js',
-            $build_url . 'index.js',
+            $build_url . 'public.bundle.js',
             $index_dep['dependencies'], 
             $index_dep['version'],
             true
         );
 
-        if (file_exists($style_file)) {
-            wp_enqueue_style(
-                'spwa-public-css',
-                $build_url . 'index.css',
-                [],
-                '1.0'
-            );
-        }
+        wp_enqueue_style(
+            'spwa-public-css',
+            SPWA_URL. '/public/spwa-public.css',
+            [],
+            
+        );
 
         wp_localize_script('spwa-public-js', 'SPWAPublic', [
             'ajax_url' => admin_url('admin-ajax.php'),

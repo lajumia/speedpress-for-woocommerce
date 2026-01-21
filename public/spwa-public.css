@@ -1,0 +1,107 @@
+.spwa-purchase-count.icon-style {
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    color: #333;
+}
+
+.spwa-purchase-count.icon-style .purchase-icon {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.spwa-purchase-count.icon-style span {
+    font-size: 16px;
+    color: #0073e6;
+}
+
+/* Style for WooCommerce error messages */
+/* Modern clean design for WooCommerce error message */
+.woocommerce-error {
+    background-color: #fef3c7; /* light amber */
+    border-left: 4px solid #f59e0b; /* amber-500 */
+    padding: 16px 20px;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #92400e; /* dark amber */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    list-style: none;
+    margin-bottom: 24px;
+    position: relative;
+}
+
+/* Add subtle icon before the text */
+.woocommerce-error::before {
+    content: "⚠️";
+    position: absolute;
+    left: 12px;
+    top: 16px;
+    font-size: 18px;
+}
+
+/* Indent text to align with icon */
+.woocommerce-error li {
+    padding-left: 28px;
+}
+
+
+#spwa-sticky-cart {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+  background: #fff;
+  box-shadow: 0 -2px 8px rgba(0,0,0,0.08);
+  padding: 10px 15px;
+  display: none;
+  align-items: center;
+  justify-content: space-between;
+  transition: all 0.3s ease;
+}
+
+#spwa-sticky-cart.show {
+  display: flex;
+}
+
+.spwa-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.spwa-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex: 1;
+}
+
+.spwa-info {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+}
+
+.spwa-title {
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.spwa-price {
+  color: #38a169;
+  font-weight: 500;
+}
+
+.spwa-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+

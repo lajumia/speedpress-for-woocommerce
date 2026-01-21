@@ -1,28 +1,51 @@
 const defaultConfig = require("@wordpress/scripts/config/webpack.config");
 const path = require("path");
+const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
-// Admin configuration
-const adminConfig = {
+// Helper to create config for admin & public
+const createConfig = (name, entryPath, outputPath) => ({
   ...defaultConfig,
-  entry: {
-    index: "./admin/src/index.jsx", // Admin React entry point
-  },
+  entry: { [name]: entryPath },
   output: {
-    path: path.resolve(__dirname, "admin/build"),
-    filename: "[name].js",
+    path: path.resolve(__dirname, outputPath),
+    filename: "[name].bundle.js",
   },
-};
+  resolve: {
+    ...defaultConfig.resolve,
+    extensions: [".tsx", ".ts", ".js", ".jsx"],
+  },
+  module: {
+    rules: [
+      ...defaultConfig.module.rules,
+      // TypeScript
+      {
+        test: /\.tsx?$/,
+        use: "ts-loader",
+        exclude: /node_modules/,
+      },
+      // CSS (Tailwind + PostCSS)
+      {
+        test: /\.css$/i,
+        use: [
+          MiniCssExtractPlugin.loader,
+          {
+            loader: "css-loader",
+            options: { importLoaders: 1 },
+          },
+          "postcss-loader",
+        ],
+      },
+    ],
+  },
+  plugins: [
+    ...(defaultConfig.plugins || []),
+    new MiniCssExtractPlugin({
+      filename: "[name].bundle.css", // final CSS file name
+    }),
+  ],
+});
 
-// Public configuration
-const publicConfig = {
-  ...defaultConfig,
-  entry: {
-    index: "./public/src/index.jsx", // Public React entry point
-  },
-  output: {
-    path: path.resolve(__dirname, "public/build"),
-    filename: "[name].js",
-  },
-};
-
-module.exports = [adminConfig, publicConfig];
+module.exports = [
+  createConfig("admin", "./admin/src/app.tsx", "admin/build"),
+  createConfig("public", "./public/src/app.tsx", "public/build"),
+];

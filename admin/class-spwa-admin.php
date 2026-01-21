@@ -28,7 +28,7 @@ class SPWA_Admin {
      */
     private function init_hooks() {
         add_action('admin_menu', [$this, 'register_menu']);
-        add_action('admin_enqueue_scripts', [$this, 'enqueue_assets']);
+        add_action('admin_enqueue_scripts', [$this, 'enqueue_assets'],9999);
     }
 
     /**
@@ -42,10 +42,10 @@ class SPWA_Admin {
             'manage_options',
             'spwa-dashboard',
             [$this, 'render_admin_page'],
-            'dashicons-admin-generic',
+            SPWA_URL . 'speedpress-icon.svg',
             60
         );
-
+    }
 
 
     /**
@@ -65,8 +65,8 @@ class SPWA_Admin {
         }
 
         $build_dir   = $this->path . 'admin/build/';
-        $script_file = $build_dir . 'index.js';
-        $style_file  = $build_dir . 'index.css';
+        $script_file = $build_dir . 'admin.bundle.js';
+        $style_file  = $build_dir . 'andin.bundle.css';
 
         if (!file_exists($script_file)) {
             return;
@@ -74,23 +74,29 @@ class SPWA_Admin {
 
         $build_url = $this->url . 'admin/build/';
 
-        $index_dep = include_once SPWA_PATH . 'admin/build/index.asset.php';
+        $index_dep = include_once SPWA_PATH . 'admin/build/admin.bundle.asset.php';
         wp_enqueue_script(
             'spwa-admin-js',
-            $build_url . 'index.js',
+            $build_url . 'admin.bundle.js',
             $index_dep['dependencies'], 
             $index_dep['version'],
             true
         );
 
-        if (file_exists($style_file)) {
-            wp_enqueue_style(
-                'spwa-admin-css',
-                $build_url . 'index.css',
-                [],
-                '1.0'
-            );
-        }
+        
+        wp_enqueue_style(
+            'spwa-admin-css',
+            $this->url . 'admin/src/admin.css',
+            [],
+            '1.0'
+        );
+        wp_enqueue_style(
+            'spwa-admin-custom-css',
+            $this->url . 'admin/src/custom.css',
+            [],
+            '1.0'
+        );
+        
 
         wp_localize_script('spwa-admin-js', 'SPWAAdmin', [
             'ajax_url' => admin_url('admin-ajax.php'),

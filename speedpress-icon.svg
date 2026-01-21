@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <defs>
+    <!-- Animated rainbow gradient -->
+    <linearGradient id="full-text-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff0000">
+        <animate attributeName="stop-color" values="#ff0000;#ff9900;#ffff00;#00ff00;#00ffff;#0000ff;#ff00ff;#ff0000" dur="6s" repeatCount="indefinite"></animate>
+      </stop>
+      <stop offset="100%" stop-color="#0000ff">
+        <animate attributeName="stop-color" values="#0000ff;#ff00ff;#ff0000;#ff9900;#ffff00;#00ff00;#00ffff;#0000ff" dur="6s" repeatCount="indefinite"></animate>
+      </stop>
+    </linearGradient>
+  </defs>
+
+  <!-- Animated SP text -->
+  <text x="50%" y="80%" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="" font-weight="700" fill="url(#full-text-gradient)">
+    SP
+  </text>
+</svg>
