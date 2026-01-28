@@ -3982,11 +3982,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var lucide_react__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! lucide-react */ "./node_modules/lucide-react/dist/esm/icons/circle-check-big.js");
 /* harmony import */ var lucide_react__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! lucide-react */ "./node_modules/lucide-react/dist/esm/icons/house.js");
 /* harmony import */ var lucide_react__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! lucide-react */ "./node_modules/lucide-react/dist/esm/icons/triangle-alert.js");
-/* harmony import */ var lucide_react__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! lucide-react */ "./node_modules/lucide-react/dist/esm/icons/bell.js");
-/* harmony import */ var lucide_react__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! lucide-react */ "./node_modules/lucide-react/dist/esm/icons/chevron-right.js");
-/* harmony import */ var lucide_react__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! lucide-react */ "./node_modules/lucide-react/dist/esm/icons/info.js");
-/* harmony import */ var lucide_react__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! lucide-react */ "./node_modules/lucide-react/dist/esm/icons/menu.js");
-/* harmony import */ var lucide_react__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! lucide-react */ "./node_modules/lucide-react/dist/esm/icons/x.js");
+/* harmony import */ var lucide_react__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! lucide-react */ "./node_modules/lucide-react/dist/esm/icons/chevron-right.js");
+/* harmony import */ var lucide_react__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! lucide-react */ "./node_modules/lucide-react/dist/esm/icons/info.js");
+/* harmony import */ var lucide_react__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! lucide-react */ "./node_modules/lucide-react/dist/esm/icons/menu.js");
 
 
 
@@ -4028,7 +4026,7 @@ function ContentHeader({
     title: 'System Update Available',
     message: 'SpeedPress v2.1.5 is now available with new features and bug fixes.',
     time: '2 minutes ago',
-    icon: lucide_react__WEBPACK_IMPORTED_MODULE_12__["default"]
+    icon: lucide_react__WEBPACK_IMPORTED_MODULE_11__["default"]
   }, {
     id: '2',
     type: 'success',
@@ -4082,7 +4080,7 @@ function ContentHeader({
           size: "icon",
           className: "lg:hidden",
           onClick: onOpenSidebar,
-          children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_13__["default"], {
+          children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_12__["default"], {
             className: "w-5 h-5"
           })
         }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
@@ -4098,7 +4096,7 @@ function ContentHeader({
                   }), "SpeedPress"]
                 })
               }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ui_breadcrumb__WEBPACK_IMPORTED_MODULE_4__.BreadcrumbSeparator, {
-                children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_11__["default"], {
+                children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_10__["default"], {
                   className: "w-4 h-4"
                 })
               }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ui_breadcrumb__WEBPACK_IMPORTED_MODULE_4__.BreadcrumbItem, {
@@ -4122,92 +4120,7 @@ function ContentHeader({
             addons: addons,
             onAddonSelect: onAddonSelect
           })
-        }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_ui_dropdown_menu__WEBPACK_IMPORTED_MODULE_6__.DropdownMenu, {
-          children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ui_dropdown_menu__WEBPACK_IMPORTED_MODULE_6__.DropdownMenuTrigger, {
-            asChild: true,
-            children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_ui_button__WEBPACK_IMPORTED_MODULE_5__.Button, {
-              variant: "ghost",
-              size: "icon",
-              className: "relative bg-blue-50 hover:bg-blue-100 dark:bg-blue-900/20 dark:hover:bg-blue-900/40 transition-colors",
-              children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_10__["default"], {
-                className: "w-4 h-4 text-blue-600 dark:text-blue-400"
-              }), notifications.length > 0 && (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                className: "absolute -top-1 -right-1 w-4 h-4 bg-red-500 rounded-full flex items-center justify-center animate-pulse",
-                children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                  className: "text-[10px] font-semibold text-white",
-                  children: notifications.length
-                })
-              })]
-            })
-          }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_ui_dropdown_menu__WEBPACK_IMPORTED_MODULE_6__.DropdownMenuContent, {
-            align: "end",
-            className: "w-80 max-w-[calc(100vw-2rem)]",
-            children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-              className: "px-3 py-2 border-b border-border",
-              children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("h4", {
-                className: "font-medium",
-                children: "Notifications"
-              }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("p", {
-                className: "text-xs text-muted-foreground",
-                children: [notifications.length, " unread notification", notifications.length !== 1 ? 's' : '']
-              })]
-            }), notifications.length === 0 ? (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-              className: "p-6 text-center",
-              children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_10__["default"], {
-                className: "w-8 h-8 mx-auto text-muted-foreground mb-2"
-              }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
-                className: "text-sm text-muted-foreground",
-                children: "No new notifications"
-              })]
-            }) : notifications.map(notification => {
-              const IconComponent = notification.icon;
-              return (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_ui_dropdown_menu__WEBPACK_IMPORTED_MODULE_6__.DropdownMenuItem, {
-                className: "flex items-start gap-3 p-3 relative group",
-                children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                  className: `w-2 h-2 ${getNotificationColor(notification.type)} rounded-full mt-2 flex-shrink-0`
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                  className: "flex-1 pr-6",
-                  children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                    className: "flex items-center gap-2 mb-1",
-                    children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(IconComponent, {
-                      className: `w-3 h-3 ${getNotificationIconColor(notification.type)}`
-                    }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                      className: "text-sm font-medium",
-                      children: notification.title
-                    })]
-                  }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
-                    className: "text-xs text-muted-foreground mb-1",
-                    children: notification.message
-                  }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                    className: "text-xs text-muted-foreground",
-                    children: notification.time
-                  })]
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ui_button__WEBPACK_IMPORTED_MODULE_5__.Button, {
-                  variant: "ghost",
-                  size: "icon",
-                  className: "absolute top-2 right-2 w-6 h-6 opacity-0 group-hover:opacity-100 transition-opacity hover:bg-red-100 dark:hover:bg-red-900/20",
-                  onClick: e => {
-                    e.preventDefault();
-                    e.stopPropagation();
-                    removeNotification(notification.id);
-                  },
-                  children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_14__["default"], {
-                    className: "w-3 h-3 text-red-500"
-                  })
-                })]
-              }, notification.id);
-            }), notifications.length > 0 && (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
-              children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ui_dropdown_menu__WEBPACK_IMPORTED_MODULE_6__.DropdownMenuSeparator, {}), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ui_dropdown_menu__WEBPACK_IMPORTED_MODULE_6__.DropdownMenuItem, {
-                className: "justify-center text-center p-3 text-red-600 hover:bg-red-50 dark:text-red-400 dark:hover:bg-red-900/20",
-                onClick: () => setNotifications([]),
-                children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                  className: "text-sm",
-                  children: "Clear all notifications"
-                })
-              })]
-            })]
-          })]
-        }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ThemeToggle__WEBPACK_IMPORTED_MODULE_2__.ThemeToggle, {})]
+        }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ui_dropdown_menu__WEBPACK_IMPORTED_MODULE_6__.DropdownMenu, {}), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ThemeToggle__WEBPACK_IMPORTED_MODULE_2__.ThemeToggle, {})]
       })]
     })
   });
@@ -4740,17 +4653,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var lucide_react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! lucide-react */ "./node_modules/lucide-react/dist/esm/icons/circle-help.js");
 /* harmony import */ var lucide_react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! lucide-react */ "./node_modules/lucide-react/dist/esm/icons/bug.js");
-/* harmony import */ var lucide_react__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! lucide-react */ "./node_modules/lucide-react/dist/esm/icons/chevron-left.js");
-/* harmony import */ var lucide_react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! lucide-react */ "./node_modules/lucide-react/dist/esm/icons/file-text.js");
-/* harmony import */ var lucide_react__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! lucide-react */ "./node_modules/lucide-react/dist/esm/icons/lightbulb.js");
-/* harmony import */ var lucide_react__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! lucide-react */ "./node_modules/lucide-react/dist/esm/icons/message-square.js");
-/* harmony import */ var lucide_react__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! lucide-react */ "./node_modules/lucide-react/dist/esm/icons/palette.js");
-/* harmony import */ var lucide_react__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! lucide-react */ "./node_modules/lucide-react/dist/esm/icons/star.js");
-/* harmony import */ var lucide_react__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! lucide-react */ "./node_modules/lucide-react/dist/esm/icons/x.js");
-/* harmony import */ var lucide_react__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! lucide-react */ "./node_modules/lucide-react/dist/esm/icons/youtube.js");
-/* harmony import */ var _ui_button__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./ui/button */ "./admin/src/components/ui/button.tsx");
-/* harmony import */ var _ThemeProvider__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./ThemeProvider */ "./admin/src/components/ThemeProvider.tsx");
-
+/* harmony import */ var lucide_react__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! lucide-react */ "./node_modules/lucide-react/dist/esm/icons/file-text.js");
+/* harmony import */ var lucide_react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! lucide-react */ "./node_modules/lucide-react/dist/esm/icons/lightbulb.js");
+/* harmony import */ var lucide_react__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! lucide-react */ "./node_modules/lucide-react/dist/esm/icons/message-square.js");
+/* harmony import */ var lucide_react__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! lucide-react */ "./node_modules/lucide-react/dist/esm/icons/palette.js");
+/* harmony import */ var lucide_react__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! lucide-react */ "./node_modules/lucide-react/dist/esm/icons/star.js");
+/* harmony import */ var lucide_react__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! lucide-react */ "./node_modules/lucide-react/dist/esm/icons/youtube.js");
+/* harmony import */ var _ThemeProvider__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./ThemeProvider */ "./admin/src/components/ThemeProvider.tsx");
 
 
 
@@ -4762,7 +4671,7 @@ function QuickActionButton() {
   const {
     setTheme,
     theme
-  } = (0,_ThemeProvider__WEBPACK_IMPORTED_MODULE_13__.useTheme)();
+  } = (0,_ThemeProvider__WEBPACK_IMPORTED_MODULE_10__.useTheme)();
   const quickActions = [{
     id: 'help',
     label: 'Help & Support',
@@ -4777,7 +4686,7 @@ function QuickActionButton() {
   }, {
     id: 'feature-request',
     label: 'Feature Request',
-    icon: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_6__["default"], {
+    icon: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_5__["default"], {
       className: "w-4 h-4"
     }),
     action: () => {
@@ -4788,7 +4697,7 @@ function QuickActionButton() {
   }, {
     id: 'youtube',
     label: 'Video Tutorials',
-    icon: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_11__["default"], {
+    icon: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_9__["default"], {
       className: "w-4 h-4"
     }),
     action: () => {
@@ -4799,7 +4708,7 @@ function QuickActionButton() {
   }, {
     id: 'documentation',
     label: 'Documentation',
-    icon: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_5__["default"], {
+    icon: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_4__["default"], {
       className: "w-4 h-4"
     }),
     action: () => {
@@ -4810,7 +4719,7 @@ function QuickActionButton() {
   }, {
     id: 'rate-us',
     label: 'Rate & Review',
-    icon: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_9__["default"], {
+    icon: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_8__["default"], {
       className: "w-4 h-4"
     }),
     action: () => {
@@ -4832,7 +4741,7 @@ function QuickActionButton() {
   }, {
     id: 'live-chat',
     label: 'Live Chat',
-    icon: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_7__["default"], {
+    icon: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_6__["default"], {
       className: "w-4 h-4"
     }),
     action: () => {
@@ -4843,7 +4752,7 @@ function QuickActionButton() {
   }, {
     id: 'theme-toggle',
     label: 'Toggle Theme',
-    icon: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_8__["default"], {
+    icon: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_7__["default"], {
       className: "w-4 h-4"
     }),
     action: () => {
@@ -4877,103 +4786,114 @@ function QuickActionButton() {
       return () => document.removeEventListener('keydown', handleEscapeKey);
     }
   }, [isOpen]);
-  return (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
-    children: [isOpen && (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-      className: "fixed inset-0 bg-black/20 backdrop-blur-sm z-40 transition-opacity duration-300",
-      onClick: () => setIsOpen(false)
-    }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-      ref: menuRef,
-      className: `fixed bottom-24 right-6 z-50 transition-all duration-300 ease-out ${isOpen ? 'translate-x-0 opacity-100 scale-100' : 'translate-x-full opacity-0 scale-95 pointer-events-none'}`,
-      children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-        className: "bg-card border border-border rounded-2xl shadow-2xl p-4 min-w-[280px] backdrop-blur-sm",
-        children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-          className: "flex items-center justify-between mb-4 pb-3 border-b border-border",
-          children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-            className: "flex items-center gap-3",
-            children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-              className: "w-8 h-8 bg-gradient-to-br from-blue-500 to-purple-600 rounded-lg flex items-center justify-center",
-              children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                className: "text-white font-bold text-sm",
-                children: "SP"
-              })
-            }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-              children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("h3", {
-                className: "font-semibold text-sm",
-                children: "Quick Actions"
-              }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
-                className: "text-xs text-muted-foreground",
-                children: "Get help instantly"
-              })]
-            })]
-          }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ui_button__WEBPACK_IMPORTED_MODULE_12__.Button, {
-            variant: "ghost",
-            size: "sm",
-            onClick: () => setIsOpen(false),
-            className: "h-8 w-8 p-0 hover:bg-accent",
-            children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_10__["default"], {
-              className: "w-4 h-4"
-            })
-          })]
-        }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-          className: "space-y-2",
-          children: quickActions.map((action, index) => (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("button", {
-            onClick: action.action,
-            className: `w-full flex items-center gap-3 p-3 rounded-xl hover:bg-accent/50 transition-all duration-200 group text-left transform hover:scale-[1.02] ${isOpen ? 'animate-in slide-in-from-right' : ''}`,
-            style: {
-              animationDelay: `${index * 50}ms`,
-              animationDuration: '300ms',
-              animationFillMode: 'backwards'
-            },
-            children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-              className: `w-9 h-9 rounded-lg flex items-center justify-center text-white transition-all duration-200 group-hover:scale-110 ${action.color}`,
-              children: action.icon
-            }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-              className: "flex-1",
-              children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                className: "font-medium text-sm",
-                children: action.label
-              })
-            }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_4__["default"], {
-              className: "w-4 h-4 text-muted-foreground group-hover:text-foreground transition-colors rotate-180"
-            })]
-          }, action.id))
-        }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-          className: "mt-4 pt-3 border-t border-border",
-          children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
-            className: "text-xs text-muted-foreground text-center",
-            children: "SpeedPress v2.1.4 \u2022 Need more help?"
-          })
-        })]
-      })
-    }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("button", {
-      ref: buttonRef,
-      onClick: () => setIsOpen(!isOpen),
-      className: `fixed bottom-6 right-6 z-50 w-14 h-14 bg-gradient-to-br from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white rounded-full shadow-lg hover:shadow-xl transition-all duration-300 flex items-center justify-center group ${isOpen ? 'scale-110 rotate-45' : 'hover:scale-105'}`,
-      title: "Quick Actions",
-      children: [isOpen ? (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_10__["default"], {
-        className: "w-6 h-6 transition-transform duration-200"
-      }) : (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-        className: "font-bold text-lg group-hover:scale-110 transition-transform duration-200",
-        children: "SP"
-      }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-        className: `absolute inset-0 rounded-full bg-gradient-to-br from-blue-500 to-purple-600 ${isOpen ? 'animate-none' : 'animate-ping'} opacity-20`
-      }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-        className: "absolute -top-1 -right-1 w-4 h-4 bg-red-500 rounded-full flex items-center justify-center",
-        children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-          className: "text-[10px] font-semibold text-white",
-          children: "!"
-        })
-      })]
-    }), !isOpen && (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-      className: "fixed bottom-6 right-24 z-40 opacity-0 group-hover:opacity-100 transition-opacity duration-200 pointer-events-none",
-      children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-        className: "bg-gray-900 text-white text-xs px-3 py-2 rounded-lg shadow-lg whitespace-nowrap",
-        children: ["Quick Actions", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-          className: "absolute top-1/2 -right-1 w-2 h-2 bg-gray-900 rotate-45 transform -translate-y-1/2"
-        })]
-      })
-    })]
-  });
+  return (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {})
+  // <>
+  //   {/* Backdrop */}
+  //   {isOpen && (
+  //     <div 
+  //       className="fixed inset-0 bg-black/20 backdrop-blur-sm z-40 transition-opacity duration-300"
+  //       onClick={() => setIsOpen(false)}
+  //     />
+  //   )}
+  //   {/* Quick Action Menu */}
+  //   <div
+  //     ref={menuRef}
+  //     className={`fixed bottom-24 right-6 z-50 transition-all duration-300 ease-out ${
+  //       isOpen 
+  //         ? 'translate-x-0 opacity-100 scale-100' 
+  //         : 'translate-x-full opacity-0 scale-95 pointer-events-none'
+  //     }`}
+  //   >
+  //     <div className="bg-card border border-border rounded-2xl shadow-2xl p-4 min-w-[280px] backdrop-blur-sm">
+  //       {/* Menu Header */}
+  //       <div className="flex items-center justify-between mb-4 pb-3 border-b border-border">
+  //         <div className="flex items-center gap-3">
+  //           <div className="w-8 h-8 bg-gradient-to-br from-blue-500 to-purple-600 rounded-lg flex items-center justify-center">
+  //             <span className="text-white font-bold text-sm">SP</span>
+  //           </div>
+  //           <div>
+  //             <h3 className="font-semibold text-sm">Quick Actions</h3>
+  //             <p className="text-xs text-muted-foreground">Get help instantly</p>
+  //           </div>
+  //         </div>
+  //         <Button
+  //           variant="ghost"
+  //           size="sm"
+  //           onClick={() => setIsOpen(false)}
+  //           className="h-8 w-8 p-0 hover:bg-accent"
+  //         >
+  //           <X className="w-4 h-4" />
+  //         </Button>
+  //       </div>
+  //       {/* Quick Actions List */}
+  //       <div className="space-y-2">
+  //         {quickActions.map((action, index) => (
+  //           <button
+  //             key={action.id}
+  //             onClick={action.action}
+  //             className={`w-full flex items-center gap-3 p-3 rounded-xl hover:bg-accent/50 transition-all duration-200 group text-left transform hover:scale-[1.02] ${
+  //               isOpen ? 'animate-in slide-in-from-right' : ''
+  //             }`}
+  //             style={{
+  //               animationDelay: `${index * 50}ms`,
+  //               animationDuration: '300ms',
+  //               animationFillMode: 'backwards'
+  //             }}
+  //           >
+  //             <div className={`w-9 h-9 rounded-lg flex items-center justify-center text-white transition-all duration-200 group-hover:scale-110 ${action.color}`}>
+  //               {action.icon}
+  //             </div>
+  //             <div className="flex-1">
+  //               <div className="font-medium text-sm">{action.label}</div>
+  //             </div>
+  //             <ChevronLeft className="w-4 h-4 text-muted-foreground group-hover:text-foreground transition-colors rotate-180" />
+  //           </button>
+  //         ))}
+  //       </div>
+  //       {/* Footer */}
+  //       <div className="mt-4 pt-3 border-t border-border">
+  //         <p className="text-xs text-muted-foreground text-center">
+  //           SpeedPress v2.1.4 • Need more help?
+  //         </p>
+  //       </div>
+  //     </div>
+  //   </div>
+  //   {/* Main FAB Button */}
+  //   <button
+  //     ref={buttonRef}
+  //     onClick={() => setIsOpen(!isOpen)}
+  //     className={`fixed bottom-6 right-6 z-50 w-14 h-14 bg-gradient-to-br from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white rounded-full shadow-lg hover:shadow-xl transition-all duration-300 flex items-center justify-center group ${
+  //       isOpen ? 'scale-110 rotate-45' : 'hover:scale-105'
+  //     }`}
+  //     title="Quick Actions"
+  //   >
+  //     {isOpen ? (
+  //       <X className="w-6 h-6 transition-transform duration-200" />
+  //     ) : (
+  //       <span className="font-bold text-lg group-hover:scale-110 transition-transform duration-200">
+  //         SP
+  //       </span>
+  //     )}
+  //     {/* Pulse animation ring */}
+  //     <div className={`absolute inset-0 rounded-full bg-gradient-to-br from-blue-500 to-purple-600 ${
+  //       isOpen ? 'animate-none' : 'animate-ping'
+  //     } opacity-20`} />
+  //     {/* Notification dot */}
+  //     <div className="absolute -top-1 -right-1 w-4 h-4 bg-red-500 rounded-full flex items-center justify-center">
+  //       <span className="text-[10px] font-semibold text-white">!</span>
+  //     </div>
+  //   </button>
+  //   {/* Floating tooltip when closed */}
+  //   {!isOpen && (
+  //     <div className="fixed bottom-6 right-24 z-40 opacity-0 group-hover:opacity-100 transition-opacity duration-200 pointer-events-none">
+  //       <div className="bg-gray-900 text-white text-xs px-3 py-2 rounded-lg shadow-lg whitespace-nowrap">
+  //         Quick Actions
+  //         <div className="absolute top-1/2 -right-1 w-2 h-2 bg-gray-900 rotate-45 transform -translate-y-1/2" />
+  //       </div>
+  //     </div>
+  //   )}
+  // </>
+  ;
 }
 
 /***/ }),
@@ -5071,15 +4991,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-runtime */ "react/jsx-runtime");
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var lucide_react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! lucide-react */ "./node_modules/lucide-react/dist/esm/icons/monitor.js");
-/* harmony import */ var lucide_react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! lucide-react */ "./node_modules/lucide-react/dist/esm/icons/moon.js");
-/* harmony import */ var lucide_react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! lucide-react */ "./node_modules/lucide-react/dist/esm/icons/sun.js");
-/* harmony import */ var _ui_button__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./ui/button */ "./admin/src/components/ui/button.tsx");
-/* harmony import */ var _ui_dropdown_menu__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./ui/dropdown-menu */ "./admin/src/components/ui/dropdown-menu.tsx");
-/* harmony import */ var _ThemeProvider__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./ThemeProvider */ "./admin/src/components/ThemeProvider.tsx");
-
-
-
+/* harmony import */ var _ThemeProvider__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ThemeProvider */ "./admin/src/components/ThemeProvider.tsx");
 
 
 function ThemeToggle() {
@@ -5087,62 +4999,53 @@ function ThemeToggle() {
     theme,
     setTheme,
     actualTheme
-  } = (0,_ThemeProvider__WEBPACK_IMPORTED_MODULE_6__.useTheme)();
-  return (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_ui_dropdown_menu__WEBPACK_IMPORTED_MODULE_5__.DropdownMenu, {
-    children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ui_dropdown_menu__WEBPACK_IMPORTED_MODULE_5__.DropdownMenuTrigger, {
-      asChild: true,
-      children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_ui_button__WEBPACK_IMPORTED_MODULE_4__.Button, {
-        variant: "ghost",
-        size: "sm",
-        className: "w-full justify-start gap-3 px-3 py-2.5 h-auto font-normal hover:bg-accent",
-        children: [actualTheme === 'dark' ? (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_2__["default"], {
-          className: "w-4 h-4"
-        }) : (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_3__["default"], {
-          className: "w-4 h-4"
-        }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("span", {
-          className: "text-sm",
-          children: [theme === 'system' ? 'System' : theme === 'dark' ? 'Dark' : 'Light', " Theme"]
-        })]
-      })
-    }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_ui_dropdown_menu__WEBPACK_IMPORTED_MODULE_5__.DropdownMenuContent, {
-      align: "start",
-      className: "w-40",
-      children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_ui_dropdown_menu__WEBPACK_IMPORTED_MODULE_5__.DropdownMenuItem, {
-        onClick: () => setTheme('light'),
-        className: "flex items-center gap-2 cursor-pointer",
-        children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_3__["default"], {
-          className: "w-4 h-4"
-        }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-          children: "Light"
-        }), theme === 'light' && (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-          className: "ml-auto text-xs",
-          children: "\u2713"
-        })]
-      }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_ui_dropdown_menu__WEBPACK_IMPORTED_MODULE_5__.DropdownMenuItem, {
-        onClick: () => setTheme('dark'),
-        className: "flex items-center gap-2 cursor-pointer",
-        children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_2__["default"], {
-          className: "w-4 h-4"
-        }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-          children: "Dark"
-        }), theme === 'dark' && (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-          className: "ml-auto text-xs",
-          children: "\u2713"
-        })]
-      }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_ui_dropdown_menu__WEBPACK_IMPORTED_MODULE_5__.DropdownMenuItem, {
-        onClick: () => setTheme('system'),
-        className: "flex items-center gap-2 cursor-pointer",
-        children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_1__["default"], {
-          className: "w-4 h-4"
-        }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-          children: "System"
-        }), theme === 'system' && (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-          className: "ml-auto text-xs",
-          children: "\u2713"
-        })]
-      })]
-    })]
-  });
+  } = (0,_ThemeProvider__WEBPACK_IMPORTED_MODULE_1__.useTheme)();
+  return (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {})
+  // <DropdownMenu>
+  //   <DropdownMenuTrigger asChild>
+  //     <Button 
+  //       variant="ghost" 
+  //       size="sm" 
+  //       className="w-full justify-start gap-3 px-3 py-2.5 h-auto font-normal hover:bg-accent"
+  //     >
+  //       {actualTheme === 'dark' ? (
+  //         <Moon className="w-4 h-4" />
+  //       ) : (
+  //         <Sun className="w-4 h-4" />
+  //       )}
+  //       <span className="text-sm">
+  //         {theme === 'system' ? 'System' : theme === 'dark' ? 'Dark' : 'Light'} Theme
+  //       </span>
+  //     </Button>
+  //   </DropdownMenuTrigger>
+  //   <DropdownMenuContent align="start" className="w-40">
+  //     <DropdownMenuItem 
+  //      onClick={() => setTheme('light')}
+  //       className="flex items-center gap-2 cursor-pointer"
+  //     >
+  //       <Sun className="w-4 h-4" />
+  //       <span>Light</span>
+  //       {theme === 'light' && <span className="ml-auto text-xs">✓</span>}
+  //     </DropdownMenuItem>
+  //     <DropdownMenuItem 
+  //       onClick={() => setTheme('dark')}
+  //       className="flex items-center gap-2 cursor-pointer"
+  //     >
+  //       <Moon className="w-4 h-4" />
+  //       <span>Dark</span>
+  //       {theme === 'dark' && <span className="ml-auto text-xs">✓</span>}
+  //     </DropdownMenuItem>
+  //     <DropdownMenuItem 
+  //       onClick={() => setTheme('system')}
+  //       className="flex items-center gap-2 cursor-pointer"
+  //     >
+  //       <Monitor className="w-4 h-4" />
+  //       <span>System</span>
+  //       {theme === 'system' && <span className="ml-auto text-xs">✓</span>}
+  //     </DropdownMenuItem>
+  //   </DropdownMenuContent>
+  // </DropdownMenu>
+  ;
 }
 
 /***/ }),
@@ -16661,45 +16564,6 @@ var defaultAttributes = {
 
 /***/ }),
 
-/***/ "./node_modules/lucide-react/dist/esm/icons/bell.js":
-/*!**********************************************************!*\
-  !*** ./node_modules/lucide-react/dist/esm/icons/bell.js ***!
-  \**********************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   __iconNode: () => (/* binding */ __iconNode),
-/* harmony export */   "default": () => (/* binding */ Bell)
-/* harmony export */ });
-/* harmony import */ var _createLucideIcon_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../createLucideIcon.js */ "./node_modules/lucide-react/dist/esm/createLucideIcon.js");
-/**
- * @license lucide-react v0.487.0 - ISC
- *
- * This source code is licensed under the ISC license.
- * See the LICENSE file in the root directory of this source tree.
- */
-
-
-
-const __iconNode = [
-  ["path", { d: "M10.268 21a2 2 0 0 0 3.464 0", key: "vwvbt9" }],
-  [
-    "path",
-    {
-      d: "M3.262 15.326A1 1 0 0 0 4 17h16a1 1 0 0 0 .74-1.673C19.41 13.956 18 12.499 18 8A6 6 0 0 0 6 8c0 4.499-1.411 5.956-2.738 7.326",
-      key: "11g9vi"
-    }
-  ]
-];
-const Bell = (0,_createLucideIcon_js__WEBPACK_IMPORTED_MODULE_0__["default"])("bell", __iconNode);
-
-
-//# sourceMappingURL=bell.js.map
-
-
-/***/ }),
-
 /***/ "./node_modules/lucide-react/dist/esm/icons/bug.js":
 /*!*********************************************************!*\
   !*** ./node_modules/lucide-react/dist/esm/icons/bug.js ***!
@@ -17381,72 +17245,6 @@ const MessageSquare = (0,_createLucideIcon_js__WEBPACK_IMPORTED_MODULE_0__["defa
 
 /***/ }),
 
-/***/ "./node_modules/lucide-react/dist/esm/icons/monitor.js":
-/*!*************************************************************!*\
-  !*** ./node_modules/lucide-react/dist/esm/icons/monitor.js ***!
-  \*************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   __iconNode: () => (/* binding */ __iconNode),
-/* harmony export */   "default": () => (/* binding */ Monitor)
-/* harmony export */ });
-/* harmony import */ var _createLucideIcon_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../createLucideIcon.js */ "./node_modules/lucide-react/dist/esm/createLucideIcon.js");
-/**
- * @license lucide-react v0.487.0 - ISC
- *
- * This source code is licensed under the ISC license.
- * See the LICENSE file in the root directory of this source tree.
- */
-
-
-
-const __iconNode = [
-  ["rect", { width: "20", height: "14", x: "2", y: "3", rx: "2", key: "48i651" }],
-  ["line", { x1: "8", x2: "16", y1: "21", y2: "21", key: "1svkeh" }],
-  ["line", { x1: "12", x2: "12", y1: "17", y2: "21", key: "vw1qmm" }]
-];
-const Monitor = (0,_createLucideIcon_js__WEBPACK_IMPORTED_MODULE_0__["default"])("monitor", __iconNode);
-
-
-//# sourceMappingURL=monitor.js.map
-
-
-/***/ }),
-
-/***/ "./node_modules/lucide-react/dist/esm/icons/moon.js":
-/*!**********************************************************!*\
-  !*** ./node_modules/lucide-react/dist/esm/icons/moon.js ***!
-  \**********************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   __iconNode: () => (/* binding */ __iconNode),
-/* harmony export */   "default": () => (/* binding */ Moon)
-/* harmony export */ });
-/* harmony import */ var _createLucideIcon_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../createLucideIcon.js */ "./node_modules/lucide-react/dist/esm/createLucideIcon.js");
-/**
- * @license lucide-react v0.487.0 - ISC
- *
- * This source code is licensed under the ISC license.
- * See the LICENSE file in the root directory of this source tree.
- */
-
-
-
-const __iconNode = [
-  ["path", { d: "M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z", key: "a7tn18" }]
-];
-const Moon = (0,_createLucideIcon_js__WEBPACK_IMPORTED_MODULE_0__["default"])("moon", __iconNode);
-
-
-//# sourceMappingURL=moon.js.map
-
-
-/***/ }),
-
 /***/ "./node_modules/lucide-react/dist/esm/icons/package-2.js":
 /*!***************************************************************!*\
   !*** ./node_modules/lucide-react/dist/esm/icons/package-2.js ***!
@@ -17821,46 +17619,6 @@ const Star = (0,_createLucideIcon_js__WEBPACK_IMPORTED_MODULE_0__["default"])("s
 
 
 //# sourceMappingURL=star.js.map
-
-
-/***/ }),
-
-/***/ "./node_modules/lucide-react/dist/esm/icons/sun.js":
-/*!*********************************************************!*\
-  !*** ./node_modules/lucide-react/dist/esm/icons/sun.js ***!
-  \*********************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   __iconNode: () => (/* binding */ __iconNode),
-/* harmony export */   "default": () => (/* binding */ Sun)
-/* harmony export */ });
-/* harmony import */ var _createLucideIcon_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../createLucideIcon.js */ "./node_modules/lucide-react/dist/esm/createLucideIcon.js");
-/**
- * @license lucide-react v0.487.0 - ISC
- *
- * This source code is licensed under the ISC license.
- * See the LICENSE file in the root directory of this source tree.
- */
-
-
-
-const __iconNode = [
-  ["circle", { cx: "12", cy: "12", r: "4", key: "4exip2" }],
-  ["path", { d: "M12 2v2", key: "tus03m" }],
-  ["path", { d: "M12 20v2", key: "1lh1kg" }],
-  ["path", { d: "m4.93 4.93 1.41 1.41", key: "149t6j" }],
-  ["path", { d: "m17.66 17.66 1.41 1.41", key: "ptbguv" }],
-  ["path", { d: "M2 12h2", key: "1t8f8n" }],
-  ["path", { d: "M20 12h2", key: "1q8mjw" }],
-  ["path", { d: "m6.34 17.66-1.41 1.41", key: "1m8zz5" }],
-  ["path", { d: "m19.07 4.93-1.41 1.41", key: "1shlcs" }]
-];
-const Sun = (0,_createLucideIcon_js__WEBPACK_IMPORTED_MODULE_0__["default"])("sun", __iconNode);
-
-
-//# sourceMappingURL=sun.js.map
 
 
 /***/ }),

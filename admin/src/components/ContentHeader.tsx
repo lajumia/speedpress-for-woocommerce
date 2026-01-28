@@ -168,7 +168,7 @@ export function ContentHeader({ activeTab, addons, onOpenSidebar, onAddonSelect 
           
           {/* Notification Dropdown */}
           <DropdownMenu>
-            <DropdownMenuTrigger asChild>
+            {/* <DropdownMenuTrigger asChild>
               <Button 
                 variant="ghost" 
                 size="icon" 
@@ -181,8 +181,8 @@ export function ContentHeader({ activeTab, addons, onOpenSidebar, onAddonSelect 
                   </div>
                 )}
               </Button>
-            </DropdownMenuTrigger>
-            <DropdownMenuContent align="end" className="w-80 max-w-[calc(100vw-2rem)]">
+            </DropdownMenuTrigger> */}
+            {/* <DropdownMenuContent align="end" className="w-80 max-w-[calc(100vw-2rem)]">
               <div className="px-3 py-2 border-b border-border">
                 <h4 className="font-medium">Notifications</h4>
                 <p className="text-xs text-muted-foreground">
@@ -237,7 +237,7 @@ export function ContentHeader({ activeTab, addons, onOpenSidebar, onAddonSelect 
                   </DropdownMenuItem>
                 </>
               )}
-            </DropdownMenuContent>
+            </DropdownMenuContent> */}
           </DropdownMenu>
           
           <ThemeToggle />
