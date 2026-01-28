@@ -30,9 +30,9 @@ class SPWA_Maintenance_Mode {
     public function register_customizer( $wp_customize ) {
         // Add a section inside SpeedPress panel
         $wp_customize->add_section( 'speedpress_maintenance_mode', [
-            'title'       => __( 'Maintenance Mode', 'speedpress' ),
+            'title'       => __( 'Maintenance Mode', 'speedpress-for-woocommerce' ),
             'panel'       => 'speedpress_panel', // parent panel
-            'description' => __( 'Set up the redirect link for Maintenance Mode.', 'speedpress' ),
+            'description' => __( 'Set up the redirect link for Maintenance Mode.', 'speedpress-for-woocommerce' ),
         ] );
 
         // Redirect link only
@@ -42,10 +42,10 @@ class SPWA_Maintenance_Mode {
         ] );
 
         $wp_customize->add_control( 'spwa_maintenance_link', [
-            'label'       => __( 'Redirect Link', 'speedpress' ),
+            'label'       => __( 'Redirect Link', 'speedpress-for-woocommerce' ),
             'type'        => 'url',
             'section'     => 'speedpress_maintenance_mode',
-            'description' => __( 'Users will be redirected here when Maintenance Mode addon is enabled.', 'speedpress' ),
+            'description' => __( 'Users will be redirected here when Maintenance Mode addon is enabled.', 'speedpress-for-woocommerce' ),
         ] );
     }
 

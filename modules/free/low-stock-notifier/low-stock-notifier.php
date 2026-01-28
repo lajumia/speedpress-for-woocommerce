@@ -40,7 +40,7 @@ class SPWA_Low_Stock_Notifier {
     public function register_customizer_settings( $wp_customize ) {
         // Add Section under SpeedPress panel
         $wp_customize->add_section( 'spwa_low_stock_section', [
-            'title'    => __( 'Low Stock Notifier', 'speedpress' ),
+            'title'    => __( 'Low Stock Notifier', 'speedpress-for-woocommerce' ),
             'panel'    => 'speedpress_panel', // Ensure this panel is created in your plugin
             'priority' => 10,
         ] );
@@ -54,8 +54,8 @@ class SPWA_Low_Stock_Notifier {
 
         // Add Control (Number Input)
         $wp_customize->add_control( 'spwa_low_stock_threshold_control', [
-            'label'       => __( 'Low Stock Threshold', 'speedpress' ),
-            'description' => __( 'Set the stock quantity that triggers a low stock email alert.', 'speedpress' ),
+            'label'       => __( 'Low Stock Threshold', 'speedpress-for-woocommerce' ),
+            'description' => __( 'Set the stock quantity that triggers a low stock email alert.', 'speedpress-for-woocommerce' ),
             'section'     => 'spwa_low_stock_section',
             'settings'    => 'spwa_low_stock_threshold',
             'type'        => 'number',
@@ -98,12 +98,22 @@ class SPWA_Low_Stock_Notifier {
         }
 
         // Prepare email subject & message
-        $subject = sprintf( __( 'Low Stock Alert: %s', 'speedpress' ), $product_name );
+
+        /* translators: %s: product name */
+        $subject = sprintf( __( 'Low Stock Alert: %s', 'speedpress-for-woocommerce' ), $product_name );
+       /* translators: 1: product name, 2: current stock quantity */
         $message = sprintf(
-            __( "Product: %s is running low on stock.\n\nCurrent stock: %d\n\nPlease restock soon.", 'speedpress' ),
+            /* translators: 1: product name, 2: current stock quantity */
+            __( 'Product: %1$s is running low on stock.
+
+        Current stock: %2$d
+
+        Please restock soon.', 'speedpress-for-woocommerce' ),
             $product_name,
             $stock
         );
+
+
 
         // Send email securely
         wp_mail( $to, $subject, $message );

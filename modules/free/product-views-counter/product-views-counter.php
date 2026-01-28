@@ -56,7 +56,10 @@ class SPWA_Product_View_Counter {
              * @param int    $views  Number of views
              * @param int    $post_id Product ID
              */
-            echo apply_filters( 'spwa_product_views_html', $output, $views, $post->ID );
+            echo wp_kses_post(
+                apply_filters( 'spwa_product_views_html', $output, $views, $post->ID )
+            );
+
         }
     }
 

@@ -50,7 +50,7 @@ class SPWA_Wishlist_Lite {
             '<button class="spwa-wishlist-btn" data-product="%d" data-in="%d">❤️ %s</button>',
             esc_attr( $product->get_id() ),
             $in ? 1 : 0,
-            $in ? esc_html__( 'Remove from Wishlist', 'spwa' ) : esc_html__( 'Add to Wishlist', 'spwa' )
+            $in ? esc_html__( 'Remove from Wishlist', 'speedpress-for-woocommerce' ) : esc_html__( 'Add to Wishlist', 'speedpress-for-woocommerce' )
         );
     }
 
@@ -107,7 +107,7 @@ class SPWA_Wishlist_Lite {
                         <tr data-product-id="<?php echo esc_attr( $product_id ); ?>">
                             <td class="spwa-image">
                                 <a href="<?php echo esc_url( get_permalink( $product_id ) ); ?>">
-                                    <?php echo $product->get_image( 'thumbnail' ); ?>
+                                    <?php echo wp_kses_post( $product->get_image( 'thumbnail' ) ); ?>
                                 </a>
                             </td>
                             <td class="spwa-name">

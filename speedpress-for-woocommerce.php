@@ -1,14 +1,18 @@
 <?php
 /**
- * Plugin Name: SpeedPress for WooCommerce
- * Plugin URI:  https://example.com/speedpress-for-woocommerce
- * Description: A collection of WooCommerce addons with React & TypeScript.
- * Version:     1.0.0
- * Author:      Your Name
- * Author URI:  https://example.com
- * License:     GPL2+
- * Text Domain: speedpress-for-woocommerce
- * Requires Plugins: woocommerce
+ * Plugin Name:       SpeedPress for WooCommerce
+ * Plugin URI:        https://wpspeedpress.com/speedpress-for-woocommerce/
+ * Description:       SpeedPress for WooCommerce is a collection of lightweight, performance-focused WooCommerce addons designed to improve speed, usability, and conversion rates.
+ * Version:           1.0.0
+ * Author:            Md Laju Miah
+ * Author URI:        https://profiles.wordpress.org/devlaju/
+ * Text Domain:       speedpress-for-woocommerce
+ * Domain Path:       /languages
+ * License:           GPL v2 or later
+ * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
+ * Requires at least: 6.0
+ * Requires PHP:      7.4
+ * Requires Plugins:  woocommerce
  */
 
 defined('ABSPATH') || exit;

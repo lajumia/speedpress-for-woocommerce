@@ -154,8 +154,8 @@ export function ContentArea({ activeTab, addons, filter, dashboardVisitCount, on
                     <div className="bg-white/10 backdrop-blur-sm rounded-lg p-3 md:p-4 text-center">
                       <div className="text-lg md:text-2xl font-bold mb-1">
                         <AnimatedCounter 
-                          from={45000}
-                          to={50000 + (dashboardVisitCount * 150)}
+                          from={10}
+                          to={50 + (dashboardVisitCount * 150)}
                           suffix="+"
                           duration={2000}
                           className="text-lg md:text-2xl font-bold"
@@ -168,7 +168,7 @@ export function ContentArea({ activeTab, addons, filter, dashboardVisitCount, on
                         <Star className="w-4 md:w-5 h-4 md:h-5 fill-current text-yellow-300" />
                         <AnimatedCounter 
                           from={4.5}
-                          to={4.9 + (dashboardVisitCount * 0.01)}
+                          to={5.0 + (dashboardVisitCount * 0.01)}
                           decimals={1}
                           duration={2000}
                           className="text-lg md:text-2xl font-bold"
@@ -192,8 +192,8 @@ export function ContentArea({ activeTab, addons, filter, dashboardVisitCount, on
                     <div className="bg-white/10 backdrop-blur-sm rounded-lg p-3 md:p-4 text-center">
                       <div className="text-lg md:text-2xl font-bold mb-1">
                         <AnimatedCounter 
-                          from={totalCount - 10}
-                          to={totalCount + dashboardVisitCount}
+                          from={0}
+                          to={8}
                           duration={2000}
                           className="text-lg md:text-2xl font-bold"
                         />

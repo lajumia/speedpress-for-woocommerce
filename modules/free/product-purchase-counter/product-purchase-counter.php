@@ -70,7 +70,14 @@ class SPWA_Product_Purchase_Counter {
 
         if ( $count > 0 ) {
             // Default text
-            $text = sprintf( __( 'Purchased %d times', 'speedpress' ), $count );
+
+        $text = sprintf(
+            /* translators: 1: Number of purchases */
+            __( 'Purchased %1$d times', 'speedpress-for-woocommerce' ),
+            $count
+        );
+
+
 
             // Apply filter for custom text
             $text = apply_filters( 'spwa_purchase_counter_text', $text, $count, $product );

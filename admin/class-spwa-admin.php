@@ -1,5 +1,7 @@
 <?php
 
+if ( ! defined( 'ABSPATH' ) ) exit;
+
 class SPWA_Admin {
 
     /**
@@ -37,8 +39,8 @@ class SPWA_Admin {
     public function register_menu() {
         // Main menu page
         add_menu_page(
-            __('SPWA Dashboard', 'spwa'),
-            __('SPWA', 'spwa'),
+            __('SPWA Dashboard', 'speedpress-for-woocommerce'),
+            __('SPWA', 'speedpress-for-woocommerce'),
             'manage_options',
             'spwa-dashboard',
             [$this, 'render_admin_page'],

@@ -3032,8 +3032,8 @@ function ContentArea({
                     children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
                       className: "text-lg md:text-2xl font-bold mb-1",
                       children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_AnimatedCounter__WEBPACK_IMPORTED_MODULE_3__.AnimatedCounter, {
-                        from: 45000,
-                        to: 50000 + dashboardVisitCount * 150,
+                        from: 10,
+                        to: 50 + dashboardVisitCount * 150,
                         suffix: "+",
                         duration: 2000,
                         className: "text-lg md:text-2xl font-bold"
@@ -3050,7 +3050,7 @@ function ContentArea({
                         className: "w-4 md:w-5 h-4 md:h-5 fill-current text-yellow-300"
                       }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_AnimatedCounter__WEBPACK_IMPORTED_MODULE_3__.AnimatedCounter, {
                         from: 4.5,
-                        to: 4.9 + dashboardVisitCount * 0.01,
+                        to: 5.0 + dashboardVisitCount * 0.01,
                         decimals: 1,
                         duration: 2000,
                         className: "text-lg md:text-2xl font-bold"
@@ -3080,8 +3080,8 @@ function ContentArea({
                     children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
                       className: "text-lg md:text-2xl font-bold mb-1",
                       children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_AnimatedCounter__WEBPACK_IMPORTED_MODULE_3__.AnimatedCounter, {
-                        from: totalCount - 10,
-                        to: totalCount + dashboardVisitCount,
+                        from: 0,
+                        to: 8,
                         duration: 2000,
                         className: "text-lg md:text-2xl font-bold"
                       })

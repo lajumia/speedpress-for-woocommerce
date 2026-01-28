@@ -25,10 +25,10 @@ class SPWA_Auto_Apply_Coupon {
 
         // Add Section
         $wp_customize->add_section( 'spwa_auto_apply_coupon_section', [
-            'title'       => __( 'Auto Apply Coupon', 'spwa' ),
+            'title'       => __( 'Auto Apply Coupon', 'speedpress-for-woocommerce' ),
             'panel'       => 'speedpress_panel', // remove if no panel exists
             'priority'    => 160,
-            'description' => __( 'Automatically apply a coupon when the cart total exceeds a threshold.', 'spwa' ),
+            'description' => __( 'Automatically apply a coupon when the cart total exceeds a threshold.', 'speedpress-for-woocommerce' ),
         ] );
 
         // Coupon Code
@@ -38,7 +38,7 @@ class SPWA_Auto_Apply_Coupon {
         ] );
 
         $wp_customize->add_control( 'spwa_auto_apply_coupon_code', [
-            'label'   => __( 'Coupon Code', 'spwa' ),
+            'label'   => __( 'Coupon Code', 'speedpress-for-woocommerce' ),
             'section' => 'spwa_auto_apply_coupon_section',
             'type'    => 'text',
         ] );
@@ -50,7 +50,7 @@ class SPWA_Auto_Apply_Coupon {
         ] );
 
         $wp_customize->add_control( 'spwa_auto_apply_coupon_threshold', [
-            'label'   => __( 'Cart Total Threshold ($)', 'spwa' ),
+            'label'   => __( 'Cart Total Threshold ($)', 'speedpress-for-woocommerce' ),
             'section' => 'spwa_auto_apply_coupon_section',
             'type'    => 'number',
         ] );
@@ -75,12 +75,14 @@ class SPWA_Auto_Apply_Coupon {
         if ( $subtotal >= $threshold ) {
             if ( ! $cart->has_discount( $coupon ) ) {
                 $cart->apply_coupon( $coupon );
-                wc_add_notice( sprintf( __( 'Coupon "%s" has been automatically applied!', 'spwa' ), $coupon ), 'success' );
+                /* translators: %s: coupon code */
+                wc_add_notice( sprintf( __( 'Coupon "%s" has been automatically applied!', 'speedpress-for-woocommerce' ), $coupon ), 'success' );
             }
         } else {
             if ( $cart->has_discount( $coupon ) ) {
                 $cart->remove_coupon( $coupon );
-                wc_add_notice( sprintf( __( 'Coupon "%s" removed. Cart total below $%s.', 'spwa' ), $coupon, $threshold ), 'notice' );
+                /* translators: 1: coupon code, 2: minimum cart total amount */
+                wc_add_notice( sprintf( __( 'Coupon "%1$s" removed. Cart total below $%2$s.', 'speedpress-for-woocommerce' ), $coupon, $threshold ), 'notice' );
             }
         }
     }

@@ -22,7 +22,7 @@ class SPWA_Block_Countries_By_Name {
      */
     public function register_customizer_setting( $wp_customize ) {
         $wp_customize->add_section( 'spwa_blocked_countries_section', [
-            'title'    => __( 'Blocked Countries for Orders', 'spwa' ),
+            'title'    => __( 'Blocked Countries for Orders', 'speedpress-for-woocommerce' ),
             'panel'    => 'speedpress_panel',
             'priority' => 160,
         ] );
@@ -34,8 +34,8 @@ class SPWA_Block_Countries_By_Name {
         ] );
 
         $wp_customize->add_control( 'spwa_blocked_country_names', [
-            'label'       => __( 'Blocked Country Names (Case-insensitive)', 'spwa' ),
-            'description' => __( 'Enter comma-separated country names (e.g., bangladesh, Canada, INDIA). Case doesn’t matter.', 'spwa' ),
+            'label'       => __( 'Blocked Country Names (Case-insensitive)', 'speedpress-for-woocommerce' ),
+            'description' => __( 'Enter comma-separated country names (e.g., bangladesh, Canada, INDIA). Case doesn’t matter.', 'speedpress-for-woocommerce' ),
             'section'     => 'spwa_blocked_countries_section',
             'type'        => 'text',
         ] );
@@ -83,7 +83,7 @@ class SPWA_Block_Countries_By_Name {
             in_array( strtolower( $billing_name ), $blocked_normalized, true ) ||
             in_array( strtolower( $shipping_name ), $blocked_normalized, true )
         ) {
-            $errors->add( 'blocked_country_error', __( 'We do not accept orders from your country.', 'spwa' ) );
+            $errors->add( 'blocked_country_error', __( 'We do not accept orders from your country.', 'speedpress-for-woocommerce' ) );
         }
     }
 }

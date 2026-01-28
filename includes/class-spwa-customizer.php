@@ -18,10 +18,10 @@ class SpeedPress_Customizer {
 
         // ✅ Add SpeedPress Panel only
         $wp_customize->add_panel( 'speedpress_panel', [
-            'title'       => __( 'SpeedPress', 'speedpress' ),
+            'title'       => __( 'SpeedPress', 'speedpress-for-woocommerce' ),
             'priority'    => 10,
             'capability'  => 'manage_options',
-            'description' => __( 'Customize settings for SpeedPress addons.', 'speedpress' ),
+            'description' => __( 'Customize settings for SpeedPress addons.', 'speedpress-for-woocommerce' ),
         ] );
 
     }
