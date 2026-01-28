@@ -124,11 +124,11 @@ export function ContentArea({ activeTab, addons, filter, dashboardVisitCount, on
             </div>
 
             {/* Smart Recommendations */}
-            <SmartRecommendations 
+            {/* <SmartRecommendations 
               addons={addons}
               onEnableAddon={onToggleAddon}
               onTabChange={onTabChange}
-            />
+            /> */}
 
             {/* Welcome Section */}
             <div className="relative overflow-hidden bg-gradient-to-r from-blue-500 via-purple-600 to-indigo-700 rounded-lg md:rounded-xl p-4 md:p-8 text-white mb-6 md:mb-8">
@@ -215,7 +215,7 @@ export function ContentArea({ activeTab, addons, filter, dashboardVisitCount, on
             </div>
 
             {/* Statistics Cards */}
-            <div id="dashboard-stats" className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6 mb-8">
+            {/* <div id="dashboard-stats" className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6 mb-8">
               <div className="dashboard-stat-card bg-card border border-border rounded-lg p-4 md:p-6 cursor-pointer">
                 <div className="flex items-center justify-between mb-2">
                   <div className="text-xl md:text-2xl font-semibold text-blue-600">
@@ -275,12 +275,12 @@ export function ContentArea({ activeTab, addons, filter, dashboardVisitCount, on
                 </div>
                 <div className="text-xs md:text-sm text-muted-foreground">Performance Score</div>
               </div>
-            </div>
+            </div> */}
 
             {/* Two Column Layout */}
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-8 mb-8">
               {/* Key Features */}
-              <div className="bg-card border border-border rounded-lg p-6">
+              {/* <div className="bg-card border border-border rounded-lg p-6">
                 <h3 className="font-medium mb-4 flex items-center gap-2" style={{display:"flex"}}>
                   <div className="w-2 h-2 bg-blue-500 rounded-full"></div>
                   Key Features
@@ -315,10 +315,10 @@ export function ContentArea({ activeTab, addons, filter, dashboardVisitCount, on
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> */}
 
               {/* System Status */}
-              <div className="bg-card border border-border rounded-lg p-6">
+              {/* <div className="bg-card border border-border rounded-lg p-6">
                 <h3 className="font-medium mb-4 flex items-center gap-2" style={{display:"flex"}}>
                   <CheckCircle className="w-4 h-4 text-green-500" />
                   System Status
@@ -360,11 +360,11 @@ export function ContentArea({ activeTab, addons, filter, dashboardVisitCount, on
                     <span className="text-xs bg-blue-100 text-blue-800 px-2 py-1 rounded dark:bg-blue-900 dark:text-blue-100">Active ✓</span>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
 
             {/* Quick Actions */}
-            <div className="bg-card border border-border rounded-lg p-6 mb-8">
+            {/* <div className="bg-card border border-border rounded-lg p-6 mb-8">
               <h3 className="font-medium mb-4">Quick Actions</h3>
               <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
                 <button className="flex flex-col items-center gap-2 p-4 rounded-lg hover:bg-accent transition-colors">
@@ -392,10 +392,10 @@ export function ContentArea({ activeTab, addons, filter, dashboardVisitCount, on
                   <span className="text-sm font-medium">Documentation</span>
                 </button>
               </div>
-            </div>
+            </div> */}
 
             {/* Performance Analytics */}
-            <div className="bg-card border border-border rounded-lg p-6 mb-8">
+            {/* <div className="bg-card border border-border rounded-lg p-6 mb-8">
               <h3 className="font-medium mb-6 flex items-center gap-2" style={{display:"flex"}}>
                 <TrendingUp className="w-4 h-4 text-orange-500" />
                 Performance Analytics (Last 7 Days)
@@ -475,12 +475,12 @@ export function ContentArea({ activeTab, addons, filter, dashboardVisitCount, on
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
 
             {/* Store Health & Security */}
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-8">
               {/* Store Health Monitor */}
-              <div className="bg-card border border-border rounded-lg p-6">
+              {/* <div className="bg-card border border-border rounded-lg p-6">
                 <h3 className="font-medium mb-4 flex items-center gap-2" style={{display:"flex"}}>
                   <CheckCircle className="w-4 h-4 text-green-500" />
                   Store Health Monitor
@@ -522,10 +522,10 @@ export function ContentArea({ activeTab, addons, filter, dashboardVisitCount, on
                     <span className="text-xs bg-green-100 text-green-800 px-2 py-1 rounded dark:bg-green-900 dark:text-green-100">Valid</span>
                   </div>
                 </div>
-              </div>
+              </div> */}
 
               {/* Security Status */}
-              <div className="bg-card border border-border rounded-lg p-6">
+              {/* <div className="bg-card border border-border rounded-lg p-6">
                 <h3 className="font-medium mb-4 flex items-center gap-2" style={{display:"flex"}}>
                   <Shield className="w-4 h-4 text-blue-500" />
                   Security Status
@@ -571,10 +571,10 @@ export function ContentArea({ activeTab, addons, filter, dashboardVisitCount, on
                     <span className="text-xs bg-blue-100 text-blue-800 px-2 py-1 rounded dark:bg-blue-900 dark:text-blue-100">Up to date</span>
                   </div>
                 </div>
-              </div>
+              </div> */}
 
               {/* SEO Overview */}
-              <div className="bg-card border border-border rounded-lg p-6">
+              {/* <div className="bg-card border border-border rounded-lg p-6">
                 <h3 className="font-medium mb-4 flex items-center gap-2" style={{display:"flex"}}>
                   <div className="w-2 h-2 bg-purple-500 rounded-full"></div>
                   SEO Overview
@@ -601,11 +601,11 @@ export function ContentArea({ activeTab, addons, filter, dashboardVisitCount, on
                     <span className="text-xs bg-green-100 text-green-800 px-2 py-1 rounded dark:bg-green-900 dark:text-green-100">Yes</span>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
 
             {/* Optimization Recommendations */}
-            <div className="bg-gradient-to-r from-amber-50 to-orange-50 border border-orange-200 rounded-lg p-6 mb-8 dark:from-amber-950/20 dark:to-orange-950/20 dark:border-orange-800">
+            {/* <div className="bg-gradient-to-r from-amber-50 to-orange-50 border border-orange-200 rounded-lg p-6 mb-8 dark:from-amber-950/20 dark:to-orange-950/20 dark:border-orange-800">
               <h3 className="font-medium mb-4 flex items-center gap-2 text-amber-800 dark:text-amber-200" style={{display:"flex"}}>
                 <AlertCircle className="w-4 h-4 text-amber-500" />
                 Optimization Recommendations
@@ -674,10 +674,10 @@ export function ContentArea({ activeTab, addons, filter, dashboardVisitCount, on
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
 
             {/* News & Updates */}
-            <div className="bg-card border border-border rounded-lg p-6 mb-8">
+            {/* <div className="bg-card border border-border rounded-lg p-6 mb-8">
               <h3 className="font-medium mb-4 flex items-center gap-2" style={{display:"flex"}}>
                 <Info className="w-4 h-4 text-indigo-500" />
                 What's New in SpeedPress
@@ -729,12 +729,12 @@ export function ContentArea({ activeTab, addons, filter, dashboardVisitCount, on
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
 
             {/* Support & Resources */}
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
               {/* Support Center */}
-              <div className="bg-card border border-border rounded-lg p-6">
+              {/* <div className="bg-card border border-border rounded-lg p-6">
                 <h3 className="font-medium mb-4 flex items-center gap-2" style={{display:"flex"}}>
                   <div className="w-2 h-2 bg-green-500 rounded-full"></div>
                   Support Center
@@ -777,10 +777,10 @@ export function ContentArea({ activeTab, addons, filter, dashboardVisitCount, on
                     </div>
                   </button>
                 </div>
-              </div>
+              </div> */}
 
               {/* Migration Tools */}
-              <div className="bg-card border border-border rounded-lg p-6">
+              {/* <div className="bg-card border border-border rounded-lg p-6">
                 <h3 className="font-medium mb-4 flex items-center gap-2" style={{display:"flex"}}>
                   <div className="w-2 h-2 bg-cyan-500 rounded-full"></div>
                   Migration & Tools
@@ -823,13 +823,13 @@ export function ContentArea({ activeTab, addons, filter, dashboardVisitCount, on
                     </div>
                   </button>
                 </div>
-              </div>
+              </div> */}
             </div>
 
             {/* Two Column Layout - Recent Activity and Featured Addons */}
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
               {/* Recent Activity */}
-              <div className="bg-card border border-border rounded-lg p-6">
+              {/* <div className="bg-card border border-border rounded-lg p-6">
                 <h3 className="font-medium mb-4 flex items-center gap-2" style={{display:"flex"}}>
                   <Clock className="w-4 h-4 text-blue-500" />
                   Recent Activity
@@ -890,10 +890,10 @@ export function ContentArea({ activeTab, addons, filter, dashboardVisitCount, on
                     </span>
                   </div>
                 </div>
-              </div>
+              </div> */}
 
               {/* Featured Addons */}
-              <div className="bg-card border border-border rounded-lg p-6">
+              {/* <div className="bg-card border border-border rounded-lg p-6">
                 <h3 className="font-medium mb-4" style={{display:"flex"}}>Featured Addons</h3>
                 <div className="space-y-3">
                   <div className="flex items-center gap-3 p-3 rounded-lg hover:bg-accent/50 transition-colors">
@@ -927,8 +927,9 @@ export function ContentArea({ activeTab, addons, filter, dashboardVisitCount, on
                     <span className="text-xs bg-blue-100 text-blue-800 px-2 py-1 rounded dark:bg-blue-900 dark:text-blue-100">Premium</span>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
+
           </div>
         </div>
       </div>
@@ -936,778 +937,778 @@ export function ContentArea({ activeTab, addons, filter, dashboardVisitCount, on
   }
 
   // Special handling for help-docs
-  if (activeTab === 'help-docs') {
-    return (
-      <div className="h-full flex flex-col">
-        <ContentHeader 
-          activeTab={activeTab} 
-          addons={addons}
-          onOpenSidebar={onOpenSidebar} 
-          onAddonSelect={handleAddonSelect}
-        />
-        <div className="flex-1 p-3 md:p-6 lg:p-8 overflow-auto">
-          <div className="max-w-6xl mx-auto">
-            <div className="mb-8">
-              <h1 className="text-2xl font-semibold mb-2">{title}</h1>
-              <p className="text-muted-foreground">{description}</p>
-            </div>
+  // if (activeTab === 'help-docs') {
+  //   return (
+  //     <div className="h-full flex flex-col">
+  //       <ContentHeader 
+  //         activeTab={activeTab} 
+  //         addons={addons}
+  //         onOpenSidebar={onOpenSidebar} 
+  //         onAddonSelect={handleAddonSelect}
+  //       />
+  //       <div className="flex-1 p-3 md:p-6 lg:p-8 overflow-auto">
+  //         <div className="max-w-6xl mx-auto">
+  //           <div className="mb-8">
+  //             <h1 className="text-2xl font-semibold mb-2">{title}</h1>
+  //             <p className="text-muted-foreground">{description}</p>
+  //           </div>
 
-            {/* Search Bar */}
-            <div className="bg-card border border-border rounded-lg p-6 mb-8">
-              <h3 className="font-medium mb-4">Search Documentation</h3>
-              <div className="flex gap-3">
-                <input 
-                  type="text" 
-                  placeholder="Search for guides, tutorials, troubleshooting..."
-                  className="flex-1 px-4 py-3 bg-input-background border border-border rounded-lg text-sm"
-                />
-                <button className="bg-primary hover:bg-primary/90 text-primary-foreground px-6 py-3 rounded-lg transition-colors text-sm">
-                  Search
-                </button>
-              </div>
-              <div className="flex gap-2 mt-3">
-                <span className="text-xs text-muted-foreground">Popular searches:</span>
-                <button className="text-xs text-blue-600 hover:underline">Setup Guide</button>
-                <button className="text-xs text-blue-600 hover:underline">Cart Recovery</button>
-                <button className="text-xs text-blue-600 hover:underline">Product Bundles</button>
-                <button className="text-xs text-blue-600 hover:underline">API Integration</button>
-              </div>
-            </div>
+  //           {/* Search Bar */}
+  //           <div className="bg-card border border-border rounded-lg p-6 mb-8">
+  //             <h3 className="font-medium mb-4">Search Documentation</h3>
+  //             <div className="flex gap-3">
+  //               <input 
+  //                 type="text" 
+  //                 placeholder="Search for guides, tutorials, troubleshooting..."
+  //                 className="flex-1 px-4 py-3 bg-input-background border border-border rounded-lg text-sm"
+  //               />
+  //               <button className="bg-primary hover:bg-primary/90 text-primary-foreground px-6 py-3 rounded-lg transition-colors text-sm">
+  //                 Search
+  //               </button>
+  //             </div>
+  //             <div className="flex gap-2 mt-3">
+  //               <span className="text-xs text-muted-foreground">Popular searches:</span>
+  //               <button className="text-xs text-blue-600 hover:underline">Setup Guide</button>
+  //               <button className="text-xs text-blue-600 hover:underline">Cart Recovery</button>
+  //               <button className="text-xs text-blue-600 hover:underline">Product Bundles</button>
+  //               <button className="text-xs text-blue-600 hover:underline">API Integration</button>
+  //             </div>
+  //           </div>
 
-            {/* Quick Start Guide */}
-            <div className="bg-gradient-to-r from-blue-50 to-indigo-50 border border-blue-200 rounded-lg p-6 mb-8 dark:from-blue-950/20 dark:to-indigo-950/20 dark:border-blue-800">
-              <div className="flex items-start gap-4">
-                <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center flex-shrink-0">
-                  <span className="text-blue-600 text-lg">🚀</span>
-                </div>
-                <div className="flex-1">
-                  <h3 className="text-lg font-semibold text-blue-800 dark:text-blue-200 mb-2">Quick Start Guide</h3>
-                  <p className="text-sm text-blue-700 dark:text-blue-300 mb-4">
-                    New to SpeedPress? Follow our step-by-step guide to get your WooCommerce store optimized in minutes.
-                  </p>
-                  <div className="flex gap-3">
-                    <button className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg text-sm transition-colors">
-                      Start Setup Guide
-                    </button>
-                    <button className="bg-white/80 hover:bg-white text-blue-800 px-4 py-2 rounded-lg text-sm transition-colors">
-                      Watch Video Tutorial
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
+  //           {/* Quick Start Guide */}
+  //           <div className="bg-gradient-to-r from-blue-50 to-indigo-50 border border-blue-200 rounded-lg p-6 mb-8 dark:from-blue-950/20 dark:to-indigo-950/20 dark:border-blue-800">
+  //             <div className="flex items-start gap-4">
+  //               <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center flex-shrink-0">
+  //                 <span className="text-blue-600 text-lg">🚀</span>
+  //               </div>
+  //               <div className="flex-1">
+  //                 <h3 className="text-lg font-semibold text-blue-800 dark:text-blue-200 mb-2">Quick Start Guide</h3>
+  //                 <p className="text-sm text-blue-700 dark:text-blue-300 mb-4">
+  //                   New to SpeedPress? Follow our step-by-step guide to get your WooCommerce store optimized in minutes.
+  //                 </p>
+  //                 <div className="flex gap-3">
+  //                   <button className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg text-sm transition-colors">
+  //                     Start Setup Guide
+  //                   </button>
+  //                   <button className="bg-white/80 hover:bg-white text-blue-800 px-4 py-2 rounded-lg text-sm transition-colors">
+  //                     Watch Video Tutorial
+  //                   </button>
+  //                 </div>
+  //               </div>
+  //             </div>
+  //           </div>
 
-            {/* Documentation Categories */}
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
-              {/* Installation & Setup */}
-              <div className="bg-card border border-border rounded-lg p-6">
-                <div className="flex items-center gap-3 mb-4">
-                  <div className="w-10 h-10 bg-green-100 rounded-lg flex items-center justify-center">
-                    <span className="text-green-600">⚙️</span>
-                  </div>
-                  <h3 className="font-medium">Installation & Setup</h3>
-                </div>
-                <div className="space-y-2">
-                  <button className="w-full text-left text-sm text-blue-600 hover:underline py-1">Installing SpeedPress Plugin</button>
-                  <button className="w-full text-left text-sm text-blue-600 hover:underline py-1">License Activation Guide</button>
-                  <button className="w-full text-left text-sm text-blue-600 hover:underline py-1">Initial Configuration</button>
-                  <button className="w-full text-left text-sm text-blue-600 hover:underline py-1">System Requirements</button>
-                </div>
-                <button className="text-xs text-muted-foreground hover:text-foreground mt-3">View all articles →</button>
-              </div>
+  //           {/* Documentation Categories */}
+  //           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
+  //             {/* Installation & Setup */}
+  //             <div className="bg-card border border-border rounded-lg p-6">
+  //               <div className="flex items-center gap-3 mb-4">
+  //                 <div className="w-10 h-10 bg-green-100 rounded-lg flex items-center justify-center">
+  //                   <span className="text-green-600">⚙️</span>
+  //                 </div>
+  //                 <h3 className="font-medium">Installation & Setup</h3>
+  //               </div>
+  //               <div className="space-y-2">
+  //                 <button className="w-full text-left text-sm text-blue-600 hover:underline py-1">Installing SpeedPress Plugin</button>
+  //                 <button className="w-full text-left text-sm text-blue-600 hover:underline py-1">License Activation Guide</button>
+  //                 <button className="w-full text-left text-sm text-blue-600 hover:underline py-1">Initial Configuration</button>
+  //                 <button className="w-full text-left text-sm text-blue-600 hover:underline py-1">System Requirements</button>
+  //               </div>
+  //               <button className="text-xs text-muted-foreground hover:text-foreground mt-3">View all articles →</button>
+  //             </div>
 
-              {/* Product Features */}
-              <div className="bg-card border border-border rounded-lg p-6">
-                <div className="flex items-center gap-3 mb-4">
-                  <div className="w-10 h-10 bg-purple-100 rounded-lg flex items-center justify-center">
-                    <span className="text-purple-600">📦</span>
-                  </div>
-                  <h3 className="font-medium">Product Features</h3>
-                </div>
-                <div className="space-y-2">
-                  <button className="w-full text-left text-sm text-blue-600 hover:underline py-1">Product Bundles Setup</button>
-                  <button className="w-full text-left text-sm text-blue-600 hover:underline py-1">Custom Product Tabs</button>
-                  <button className="w-full text-left text-sm text-blue-600 hover:underline py-1">Product Badges Configuration</button>
-                  <button className="w-full text-left text-sm text-blue-600 hover:underline py-1">Quick View Modal</button>
-                  <button className="w-full text-left text-sm text-blue-600 hover:underline py-1">Advanced Search Options</button>
-                </div>
-                <button className="text-xs text-muted-foreground hover:text-foreground mt-3">View all articles →</button>
-              </div>
+  //             {/* Product Features */}
+  //             <div className="bg-card border border-border rounded-lg p-6">
+  //               <div className="flex items-center gap-3 mb-4">
+  //                 <div className="w-10 h-10 bg-purple-100 rounded-lg flex items-center justify-center">
+  //                   <span className="text-purple-600">📦</span>
+  //                 </div>
+  //                 <h3 className="font-medium">Product Features</h3>
+  //               </div>
+  //               <div className="space-y-2">
+  //                 <button className="w-full text-left text-sm text-blue-600 hover:underline py-1">Product Bundles Setup</button>
+  //                 <button className="w-full text-left text-sm text-blue-600 hover:underline py-1">Custom Product Tabs</button>
+  //                 <button className="w-full text-left text-sm text-blue-600 hover:underline py-1">Product Badges Configuration</button>
+  //                 <button className="w-full text-left text-sm text-blue-600 hover:underline py-1">Quick View Modal</button>
+  //                 <button className="w-full text-left text-sm text-blue-600 hover:underline py-1">Advanced Search Options</button>
+  //               </div>
+  //               <button className="text-xs text-muted-foreground hover:text-foreground mt-3">View all articles →</button>
+  //             </div>
 
-              {/* Cart & Checkout */}
-              <div className="bg-card border border-border rounded-lg p-6">
-                <div className="flex items-center gap-3 mb-4">
-                  <div className="w-10 h-10 bg-orange-100 rounded-lg flex items-center justify-center">
-                    <span className="text-orange-600">🛒</span>
-                  </div>
-                  <h3 className="font-medium">Cart & Checkout</h3>
-                </div>
-                <div className="space-y-2">
-                  <button className="w-full text-left text-sm text-blue-600 hover:underline py-1">Cart Abandonment Recovery</button>
-                  <button className="w-full text-left text-sm text-blue-600 hover:underline py-1">One-Click Checkout Setup</button>
-                  <button className="w-full text-left text-sm text-blue-600 hover:underline py-1">Custom Checkout Fields</button>
-                  <button className="w-full text-left text-sm text-blue-600 hover:underline py-1">Sliding Cart Drawer</button>
-                  <button className="w-full text-left text-sm text-blue-600 hover:underline py-1">Payment Gateway Integration</button>
-                </div>
-                <button className="text-xs text-muted-foreground hover:text-foreground mt-3">View all articles →</button>
-              </div>
+  //             {/* Cart & Checkout */}
+  //             <div className="bg-card border border-border rounded-lg p-6">
+  //               <div className="flex items-center gap-3 mb-4">
+  //                 <div className="w-10 h-10 bg-orange-100 rounded-lg flex items-center justify-center">
+  //                   <span className="text-orange-600">🛒</span>
+  //                 </div>
+  //                 <h3 className="font-medium">Cart & Checkout</h3>
+  //               </div>
+  //               <div className="space-y-2">
+  //                 <button className="w-full text-left text-sm text-blue-600 hover:underline py-1">Cart Abandonment Recovery</button>
+  //                 <button className="w-full text-left text-sm text-blue-600 hover:underline py-1">One-Click Checkout Setup</button>
+  //                 <button className="w-full text-left text-sm text-blue-600 hover:underline py-1">Custom Checkout Fields</button>
+  //                 <button className="w-full text-left text-sm text-blue-600 hover:underline py-1">Sliding Cart Drawer</button>
+  //                 <button className="w-full text-left text-sm text-blue-600 hover:underline py-1">Payment Gateway Integration</button>
+  //               </div>
+  //               <button className="text-xs text-muted-foreground hover:text-foreground mt-3">View all articles →</button>
+  //             </div>
 
-              {/* Marketing Tools */}
-              <div className="bg-card border border-border rounded-lg p-6">
-                <div className="flex items-center gap-3 mb-4">
-                  <div className="w-10 h-10 bg-red-100 rounded-lg flex items-center justify-center">
-                    <span className="text-red-600">📈</span>
-                  </div>
-                  <h3 className="font-medium">Marketing Tools</h3>
-                </div>
-                <div className="space-y-2">
-                  <button className="w-full text-left text-sm text-blue-600 hover:underline py-1">Flash Sales Timer</button>
-                  <button className="w-full text-left text-sm text-blue-600 hover:underline py-1">Social Proof Notifications</button>
-                  <button className="w-full text-left text-sm text-blue-600 hover:underline py-1">Cross-Sell Configuration</button>
-                  <button className="w-full text-left text-sm text-blue-600 hover:underline py-1">Wishlist Setup</button>
-                  <button className="w-full text-left text-sm text-blue-600 hover:underline py-1">Email Marketing Integration</button>
-                </div>
-                <button className="text-xs text-muted-foreground hover:text-foreground mt-3">View all articles →</button>
-              </div>
+  //             {/* Marketing Tools */}
+  //             <div className="bg-card border border-border rounded-lg p-6">
+  //               <div className="flex items-center gap-3 mb-4">
+  //                 <div className="w-10 h-10 bg-red-100 rounded-lg flex items-center justify-center">
+  //                   <span className="text-red-600">📈</span>
+  //                 </div>
+  //                 <h3 className="font-medium">Marketing Tools</h3>
+  //               </div>
+  //               <div className="space-y-2">
+  //                 <button className="w-full text-left text-sm text-blue-600 hover:underline py-1">Flash Sales Timer</button>
+  //                 <button className="w-full text-left text-sm text-blue-600 hover:underline py-1">Social Proof Notifications</button>
+  //                 <button className="w-full text-left text-sm text-blue-600 hover:underline py-1">Cross-Sell Configuration</button>
+  //                 <button className="w-full text-left text-sm text-blue-600 hover:underline py-1">Wishlist Setup</button>
+  //                 <button className="w-full text-left text-sm text-blue-600 hover:underline py-1">Email Marketing Integration</button>
+  //               </div>
+  //               <button className="text-xs text-muted-foreground hover:text-foreground mt-3">View all articles →</button>
+  //             </div>
 
-              {/* Analytics & Reports */}
-              <div className="bg-card border border-border rounded-lg p-6">
-                <div className="flex items-center gap-3 mb-4">
-                  <div className="w-10 h-10 bg-blue-100 rounded-lg flex items-center justify-center">
-                    <span className="text-blue-600">📊</span>
-                  </div>
-                  <h3 className="font-medium">Analytics & Reports</h3>
-                </div>
-                <div className="space-y-2">
-                  <button className="w-full text-left text-sm text-blue-600 hover:underline py-1">Sales Reports Dashboard</button>
-                  <button className="w-full text-left text-sm text-blue-600 hover:underline py-1">Customer Behavior Analytics</button>
-                  <button className="w-full text-left text-sm text-blue-600 hover:underline py-1">Performance Monitoring</button>
-                  <button className="w-full text-left text-sm text-blue-600 hover:underline py-1">Custom Report Creation</button>
-                  <button className="w-full text-left text-sm text-blue-600 hover:underline py-1">Data Export Options</button>
-                </div>
-                <button className="text-xs text-muted-foreground hover:text-foreground mt-3">View all articles →</button>
-              </div>
+  //             {/* Analytics & Reports */}
+  //             <div className="bg-card border border-border rounded-lg p-6">
+  //               <div className="flex items-center gap-3 mb-4">
+  //                 <div className="w-10 h-10 bg-blue-100 rounded-lg flex items-center justify-center">
+  //                   <span className="text-blue-600">📊</span>
+  //                 </div>
+  //                 <h3 className="font-medium">Analytics & Reports</h3>
+  //               </div>
+  //               <div className="space-y-2">
+  //                 <button className="w-full text-left text-sm text-blue-600 hover:underline py-1">Sales Reports Dashboard</button>
+  //                 <button className="w-full text-left text-sm text-blue-600 hover:underline py-1">Customer Behavior Analytics</button>
+  //                 <button className="w-full text-left text-sm text-blue-600 hover:underline py-1">Performance Monitoring</button>
+  //                 <button className="w-full text-left text-sm text-blue-600 hover:underline py-1">Custom Report Creation</button>
+  //                 <button className="w-full text-left text-sm text-blue-600 hover:underline py-1">Data Export Options</button>
+  //               </div>
+  //               <button className="text-xs text-muted-foreground hover:text-foreground mt-3">View all articles →</button>
+  //             </div>
 
-              {/* Troubleshooting */}
-              <div className="bg-card border border-border rounded-lg p-6">
-                <div className="flex items-center gap-3 mb-4">
-                  <div className="w-10 h-10 bg-yellow-100 rounded-lg flex items-center justify-center">
-                    <span className="text-yellow-600">🔧</span>
-                  </div>
-                  <h3 className="font-medium">Troubleshooting</h3>
-                </div>
-                <div className="space-y-2">
-                  <button className="w-full text-left text-sm text-blue-600 hover:underline py-1">Common Issues & Solutions</button>
-                  <button className="w-full text-left text-sm text-blue-600 hover:underline py-1">Plugin Conflicts</button>
-                  <button className="w-full text-left text-sm text-blue-600 hover:underline py-1">Performance Issues</button>
-                  <button className="w-full text-left text-sm text-blue-600 hover:underline py-1">Database Optimization</button>
-                  <button className="w-full text-left text-sm text-blue-600 hover:underline py-1">Debug Mode Guide</button>
-                </div>
-                <button className="text-xs text-muted-foreground hover:text-foreground mt-3">View all articles →</button>
-              </div>
-            </div>
+  //             {/* Troubleshooting */}
+  //             <div className="bg-card border border-border rounded-lg p-6">
+  //               <div className="flex items-center gap-3 mb-4">
+  //                 <div className="w-10 h-10 bg-yellow-100 rounded-lg flex items-center justify-center">
+  //                   <span className="text-yellow-600">🔧</span>
+  //                 </div>
+  //                 <h3 className="font-medium">Troubleshooting</h3>
+  //               </div>
+  //               <div className="space-y-2">
+  //                 <button className="w-full text-left text-sm text-blue-600 hover:underline py-1">Common Issues & Solutions</button>
+  //                 <button className="w-full text-left text-sm text-blue-600 hover:underline py-1">Plugin Conflicts</button>
+  //                 <button className="w-full text-left text-sm text-blue-600 hover:underline py-1">Performance Issues</button>
+  //                 <button className="w-full text-left text-sm text-blue-600 hover:underline py-1">Database Optimization</button>
+  //                 <button className="w-full text-left text-sm text-blue-600 hover:underline py-1">Debug Mode Guide</button>
+  //               </div>
+  //               <button className="text-xs text-muted-foreground hover:text-foreground mt-3">View all articles →</button>
+  //             </div>
+  //           </div>
 
-            {/* Video Tutorials & FAQ */}
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
-              {/* Video Tutorials */}
-              <div className="bg-card border border-border rounded-lg p-6">
-                <h3 className="font-medium mb-4 flex items-center gap-2" style={{display:"flex"}}>
-                  <div className="w-2 h-2 bg-red-500 rounded-full"></div>
-                  Video Tutorials
-                </h3>
-                <div className="space-y-4">
-                  <div className="flex items-start gap-3 p-3 rounded-lg hover:bg-accent/50 transition-colors">
-                    <div className="w-16 h-12 bg-red-100 rounded-lg flex items-center justify-center flex-shrink-0">
-                      <span className="text-red-600 text-xs">▶️</span>
-                    </div>
-                    <div className="flex-1">
-                      <div className="text-sm font-medium">Getting Started with SpeedPress</div>
-                      <div className="text-xs text-muted-foreground">Complete setup guide • 8:42</div>
-                    </div>
-                  </div>
-                  <div className="flex items-start gap-3 p-3 rounded-lg hover:bg-accent/50 transition-colors">
-                    <div className="w-16 h-12 bg-red-100 rounded-lg flex items-center justify-center flex-shrink-0">
-                      <span className="text-red-600 text-xs">▶️</span>
-                    </div>
-                    <div className="flex-1">
-                      <div className="text-sm font-medium">Setting Up Cart Recovery</div>
-                      <div className="text-xs text-muted-foreground">Email templates & automation • 12:15</div>
-                    </div>
-                  </div>
-                  <div className="flex items-start gap-3 p-3 rounded-lg hover:bg-accent/50 transition-colors">
-                    <div className="w-16 h-12 bg-red-100 rounded-lg flex items-center justify-center flex-shrink-0">
-                      <span className="text-red-600 text-xs">▶️</span>
-                    </div>
-                    <div className="flex-1">
-                      <div className="text-sm font-medium">Creating Product Bundles</div>
-                      <div className="text-xs text-muted-foreground">Boost sales with bundles • 9:23</div>
-                    </div>
-                  </div>
-                  <div className="flex items-start gap-3 p-3 rounded-lg hover:bg-accent/50 transition-colors">
-                    <div className="w-16 h-12 bg-red-100 rounded-lg flex items-center justify-center flex-shrink-0">
-                      <span className="text-red-600 text-xs">▶️</span>
-                    </div>
-                    <div className="flex-1">
-                      <div className="text-sm font-medium">Performance Optimization</div>
-                      <div className="text-xs text-muted-foreground">Speed up your store • 15:30</div>
-                    </div>
-                  </div>
-                  <button className="w-full text-center text-sm text-blue-600 hover:underline py-2">
-                    View All Video Tutorials
-                  </button>
-                </div>
-              </div>
+  //           {/* Video Tutorials & FAQ */}
+  //           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
+  //             {/* Video Tutorials */}
+  //             <div className="bg-card border border-border rounded-lg p-6">
+  //               <h3 className="font-medium mb-4 flex items-center gap-2" style={{display:"flex"}}>
+  //                 <div className="w-2 h-2 bg-red-500 rounded-full"></div>
+  //                 Video Tutorials
+  //               </h3>
+  //               <div className="space-y-4">
+  //                 <div className="flex items-start gap-3 p-3 rounded-lg hover:bg-accent/50 transition-colors">
+  //                   <div className="w-16 h-12 bg-red-100 rounded-lg flex items-center justify-center flex-shrink-0">
+  //                     <span className="text-red-600 text-xs">▶️</span>
+  //                   </div>
+  //                   <div className="flex-1">
+  //                     <div className="text-sm font-medium">Getting Started with SpeedPress</div>
+  //                     <div className="text-xs text-muted-foreground">Complete setup guide • 8:42</div>
+  //                   </div>
+  //                 </div>
+  //                 <div className="flex items-start gap-3 p-3 rounded-lg hover:bg-accent/50 transition-colors">
+  //                   <div className="w-16 h-12 bg-red-100 rounded-lg flex items-center justify-center flex-shrink-0">
+  //                     <span className="text-red-600 text-xs">▶️</span>
+  //                   </div>
+  //                   <div className="flex-1">
+  //                     <div className="text-sm font-medium">Setting Up Cart Recovery</div>
+  //                     <div className="text-xs text-muted-foreground">Email templates & automation • 12:15</div>
+  //                   </div>
+  //                 </div>
+  //                 <div className="flex items-start gap-3 p-3 rounded-lg hover:bg-accent/50 transition-colors">
+  //                   <div className="w-16 h-12 bg-red-100 rounded-lg flex items-center justify-center flex-shrink-0">
+  //                     <span className="text-red-600 text-xs">▶️</span>
+  //                   </div>
+  //                   <div className="flex-1">
+  //                     <div className="text-sm font-medium">Creating Product Bundles</div>
+  //                     <div className="text-xs text-muted-foreground">Boost sales with bundles • 9:23</div>
+  //                   </div>
+  //                 </div>
+  //                 <div className="flex items-start gap-3 p-3 rounded-lg hover:bg-accent/50 transition-colors">
+  //                   <div className="w-16 h-12 bg-red-100 rounded-lg flex items-center justify-center flex-shrink-0">
+  //                     <span className="text-red-600 text-xs">▶️</span>
+  //                   </div>
+  //                   <div className="flex-1">
+  //                     <div className="text-sm font-medium">Performance Optimization</div>
+  //                     <div className="text-xs text-muted-foreground">Speed up your store • 15:30</div>
+  //                   </div>
+  //                 </div>
+  //                 <button className="w-full text-center text-sm text-blue-600 hover:underline py-2">
+  //                   View All Video Tutorials
+  //                 </button>
+  //               </div>
+  //             </div>
 
-              {/* Frequently Asked Questions */}
-              <div className="bg-card border border-border rounded-lg p-6">
-                <h3 className="font-medium mb-4 flex items-center gap-2" style={{display:"flex"}}>
-                  <div className="w-2 h-2 bg-indigo-500 rounded-full"></div>
-                  Frequently Asked Questions
-                </h3>
-                <div className="space-y-4">
-                  <div className="border-b border-border pb-3">
-                    <button className="w-full text-left">
-                      <div className="text-sm font-medium mb-1">How do I activate my license?</div>
-                      <div className="text-xs text-muted-foreground">Go to License & Updates tab and enter your license key...</div>
-                    </button>
-                  </div>
-                  <div className="border-b border-border pb-3">
-                    <button className="w-full text-left">
-                      <div className="text-sm font-medium mb-1">Can I use SpeedPress on multiple sites?</div>
-                      <div className="text-xs text-muted-foreground">Yes, depending on your license plan. Professional allows...</div>
-                    </button>
-                  </div>
-                  <div className="border-b border-border pb-3">
-                    <button className="w-full text-left">
-                      <div className="text-sm font-medium mb-1">How do I set up cart abandonment emails?</div>
-                      <div className="text-xs text-muted-foreground">Navigate to Cart & Checkout addons and enable...</div>
-                    </button>
-                  </div>
-                  <div className="border-b border-border pb-3">
-                    <button className="w-full text-left">
-                      <div className="text-sm font-medium mb-1">Is SpeedPress compatible with my theme?</div>
-                      <div className="text-xs text-muted-foreground">SpeedPress is designed to work with most themes...</div>
-                    </button>
-                  </div>
-                  <div className="pb-3">
-                    <button className="w-full text-left">
-                      <div className="text-sm font-medium mb-1">How do I get support?</div>
-                      <div className="text-xs text-muted-foreground">Premium users get priority email and live chat support...</div>
-                    </button>
-                  </div>
-                  <button className="w-full text-center text-sm text-blue-600 hover:underline py-2">
-                    View All FAQs
-                  </button>
-                </div>
-              </div>
-            </div>
+  //             {/* Frequently Asked Questions */}
+  //             <div className="bg-card border border-border rounded-lg p-6">
+  //               <h3 className="font-medium mb-4 flex items-center gap-2" style={{display:"flex"}}>
+  //                 <div className="w-2 h-2 bg-indigo-500 rounded-full"></div>
+  //                 Frequently Asked Questions
+  //               </h3>
+  //               <div className="space-y-4">
+  //                 <div className="border-b border-border pb-3">
+  //                   <button className="w-full text-left">
+  //                     <div className="text-sm font-medium mb-1">How do I activate my license?</div>
+  //                     <div className="text-xs text-muted-foreground">Go to License & Updates tab and enter your license key...</div>
+  //                   </button>
+  //                 </div>
+  //                 <div className="border-b border-border pb-3">
+  //                   <button className="w-full text-left">
+  //                     <div className="text-sm font-medium mb-1">Can I use SpeedPress on multiple sites?</div>
+  //                     <div className="text-xs text-muted-foreground">Yes, depending on your license plan. Professional allows...</div>
+  //                   </button>
+  //                 </div>
+  //                 <div className="border-b border-border pb-3">
+  //                   <button className="w-full text-left">
+  //                     <div className="text-sm font-medium mb-1">How do I set up cart abandonment emails?</div>
+  //                     <div className="text-xs text-muted-foreground">Navigate to Cart & Checkout addons and enable...</div>
+  //                   </button>
+  //                 </div>
+  //                 <div className="border-b border-border pb-3">
+  //                   <button className="w-full text-left">
+  //                     <div className="text-sm font-medium mb-1">Is SpeedPress compatible with my theme?</div>
+  //                     <div className="text-xs text-muted-foreground">SpeedPress is designed to work with most themes...</div>
+  //                   </button>
+  //                 </div>
+  //                 <div className="pb-3">
+  //                   <button className="w-full text-left">
+  //                     <div className="text-sm font-medium mb-1">How do I get support?</div>
+  //                     <div className="text-xs text-muted-foreground">Premium users get priority email and live chat support...</div>
+  //                   </button>
+  //                 </div>
+  //                 <button className="w-full text-center text-sm text-blue-600 hover:underline py-2">
+  //                   View All FAQs
+  //                 </button>
+  //               </div>
+  //             </div>
+  //           </div>
 
-            {/* Developer Resources */}
-            <div className="bg-card border border-border rounded-lg p-6 mb-8">
-              <h3 className="font-medium mb-6 flex items-center gap-2" style={{display:"flex"}}>
-                <div className="w-2 h-2 bg-cyan-500 rounded-full"></div>
-                Developer Resources
-              </h3>
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
-                <button className="flex flex-col items-center gap-3 p-4 rounded-lg hover:bg-accent transition-colors text-center">
-                  <div className="w-12 h-12 bg-cyan-100 rounded-lg flex items-center justify-center">
-                    <span className="text-cyan-600">🔌</span>
-                  </div>
-                  <div>
-                    <div className="text-sm font-medium">API Documentation</div>
-                    <div className="text-xs text-muted-foreground mt-1">REST API endpoints and examples</div>
-                  </div>
-                </button>
-                <button className="flex flex-col items-center gap-3 p-4 rounded-lg hover:bg-accent transition-colors text-center">
-                  <div className="w-12 h-12 bg-emerald-100 rounded-lg flex items-center justify-center">
-                    <span className="text-emerald-600">🎣</span>
-                  </div>
-                  <div>
-                    <div className="text-sm font-medium">Hooks & Filters</div>
-                    <div className="text-xs text-muted-foreground mt-1">Custom development hooks</div>
-                  </div>
-                </button>
-                <button className="flex flex-col items-center gap-3 p-4 rounded-lg hover:bg-accent transition-colors text-center">
-                  <div className="w-12 h-12 bg-violet-100 rounded-lg flex items-center justify-center">
-                    <span className="text-violet-600">💻</span>
-                  </div>
-                  <div>
-                    <div className="text-sm font-medium">Code Examples</div>
-                    <div className="text-xs text-muted-foreground mt-1">Ready-to-use code snippets</div>
-                  </div>
-                </button>
-                <button className="flex flex-col items-center gap-3 p-4 rounded-lg hover:bg-accent transition-colors text-center">
-                  <div className="w-12 h-12 bg-amber-100 rounded-lg flex items-center justify-center">
-                    <span className="text-amber-600">🔧</span>
-                  </div>
-                  <div>
-                    <div className="text-sm font-medium">Custom Addons</div>
-                    <div className="text-xs text-muted-foreground mt-1">Build your own addons</div>
-                  </div>
-                </button>
-              </div>
-            </div>
+  //           {/* Developer Resources */}
+  //           <div className="bg-card border border-border rounded-lg p-6 mb-8">
+  //             <h3 className="font-medium mb-6 flex items-center gap-2" style={{display:"flex"}}>
+  //               <div className="w-2 h-2 bg-cyan-500 rounded-full"></div>
+  //               Developer Resources
+  //             </h3>
+  //             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+  //               <button className="flex flex-col items-center gap-3 p-4 rounded-lg hover:bg-accent transition-colors text-center">
+  //                 <div className="w-12 h-12 bg-cyan-100 rounded-lg flex items-center justify-center">
+  //                   <span className="text-cyan-600">🔌</span>
+  //                 </div>
+  //                 <div>
+  //                   <div className="text-sm font-medium">API Documentation</div>
+  //                   <div className="text-xs text-muted-foreground mt-1">REST API endpoints and examples</div>
+  //                 </div>
+  //               </button>
+  //               <button className="flex flex-col items-center gap-3 p-4 rounded-lg hover:bg-accent transition-colors text-center">
+  //                 <div className="w-12 h-12 bg-emerald-100 rounded-lg flex items-center justify-center">
+  //                   <span className="text-emerald-600">🎣</span>
+  //                 </div>
+  //                 <div>
+  //                   <div className="text-sm font-medium">Hooks & Filters</div>
+  //                   <div className="text-xs text-muted-foreground mt-1">Custom development hooks</div>
+  //                 </div>
+  //               </button>
+  //               <button className="flex flex-col items-center gap-3 p-4 rounded-lg hover:bg-accent transition-colors text-center">
+  //                 <div className="w-12 h-12 bg-violet-100 rounded-lg flex items-center justify-center">
+  //                   <span className="text-violet-600">💻</span>
+  //                 </div>
+  //                 <div>
+  //                   <div className="text-sm font-medium">Code Examples</div>
+  //                   <div className="text-xs text-muted-foreground mt-1">Ready-to-use code snippets</div>
+  //                 </div>
+  //               </button>
+  //               <button className="flex flex-col items-center gap-3 p-4 rounded-lg hover:bg-accent transition-colors text-center">
+  //                 <div className="w-12 h-12 bg-amber-100 rounded-lg flex items-center justify-center">
+  //                   <span className="text-amber-600">🔧</span>
+  //                 </div>
+  //                 <div>
+  //                   <div className="text-sm font-medium">Custom Addons</div>
+  //                   <div className="text-xs text-muted-foreground mt-1">Build your own addons</div>
+  //                 </div>
+  //               </button>
+  //             </div>
+  //           </div>
 
-            {/* Popular Articles & Community */}
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-              {/* Popular Articles */}
-              <div className="bg-card border border-border rounded-lg p-6">
-                <h3 className="font-medium mb-4">Most Popular Articles</h3>
-                <div className="space-y-3">
-                  <div className="flex items-center justify-between py-2 hover:bg-accent/50 rounded px-2 transition-colors">
-                    <span className="text-sm">Complete SpeedPress Setup Guide</span>
-                    <span className="text-xs bg-green-100 text-green-800 px-2 py-1 rounded dark:bg-green-900 dark:text-green-100">1.2k views</span>
-                  </div>
-                  <div className="flex items-center justify-between py-2 hover:bg-accent/50 rounded px-2 transition-colors">
-                    <span className="text-sm">Cart Abandonment Email Templates</span>
-                    <span className="text-xs bg-green-100 text-green-800 px-2 py-1 rounded dark:bg-green-900 dark:text-green-100">950 views</span>
-                  </div>
-                  <div className="flex items-center justify-between py-2 hover:bg-accent/50 rounded px-2 transition-colors">
-                    <span className="text-sm">WooCommerce Compatibility Issues</span>
-                    <span className="text-xs bg-green-100 text-green-800 px-2 py-1 rounded dark:bg-green-900 dark:text-green-100">780 views</span>
-                  </div>
-                  <div className="flex items-center justify-between py-2 hover:bg-accent/50 rounded px-2 transition-colors">
-                    <span className="text-sm">Product Bundle Pricing Strategies</span>
-                    <span className="text-xs bg-green-100 text-green-800 px-2 py-1 rounded dark:bg-green-900 dark:text-green-100">650 views</span>
-                  </div>
-                  <div className="flex items-center justify-between py-2 hover:bg-accent/50 rounded px-2 transition-colors">
-                    <span className="text-sm">Performance Optimization Tips</span>
-                    <span className="text-xs bg-green-100 text-green-800 px-2 py-1 rounded dark:bg-green-900 dark:text-green-100">540 views</span>
-                  </div>
-                </div>
-              </div>
+  //           {/* Popular Articles & Community */}
+  //           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+  //             {/* Popular Articles */}
+  //             <div className="bg-card border border-border rounded-lg p-6">
+  //               <h3 className="font-medium mb-4">Most Popular Articles</h3>
+  //               <div className="space-y-3">
+  //                 <div className="flex items-center justify-between py-2 hover:bg-accent/50 rounded px-2 transition-colors">
+  //                   <span className="text-sm">Complete SpeedPress Setup Guide</span>
+  //                   <span className="text-xs bg-green-100 text-green-800 px-2 py-1 rounded dark:bg-green-900 dark:text-green-100">1.2k views</span>
+  //                 </div>
+  //                 <div className="flex items-center justify-between py-2 hover:bg-accent/50 rounded px-2 transition-colors">
+  //                   <span className="text-sm">Cart Abandonment Email Templates</span>
+  //                   <span className="text-xs bg-green-100 text-green-800 px-2 py-1 rounded dark:bg-green-900 dark:text-green-100">950 views</span>
+  //                 </div>
+  //                 <div className="flex items-center justify-between py-2 hover:bg-accent/50 rounded px-2 transition-colors">
+  //                   <span className="text-sm">WooCommerce Compatibility Issues</span>
+  //                   <span className="text-xs bg-green-100 text-green-800 px-2 py-1 rounded dark:bg-green-900 dark:text-green-100">780 views</span>
+  //                 </div>
+  //                 <div className="flex items-center justify-between py-2 hover:bg-accent/50 rounded px-2 transition-colors">
+  //                   <span className="text-sm">Product Bundle Pricing Strategies</span>
+  //                   <span className="text-xs bg-green-100 text-green-800 px-2 py-1 rounded dark:bg-green-900 dark:text-green-100">650 views</span>
+  //                 </div>
+  //                 <div className="flex items-center justify-between py-2 hover:bg-accent/50 rounded px-2 transition-colors">
+  //                   <span className="text-sm">Performance Optimization Tips</span>
+  //                   <span className="text-xs bg-green-100 text-green-800 px-2 py-1 rounded dark:bg-green-900 dark:text-green-100">540 views</span>
+  //                 </div>
+  //               </div>
+  //             </div>
 
-              {/* Community & Support */}
-              <div className="bg-card border border-border rounded-lg p-6">
-                <h3 className="font-medium mb-4">Community & Support</h3>
-                <div className="space-y-3">
-                  <button className="w-full flex items-center gap-3 p-3 rounded-lg hover:bg-accent transition-colors text-left">
-                    <div className="w-8 h-8 bg-blue-100 rounded-lg flex items-center justify-center">
-                      <span className="text-blue-600 text-xs">💬</span>
-                    </div>
-                    <div>
-                      <div className="text-sm font-medium">Community Forum</div>
-                      <div className="text-xs text-muted-foreground">Connect with other users</div>
-                    </div>
-                  </button>
-                  <button className="w-full flex items-center gap-3 p-3 rounded-lg hover:bg-accent transition-colors text-left">
-                    <div className="w-8 h-8 bg-green-100 rounded-lg flex items-center justify-center">
-                      <span className="text-green-600 text-xs">🎧</span>
-                    </div>
-                    <div>
-                      <div className="text-sm font-medium">Live Chat Support</div>
-                      <div className="text-xs text-muted-foreground">Get instant help from experts</div>
-                    </div>
-                  </button>
-                  <button className="w-full flex items-center gap-3 p-3 rounded-lg hover:bg-accent transition-colors text-left">
-                    <div className="w-8 h-8 bg-purple-100 rounded-lg flex items-center justify-center">
-                      <span className="text-purple-600 text-xs">📧</span>
-                    </div>
-                    <div>
-                      <div className="text-sm font-medium">Email Support</div>
-                      <div className="text-xs text-muted-foreground">Priority support for premium users</div>
-                    </div>
-                  </button>
-                  <button className="w-full flex items-center gap-3 p-3 rounded-lg hover:bg-accent transition-colors text-left">
-                    <div className="w-8 h-8 bg-orange-100 rounded-lg flex items-center justify-center">
-                      <span className="text-orange-600 text-xs">🐛</span>
-                    </div>
-                    <div>
-                      <div className="text-sm font-medium">Report Bug</div>
-                      <div className="text-xs text-muted-foreground">Help us improve SpeedPress</div>
-                    </div>
-                  </button>
-                  <button className="w-full flex items-center gap-3 p-3 rounded-lg hover:bg-accent transition-colors text-left">
-                    <div className="w-8 h-8 bg-pink-100 rounded-lg flex items-center justify-center">
-                      <span className="text-pink-600 text-xs">💡</span>
-                    </div>
-                    <div>
-                      <div className="text-sm font-medium">Feature Request</div>
-                      <div className="text-xs text-muted-foreground">Suggest new features</div>
-                    </div>
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    );
-  }
+  //             {/* Community & Support */}
+  //             <div className="bg-card border border-border rounded-lg p-6">
+  //               <h3 className="font-medium mb-4">Community & Support</h3>
+  //               <div className="space-y-3">
+  //                 <button className="w-full flex items-center gap-3 p-3 rounded-lg hover:bg-accent transition-colors text-left">
+  //                   <div className="w-8 h-8 bg-blue-100 rounded-lg flex items-center justify-center">
+  //                     <span className="text-blue-600 text-xs">💬</span>
+  //                   </div>
+  //                   <div>
+  //                     <div className="text-sm font-medium">Community Forum</div>
+  //                     <div className="text-xs text-muted-foreground">Connect with other users</div>
+  //                   </div>
+  //                 </button>
+  //                 <button className="w-full flex items-center gap-3 p-3 rounded-lg hover:bg-accent transition-colors text-left">
+  //                   <div className="w-8 h-8 bg-green-100 rounded-lg flex items-center justify-center">
+  //                     <span className="text-green-600 text-xs">🎧</span>
+  //                   </div>
+  //                   <div>
+  //                     <div className="text-sm font-medium">Live Chat Support</div>
+  //                     <div className="text-xs text-muted-foreground">Get instant help from experts</div>
+  //                   </div>
+  //                 </button>
+  //                 <button className="w-full flex items-center gap-3 p-3 rounded-lg hover:bg-accent transition-colors text-left">
+  //                   <div className="w-8 h-8 bg-purple-100 rounded-lg flex items-center justify-center">
+  //                     <span className="text-purple-600 text-xs">📧</span>
+  //                   </div>
+  //                   <div>
+  //                     <div className="text-sm font-medium">Email Support</div>
+  //                     <div className="text-xs text-muted-foreground">Priority support for premium users</div>
+  //                   </div>
+  //                 </button>
+  //                 <button className="w-full flex items-center gap-3 p-3 rounded-lg hover:bg-accent transition-colors text-left">
+  //                   <div className="w-8 h-8 bg-orange-100 rounded-lg flex items-center justify-center">
+  //                     <span className="text-orange-600 text-xs">🐛</span>
+  //                   </div>
+  //                   <div>
+  //                     <div className="text-sm font-medium">Report Bug</div>
+  //                     <div className="text-xs text-muted-foreground">Help us improve SpeedPress</div>
+  //                   </div>
+  //                 </button>
+  //                 <button className="w-full flex items-center gap-3 p-3 rounded-lg hover:bg-accent transition-colors text-left">
+  //                   <div className="w-8 h-8 bg-pink-100 rounded-lg flex items-center justify-center">
+  //                     <span className="text-pink-600 text-xs">💡</span>
+  //                   </div>
+  //                   <div>
+  //                     <div className="text-sm font-medium">Feature Request</div>
+  //                     <div className="text-xs text-muted-foreground">Suggest new features</div>
+  //                   </div>
+  //                 </button>
+  //               </div>
+  //             </div>
+  //           </div>
+  //         </div>
+  //       </div>
+  //     </div>
+  //   );
+  // }
 
   // Special handling for license-updates
-  if (activeTab === 'license-updates') {
-    return (
-      <div className="h-full flex flex-col">
-        <ContentHeader 
-          activeTab={activeTab} 
-          addons={addons}
-          onOpenSidebar={onOpenSidebar} 
-          onAddonSelect={handleAddonSelect}
-        />
-        <div className="flex-1 p-3 md:p-6 lg:p-8 overflow-auto">
-          <div className="max-w-6xl mx-auto">
-            <div className="mb-8">
-              <h1 className="text-2xl font-semibold mb-2">{title}</h1>
-              <p className="text-muted-foreground">{description}</p>
-            </div>
+  // if (activeTab === 'license-updates') {
+  //   return (
+  //     <div className="h-full flex flex-col">
+  //       <ContentHeader 
+  //         activeTab={activeTab} 
+  //         addons={addons}
+  //         onOpenSidebar={onOpenSidebar} 
+  //         onAddonSelect={handleAddonSelect}
+  //       />
+  //       <div className="flex-1 p-3 md:p-6 lg:p-8 overflow-auto">
+  //         <div className="max-w-6xl mx-auto">
+  //           <div className="mb-8">
+  //             <h1 className="text-2xl font-semibold mb-2">{title}</h1>
+  //             <p className="text-muted-foreground">{description}</p>
+  //           </div>
 
-            {/* License Status Card */}
-            <div className="bg-gradient-to-r from-green-50 to-emerald-50 border border-green-200 rounded-lg p-6 mb-8 dark:from-green-950/20 dark:to-emerald-950/20 dark:border-green-800">
-              <div className="flex items-start justify-between">
-                <div className="flex-1">
-                  <div className="flex items-center gap-3 mb-4">
-                    <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center">
-                      <span className="text-green-600 text-lg">✓</span>
-                    </div>
-                    <div>
-                      <h3 className="text-lg font-semibold text-green-800 dark:text-green-200">License Active</h3>
-                      <p className="text-sm text-green-700 dark:text-green-300">Your SpeedPress Pro license is valid and up to date</p>
-                    </div>
-                  </div>
-                  <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-                    <div>
-                      <div className="text-sm text-green-700 dark:text-green-300">License Type</div>
-                      <div className="font-semibold text-green-800 dark:text-green-200">Professional</div>
-                    </div>
-                    <div>
-                      <div className="text-sm text-green-700 dark:text-green-300">Sites Used</div>
-                      <div className="font-semibold text-green-800 dark:text-green-200">1 / 5</div>
-                    </div>
-                    <div>
-                      <div className="text-sm text-green-700 dark:text-green-300">Expires</div>
-                      <div className="font-semibold text-green-800 dark:text-green-200">March 15, 2025</div>
-                    </div>
-                  </div>
-                </div>
-                <div className="flex gap-3">
-                  <button className="bg-white/80 hover:bg-white text-green-800 px-4 py-2 rounded-lg transition-colors text-sm">
-                    Renew License
-                  </button>
-                  <button className="bg-white/80 hover:bg-white text-green-800 px-4 py-2 rounded-lg transition-colors text-sm">
-                    Upgrade Plan
-                  </button>
-                </div>
-              </div>
-            </div>
+  //           {/* License Status Card */}
+  //           <div className="bg-gradient-to-r from-green-50 to-emerald-50 border border-green-200 rounded-lg p-6 mb-8 dark:from-green-950/20 dark:to-emerald-950/20 dark:border-green-800">
+  //             <div className="flex items-start justify-between">
+  //               <div className="flex-1">
+  //                 <div className="flex items-center gap-3 mb-4">
+  //                   <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center">
+  //                     <span className="text-green-600 text-lg">✓</span>
+  //                   </div>
+  //                   <div>
+  //                     <h3 className="text-lg font-semibold text-green-800 dark:text-green-200">License Active</h3>
+  //                     <p className="text-sm text-green-700 dark:text-green-300">Your SpeedPress Pro license is valid and up to date</p>
+  //                   </div>
+  //                 </div>
+  //                 <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+  //                   <div>
+  //                     <div className="text-sm text-green-700 dark:text-green-300">License Type</div>
+  //                     <div className="font-semibold text-green-800 dark:text-green-200">Professional</div>
+  //                   </div>
+  //                   <div>
+  //                     <div className="text-sm text-green-700 dark:text-green-300">Sites Used</div>
+  //                     <div className="font-semibold text-green-800 dark:text-green-200">1 / 5</div>
+  //                   </div>
+  //                   <div>
+  //                     <div className="text-sm text-green-700 dark:text-green-300">Expires</div>
+  //                     <div className="font-semibold text-green-800 dark:text-green-200">March 15, 2025</div>
+  //                   </div>
+  //                 </div>
+  //               </div>
+  //               <div className="flex gap-3">
+  //                 <button className="bg-white/80 hover:bg-white text-green-800 px-4 py-2 rounded-lg transition-colors text-sm">
+  //                   Renew License
+  //                 </button>
+  //                 <button className="bg-white/80 hover:bg-white text-green-800 px-4 py-2 rounded-lg transition-colors text-sm">
+  //                   Upgrade Plan
+  //                 </button>
+  //               </div>
+  //             </div>
+  //           </div>
 
-            {/* License Management */}
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
-              {/* License Key Management */}
-              <div className="bg-card border border-border rounded-lg p-6">
-                <h3 className="font-medium mb-4 flex items-center gap-2" style={{display:"flex"}}>
-                  <div className="w-2 h-2 bg-blue-500 rounded-full"></div>
-                  License Key Management
-                </h3>
-                <div className="space-y-4">
-                  <div>
-                    <label className="text-sm font-medium mb-2 block">License Key</label>
-                    <div className="flex gap-2">
-                      <input 
-                        type="password" 
-                        value="SP-PRO-XXXX-XXXX-XXXX-XXXX"
-                        className="flex-1 px-3 py-2 bg-input-background border border-border rounded-lg text-sm"
-                        disabled
-                      />
-                      <button className="px-3 py-2 bg-secondary hover:bg-secondary/80 text-secondary-foreground rounded-lg text-sm transition-colors">
-                        Show
-                      </button>
-                      <button className="px-3 py-2 bg-secondary hover:bg-secondary/80 text-secondary-foreground rounded-lg text-sm transition-colors">
-                        Copy
-                      </button>
-                    </div>
-                  </div>
-                  <div>
-                    <button className="w-full bg-primary hover:bg-primary/90 text-primary-foreground px-4 py-2 rounded-lg transition-colors text-sm">
-                      Refresh License Status
-                    </button>
-                  </div>
-                  <div className="pt-4 border-t border-border">
-                    <h4 className="font-medium text-sm mb-3">License Information</h4>
-                    <div className="space-y-2 text-sm">
-                      <div className="flex justify-between">
-                        <span className="text-muted-foreground">Customer Email:</span>
-                        <span>user@example.com</span>
-                      </div>
-                      <div className="flex justify-between">
-                        <span className="text-muted-foreground">Purchase Date:</span>
-                        <span>March 15, 2024</span>
-                      </div>
-                      <div className="flex justify-between">
-                        <span className="text-muted-foreground">Order ID:</span>
-                        <span>#SP-2024-1234</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+  //           {/* License Management */}
+  //           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
+  //             {/* License Key Management */}
+  //             <div className="bg-card border border-border rounded-lg p-6">
+  //               <h3 className="font-medium mb-4 flex items-center gap-2" style={{display:"flex"}}>
+  //                 <div className="w-2 h-2 bg-blue-500 rounded-full"></div>
+  //                 License Key Management
+  //               </h3>
+  //               <div className="space-y-4">
+  //                 <div>
+  //                   <label className="text-sm font-medium mb-2 block">License Key</label>
+  //                   <div className="flex gap-2">
+  //                     <input 
+  //                       type="password" 
+  //                       value="SP-PRO-XXXX-XXXX-XXXX-XXXX"
+  //                       className="flex-1 px-3 py-2 bg-input-background border border-border rounded-lg text-sm"
+  //                       disabled
+  //                     />
+  //                     <button className="px-3 py-2 bg-secondary hover:bg-secondary/80 text-secondary-foreground rounded-lg text-sm transition-colors">
+  //                       Show
+  //                     </button>
+  //                     <button className="px-3 py-2 bg-secondary hover:bg-secondary/80 text-secondary-foreground rounded-lg text-sm transition-colors">
+  //                       Copy
+  //                     </button>
+  //                   </div>
+  //                 </div>
+  //                 <div>
+  //                   <button className="w-full bg-primary hover:bg-primary/90 text-primary-foreground px-4 py-2 rounded-lg transition-colors text-sm">
+  //                     Refresh License Status
+  //                   </button>
+  //                 </div>
+  //                 <div className="pt-4 border-t border-border">
+  //                   <h4 className="font-medium text-sm mb-3">License Information</h4>
+  //                   <div className="space-y-2 text-sm">
+  //                     <div className="flex justify-between">
+  //                       <span className="text-muted-foreground">Customer Email:</span>
+  //                       <span>user@example.com</span>
+  //                     </div>
+  //                     <div className="flex justify-between">
+  //                       <span className="text-muted-foreground">Purchase Date:</span>
+  //                       <span>March 15, 2024</span>
+  //                     </div>
+  //                     <div className="flex justify-between">
+  //                       <span className="text-muted-foreground">Order ID:</span>
+  //                       <span>#SP-2024-1234</span>
+  //                     </div>
+  //                   </div>
+  //                 </div>
+  //               </div>
+  //             </div>
 
-              {/* Multi-Site Management */}
-              <div className="bg-card border border-border rounded-lg p-6">
-                <h3 className="font-medium mb-4 flex items-center gap-2" style={{display:"flex"}}>
-                  <div className="w-2 h-2 bg-purple-500 rounded-full"></div>
-                  Multi-Site Management
-                </h3>
-                <div className="space-y-4">
-                  <div className="flex items-center justify-between p-3 bg-accent rounded-lg">
-                    <div>
-                      <div className="font-medium text-sm">Current Site</div>
-                      <div className="text-xs text-muted-foreground">mystore.com</div>
-                    </div>
-                    <span className="text-xs bg-green-100 text-green-800 px-2 py-1 rounded dark:bg-green-900 dark:text-green-100">Active</span>
-                  </div>
+  //             {/* Multi-Site Management */}
+  //             <div className="bg-card border border-border rounded-lg p-6">
+  //               <h3 className="font-medium mb-4 flex items-center gap-2" style={{display:"flex"}}>
+  //                 <div className="w-2 h-2 bg-purple-500 rounded-full"></div>
+  //                 Multi-Site Management
+  //               </h3>
+  //               <div className="space-y-4">
+  //                 <div className="flex items-center justify-between p-3 bg-accent rounded-lg">
+  //                   <div>
+  //                     <div className="font-medium text-sm">Current Site</div>
+  //                     <div className="text-xs text-muted-foreground">mystore.com</div>
+  //                   </div>
+  //                   <span className="text-xs bg-green-100 text-green-800 px-2 py-1 rounded dark:bg-green-900 dark:text-green-100">Active</span>
+  //                 </div>
                   
-                  <div className="space-y-2">
-                    <div className="text-sm font-medium">Available Sites (4 remaining)</div>
-                    <div className="text-xs text-muted-foreground">
-                      You can activate SpeedPress on 4 more websites with your Professional license.
-                    </div>
-                  </div>
+  //                 <div className="space-y-2">
+  //                   <div className="text-sm font-medium">Available Sites (4 remaining)</div>
+  //                   <div className="text-xs text-muted-foreground">
+  //                     You can activate SpeedPress on 4 more websites with your Professional license.
+  //                   </div>
+  //                 </div>
                   
-                  <div className="space-y-2">
-                    <input 
-                      type="url" 
-                      placeholder="https://newsite.com"
-                      className="w-full px-3 py-2 bg-input-background border border-border rounded-lg text-sm"
-                    />
-                    <button className="w-full bg-purple-600 hover:bg-purple-700 text-white px-4 py-2 rounded-lg transition-colors text-sm">
-                      Activate on New Site
-                    </button>
-                  </div>
+  //                 <div className="space-y-2">
+  //                   <input 
+  //                     type="url" 
+  //                     placeholder="https://newsite.com"
+  //                     className="w-full px-3 py-2 bg-input-background border border-border rounded-lg text-sm"
+  //                   />
+  //                   <button className="w-full bg-purple-600 hover:bg-purple-700 text-white px-4 py-2 rounded-lg transition-colors text-sm">
+  //                     Activate on New Site
+  //                   </button>
+  //                 </div>
                   
-                  <div className="pt-4 border-t border-border">
-                    <button className="text-sm text-blue-600 hover:underline">
-                      View All Licensed Sites
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
+  //                 <div className="pt-4 border-t border-border">
+  //                   <button className="text-sm text-blue-600 hover:underline">
+  //                     View All Licensed Sites
+  //                   </button>
+  //                 </div>
+  //               </div>
+  //             </div>
+  //           </div>
 
-            {/* Update Management */}
-            <div className="bg-card border border-border rounded-lg p-6 mb-8">
-              <h3 className="font-medium mb-6 flex items-center gap-2" style={{display:"flex"}}> 
-                <div className="w-2 h-2 bg-orange-500 rounded-full"></div>
-                Update Management
-              </h3>
+  //           {/* Update Management */}
+  //           <div className="bg-card border border-border rounded-lg p-6 mb-8">
+  //             <h3 className="font-medium mb-6 flex items-center gap-2" style={{display:"flex"}}> 
+  //               <div className="w-2 h-2 bg-orange-500 rounded-full"></div>
+  //               Update Management
+  //             </h3>
               
-              <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-                {/* Current Version & Updates */}
-                <div>
-                  <h4 className="font-medium text-sm mb-4">Current Version</h4>
-                  <div className="space-y-4">
-                    <div className="flex items-center justify-between p-4 bg-accent rounded-lg">
-                      <div>
-                        <div className="font-medium">SpeedPress Pro</div>
-                        <div className="text-sm text-muted-foreground">Version 2.1.4</div>
-                      </div>
-                      <span className="text-xs bg-green-100 text-green-800 px-2 py-1 rounded dark:bg-green-900 dark:text-green-100">Latest</span>
-                    </div>
+  //             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+  //               {/* Current Version & Updates */}
+  //               <div>
+  //                 <h4 className="font-medium text-sm mb-4">Current Version</h4>
+  //                 <div className="space-y-4">
+  //                   <div className="flex items-center justify-between p-4 bg-accent rounded-lg">
+  //                     <div>
+  //                       <div className="font-medium">SpeedPress Pro</div>
+  //                       <div className="text-sm text-muted-foreground">Version 2.1.4</div>
+  //                     </div>
+  //                     <span className="text-xs bg-green-100 text-green-800 px-2 py-1 rounded dark:bg-green-900 dark:text-green-100">Latest</span>
+  //                   </div>
                     
-                    <div className="p-4 bg-blue-50 border border-blue-200 rounded-lg dark:bg-blue-950/20 dark:border-blue-800">
-                      <div className="flex items-center gap-2 mb-2">
-                        <span className="text-blue-600">📦</span>
-                        <span className="font-medium text-sm text-blue-800 dark:text-blue-200">Update Available</span>
-                      </div>
-                      <div className="text-sm text-blue-700 dark:text-blue-300 mb-3">
-                        Version 2.1.5 is now available with bug fixes and performance improvements.
-                      </div>
-                      <button className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg text-sm transition-colors">
-                        Update Now
-                      </button>
-                    </div>
-                  </div>
-                </div>
+  //                   <div className="p-4 bg-blue-50 border border-blue-200 rounded-lg dark:bg-blue-950/20 dark:border-blue-800">
+  //                     <div className="flex items-center gap-2 mb-2">
+  //                       <span className="text-blue-600">📦</span>
+  //                       <span className="font-medium text-sm text-blue-800 dark:text-blue-200">Update Available</span>
+  //                     </div>
+  //                     <div className="text-sm text-blue-700 dark:text-blue-300 mb-3">
+  //                       Version 2.1.5 is now available with bug fixes and performance improvements.
+  //                     </div>
+  //                     <button className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg text-sm transition-colors">
+  //                       Update Now
+  //                     </button>
+  //                   </div>
+  //                 </div>
+  //               </div>
                 
-                {/* Auto Update Settings */}
-                <div>
-                  <h4 className="font-medium text-sm mb-4">Auto-Update Settings</h4>
-                  <div className="space-y-4">
-                    <div className="flex items-center justify-between p-3 border border-border rounded-lg">
-                      <div>
-                        <div className="text-sm font-medium">Automatic Updates</div>
-                        <div className="text-xs text-muted-foreground">Update plugin automatically when new versions are released</div>
-                      </div>
-                      <input type="checkbox" className="w-4 h-4" defaultChecked />
-                    </div>
+  //               {/* Auto Update Settings */}
+  //               <div>
+  //                 <h4 className="font-medium text-sm mb-4">Auto-Update Settings</h4>
+  //                 <div className="space-y-4">
+  //                   <div className="flex items-center justify-between p-3 border border-border rounded-lg">
+  //                     <div>
+  //                       <div className="text-sm font-medium">Automatic Updates</div>
+  //                       <div className="text-xs text-muted-foreground">Update plugin automatically when new versions are released</div>
+  //                     </div>
+  //                     <input type="checkbox" className="w-4 h-4" defaultChecked />
+  //                   </div>
                     
-                    <div className="flex items-center justify-between p-3 border border-border rounded-lg">
-                      <div>
-                        <div className="text-sm font-medium">Beta Updates</div>
-                        <div className="text-xs text-muted-foreground">Receive early access to beta versions</div>
-                      </div>
-                      <input type="checkbox" className="w-4 h-4" />
-                    </div>
+  //                   <div className="flex items-center justify-between p-3 border border-border rounded-lg">
+  //                     <div>
+  //                       <div className="text-sm font-medium">Beta Updates</div>
+  //                       <div className="text-xs text-muted-foreground">Receive early access to beta versions</div>
+  //                     </div>
+  //                     <input type="checkbox" className="w-4 h-4" />
+  //                   </div>
                     
-                    <div className="flex items-center justify-between p-3 border border-border rounded-lg">
-                      <div>
-                        <div className="text-sm font-medium">Update Notifications</div>
-                        <div className="text-xs text-muted-foreground">Email notifications for available updates</div>
-                      </div>
-                      <input type="checkbox" className="w-4 h-4" defaultChecked />
-                    </div>
+  //                   <div className="flex items-center justify-between p-3 border border-border rounded-lg">
+  //                     <div>
+  //                       <div className="text-sm font-medium">Update Notifications</div>
+  //                       <div className="text-xs text-muted-foreground">Email notifications for available updates</div>
+  //                     </div>
+  //                     <input type="checkbox" className="w-4 h-4" defaultChecked />
+  //                   </div>
                     
-                    <div className="flex items-center justify-between p-3 border border-border rounded-lg">
-                      <div>
-                        <div className="text-sm font-medium">Backup Before Update</div>
-                        <div className="text-xs text-muted-foreground">Create automatic backup before updating</div>
-                      </div>
-                      <input type="checkbox" className="w-4 h-4" defaultChecked />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+  //                   <div className="flex items-center justify-between p-3 border border-border rounded-lg">
+  //                     <div>
+  //                       <div className="text-sm font-medium">Backup Before Update</div>
+  //                       <div className="text-xs text-muted-foreground">Create automatic backup before updating</div>
+  //                     </div>
+  //                     <input type="checkbox" className="w-4 h-4" defaultChecked />
+  //                   </div>
+  //                 </div>
+  //               </div>
+  //             </div>
+  //           </div>
 
-            {/* Version History */}
-            <div className="bg-card border border-border rounded-lg p-6 mb-8">
-              <h3 className="font-medium mb-4 flex items-center gap-2" style={{display:"flex"}}>
-                <div className="w-2 h-2 bg-indigo-500 rounded-full"></div>
-                Version History
-              </h3>
-              <div className="space-y-4">
-                <div className="border-l-4 border-blue-500 pl-4">
-                  <div className="flex items-center justify-between">
-                    <div className="font-medium text-sm">Version 2.1.4 (Current)</div>
-                    <div className="text-xs text-muted-foreground">Released 3 days ago</div>
-                  </div>
-                  <div className="text-sm text-muted-foreground mt-1">
-                    Added advanced product filtering, improved checkout flow, enhanced analytics dashboard
-                  </div>
-                </div>
+  //           {/* Version History */}
+  //           <div className="bg-card border border-border rounded-lg p-6 mb-8">
+  //             <h3 className="font-medium mb-4 flex items-center gap-2" style={{display:"flex"}}>
+  //               <div className="w-2 h-2 bg-indigo-500 rounded-full"></div>
+  //               Version History
+  //             </h3>
+  //             <div className="space-y-4">
+  //               <div className="border-l-4 border-blue-500 pl-4">
+  //                 <div className="flex items-center justify-between">
+  //                   <div className="font-medium text-sm">Version 2.1.4 (Current)</div>
+  //                   <div className="text-xs text-muted-foreground">Released 3 days ago</div>
+  //                 </div>
+  //                 <div className="text-sm text-muted-foreground mt-1">
+  //                   Added advanced product filtering, improved checkout flow, enhanced analytics dashboard
+  //                 </div>
+  //               </div>
                 
-                <div className="border-l-4 border-green-500 pl-4">
-                  <div className="flex items-center justify-between">
-                    <div className="font-medium text-sm">Version 2.1.3</div>
-                    <div className="text-xs text-muted-foreground">Released 2 weeks ago</div>
-                  </div>
-                  <div className="text-sm text-muted-foreground mt-1">
-                    Fixed cart abandonment email templates, improved mobile responsiveness
-                  </div>
-                </div>
+  //               <div className="border-l-4 border-green-500 pl-4">
+  //                 <div className="flex items-center justify-between">
+  //                   <div className="font-medium text-sm">Version 2.1.3</div>
+  //                   <div className="text-xs text-muted-foreground">Released 2 weeks ago</div>
+  //                 </div>
+  //                 <div className="text-sm text-muted-foreground mt-1">
+  //                   Fixed cart abandonment email templates, improved mobile responsiveness
+  //                 </div>
+  //               </div>
                 
-                <div className="border-l-4 border-purple-500 pl-4">
-                  <div className="flex items-center justify-between">
-                    <div className="font-medium text-sm">Version 2.1.2</div>
-                    <div className="text-xs text-muted-foreground">Released 1 month ago</div>
-                  </div>
-                  <div className="text-sm text-muted-foreground mt-1">
-                    New flash sales timer addon, performance optimizations, WooCommerce 8.4 compatibility
-                  </div>
-                </div>
+  //               <div className="border-l-4 border-purple-500 pl-4">
+  //                 <div className="flex items-center justify-between">
+  //                   <div className="font-medium text-sm">Version 2.1.2</div>
+  //                   <div className="text-xs text-muted-foreground">Released 1 month ago</div>
+  //                 </div>
+  //                 <div className="text-sm text-muted-foreground mt-1">
+  //                   New flash sales timer addon, performance optimizations, WooCommerce 8.4 compatibility
+  //                 </div>
+  //               </div>
                 
-                <div className="border-l-4 border-orange-500 pl-4">
-                  <div className="flex items-center justify-between">
-                    <div className="font-medium text-sm">Version 2.1.1</div>
-                    <div className="text-xs text-muted-foreground">Released 2 months ago</div>
-                  </div>
-                  <div className="text-sm text-muted-foreground mt-1">
-                    Security updates, bug fixes for product bundles, improved compatibility
-                  </div>
-                </div>
+  //               <div className="border-l-4 border-orange-500 pl-4">
+  //                 <div className="flex items-center justify-between">
+  //                   <div className="font-medium text-sm">Version 2.1.1</div>
+  //                   <div className="text-xs text-muted-foreground">Released 2 months ago</div>
+  //                 </div>
+  //                 <div className="text-sm text-muted-foreground mt-1">
+  //                   Security updates, bug fixes for product bundles, improved compatibility
+  //                 </div>
+  //               </div>
                 
-                <button className="text-sm text-blue-600 hover:underline">
-                  View Complete Changelog
-                </button>
-              </div>
-            </div>
+  //               <button className="text-sm text-blue-600 hover:underline">
+  //                 View Complete Changelog
+  //               </button>
+  //             </div>
+  //           </div>
 
-            {/* Support & Billing */}
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-              {/* Support Entitlements */}
-              <div className="bg-card border border-border rounded-lg p-6">
-                <h3 className="font-medium mb-4 flex items-center gap-2" style={{display:"flex"}}>
-                  <div className="w-2 h-2 bg-green-500 rounded-full"></div>
-                  Support Entitlements
-                </h3>
-                <div className="space-y-3">
-                  <div className="flex items-center justify-between">
-                    <span className="text-sm">Priority Email Support</span>
-                    <span className="text-xs bg-green-100 text-green-800 px-2 py-1 rounded dark:bg-green-900 dark:text-green-100">Included</span>
-                  </div>
-                  <div className="flex items-center justify-between">
-                    <span className="text-sm">Live Chat Support</span>
-                    <span className="text-xs bg-green-100 text-green-800 px-2 py-1 rounded dark:bg-green-900 dark:text-green-100">Included</span>
-                  </div>
-                  <div className="flex items-center justify-between">
-                    <span className="text-sm">Installation Support</span>
-                    <span className="text-xs bg-green-100 text-green-800 px-2 py-1 rounded dark:bg-green-900 dark:text-green-100">Included</span>
-                  </div>
-                  <div className="flex items-center justify-between">
-                    <span className="text-sm">Custom Development</span>
-                    <span className="text-xs bg-blue-100 text-blue-800 px-2 py-1 rounded dark:bg-blue-900 dark:text-blue-100">Available</span>
-                  </div>
-                  <div className="pt-3 border-t border-border">
-                    <button className="w-full bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-lg transition-colors text-sm">
-                      Contact Support
-                    </button>
-                  </div>
-                </div>
-              </div>
+  //           {/* Support & Billing */}
+  //           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+  //             {/* Support Entitlements */}
+  //             <div className="bg-card border border-border rounded-lg p-6">
+  //               <h3 className="font-medium mb-4 flex items-center gap-2" style={{display:"flex"}}>
+  //                 <div className="w-2 h-2 bg-green-500 rounded-full"></div>
+  //                 Support Entitlements
+  //               </h3>
+  //               <div className="space-y-3">
+  //                 <div className="flex items-center justify-between">
+  //                   <span className="text-sm">Priority Email Support</span>
+  //                   <span className="text-xs bg-green-100 text-green-800 px-2 py-1 rounded dark:bg-green-900 dark:text-green-100">Included</span>
+  //                 </div>
+  //                 <div className="flex items-center justify-between">
+  //                   <span className="text-sm">Live Chat Support</span>
+  //                   <span className="text-xs bg-green-100 text-green-800 px-2 py-1 rounded dark:bg-green-900 dark:text-green-100">Included</span>
+  //                 </div>
+  //                 <div className="flex items-center justify-between">
+  //                   <span className="text-sm">Installation Support</span>
+  //                   <span className="text-xs bg-green-100 text-green-800 px-2 py-1 rounded dark:bg-green-900 dark:text-green-100">Included</span>
+  //                 </div>
+  //                 <div className="flex items-center justify-between">
+  //                   <span className="text-sm">Custom Development</span>
+  //                   <span className="text-xs bg-blue-100 text-blue-800 px-2 py-1 rounded dark:bg-blue-900 dark:text-blue-100">Available</span>
+  //                 </div>
+  //                 <div className="pt-3 border-t border-border">
+  //                   <button className="w-full bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-lg transition-colors text-sm">
+  //                     Contact Support
+  //                   </button>
+  //                 </div>
+  //               </div>
+  //             </div>
 
-              {/* Billing & Account */}
-              <div className="bg-card border border-border rounded-lg p-6">
-                <h3 className="font-medium mb-4 flex items-center gap-2" style={{display:"flex"}}>
-                  <div className="w-2 h-2 bg-orange-500 rounded-full"></div>
-                  Billing & Account
-                </h3>
-                <div className="space-y-4">
-                  <div className="space-y-2">
-                    <div className="flex justify-between text-sm">
-                      <span className="text-muted-foreground">Next Billing Date:</span>
-                      <span>March 15, 2025</span>
-                    </div>
-                    <div className="flex justify-between text-sm">
-                      <span className="text-muted-foreground">Amount:</span>
-                      <span>$79.00 USD</span>
-                    </div>
-                    <div className="flex justify-between text-sm">
-                      <span className="text-muted-foreground">Payment Method:</span>
-                      <span>•••• 4242</span>
-                    </div>
-                  </div>
+  //             {/* Billing & Account */}
+  //             <div className="bg-card border border-border rounded-lg p-6">
+  //               <h3 className="font-medium mb-4 flex items-center gap-2" style={{display:"flex"}}>
+  //                 <div className="w-2 h-2 bg-orange-500 rounded-full"></div>
+  //                 Billing & Account
+  //               </h3>
+  //               <div className="space-y-4">
+  //                 <div className="space-y-2">
+  //                   <div className="flex justify-between text-sm">
+  //                     <span className="text-muted-foreground">Next Billing Date:</span>
+  //                     <span>March 15, 2025</span>
+  //                   </div>
+  //                   <div className="flex justify-between text-sm">
+  //                     <span className="text-muted-foreground">Amount:</span>
+  //                     <span>$79.00 USD</span>
+  //                   </div>
+  //                   <div className="flex justify-between text-sm">
+  //                     <span className="text-muted-foreground">Payment Method:</span>
+  //                     <span>•••• 4242</span>
+  //                   </div>
+  //                 </div>
                   
-                  <div className="grid grid-cols-2 gap-3">
-                    <button className="bg-secondary hover:bg-secondary/80 text-secondary-foreground px-4 py-2 rounded-lg transition-colors text-sm">
-                      Update Payment
-                    </button>
-                    <button className="bg-secondary hover:bg-secondary/80 text-secondary-foreground px-4 py-2 rounded-lg transition-colors text-sm">
-                      Download Invoice
-                    </button>
-                  </div>
+  //                 <div className="grid grid-cols-2 gap-3">
+  //                   <button className="bg-secondary hover:bg-secondary/80 text-secondary-foreground px-4 py-2 rounded-lg transition-colors text-sm">
+  //                     Update Payment
+  //                   </button>
+  //                   <button className="bg-secondary hover:bg-secondary/80 text-secondary-foreground px-4 py-2 rounded-lg transition-colors text-sm">
+  //                     Download Invoice
+  //                   </button>
+  //                 </div>
                   
-                  <div className="pt-3 border-t border-border">
-                    <button className="text-sm text-blue-600 hover:underline">
-                      Manage Billing in Customer Portal
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    );
-  }
+  //                 <div className="pt-3 border-t border-border">
+  //                   <button className="text-sm text-blue-600 hover:underline">
+  //                     Manage Billing in Customer Portal
+  //                   </button>
+  //                 </div>
+  //               </div>
+  //             </div>
+  //           </div>
+  //         </div>
+  //       </div>
+  //     </div>
+  //   );
+  // }
 
   // Special handling for custom development portal
-  if (activeTab === 'custom-requests') {
-    return (
-      <div className="h-full flex flex-col">
-        <ContentHeader 
-          activeTab={activeTab} 
-          addons={addons}
-          onOpenSidebar={onOpenSidebar} 
-          onAddonSelect={handleAddonSelect}
-        />
-        <div className="flex-1 p-3 md:p-6 lg:p-8 overflow-auto">
-          <div className="max-w-6xl mx-auto">
-            <CustomDevelopmentPortal />
-          </div>
-        </div>
-      </div>
-    );
-  }
+  // if (activeTab === 'custom-requests') {
+  //   return (
+  //     <div className="h-full flex flex-col">
+  //       <ContentHeader 
+  //         activeTab={activeTab} 
+  //         addons={addons}
+  //         onOpenSidebar={onOpenSidebar} 
+  //         onAddonSelect={handleAddonSelect}
+  //       />
+  //       <div className="flex-1 p-3 md:p-6 lg:p-8 overflow-auto">
+  //         <div className="max-w-6xl mx-auto">
+  //           <CustomDevelopmentPortal />
+  //         </div>
+  //       </div>
+  //     </div>
+  //   );
+  // }
 
   return (
     <div className="h-full flex flex-col">

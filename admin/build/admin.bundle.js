@@ -2605,25 +2605,21 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _ui_badge__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./ui/badge */ "./admin/src/components/ui/badge.tsx");
 /* harmony import */ var _ui_button__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./ui/button */ "./admin/src/components/ui/button.tsx");
 /* harmony import */ var lucide_react__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! lucide-react */ "./node_modules/lucide-react/dist/esm/icons/chart-column.js");
-/* harmony import */ var lucide_react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! lucide-react */ "./node_modules/lucide-react/dist/esm/icons/circle-help.js");
-/* harmony import */ var lucide_react__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! lucide-react */ "./node_modules/lucide-react/dist/esm/icons/code-xml.js");
-/* harmony import */ var lucide_react__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! lucide-react */ "./node_modules/lucide-react/dist/esm/icons/house.js");
-/* harmony import */ var lucide_react__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! lucide-react */ "./node_modules/lucide-react/dist/esm/icons/gift.js");
-/* harmony import */ var lucide_react__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! lucide-react */ "./node_modules/lucide-react/dist/esm/icons/layout-dashboard.js");
-/* harmony import */ var lucide_react__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! lucide-react */ "./node_modules/lucide-react/dist/esm/icons/package-2.js");
-/* harmony import */ var lucide_react__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! lucide-react */ "./node_modules/lucide-react/dist/esm/icons/package.js");
-/* harmony import */ var lucide_react__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! lucide-react */ "./node_modules/lucide-react/dist/esm/icons/palette.js");
-/* harmony import */ var lucide_react__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! lucide-react */ "./node_modules/lucide-react/dist/esm/icons/search.js");
-/* harmony import */ var lucide_react__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! lucide-react */ "./node_modules/lucide-react/dist/esm/icons/settings.js");
-/* harmony import */ var lucide_react__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! lucide-react */ "./node_modules/lucide-react/dist/esm/icons/shield.js");
-/* harmony import */ var lucide_react__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! lucide-react */ "./node_modules/lucide-react/dist/esm/icons/shopping-cart.js");
-/* harmony import */ var lucide_react__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! lucide-react */ "./node_modules/lucide-react/dist/esm/icons/smartphone.js");
-/* harmony import */ var lucide_react__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! lucide-react */ "./node_modules/lucide-react/dist/esm/icons/trending-up.js");
-/* harmony import */ var lucide_react__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! lucide-react */ "./node_modules/lucide-react/dist/esm/icons/truck.js");
-/* harmony import */ var lucide_react__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! lucide-react */ "./node_modules/lucide-react/dist/esm/icons/users.js");
-/* harmony import */ var lucide_react__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! lucide-react */ "./node_modules/lucide-react/dist/esm/icons/workflow.js");
-/* harmony import */ var lucide_react__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! lucide-react */ "./node_modules/lucide-react/dist/esm/icons/x.js");
-/* harmony import */ var lucide_react__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! lucide-react */ "./node_modules/lucide-react/dist/esm/icons/zap.js");
+/* harmony import */ var lucide_react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! lucide-react */ "./node_modules/lucide-react/dist/esm/icons/house.js");
+/* harmony import */ var lucide_react__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! lucide-react */ "./node_modules/lucide-react/dist/esm/icons/layout-dashboard.js");
+/* harmony import */ var lucide_react__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! lucide-react */ "./node_modules/lucide-react/dist/esm/icons/package-2.js");
+/* harmony import */ var lucide_react__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! lucide-react */ "./node_modules/lucide-react/dist/esm/icons/package.js");
+/* harmony import */ var lucide_react__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! lucide-react */ "./node_modules/lucide-react/dist/esm/icons/palette.js");
+/* harmony import */ var lucide_react__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! lucide-react */ "./node_modules/lucide-react/dist/esm/icons/search.js");
+/* harmony import */ var lucide_react__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! lucide-react */ "./node_modules/lucide-react/dist/esm/icons/shield.js");
+/* harmony import */ var lucide_react__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! lucide-react */ "./node_modules/lucide-react/dist/esm/icons/shopping-cart.js");
+/* harmony import */ var lucide_react__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! lucide-react */ "./node_modules/lucide-react/dist/esm/icons/smartphone.js");
+/* harmony import */ var lucide_react__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! lucide-react */ "./node_modules/lucide-react/dist/esm/icons/trending-up.js");
+/* harmony import */ var lucide_react__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! lucide-react */ "./node_modules/lucide-react/dist/esm/icons/truck.js");
+/* harmony import */ var lucide_react__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! lucide-react */ "./node_modules/lucide-react/dist/esm/icons/users.js");
+/* harmony import */ var lucide_react__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! lucide-react */ "./node_modules/lucide-react/dist/esm/icons/workflow.js");
+/* harmony import */ var lucide_react__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! lucide-react */ "./node_modules/lucide-react/dist/esm/icons/x.js");
+/* harmony import */ var lucide_react__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! lucide-react */ "./node_modules/lucide-react/dist/esm/icons/zap.js");
 
 
 
@@ -2632,99 +2628,104 @@ __webpack_require__.r(__webpack_exports__);
 const tabs = [{
   id: "dashboard",
   label: "Dashboard",
-  icon: lucide_react__WEBPACK_IMPORTED_MODULE_9__["default"],
+  icon: lucide_react__WEBPACK_IMPORTED_MODULE_6__["default"],
   hasCount: false
 }, {
   id: "general-addons",
   label: "General Addons",
-  icon: lucide_react__WEBPACK_IMPORTED_MODULE_7__["default"],
+  icon: lucide_react__WEBPACK_IMPORTED_MODULE_5__["default"],
   hasCount: true
 }, {
   id: "product-addons",
   label: "Product Addons",
-  icon: lucide_react__WEBPACK_IMPORTED_MODULE_11__["default"],
+  icon: lucide_react__WEBPACK_IMPORTED_MODULE_8__["default"],
   hasCount: true
 }, {
   id: "cart-checkout-addons",
   label: "Cart & Checkout",
-  icon: lucide_react__WEBPACK_IMPORTED_MODULE_16__["default"],
+  icon: lucide_react__WEBPACK_IMPORTED_MODULE_12__["default"],
   hasCount: true
 }, {
   id: "shipping-payment",
   label: "Shipping & Payment",
-  icon: lucide_react__WEBPACK_IMPORTED_MODULE_19__["default"],
+  icon: lucide_react__WEBPACK_IMPORTED_MODULE_15__["default"],
   hasCount: true
 }, {
   id: "marketing-sales",
   label: "Marketing & Sales",
-  icon: lucide_react__WEBPACK_IMPORTED_MODULE_18__["default"],
+  icon: lucide_react__WEBPACK_IMPORTED_MODULE_14__["default"],
   hasCount: true
 }, {
   id: "seo-performance",
   label: "SEO & Performance",
-  icon: lucide_react__WEBPACK_IMPORTED_MODULE_13__["default"],
+  icon: lucide_react__WEBPACK_IMPORTED_MODULE_10__["default"],
   hasCount: true
 }, {
   id: "customer-management",
   label: "Customer Management",
-  icon: lucide_react__WEBPACK_IMPORTED_MODULE_20__["default"],
+  icon: lucide_react__WEBPACK_IMPORTED_MODULE_16__["default"],
   hasCount: true
 }, {
   id: "inventory-management",
   label: "Inventory Management",
-  icon: lucide_react__WEBPACK_IMPORTED_MODULE_10__["default"],
+  icon: lucide_react__WEBPACK_IMPORTED_MODULE_7__["default"],
   hasCount: true
 }, {
   id: "security-compliance",
   label: "Security & Compliance",
-  icon: lucide_react__WEBPACK_IMPORTED_MODULE_15__["default"],
+  icon: lucide_react__WEBPACK_IMPORTED_MODULE_11__["default"],
   hasCount: true
 }, {
   id: "integrations-api",
   label: "Integrations & API",
-  icon: lucide_react__WEBPACK_IMPORTED_MODULE_23__["default"],
+  icon: lucide_react__WEBPACK_IMPORTED_MODULE_19__["default"],
   hasCount: true
 }, {
   id: "content-design",
   label: "Content & Design",
-  icon: lucide_react__WEBPACK_IMPORTED_MODULE_12__["default"],
+  icon: lucide_react__WEBPACK_IMPORTED_MODULE_9__["default"],
   hasCount: true
 }, {
   id: "mobile-apps",
   label: "Mobile & Apps",
-  icon: lucide_react__WEBPACK_IMPORTED_MODULE_17__["default"],
+  icon: lucide_react__WEBPACK_IMPORTED_MODULE_13__["default"],
   hasCount: true
 }, {
   id: "automation-workflows",
   label: "Automation & Workflows",
-  icon: lucide_react__WEBPACK_IMPORTED_MODULE_21__["default"],
+  icon: lucide_react__WEBPACK_IMPORTED_MODULE_17__["default"],
   hasCount: true
 }, {
   id: "reports-analytics",
   label: "Reports & Analytics",
   icon: lucide_react__WEBPACK_IMPORTED_MODULE_4__["default"],
   hasCount: true
-}, {
-  id: "free-addons",
-  label: "Free Addons",
-  icon: lucide_react__WEBPACK_IMPORTED_MODULE_8__["default"],
-  hasCount: true
-}, {
-  id: "custom-requests",
-  label: "Custom Development",
-  icon: lucide_react__WEBPACK_IMPORTED_MODULE_6__["default"],
-  hasCount: false
-}, {
-  id: "license-updates",
-  label: "License & Updates",
-  icon: lucide_react__WEBPACK_IMPORTED_MODULE_14__["default"],
-  hasCount: false
-}, {
-  id: "help-docs",
-  label: "Help & Documentation",
-  icon: lucide_react__WEBPACK_IMPORTED_MODULE_5__["default"],
-  hasCount: false
-}];
+}
+// {
+//   id: "free-addons",
+//   label: "Free Addons",
+//   icon: Gift,
+//   hasCount: true,
+// },
+// {
+//   id: "custom-requests",
+//   label: "Custom Development",
+//   icon: Code2,
+//   hasCount: false,
+// },
+// {
+//   id: "license-updates",
+//   label: "License & Updates",
+//   icon: Settings,
+//   hasCount: false,
+// },
+// {
+//   id: "help-docs",
+//   label: "Help & Documentation",
+//   icon: HelpCircle,
+//   hasCount: false,
+// },
+];
 function AdminSidebar({
   activeTab,
   onTabChange,
@@ -2747,7 +2748,7 @@ function AdminSidebar({
           size: "icon",
           className: "absolute -top-2 -right-2 w-8 h-8",
           onClick: onClose,
-          children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_22__["default"], {
+          children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_18__["default"], {
             className: "w-4 h-4"
           })
         }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
@@ -2891,24 +2892,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _AddonCard__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./AddonCard */ "./admin/src/components/AddonCard.tsx");
 /* harmony import */ var _ContentHeader__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./ContentHeader */ "./admin/src/components/ContentHeader.tsx");
 /* harmony import */ var _AnimatedCounter__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./AnimatedCounter */ "./admin/src/components/AnimatedCounter.tsx");
-/* harmony import */ var _SmartRecommendations__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./SmartRecommendations */ "./admin/src/components/SmartRecommendations.tsx");
-/* harmony import */ var _CustomDevelopmentPortal__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./CustomDevelopmentPortal */ "./admin/src/components/CustomDevelopmentPortal.tsx");
-/* harmony import */ var _ui_badge__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./ui/badge */ "./admin/src/components/ui/badge.tsx");
-/* harmony import */ var _ui_button__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./ui/button */ "./admin/src/components/ui/button.tsx");
-/* harmony import */ var lucide_react__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! lucide-react */ "./node_modules/lucide-react/dist/esm/icons/circle-alert.js");
-/* harmony import */ var lucide_react__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! lucide-react */ "./node_modules/lucide-react/dist/esm/icons/circle-check-big.js");
-/* harmony import */ var lucide_react__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! lucide-react */ "./node_modules/lucide-react/dist/esm/icons/triangle-alert.js");
-/* harmony import */ var lucide_react__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! lucide-react */ "./node_modules/lucide-react/dist/esm/icons/bell.js");
-/* harmony import */ var lucide_react__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! lucide-react */ "./node_modules/lucide-react/dist/esm/icons/clock.js");
-/* harmony import */ var lucide_react__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! lucide-react */ "./node_modules/lucide-react/dist/esm/icons/download.js");
-/* harmony import */ var lucide_react__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! lucide-react */ "./node_modules/lucide-react/dist/esm/icons/info.js");
-/* harmony import */ var lucide_react__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! lucide-react */ "./node_modules/lucide-react/dist/esm/icons/refresh-cw.js");
-/* harmony import */ var lucide_react__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! lucide-react */ "./node_modules/lucide-react/dist/esm/icons/shield.js");
-/* harmony import */ var lucide_react__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! lucide-react */ "./node_modules/lucide-react/dist/esm/icons/star.js");
-/* harmony import */ var lucide_react__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! lucide-react */ "./node_modules/lucide-react/dist/esm/icons/trending-up.js");
-/* harmony import */ var lucide_react__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! lucide-react */ "./node_modules/lucide-react/dist/esm/icons/zap.js");
-
-
+/* harmony import */ var _ui_badge__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./ui/badge */ "./admin/src/components/ui/badge.tsx");
+/* harmony import */ var _ui_button__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./ui/button */ "./admin/src/components/ui/button.tsx");
+/* harmony import */ var lucide_react__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! lucide-react */ "./node_modules/lucide-react/dist/esm/icons/star.js");
 
 
 
@@ -3008,10 +2994,6 @@ function ContentArea({
               className: "text-sm md:text-base text-muted-foreground",
               children: description
             })]
-          }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_SmartRecommendations__WEBPACK_IMPORTED_MODULE_4__.SmartRecommendations, {
-            addons: addons,
-            onEnableAddon: onToggleAddon,
-            onTabChange: onTabChange
           }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
             className: "relative overflow-hidden bg-gradient-to-r from-blue-500 via-purple-600 to-indigo-700 rounded-lg md:rounded-xl p-4 md:p-8 text-white mb-6 md:mb-8",
             children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
@@ -3064,7 +3046,7 @@ function ContentArea({
                     className: "bg-white/10 backdrop-blur-sm rounded-lg p-3 md:p-4 text-center",
                     children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                       className: "flex items-center justify-center gap-1 mb-1",
-                      children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_17__["default"], {
+                      children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_6__["default"], {
                         className: "w-4 md:w-5 h-4 md:h-5 fill-current text-yellow-300"
                       }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_AnimatedCounter__WEBPACK_IMPORTED_MODULE_3__.AnimatedCounter, {
                         from: 4.5,
@@ -3123,2457 +3105,755 @@ function ContentArea({
                 })
               })]
             })]
-          }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-            id: "dashboard-stats",
-            className: "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6 mb-8",
-            children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-              className: "dashboard-stat-card bg-card border border-border rounded-lg p-4 md:p-6 cursor-pointer",
-              children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                className: "flex items-center justify-between mb-2",
-                children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                  className: "text-xl md:text-2xl font-semibold text-blue-600",
-                  children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_AnimatedCounter__WEBPACK_IMPORTED_MODULE_3__.AnimatedCounter, {
-                    from: enabledCount - 5,
-                    to: enabledCount + dashboardVisitCount,
-                    duration: 1500,
-                    className: "text-xl md:text-2xl font-semibold text-blue-600"
-                  }), "/", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_AnimatedCounter__WEBPACK_IMPORTED_MODULE_3__.AnimatedCounter, {
-                    from: totalCount - 10,
-                    to: totalCount + dashboardVisitCount,
-                    duration: 1500,
-                    className: "text-xl md:text-2xl font-semibold text-blue-600"
-                  })]
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_9__["default"], {
-                  className: "w-5 h-5 text-green-500"
-                })]
-              }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                className: "text-xs md:text-sm text-muted-foreground",
-                children: "Active Addons"
-              })]
-            }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-              className: "dashboard-stat-card bg-card border border-border rounded-lg p-4 md:p-6 cursor-pointer",
-              children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                className: "flex items-center justify-between mb-2",
-                children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_AnimatedCounter__WEBPACK_IMPORTED_MODULE_3__.AnimatedCounter, {
-                  from: premiumCount - 5,
-                  to: premiumCount + dashboardVisitCount,
-                  duration: 1500,
-                  className: "text-xl md:text-2xl font-semibold text-purple-600"
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_17__["default"], {
-                  className: "w-5 h-5 text-purple-500 fill-current"
-                })]
-              }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                className: "text-xs md:text-sm text-muted-foreground",
-                children: "Premium Addons"
-              })]
-            }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-              className: "dashboard-stat-card bg-card border border-border rounded-lg p-4 md:p-6 cursor-pointer",
-              children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                className: "flex items-center justify-between mb-2",
-                children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_AnimatedCounter__WEBPACK_IMPORTED_MODULE_3__.AnimatedCounter, {
-                  from: freeCount - 3,
-                  to: freeCount + Math.floor(dashboardVisitCount * 0.5),
-                  duration: 1500,
-                  className: "text-xl md:text-2xl font-semibold text-green-600"
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_14__["default"], {
-                  className: "w-5 h-5 text-green-500"
-                })]
-              }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                className: "text-xs md:text-sm text-muted-foreground",
-                children: "Free Addons"
-              })]
-            }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-              className: "dashboard-stat-card bg-card border border-border rounded-lg p-4 md:p-6 cursor-pointer",
-              children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                className: "flex items-center justify-between mb-2",
-                children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_AnimatedCounter__WEBPACK_IMPORTED_MODULE_3__.AnimatedCounter, {
-                  from: 92.0,
-                  to: 98.5 + dashboardVisitCount * 0.1,
-                  suffix: "%",
-                  decimals: 1,
-                  duration: 1500,
-                  className: "text-xl md:text-2xl font-semibold text-orange-600"
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_18__["default"], {
-                  className: "w-5 h-5 text-orange-500"
-                })]
-              }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                className: "text-xs md:text-sm text-muted-foreground",
-                children: "Performance Score"
-              })]
-            })]
-          }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-            className: "grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-8 mb-8",
-            children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-              className: "bg-card border border-border rounded-lg p-6",
-              children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("h3", {
-                className: "font-medium mb-4 flex items-center gap-2",
-                style: {
-                  display: "flex"
-                },
-                children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                  className: "w-2 h-2 bg-blue-500 rounded-full"
-                }), "Key Features"]
-              }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                className: "space-y-3",
-                children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                  className: "flex items-start gap-3",
-                  children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                    className: "w-1.5 h-1.5 bg-green-500 rounded-full mt-2"
-                  }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                    children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                      className: "text-sm font-medium",
-                      children: "Enhanced Product Management"
-                    }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                      className: "text-xs text-muted-foreground",
-                      children: "Bundles, custom tabs, badges, and quick view modals"
-                    })]
-                  })]
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                  className: "flex items-start gap-3",
-                  children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                    className: "w-1.5 h-1.5 bg-green-500 rounded-full mt-2"
-                  }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                    children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                      className: "text-sm font-medium",
-                      children: "Optimized Checkout Experience"
-                    }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                      className: "text-xs text-muted-foreground",
-                      children: "Cart recovery, one-click checkout, custom fields"
-                    })]
-                  })]
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                  className: "flex items-start gap-3",
-                  children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                    className: "w-1.5 h-1.5 bg-green-500 rounded-full mt-2"
-                  }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                    children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                      className: "text-sm font-medium",
-                      children: "Advanced Marketing Tools"
-                    }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                      className: "text-xs text-muted-foreground",
-                      children: "Flash sales, social proof, cross-sell automation"
-                    })]
-                  })]
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                  className: "flex items-start gap-3",
-                  children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                    className: "w-1.5 h-1.5 bg-green-500 rounded-full mt-2"
-                  }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                    children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                      className: "text-sm font-medium",
-                      children: "Comprehensive Analytics"
-                    }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                      className: "text-xs text-muted-foreground",
-                      children: "Sales reports, customer behavior tracking"
-                    })]
-                  })]
-                })]
-              })]
-            }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-              className: "bg-card border border-border rounded-lg p-6",
-              children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("h3", {
-                className: "font-medium mb-4 flex items-center gap-2",
-                style: {
-                  display: "flex"
-                },
-                children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_9__["default"], {
-                  className: "w-4 h-4 text-green-500"
-                }), "System Status"]
-              }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                className: "space-y-3",
-                children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                  className: "flex items-center justify-between",
-                  children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                    className: "flex items-center gap-2",
-                    children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_9__["default"], {
-                      className: "w-3 h-3 text-green-500"
-                    }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                      className: "text-sm",
-                      children: "WordPress Version"
-                    })]
-                  }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                    className: "text-xs bg-green-100 text-green-800 px-2 py-1 rounded dark:bg-green-900 dark:text-green-100",
-                    children: "6.4.2 \u2713"
-                  })]
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                  className: "flex items-center justify-between",
-                  children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                    className: "flex items-center gap-2",
-                    children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_9__["default"], {
-                      className: "w-3 h-3 text-green-500"
-                    }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                      className: "text-sm",
-                      children: "WooCommerce Version"
-                    })]
-                  }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                    className: "text-xs bg-green-100 text-green-800 px-2 py-1 rounded dark:bg-green-900 dark:text-green-100",
-                    children: "8.5.1 \u2713"
-                  })]
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                  className: "flex items-center justify-between",
-                  children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                    className: "flex items-center gap-2",
-                    children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_9__["default"], {
-                      className: "w-3 h-3 text-green-500"
-                    }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                      className: "text-sm",
-                      children: "PHP Version"
-                    })]
-                  }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                    className: "text-xs bg-green-100 text-green-800 px-2 py-1 rounded dark:bg-green-900 dark:text-green-100",
-                    children: "8.2.0 \u2713"
-                  })]
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                  className: "flex items-center justify-between",
-                  children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                    className: "flex items-center gap-2",
-                    children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_9__["default"], {
-                      className: "w-3 h-3 text-green-500"
-                    }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                      className: "text-sm",
-                      children: "Database Status"
-                    })]
-                  }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                    className: "text-xs bg-green-100 text-green-800 px-2 py-1 rounded dark:bg-green-900 dark:text-green-100",
-                    children: "Optimized \u2713"
-                  })]
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                  className: "flex items-center justify-between",
-                  children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                    className: "flex items-center gap-2",
-                    children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_9__["default"], {
-                      className: "w-3 h-3 text-blue-500"
-                    }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                      className: "text-sm",
-                      children: "License Status"
-                    })]
-                  }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                    className: "text-xs bg-blue-100 text-blue-800 px-2 py-1 rounded dark:bg-blue-900 dark:text-blue-100",
-                    children: "Active \u2713"
-                  })]
-                })]
-              })]
-            })]
-          }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-            className: "bg-card border border-border rounded-lg p-6 mb-8",
-            children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("h3", {
-              className: "font-medium mb-4",
-              children: "Quick Actions"
-            }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-              className: "grid grid-cols-2 md:grid-cols-4 gap-4",
-              children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("button", {
-                className: "flex flex-col items-center gap-2 p-4 rounded-lg hover:bg-accent transition-colors",
-                children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                  className: "w-8 h-8 bg-blue-100 rounded-lg flex items-center justify-center",
-                  children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                    className: "text-blue-600",
-                    children: "\uD83D\uDCCA"
-                  })
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                  className: "text-sm font-medium",
-                  children: "View Reports"
-                })]
-              }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("button", {
-                className: "flex flex-col items-center gap-2 p-4 rounded-lg hover:bg-accent transition-colors",
-                children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                  className: "w-8 h-8 bg-green-100 rounded-lg flex items-center justify-center",
-                  children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                    className: "text-green-600",
-                    children: "\u2699\uFE0F"
-                  })
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                  className: "text-sm font-medium",
-                  children: "Settings"
-                })]
-              }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("button", {
-                className: "flex flex-col items-center gap-2 p-4 rounded-lg hover:bg-accent transition-colors",
-                children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                  className: "w-8 h-8 bg-purple-100 rounded-lg flex items-center justify-center",
-                  children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                    className: "text-purple-600",
-                    children: "\uD83D\uDD04"
-                  })
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                  className: "text-sm font-medium",
-                  children: "Check Updates"
-                })]
-              }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("button", {
-                className: "flex flex-col items-center gap-2 p-4 rounded-lg hover:bg-accent transition-colors",
-                children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                  className: "w-8 h-8 bg-orange-100 rounded-lg flex items-center justify-center",
-                  children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                    className: "text-orange-600",
-                    children: "\uD83D\uDCD6"
-                  })
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                  className: "text-sm font-medium",
-                  children: "Documentation"
-                })]
-              })]
-            })]
-          }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-            className: "bg-card border border-border rounded-lg p-6 mb-8",
-            children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("h3", {
-              className: "font-medium mb-6 flex items-center gap-2",
-              style: {
-                display: "flex"
-              },
-              children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_18__["default"], {
-                className: "w-4 h-4 text-orange-500"
-              }), "Performance Analytics (Last 7 Days)", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                className: "relative ml-2",
-                children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_11__["default"], {
-                  className: "w-4 h-4 text-blue-500"
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                  className: "absolute -top-1 -right-1 w-2 h-2 bg-green-500 rounded-full"
-                })]
-              })]
-            }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-              className: "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6",
-              children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                className: "text-center",
-                children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                  className: "flex items-center justify-center gap-1 mb-1",
-                  children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_19__["default"], {
-                    className: "w-4 h-4 text-green-600"
-                  }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_AnimatedCounter__WEBPACK_IMPORTED_MODULE_3__.AnimatedCounter, {
-                    from: 2.0,
-                    to: 1.2 - dashboardVisitCount * 0.05,
-                    suffix: "s",
-                    decimals: 1,
-                    duration: 1800,
-                    className: "text-2xl font-semibold text-green-600"
-                  })]
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                  className: "text-xs text-muted-foreground",
-                  children: "Avg Page Load"
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                  className: "text-xs text-green-600 flex items-center justify-center gap-1",
-                  children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_18__["default"], {
-                    className: "w-3 h-3"
-                  }), "\u2193 0.3s faster"]
-                })]
-              }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                className: "text-center",
-                children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                  className: "flex items-center justify-center gap-1 mb-1",
-                  children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_16__["default"], {
-                    className: "w-4 h-4 text-blue-600"
-                  }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_AnimatedCounter__WEBPACK_IMPORTED_MODULE_3__.AnimatedCounter, {
-                    from: 80,
-                    to: 94 + dashboardVisitCount,
-                    duration: 1800,
-                    className: "text-2xl font-semibold text-blue-600"
-                  })]
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                  className: "text-xs text-muted-foreground",
-                  children: "Google PageSpeed"
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                  className: "text-xs text-blue-600 flex items-center justify-center gap-1",
-                  children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_18__["default"], {
-                    className: "w-3 h-3"
-                  }), "\u2191 +12 points"]
-                })]
-              }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                className: "text-center",
-                children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                  className: "flex items-center justify-center gap-1 mb-1",
-                  children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_18__["default"], {
-                    className: "w-4 h-4 text-purple-600"
-                  }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_AnimatedCounter__WEBPACK_IMPORTED_MODULE_3__.AnimatedCounter, {
-                    from: 2.0,
-                    to: 2.8 + dashboardVisitCount * 0.1,
-                    suffix: "%",
-                    decimals: 1,
-                    duration: 1800,
-                    className: "text-2xl font-semibold text-purple-600"
-                  })]
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                  className: "text-xs text-muted-foreground",
-                  children: "Conversion Rate"
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                  className: "text-xs text-purple-600 flex items-center justify-center gap-1",
-                  children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_18__["default"], {
-                    className: "w-3 h-3"
-                  }), "\u2191 +0.4%"]
-                })]
-              }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                className: "text-center",
-                children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                  className: "flex items-center justify-center gap-1 mb-1",
-                  children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_17__["default"], {
-                    className: "w-4 h-4 text-orange-600 fill-current"
-                  }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_AnimatedCounter__WEBPACK_IMPORTED_MODULE_3__.AnimatedCounter, {
-                    from: 100,
-                    to: 127 + dashboardVisitCount * 5,
-                    prefix: "$",
-                    duration: 1800,
-                    className: "text-2xl font-semibold text-orange-600"
-                  })]
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                  className: "text-xs text-muted-foreground",
-                  children: "Avg Order Value"
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                  className: "text-xs text-orange-600 flex items-center justify-center gap-1",
-                  children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_18__["default"], {
-                    className: "w-3 h-3"
-                  }), "\u2191 +$23"]
-                })]
-              })]
-            })]
-          }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-            className: "grid grid-cols-1 lg:grid-cols-3 gap-8 mb-8",
-            children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-              className: "bg-card border border-border rounded-lg p-6",
-              children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("h3", {
-                className: "font-medium mb-4 flex items-center gap-2",
-                style: {
-                  display: "flex"
-                },
-                children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_9__["default"], {
-                  className: "w-4 h-4 text-green-500"
-                }), "Store Health Monitor"]
-              }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                className: "space-y-3",
-                children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                  className: "flex items-center justify-between",
-                  children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                    className: "flex items-center gap-2",
-                    children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_9__["default"], {
-                      className: "w-3 h-3 text-green-500"
-                    }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                      className: "text-sm",
-                      children: "Database Optimization"
-                    })]
-                  }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                    className: "text-xs bg-green-100 text-green-800 px-2 py-1 rounded dark:bg-green-900 dark:text-green-100",
-                    children: "Optimized"
-                  })]
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                  className: "flex items-center justify-between",
-                  children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                    className: "flex items-center gap-2",
-                    children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_9__["default"], {
-                      className: "w-3 h-3 text-green-500"
-                    }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                      className: "text-sm",
-                      children: "Cache Performance"
-                    })]
-                  }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                    className: "text-xs bg-green-100 text-green-800 px-2 py-1 rounded dark:bg-green-900 dark:text-green-100",
-                    children: "Active"
-                  })]
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                  className: "flex items-center justify-between",
-                  children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                    className: "flex items-center gap-2",
-                    children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_15__["default"], {
-                      className: "w-3 h-3 text-yellow-500 animate-spin"
-                    }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                      className: "text-sm",
-                      children: "Image Compression"
-                    })]
-                  }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                    className: "text-xs bg-yellow-100 text-yellow-800 px-2 py-1 rounded dark:bg-yellow-900 dark:text-yellow-100",
-                    children: "Running"
-                  })]
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                  className: "flex items-center justify-between",
-                  children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                    className: "flex items-center gap-2",
-                    children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_9__["default"], {
-                      className: "w-3 h-3 text-green-500"
-                    }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                      className: "text-sm",
-                      children: "Broken Links"
-                    })]
-                  }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                    className: "text-xs bg-green-100 text-green-800 px-2 py-1 rounded dark:bg-green-900 dark:text-green-100",
-                    children: "0 Found"
-                  })]
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                  className: "flex items-center justify-between",
-                  children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                    className: "flex items-center gap-2",
-                    children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_16__["default"], {
-                      className: "w-3 h-3 text-green-500"
-                    }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                      className: "text-sm",
-                      children: "SSL Certificate"
-                    })]
-                  }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                    className: "text-xs bg-green-100 text-green-800 px-2 py-1 rounded dark:bg-green-900 dark:text-green-100",
-                    children: "Valid"
-                  })]
-                })]
-              })]
-            }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-              className: "bg-card border border-border rounded-lg p-6",
-              children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("h3", {
-                className: "font-medium mb-4 flex items-center gap-2",
-                style: {
-                  display: "flex"
-                },
-                children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_16__["default"], {
-                  className: "w-4 h-4 text-blue-500"
-                }), "Security Status", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                  className: "relative ml-2",
-                  children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_10__["default"], {
-                    className: "w-4 h-4 text-yellow-500"
-                  }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                    className: "absolute -top-1 -right-1 w-2 h-2 bg-yellow-500 rounded-full animate-pulse"
-                  })]
-                })]
-              }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                className: "space-y-3",
-                children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                  className: "flex items-center justify-between",
-                  children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                    className: "flex items-center gap-2",
-                    children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_16__["default"], {
-                      className: "w-3 h-3 text-green-500"
-                    }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                      className: "text-sm",
-                      children: "Firewall Protection"
-                    })]
-                  }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                    className: "text-xs bg-green-100 text-green-800 px-2 py-1 rounded dark:bg-green-900 dark:text-green-100",
-                    children: "Active"
-                  })]
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                  className: "flex items-center justify-between",
-                  children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                    className: "flex items-center gap-2",
-                    children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_9__["default"], {
-                      className: "w-3 h-3 text-green-500"
-                    }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                      className: "text-sm",
-                      children: "Malware Scan"
-                    })]
-                  }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                    className: "text-xs bg-green-100 text-green-800 px-2 py-1 rounded dark:bg-green-900 dark:text-green-100",
-                    children: "Clean"
-                  })]
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                  className: "flex items-center justify-between",
-                  children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                    className: "flex items-center gap-2",
-                    children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_10__["default"], {
-                      className: "w-3 h-3 text-yellow-500"
-                    }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                      className: "text-sm",
-                      children: "Login Attempts"
-                    })]
-                  }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                    className: "text-xs bg-yellow-100 text-yellow-800 px-2 py-1 rounded dark:bg-yellow-900 dark:text-yellow-100",
-                    children: "3 Blocked"
-                  })]
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                  className: "flex items-center justify-between",
-                  children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                    className: "flex items-center gap-2",
-                    children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_12__["default"], {
-                      className: "w-3 h-3 text-green-500"
-                    }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                      className: "text-sm",
-                      children: "Last Backup"
-                    })]
-                  }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                    className: "text-xs bg-green-100 text-green-800 px-2 py-1 rounded dark:bg-green-900 dark:text-green-100",
-                    children: "2 hours ago"
-                  })]
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                  className: "flex items-center justify-between",
-                  children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                    className: "flex items-center gap-2",
-                    children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_13__["default"], {
-                      className: "w-3 h-3 text-blue-500"
-                    }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                      className: "text-sm",
-                      children: "Plugin Updates"
-                    })]
-                  }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                    className: "text-xs bg-blue-100 text-blue-800 px-2 py-1 rounded dark:bg-blue-900 dark:text-blue-100",
-                    children: "Up to date"
-                  })]
-                })]
-              })]
-            }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-              className: "bg-card border border-border rounded-lg p-6",
-              children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("h3", {
-                className: "font-medium mb-4 flex items-center gap-2",
-                style: {
-                  display: "flex"
-                },
-                children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                  className: "w-2 h-2 bg-purple-500 rounded-full"
-                }), "SEO Overview"]
-              }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                className: "space-y-3",
-                children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                  className: "flex items-center justify-between",
-                  children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                    className: "text-sm",
-                    children: "SEO Score"
-                  }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                    className: "text-xs bg-green-100 text-green-800 px-2 py-1 rounded dark:bg-green-900 dark:text-green-100",
-                    children: "89/100"
-                  })]
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                  className: "flex items-center justify-between",
-                  children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                    className: "text-sm",
-                    children: "Meta Descriptions"
-                  }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                    className: "text-xs bg-green-100 text-green-800 px-2 py-1 rounded dark:bg-green-900 dark:text-green-100",
-                    children: "Complete"
-                  })]
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                  className: "flex items-center justify-between",
-                  children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                    className: "text-sm",
-                    children: "Schema Markup"
-                  }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                    className: "text-xs bg-green-100 text-green-800 px-2 py-1 rounded dark:bg-green-900 dark:text-green-100",
-                    children: "Active"
-                  })]
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                  className: "flex items-center justify-between",
-                  children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                    className: "text-sm",
-                    children: "Sitemap Status"
-                  }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                    className: "text-xs bg-green-100 text-green-800 px-2 py-1 rounded dark:bg-green-900 dark:text-green-100",
-                    children: "Updated"
-                  })]
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                  className: "flex items-center justify-between",
-                  children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                    className: "text-sm",
-                    children: "Mobile Friendly"
-                  }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                    className: "text-xs bg-green-100 text-green-800 px-2 py-1 rounded dark:bg-green-900 dark:text-green-100",
-                    children: "Yes"
-                  })]
-                })]
-              })]
-            })]
-          }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-            className: "bg-gradient-to-r from-amber-50 to-orange-50 border border-orange-200 rounded-lg p-6 mb-8 dark:from-amber-950/20 dark:to-orange-950/20 dark:border-orange-800",
-            children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("h3", {
-              className: "font-medium mb-4 flex items-center gap-2 text-amber-800 dark:text-amber-200",
-              style: {
-                display: "flex"
-              },
-              children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_8__["default"], {
-                className: "w-4 h-4 text-amber-500"
-              }), "Optimization Recommendations", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                className: "relative ml-2",
-                children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_11__["default"], {
-                  className: "w-4 h-4 text-orange-500"
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                  className: "absolute -top-1 -right-1 w-3 h-3 bg-red-500 rounded-full flex items-center justify-center",
-                  children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                    className: "text-[10px] font-semibold text-white",
-                    children: "4"
-                  })
-                })]
-              })]
-            }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-              className: "grid grid-cols-1 md:grid-cols-2 gap-4",
-              children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                className: "bg-white/60 dark:bg-black/20 rounded-lg p-4",
-                children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                  className: "flex items-start gap-3",
-                  children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                    className: "w-6 h-6 bg-blue-100 rounded-lg flex items-center justify-center flex-shrink-0 mt-0.5",
-                    children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_19__["default"], {
-                      className: "text-blue-600 w-4 h-4"
-                    })
-                  }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                    className: "flex-1",
-                    children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                      className: "flex items-center gap-2",
-                      children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                        className: "text-sm font-medium text-amber-900 dark:text-amber-100",
-                        children: "Enable Product Image Lazy Loading"
-                      }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_14__["default"], {
-                        className: "w-3 h-3 text-blue-500"
-                      })]
-                    }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                      className: "text-xs text-amber-700 dark:text-amber-300 mt-1",
-                      children: "Could improve page load speed by 15-20%"
-                    })]
-                  })]
-                })
-              }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                className: "bg-white/60 dark:bg-black/20 rounded-lg p-4",
-                children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                  className: "flex items-start gap-3",
-                  children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                    className: "w-6 h-6 bg-green-100 rounded-lg flex items-center justify-center flex-shrink-0 mt-0.5",
-                    children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_18__["default"], {
-                      className: "text-green-600 w-4 h-4"
-                    })
-                  }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                    className: "flex-1",
-                    children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                      className: "flex items-center gap-2",
-                      children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                        className: "text-sm font-medium text-amber-900 dark:text-amber-100",
-                        children: "Configure Smart Cross-Sell"
-                      }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_8__["default"], {
-                        className: "w-3 h-3 text-yellow-500"
-                      })]
-                    }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                      className: "text-xs text-amber-700 dark:text-amber-300 mt-1",
-                      children: "Potential 12% increase in average order value"
-                    })]
-                  })]
-                })
-              }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                className: "bg-white/60 dark:bg-black/20 rounded-lg p-4",
-                children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                  className: "flex items-start gap-3",
-                  children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                    className: "w-6 h-6 bg-purple-100 rounded-lg flex items-center justify-center flex-shrink-0 mt-0.5",
-                    children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_11__["default"], {
-                      className: "text-purple-600 w-4 h-4"
-                    })
-                  }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                    className: "flex-1",
-                    children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                      className: "flex items-center gap-2",
-                      children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                        className: "text-sm font-medium text-amber-900 dark:text-amber-100",
-                        children: "Set Up Abandoned Cart Recovery"
-                      }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_10__["default"], {
-                        className: "w-3 h-3 text-red-500"
-                      })]
-                    }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                      className: "text-xs text-amber-700 dark:text-amber-300 mt-1",
-                      children: "Recover up to 25% of abandoned carts"
-                    })]
-                  })]
-                })
-              }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                className: "bg-white/60 dark:bg-black/20 rounded-lg p-4",
-                children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                  className: "flex items-start gap-3",
-                  children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                    className: "w-6 h-6 bg-orange-100 rounded-lg flex items-center justify-center flex-shrink-0 mt-0.5",
-                    children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_8__["default"], {
-                      className: "text-orange-600 w-4 h-4"
-                    })
-                  }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                    className: "flex-1",
-                    children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                      className: "flex items-center gap-2",
-                      children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                        className: "text-sm font-medium text-amber-900 dark:text-amber-100",
-                        children: "Optimize Database Tables"
-                      }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_10__["default"], {
-                        className: "w-3 h-3 text-orange-500"
-                      })]
-                    }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                      className: "text-xs text-amber-700 dark:text-amber-300 mt-1",
-                      children: "Found 2.3MB of data to clean up"
-                    })]
-                  })]
-                })
-              })]
-            })]
-          }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-            className: "bg-card border border-border rounded-lg p-6 mb-8",
-            children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("h3", {
-              className: "font-medium mb-4 flex items-center gap-2",
-              style: {
-                display: "flex"
-              },
-              children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_14__["default"], {
-                className: "w-4 h-4 text-indigo-500"
-              }), "What's New in SpeedPress", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                className: "relative ml-2",
-                children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_11__["default"], {
-                  className: "w-4 h-4 text-indigo-500"
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                  className: "absolute -top-1 -right-1 w-2 h-2 bg-indigo-500 rounded-full animate-pulse"
-                })]
-              })]
-            }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-              className: "space-y-4",
-              children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                className: "border-l-4 border-blue-500 pl-4",
-                children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                  className: "flex items-center gap-2",
-                  children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_13__["default"], {
-                    className: "w-3 h-3 text-blue-500"
-                  }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                    className: "text-sm font-medium",
-                    children: "Version 2.1.4 Released"
-                  }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                    className: "bg-blue-100 text-blue-800 text-[10px] px-2 py-0.5 rounded-full dark:bg-blue-900 dark:text-blue-100",
-                    children: "NEW"
-                  })]
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                  className: "text-xs text-muted-foreground mt-1",
-                  children: "New features: Advanced product filtering, improved checkout flow, and enhanced analytics dashboard."
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                  className: "text-xs text-blue-600 mt-2 flex items-center gap-1",
-                  children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_12__["default"], {
-                    className: "w-3 h-3"
-                  }), "Released 3 days ago"]
-                })]
-              }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                className: "border-l-4 border-green-500 pl-4",
-                children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                  className: "flex items-center gap-2",
-                  children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_17__["default"], {
-                    className: "w-3 h-3 text-green-500 fill-current"
-                  }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                    className: "text-sm font-medium",
-                    children: "Black Friday Sale Campaign Tools"
-                  }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                    className: "bg-green-100 text-green-800 text-[10px] px-2 py-0.5 rounded-full dark:bg-green-900 dark:text-green-100",
-                    children: "FEATURED"
-                  })]
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                  className: "text-xs text-muted-foreground mt-1",
-                  children: "Special seasonal addons and templates now available for holiday promotions."
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                  className: "text-xs text-green-600 mt-2 flex items-center gap-1",
-                  children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_12__["default"], {
-                    className: "w-3 h-3"
-                  }), "1 week ago"]
-                })]
-              }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                className: "border-l-4 border-purple-500 pl-4",
-                children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                  className: "flex items-center gap-2",
-                  children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_9__["default"], {
-                    className: "w-3 h-3 text-purple-500"
-                  }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                    className: "text-sm font-medium",
-                    children: "WooCommerce 8.5 Compatibility"
-                  })]
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                  className: "text-xs text-muted-foreground mt-1",
-                  children: "All SpeedPress addons now fully compatible with the latest WooCommerce version."
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                  className: "text-xs text-purple-600 mt-2 flex items-center gap-1",
-                  children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_12__["default"], {
-                    className: "w-3 h-3"
-                  }), "2 weeks ago"]
-                })]
-              })]
-            })]
-          }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-            className: "grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8",
-            children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-              className: "bg-card border border-border rounded-lg p-6",
-              children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("h3", {
-                className: "font-medium mb-4 flex items-center gap-2",
-                style: {
-                  display: "flex"
-                },
-                children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                  className: "w-2 h-2 bg-green-500 rounded-full"
-                }), "Support Center"]
-              }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                className: "space-y-3",
-                children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("button", {
-                  className: "w-full flex items-center gap-3 p-3 rounded-lg hover:bg-accent transition-colors text-left",
-                  children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                    className: "w-8 h-8 bg-blue-100 rounded-lg flex items-center justify-center",
-                    children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                      className: "text-blue-600 text-xs",
-                      children: "\uD83D\uDCAC"
-                    })
-                  }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                    children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                      className: "text-sm font-medium",
-                      children: "Live Chat Support"
-                    }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                      className: "text-xs text-muted-foreground",
-                      children: "Get instant help from our experts"
-                    })]
-                  })]
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("button", {
-                  className: "w-full flex items-center gap-3 p-3 rounded-lg hover:bg-accent transition-colors text-left",
-                  children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                    className: "w-8 h-8 bg-green-100 rounded-lg flex items-center justify-center",
-                    children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                      className: "text-green-600 text-xs",
-                      children: "\uD83D\uDCDA"
-                    })
-                  }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                    children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                      className: "text-sm font-medium",
-                      children: "Knowledge Base"
-                    }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                      className: "text-xs text-muted-foreground",
-                      children: "Browse our comprehensive guides"
-                    })]
-                  })]
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("button", {
-                  className: "w-full flex items-center gap-3 p-3 rounded-lg hover:bg-accent transition-colors text-left",
-                  children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                    className: "w-8 h-8 bg-purple-100 rounded-lg flex items-center justify-center",
-                    children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                      className: "text-purple-600 text-xs",
-                      children: "\uD83C\uDFAC"
-                    })
-                  }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                    children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                      className: "text-sm font-medium",
-                      children: "Video Tutorials"
-                    }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                      className: "text-xs text-muted-foreground",
-                      children: "Watch step-by-step instructions"
-                    })]
-                  })]
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("button", {
-                  className: "w-full flex items-center gap-3 p-3 rounded-lg hover:bg-accent transition-colors text-left",
-                  children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                    className: "w-8 h-8 bg-orange-100 rounded-lg flex items-center justify-center",
-                    children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                      className: "text-orange-600 text-xs",
-                      children: "\uD83D\uDC1B"
-                    })
-                  }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                    children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                      className: "text-sm font-medium",
-                      children: "Report Bug"
-                    }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                      className: "text-xs text-muted-foreground",
-                      children: "Help us improve SpeedPress"
-                    })]
-                  })]
-                })]
-              })]
-            }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-              className: "bg-card border border-border rounded-lg p-6",
-              children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("h3", {
-                className: "font-medium mb-4 flex items-center gap-2",
-                style: {
-                  display: "flex"
-                },
-                children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                  className: "w-2 h-2 bg-cyan-500 rounded-full"
-                }), "Migration & Tools"]
-              }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                className: "space-y-3",
-                children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("button", {
-                  className: "w-full flex items-center gap-3 p-3 rounded-lg hover:bg-accent transition-colors text-left",
-                  children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                    className: "w-8 h-8 bg-cyan-100 rounded-lg flex items-center justify-center",
-                    children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                      className: "text-cyan-600 text-xs",
-                      children: "\uD83D\uDCE4"
-                    })
-                  }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                    children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                      className: "text-sm font-medium",
-                      children: "Export Settings"
-                    }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                      className: "text-xs text-muted-foreground",
-                      children: "Backup your SpeedPress configuration"
-                    })]
-                  })]
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("button", {
-                  className: "w-full flex items-center gap-3 p-3 rounded-lg hover:bg-accent transition-colors text-left",
-                  children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                    className: "w-8 h-8 bg-indigo-100 rounded-lg flex items-center justify-center",
-                    children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                      className: "text-indigo-600 text-xs",
-                      children: "\uD83D\uDCE5"
-                    })
-                  }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                    children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                      className: "text-sm font-medium",
-                      children: "Import Settings"
-                    }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                      className: "text-xs text-muted-foreground",
-                      children: "Restore from backup or transfer sites"
-                    })]
-                  })]
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("button", {
-                  className: "w-full flex items-center gap-3 p-3 rounded-lg hover:bg-accent transition-colors text-left",
-                  children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                    className: "w-8 h-8 bg-emerald-100 rounded-lg flex items-center justify-center",
-                    children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                      className: "text-emerald-600 text-xs",
-                      children: "\uD83D\uDD04"
-                    })
-                  }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                    children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                      className: "text-sm font-medium",
-                      children: "Reset to Defaults"
-                    }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                      className: "text-xs text-muted-foreground",
-                      children: "Start fresh with clean settings"
-                    })]
-                  })]
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("button", {
-                  className: "w-full flex items-center gap-3 p-3 rounded-lg hover:bg-accent transition-colors text-left",
-                  children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                    className: "w-8 h-8 bg-amber-100 rounded-lg flex items-center justify-center",
-                    children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                      className: "text-amber-600 text-xs",
-                      children: "\uD83D\uDD27"
-                    })
-                  }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                    children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                      className: "text-sm font-medium",
-                      children: "System Diagnostics"
-                    }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                      className: "text-xs text-muted-foreground",
-                      children: "Run comprehensive health check"
-                    })]
-                  })]
-                })]
-              })]
-            })]
-          }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-            className: "grid grid-cols-1 lg:grid-cols-2 gap-8",
-            children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-              className: "bg-card border border-border rounded-lg p-6",
-              children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("h3", {
-                className: "font-medium mb-4 flex items-center gap-2",
-                style: {
-                  display: "flex"
-                },
-                children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_12__["default"], {
-                  className: "w-4 h-4 text-blue-500"
-                }), "Recent Activity", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                  className: "relative ml-2",
-                  children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_11__["default"], {
-                    className: "w-4 h-4 text-green-500"
-                  }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                    className: "absolute -top-1 -right-1 w-2 h-2 bg-green-500 rounded-full animate-pulse"
-                  })]
-                })]
-              }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                className: "space-y-3",
-                children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                  className: "flex items-center justify-between py-2",
-                  children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                    className: "flex items-center gap-2",
-                    children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_9__["default"], {
-                      className: "w-3 h-3 text-green-500"
-                    }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                      className: "text-sm",
-                      children: "Cart Abandonment Recovery enabled"
-                    })]
-                  }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("span", {
-                    className: "text-xs text-muted-foreground flex items-center gap-1",
-                    children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_12__["default"], {
-                      className: "w-3 h-3"
-                    }), "2 hours ago"]
-                  })]
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                  className: "flex items-center justify-between py-2",
-                  children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                    className: "flex items-center gap-2",
-                    children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_13__["default"], {
-                      className: "w-3 h-3 text-blue-500"
-                    }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                      className: "text-sm",
-                      children: "Product Bundle addon updated to v1.2.3"
-                    })]
-                  }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("span", {
-                    className: "text-xs text-muted-foreground flex items-center gap-1",
-                    children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_12__["default"], {
-                      className: "w-3 h-3"
-                    }), "1 day ago"]
-                  })]
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                  className: "flex items-center justify-between py-2",
-                  children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                    className: "flex items-center gap-2",
-                    children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_9__["default"], {
-                      className: "w-3 h-3 text-purple-500"
-                    }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                      className: "text-sm",
-                      children: "Advanced Search configured"
-                    })]
-                  }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("span", {
-                    className: "text-xs text-muted-foreground flex items-center gap-1",
-                    children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_12__["default"], {
-                      className: "w-3 h-3"
-                    }), "3 days ago"]
-                  })]
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                  className: "flex items-center justify-between py-2",
-                  children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                    className: "flex items-center gap-2",
-                    children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_19__["default"], {
-                      className: "w-3 h-3 text-orange-500"
-                    }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                      className: "text-sm",
-                      children: "Flash Sales Timer activated"
-                    })]
-                  }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("span", {
-                    className: "text-xs text-muted-foreground flex items-center gap-1",
-                    children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_12__["default"], {
-                      className: "w-3 h-3"
-                    }), "5 days ago"]
-                  })]
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                  className: "flex items-center justify-between py-2",
-                  children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                    className: "flex items-center gap-2",
-                    children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_18__["default"], {
-                      className: "w-3 h-3 text-green-500"
-                    }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                      className: "text-sm",
-                      children: "Performance optimization completed"
-                    })]
-                  }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("span", {
-                    className: "text-xs text-muted-foreground flex items-center gap-1",
-                    children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_12__["default"], {
-                      className: "w-3 h-3"
-                    }), "1 week ago"]
-                  })]
-                })]
-              })]
-            }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-              className: "bg-card border border-border rounded-lg p-6",
-              children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("h3", {
-                className: "font-medium mb-4",
-                style: {
-                  display: "flex"
-                },
-                children: "Featured Addons"
-              }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                className: "space-y-3",
-                children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                  className: "flex items-center gap-3 p-3 rounded-lg hover:bg-accent/50 transition-colors",
-                  children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                    className: "w-8 h-8 bg-gradient-to-r from-blue-500 to-purple-600 rounded-lg flex items-center justify-center",
-                    children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                      className: "text-white text-xs",
-                      children: "\uD83D\uDED2"
-                    })
-                  }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                    className: "flex-1",
-                    children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                      className: "text-sm font-medium",
-                      children: "Cart Abandonment Recovery"
-                    }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                      className: "text-xs text-muted-foreground",
-                      children: "Recover lost sales automatically"
-                    })]
-                  }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                    className: "text-xs bg-blue-100 text-blue-800 px-2 py-1 rounded dark:bg-blue-900 dark:text-blue-100",
-                    children: "Premium"
-                  })]
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                  className: "flex items-center gap-3 p-3 rounded-lg hover:bg-accent/50 transition-colors",
-                  children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                    className: "w-8 h-8 bg-gradient-to-r from-green-500 to-emerald-600 rounded-lg flex items-center justify-center",
-                    children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                      className: "text-white text-xs",
-                      children: "\uD83D\uDCE6"
-                    })
-                  }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                    className: "flex-1",
-                    children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                      className: "text-sm font-medium",
-                      children: "Product Bundles"
-                    }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                      className: "text-xs text-muted-foreground",
-                      children: "Increase average order value"
-                    })]
-                  }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                    className: "text-xs bg-blue-100 text-blue-800 px-2 py-1 rounded dark:bg-blue-900 dark:text-blue-100",
-                    children: "Premium"
-                  })]
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                  className: "flex items-center gap-3 p-3 rounded-lg hover:bg-accent/50 transition-colors",
-                  children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                    className: "w-8 h-8 bg-gradient-to-r from-orange-500 to-red-600 rounded-lg flex items-center justify-center",
-                    children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                      className: "text-white text-xs",
-                      children: "\u26A1"
-                    })
-                  }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                    className: "flex-1",
-                    children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                      className: "text-sm font-medium",
-                      children: "Flash Sales Timer"
-                    }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                      className: "text-xs text-muted-foreground",
-                      children: "Create urgency with countdowns"
-                    })]
-                  }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                    className: "text-xs bg-blue-100 text-blue-800 px-2 py-1 rounded dark:bg-blue-900 dark:text-blue-100",
-                    children: "Premium"
-                  })]
-                })]
-              })]
-            })]
+          }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+            className: "grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-8 mb-8"
+          }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+            className: "grid grid-cols-1 lg:grid-cols-3 gap-8 mb-8"
+          }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+            className: "grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8"
+          }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
+            className: "grid grid-cols-1 lg:grid-cols-2 gap-8"
           })]
         })
       })]
     });
   }
   // Special handling for help-docs
-  if (activeTab === 'help-docs') {
-    return (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-      className: "h-full flex flex-col",
-      children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ContentHeader__WEBPACK_IMPORTED_MODULE_2__.ContentHeader, {
-        activeTab: activeTab,
-        addons: addons,
-        onOpenSidebar: onOpenSidebar,
-        onAddonSelect: handleAddonSelect
-      }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-        className: "flex-1 p-3 md:p-6 lg:p-8 overflow-auto",
-        children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-          className: "max-w-6xl mx-auto",
-          children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-            className: "mb-8",
-            children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("h1", {
-              className: "text-2xl font-semibold mb-2",
-              children: title
-            }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
-              className: "text-muted-foreground",
-              children: description
-            })]
-          }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-            className: "bg-card border border-border rounded-lg p-6 mb-8",
-            children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("h3", {
-              className: "font-medium mb-4",
-              children: "Search Documentation"
-            }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-              className: "flex gap-3",
-              children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("input", {
-                type: "text",
-                placeholder: "Search for guides, tutorials, troubleshooting...",
-                className: "flex-1 px-4 py-3 bg-input-background border border-border rounded-lg text-sm"
-              }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("button", {
-                className: "bg-primary hover:bg-primary/90 text-primary-foreground px-6 py-3 rounded-lg transition-colors text-sm",
-                children: "Search"
-              })]
-            }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-              className: "flex gap-2 mt-3",
-              children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                className: "text-xs text-muted-foreground",
-                children: "Popular searches:"
-              }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("button", {
-                className: "text-xs text-blue-600 hover:underline",
-                children: "Setup Guide"
-              }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("button", {
-                className: "text-xs text-blue-600 hover:underline",
-                children: "Cart Recovery"
-              }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("button", {
-                className: "text-xs text-blue-600 hover:underline",
-                children: "Product Bundles"
-              }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("button", {
-                className: "text-xs text-blue-600 hover:underline",
-                children: "API Integration"
-              })]
-            })]
-          }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-            className: "bg-gradient-to-r from-blue-50 to-indigo-50 border border-blue-200 rounded-lg p-6 mb-8 dark:from-blue-950/20 dark:to-indigo-950/20 dark:border-blue-800",
-            children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-              className: "flex items-start gap-4",
-              children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                className: "w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center flex-shrink-0",
-                children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                  className: "text-blue-600 text-lg",
-                  children: "\uD83D\uDE80"
-                })
-              }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                className: "flex-1",
-                children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("h3", {
-                  className: "text-lg font-semibold text-blue-800 dark:text-blue-200 mb-2",
-                  children: "Quick Start Guide"
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
-                  className: "text-sm text-blue-700 dark:text-blue-300 mb-4",
-                  children: "New to SpeedPress? Follow our step-by-step guide to get your WooCommerce store optimized in minutes."
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                  className: "flex gap-3",
-                  children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("button", {
-                    className: "bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg text-sm transition-colors",
-                    children: "Start Setup Guide"
-                  }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("button", {
-                    className: "bg-white/80 hover:bg-white text-blue-800 px-4 py-2 rounded-lg text-sm transition-colors",
-                    children: "Watch Video Tutorial"
-                  })]
-                })]
-              })]
-            })
-          }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-            className: "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8",
-            children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-              className: "bg-card border border-border rounded-lg p-6",
-              children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                className: "flex items-center gap-3 mb-4",
-                children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                  className: "w-10 h-10 bg-green-100 rounded-lg flex items-center justify-center",
-                  children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                    className: "text-green-600",
-                    children: "\u2699\uFE0F"
-                  })
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("h3", {
-                  className: "font-medium",
-                  children: "Installation & Setup"
-                })]
-              }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                className: "space-y-2",
-                children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("button", {
-                  className: "w-full text-left text-sm text-blue-600 hover:underline py-1",
-                  children: "Installing SpeedPress Plugin"
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("button", {
-                  className: "w-full text-left text-sm text-blue-600 hover:underline py-1",
-                  children: "License Activation Guide"
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("button", {
-                  className: "w-full text-left text-sm text-blue-600 hover:underline py-1",
-                  children: "Initial Configuration"
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("button", {
-                  className: "w-full text-left text-sm text-blue-600 hover:underline py-1",
-                  children: "System Requirements"
-                })]
-              }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("button", {
-                className: "text-xs text-muted-foreground hover:text-foreground mt-3",
-                children: "View all articles \u2192"
-              })]
-            }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-              className: "bg-card border border-border rounded-lg p-6",
-              children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                className: "flex items-center gap-3 mb-4",
-                children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                  className: "w-10 h-10 bg-purple-100 rounded-lg flex items-center justify-center",
-                  children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                    className: "text-purple-600",
-                    children: "\uD83D\uDCE6"
-                  })
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("h3", {
-                  className: "font-medium",
-                  children: "Product Features"
-                })]
-              }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                className: "space-y-2",
-                children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("button", {
-                  className: "w-full text-left text-sm text-blue-600 hover:underline py-1",
-                  children: "Product Bundles Setup"
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("button", {
-                  className: "w-full text-left text-sm text-blue-600 hover:underline py-1",
-                  children: "Custom Product Tabs"
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("button", {
-                  className: "w-full text-left text-sm text-blue-600 hover:underline py-1",
-                  children: "Product Badges Configuration"
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("button", {
-                  className: "w-full text-left text-sm text-blue-600 hover:underline py-1",
-                  children: "Quick View Modal"
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("button", {
-                  className: "w-full text-left text-sm text-blue-600 hover:underline py-1",
-                  children: "Advanced Search Options"
-                })]
-              }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("button", {
-                className: "text-xs text-muted-foreground hover:text-foreground mt-3",
-                children: "View all articles \u2192"
-              })]
-            }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-              className: "bg-card border border-border rounded-lg p-6",
-              children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                className: "flex items-center gap-3 mb-4",
-                children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                  className: "w-10 h-10 bg-orange-100 rounded-lg flex items-center justify-center",
-                  children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                    className: "text-orange-600",
-                    children: "\uD83D\uDED2"
-                  })
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("h3", {
-                  className: "font-medium",
-                  children: "Cart & Checkout"
-                })]
-              }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                className: "space-y-2",
-                children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("button", {
-                  className: "w-full text-left text-sm text-blue-600 hover:underline py-1",
-                  children: "Cart Abandonment Recovery"
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("button", {
-                  className: "w-full text-left text-sm text-blue-600 hover:underline py-1",
-                  children: "One-Click Checkout Setup"
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("button", {
-                  className: "w-full text-left text-sm text-blue-600 hover:underline py-1",
-                  children: "Custom Checkout Fields"
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("button", {
-                  className: "w-full text-left text-sm text-blue-600 hover:underline py-1",
-                  children: "Sliding Cart Drawer"
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("button", {
-                  className: "w-full text-left text-sm text-blue-600 hover:underline py-1",
-                  children: "Payment Gateway Integration"
-                })]
-              }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("button", {
-                className: "text-xs text-muted-foreground hover:text-foreground mt-3",
-                children: "View all articles \u2192"
-              })]
-            }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-              className: "bg-card border border-border rounded-lg p-6",
-              children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                className: "flex items-center gap-3 mb-4",
-                children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                  className: "w-10 h-10 bg-red-100 rounded-lg flex items-center justify-center",
-                  children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                    className: "text-red-600",
-                    children: "\uD83D\uDCC8"
-                  })
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("h3", {
-                  className: "font-medium",
-                  children: "Marketing Tools"
-                })]
-              }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                className: "space-y-2",
-                children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("button", {
-                  className: "w-full text-left text-sm text-blue-600 hover:underline py-1",
-                  children: "Flash Sales Timer"
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("button", {
-                  className: "w-full text-left text-sm text-blue-600 hover:underline py-1",
-                  children: "Social Proof Notifications"
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("button", {
-                  className: "w-full text-left text-sm text-blue-600 hover:underline py-1",
-                  children: "Cross-Sell Configuration"
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("button", {
-                  className: "w-full text-left text-sm text-blue-600 hover:underline py-1",
-                  children: "Wishlist Setup"
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("button", {
-                  className: "w-full text-left text-sm text-blue-600 hover:underline py-1",
-                  children: "Email Marketing Integration"
-                })]
-              }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("button", {
-                className: "text-xs text-muted-foreground hover:text-foreground mt-3",
-                children: "View all articles \u2192"
-              })]
-            }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-              className: "bg-card border border-border rounded-lg p-6",
-              children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                className: "flex items-center gap-3 mb-4",
-                children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                  className: "w-10 h-10 bg-blue-100 rounded-lg flex items-center justify-center",
-                  children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                    className: "text-blue-600",
-                    children: "\uD83D\uDCCA"
-                  })
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("h3", {
-                  className: "font-medium",
-                  children: "Analytics & Reports"
-                })]
-              }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                className: "space-y-2",
-                children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("button", {
-                  className: "w-full text-left text-sm text-blue-600 hover:underline py-1",
-                  children: "Sales Reports Dashboard"
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("button", {
-                  className: "w-full text-left text-sm text-blue-600 hover:underline py-1",
-                  children: "Customer Behavior Analytics"
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("button", {
-                  className: "w-full text-left text-sm text-blue-600 hover:underline py-1",
-                  children: "Performance Monitoring"
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("button", {
-                  className: "w-full text-left text-sm text-blue-600 hover:underline py-1",
-                  children: "Custom Report Creation"
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("button", {
-                  className: "w-full text-left text-sm text-blue-600 hover:underline py-1",
-                  children: "Data Export Options"
-                })]
-              }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("button", {
-                className: "text-xs text-muted-foreground hover:text-foreground mt-3",
-                children: "View all articles \u2192"
-              })]
-            }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-              className: "bg-card border border-border rounded-lg p-6",
-              children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                className: "flex items-center gap-3 mb-4",
-                children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                  className: "w-10 h-10 bg-yellow-100 rounded-lg flex items-center justify-center",
-                  children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                    className: "text-yellow-600",
-                    children: "\uD83D\uDD27"
-                  })
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("h3", {
-                  className: "font-medium",
-                  children: "Troubleshooting"
-                })]
-              }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                className: "space-y-2",
-                children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("button", {
-                  className: "w-full text-left text-sm text-blue-600 hover:underline py-1",
-                  children: "Common Issues & Solutions"
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("button", {
-                  className: "w-full text-left text-sm text-blue-600 hover:underline py-1",
-                  children: "Plugin Conflicts"
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("button", {
-                  className: "w-full text-left text-sm text-blue-600 hover:underline py-1",
-                  children: "Performance Issues"
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("button", {
-                  className: "w-full text-left text-sm text-blue-600 hover:underline py-1",
-                  children: "Database Optimization"
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("button", {
-                  className: "w-full text-left text-sm text-blue-600 hover:underline py-1",
-                  children: "Debug Mode Guide"
-                })]
-              }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("button", {
-                className: "text-xs text-muted-foreground hover:text-foreground mt-3",
-                children: "View all articles \u2192"
-              })]
-            })]
-          }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-            className: "grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8",
-            children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-              className: "bg-card border border-border rounded-lg p-6",
-              children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("h3", {
-                className: "font-medium mb-4 flex items-center gap-2",
-                style: {
-                  display: "flex"
-                },
-                children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                  className: "w-2 h-2 bg-red-500 rounded-full"
-                }), "Video Tutorials"]
-              }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                className: "space-y-4",
-                children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                  className: "flex items-start gap-3 p-3 rounded-lg hover:bg-accent/50 transition-colors",
-                  children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                    className: "w-16 h-12 bg-red-100 rounded-lg flex items-center justify-center flex-shrink-0",
-                    children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                      className: "text-red-600 text-xs",
-                      children: "\u25B6\uFE0F"
-                    })
-                  }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                    className: "flex-1",
-                    children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                      className: "text-sm font-medium",
-                      children: "Getting Started with SpeedPress"
-                    }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                      className: "text-xs text-muted-foreground",
-                      children: "Complete setup guide \u2022 8:42"
-                    })]
-                  })]
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                  className: "flex items-start gap-3 p-3 rounded-lg hover:bg-accent/50 transition-colors",
-                  children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                    className: "w-16 h-12 bg-red-100 rounded-lg flex items-center justify-center flex-shrink-0",
-                    children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                      className: "text-red-600 text-xs",
-                      children: "\u25B6\uFE0F"
-                    })
-                  }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                    className: "flex-1",
-                    children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                      className: "text-sm font-medium",
-                      children: "Setting Up Cart Recovery"
-                    }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                      className: "text-xs text-muted-foreground",
-                      children: "Email templates & automation \u2022 12:15"
-                    })]
-                  })]
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                  className: "flex items-start gap-3 p-3 rounded-lg hover:bg-accent/50 transition-colors",
-                  children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                    className: "w-16 h-12 bg-red-100 rounded-lg flex items-center justify-center flex-shrink-0",
-                    children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                      className: "text-red-600 text-xs",
-                      children: "\u25B6\uFE0F"
-                    })
-                  }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                    className: "flex-1",
-                    children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                      className: "text-sm font-medium",
-                      children: "Creating Product Bundles"
-                    }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                      className: "text-xs text-muted-foreground",
-                      children: "Boost sales with bundles \u2022 9:23"
-                    })]
-                  })]
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                  className: "flex items-start gap-3 p-3 rounded-lg hover:bg-accent/50 transition-colors",
-                  children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                    className: "w-16 h-12 bg-red-100 rounded-lg flex items-center justify-center flex-shrink-0",
-                    children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                      className: "text-red-600 text-xs",
-                      children: "\u25B6\uFE0F"
-                    })
-                  }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                    className: "flex-1",
-                    children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                      className: "text-sm font-medium",
-                      children: "Performance Optimization"
-                    }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                      className: "text-xs text-muted-foreground",
-                      children: "Speed up your store \u2022 15:30"
-                    })]
-                  })]
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("button", {
-                  className: "w-full text-center text-sm text-blue-600 hover:underline py-2",
-                  children: "View All Video Tutorials"
-                })]
-              })]
-            }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-              className: "bg-card border border-border rounded-lg p-6",
-              children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("h3", {
-                className: "font-medium mb-4 flex items-center gap-2",
-                style: {
-                  display: "flex"
-                },
-                children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                  className: "w-2 h-2 bg-indigo-500 rounded-full"
-                }), "Frequently Asked Questions"]
-              }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                className: "space-y-4",
-                children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                  className: "border-b border-border pb-3",
-                  children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("button", {
-                    className: "w-full text-left",
-                    children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                      className: "text-sm font-medium mb-1",
-                      children: "How do I activate my license?"
-                    }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                      className: "text-xs text-muted-foreground",
-                      children: "Go to License & Updates tab and enter your license key..."
-                    })]
-                  })
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                  className: "border-b border-border pb-3",
-                  children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("button", {
-                    className: "w-full text-left",
-                    children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                      className: "text-sm font-medium mb-1",
-                      children: "Can I use SpeedPress on multiple sites?"
-                    }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                      className: "text-xs text-muted-foreground",
-                      children: "Yes, depending on your license plan. Professional allows..."
-                    })]
-                  })
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                  className: "border-b border-border pb-3",
-                  children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("button", {
-                    className: "w-full text-left",
-                    children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                      className: "text-sm font-medium mb-1",
-                      children: "How do I set up cart abandonment emails?"
-                    }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                      className: "text-xs text-muted-foreground",
-                      children: "Navigate to Cart & Checkout addons and enable..."
-                    })]
-                  })
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                  className: "border-b border-border pb-3",
-                  children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("button", {
-                    className: "w-full text-left",
-                    children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                      className: "text-sm font-medium mb-1",
-                      children: "Is SpeedPress compatible with my theme?"
-                    }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                      className: "text-xs text-muted-foreground",
-                      children: "SpeedPress is designed to work with most themes..."
-                    })]
-                  })
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                  className: "pb-3",
-                  children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("button", {
-                    className: "w-full text-left",
-                    children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                      className: "text-sm font-medium mb-1",
-                      children: "How do I get support?"
-                    }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                      className: "text-xs text-muted-foreground",
-                      children: "Premium users get priority email and live chat support..."
-                    })]
-                  })
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("button", {
-                  className: "w-full text-center text-sm text-blue-600 hover:underline py-2",
-                  children: "View All FAQs"
-                })]
-              })]
-            })]
-          }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-            className: "bg-card border border-border rounded-lg p-6 mb-8",
-            children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("h3", {
-              className: "font-medium mb-6 flex items-center gap-2",
-              style: {
-                display: "flex"
-              },
-              children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                className: "w-2 h-2 bg-cyan-500 rounded-full"
-              }), "Developer Resources"]
-            }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-              className: "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4",
-              children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("button", {
-                className: "flex flex-col items-center gap-3 p-4 rounded-lg hover:bg-accent transition-colors text-center",
-                children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                  className: "w-12 h-12 bg-cyan-100 rounded-lg flex items-center justify-center",
-                  children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                    className: "text-cyan-600",
-                    children: "\uD83D\uDD0C"
-                  })
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                  children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                    className: "text-sm font-medium",
-                    children: "API Documentation"
-                  }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                    className: "text-xs text-muted-foreground mt-1",
-                    children: "REST API endpoints and examples"
-                  })]
-                })]
-              }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("button", {
-                className: "flex flex-col items-center gap-3 p-4 rounded-lg hover:bg-accent transition-colors text-center",
-                children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                  className: "w-12 h-12 bg-emerald-100 rounded-lg flex items-center justify-center",
-                  children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                    className: "text-emerald-600",
-                    children: "\uD83C\uDFA3"
-                  })
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                  children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                    className: "text-sm font-medium",
-                    children: "Hooks & Filters"
-                  }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                    className: "text-xs text-muted-foreground mt-1",
-                    children: "Custom development hooks"
-                  })]
-                })]
-              }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("button", {
-                className: "flex flex-col items-center gap-3 p-4 rounded-lg hover:bg-accent transition-colors text-center",
-                children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                  className: "w-12 h-12 bg-violet-100 rounded-lg flex items-center justify-center",
-                  children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                    className: "text-violet-600",
-                    children: "\uD83D\uDCBB"
-                  })
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                  children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                    className: "text-sm font-medium",
-                    children: "Code Examples"
-                  }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                    className: "text-xs text-muted-foreground mt-1",
-                    children: "Ready-to-use code snippets"
-                  })]
-                })]
-              }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("button", {
-                className: "flex flex-col items-center gap-3 p-4 rounded-lg hover:bg-accent transition-colors text-center",
-                children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                  className: "w-12 h-12 bg-amber-100 rounded-lg flex items-center justify-center",
-                  children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                    className: "text-amber-600",
-                    children: "\uD83D\uDD27"
-                  })
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                  children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                    className: "text-sm font-medium",
-                    children: "Custom Addons"
-                  }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                    className: "text-xs text-muted-foreground mt-1",
-                    children: "Build your own addons"
-                  })]
-                })]
-              })]
-            })]
-          }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-            className: "grid grid-cols-1 lg:grid-cols-2 gap-8",
-            children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-              className: "bg-card border border-border rounded-lg p-6",
-              children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("h3", {
-                className: "font-medium mb-4",
-                children: "Most Popular Articles"
-              }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                className: "space-y-3",
-                children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                  className: "flex items-center justify-between py-2 hover:bg-accent/50 rounded px-2 transition-colors",
-                  children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                    className: "text-sm",
-                    children: "Complete SpeedPress Setup Guide"
-                  }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                    className: "text-xs bg-green-100 text-green-800 px-2 py-1 rounded dark:bg-green-900 dark:text-green-100",
-                    children: "1.2k views"
-                  })]
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                  className: "flex items-center justify-between py-2 hover:bg-accent/50 rounded px-2 transition-colors",
-                  children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                    className: "text-sm",
-                    children: "Cart Abandonment Email Templates"
-                  }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                    className: "text-xs bg-green-100 text-green-800 px-2 py-1 rounded dark:bg-green-900 dark:text-green-100",
-                    children: "950 views"
-                  })]
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                  className: "flex items-center justify-between py-2 hover:bg-accent/50 rounded px-2 transition-colors",
-                  children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                    className: "text-sm",
-                    children: "WooCommerce Compatibility Issues"
-                  }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                    className: "text-xs bg-green-100 text-green-800 px-2 py-1 rounded dark:bg-green-900 dark:text-green-100",
-                    children: "780 views"
-                  })]
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                  className: "flex items-center justify-between py-2 hover:bg-accent/50 rounded px-2 transition-colors",
-                  children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                    className: "text-sm",
-                    children: "Product Bundle Pricing Strategies"
-                  }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                    className: "text-xs bg-green-100 text-green-800 px-2 py-1 rounded dark:bg-green-900 dark:text-green-100",
-                    children: "650 views"
-                  })]
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                  className: "flex items-center justify-between py-2 hover:bg-accent/50 rounded px-2 transition-colors",
-                  children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                    className: "text-sm",
-                    children: "Performance Optimization Tips"
-                  }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                    className: "text-xs bg-green-100 text-green-800 px-2 py-1 rounded dark:bg-green-900 dark:text-green-100",
-                    children: "540 views"
-                  })]
-                })]
-              })]
-            }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-              className: "bg-card border border-border rounded-lg p-6",
-              children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("h3", {
-                className: "font-medium mb-4",
-                children: "Community & Support"
-              }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                className: "space-y-3",
-                children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("button", {
-                  className: "w-full flex items-center gap-3 p-3 rounded-lg hover:bg-accent transition-colors text-left",
-                  children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                    className: "w-8 h-8 bg-blue-100 rounded-lg flex items-center justify-center",
-                    children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                      className: "text-blue-600 text-xs",
-                      children: "\uD83D\uDCAC"
-                    })
-                  }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                    children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                      className: "text-sm font-medium",
-                      children: "Community Forum"
-                    }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                      className: "text-xs text-muted-foreground",
-                      children: "Connect with other users"
-                    })]
-                  })]
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("button", {
-                  className: "w-full flex items-center gap-3 p-3 rounded-lg hover:bg-accent transition-colors text-left",
-                  children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                    className: "w-8 h-8 bg-green-100 rounded-lg flex items-center justify-center",
-                    children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                      className: "text-green-600 text-xs",
-                      children: "\uD83C\uDFA7"
-                    })
-                  }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                    children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                      className: "text-sm font-medium",
-                      children: "Live Chat Support"
-                    }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                      className: "text-xs text-muted-foreground",
-                      children: "Get instant help from experts"
-                    })]
-                  })]
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("button", {
-                  className: "w-full flex items-center gap-3 p-3 rounded-lg hover:bg-accent transition-colors text-left",
-                  children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                    className: "w-8 h-8 bg-purple-100 rounded-lg flex items-center justify-center",
-                    children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                      className: "text-purple-600 text-xs",
-                      children: "\uD83D\uDCE7"
-                    })
-                  }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                    children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                      className: "text-sm font-medium",
-                      children: "Email Support"
-                    }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                      className: "text-xs text-muted-foreground",
-                      children: "Priority support for premium users"
-                    })]
-                  })]
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("button", {
-                  className: "w-full flex items-center gap-3 p-3 rounded-lg hover:bg-accent transition-colors text-left",
-                  children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                    className: "w-8 h-8 bg-orange-100 rounded-lg flex items-center justify-center",
-                    children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                      className: "text-orange-600 text-xs",
-                      children: "\uD83D\uDC1B"
-                    })
-                  }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                    children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                      className: "text-sm font-medium",
-                      children: "Report Bug"
-                    }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                      className: "text-xs text-muted-foreground",
-                      children: "Help us improve SpeedPress"
-                    })]
-                  })]
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("button", {
-                  className: "w-full flex items-center gap-3 p-3 rounded-lg hover:bg-accent transition-colors text-left",
-                  children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                    className: "w-8 h-8 bg-pink-100 rounded-lg flex items-center justify-center",
-                    children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                      className: "text-pink-600 text-xs",
-                      children: "\uD83D\uDCA1"
-                    })
-                  }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                    children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                      className: "text-sm font-medium",
-                      children: "Feature Request"
-                    }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                      className: "text-xs text-muted-foreground",
-                      children: "Suggest new features"
-                    })]
-                  })]
-                })]
-              })]
-            })]
-          })]
-        })
-      })]
-    });
-  }
+  // if (activeTab === 'help-docs') {
+  //   return (
+  //     <div className="h-full flex flex-col">
+  //       <ContentHeader 
+  //         activeTab={activeTab} 
+  //         addons={addons}
+  //         onOpenSidebar={onOpenSidebar} 
+  //         onAddonSelect={handleAddonSelect}
+  //       />
+  //       <div className="flex-1 p-3 md:p-6 lg:p-8 overflow-auto">
+  //         <div className="max-w-6xl mx-auto">
+  //           <div className="mb-8">
+  //             <h1 className="text-2xl font-semibold mb-2">{title}</h1>
+  //             <p className="text-muted-foreground">{description}</p>
+  //           </div>
+  //           {/* Search Bar */}
+  //           <div className="bg-card border border-border rounded-lg p-6 mb-8">
+  //             <h3 className="font-medium mb-4">Search Documentation</h3>
+  //             <div className="flex gap-3">
+  //               <input 
+  //                 type="text" 
+  //                 placeholder="Search for guides, tutorials, troubleshooting..."
+  //                 className="flex-1 px-4 py-3 bg-input-background border border-border rounded-lg text-sm"
+  //               />
+  //               <button className="bg-primary hover:bg-primary/90 text-primary-foreground px-6 py-3 rounded-lg transition-colors text-sm">
+  //                 Search
+  //               </button>
+  //             </div>
+  //             <div className="flex gap-2 mt-3">
+  //               <span className="text-xs text-muted-foreground">Popular searches:</span>
+  //               <button className="text-xs text-blue-600 hover:underline">Setup Guide</button>
+  //               <button className="text-xs text-blue-600 hover:underline">Cart Recovery</button>
+  //               <button className="text-xs text-blue-600 hover:underline">Product Bundles</button>
+  //               <button className="text-xs text-blue-600 hover:underline">API Integration</button>
+  //             </div>
+  //           </div>
+  //           {/* Quick Start Guide */}
+  //           <div className="bg-gradient-to-r from-blue-50 to-indigo-50 border border-blue-200 rounded-lg p-6 mb-8 dark:from-blue-950/20 dark:to-indigo-950/20 dark:border-blue-800">
+  //             <div className="flex items-start gap-4">
+  //               <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center flex-shrink-0">
+  //                 <span className="text-blue-600 text-lg">🚀</span>
+  //               </div>
+  //               <div className="flex-1">
+  //                 <h3 className="text-lg font-semibold text-blue-800 dark:text-blue-200 mb-2">Quick Start Guide</h3>
+  //                 <p className="text-sm text-blue-700 dark:text-blue-300 mb-4">
+  //                   New to SpeedPress? Follow our step-by-step guide to get your WooCommerce store optimized in minutes.
+  //                 </p>
+  //                 <div className="flex gap-3">
+  //                   <button className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg text-sm transition-colors">
+  //                     Start Setup Guide
+  //                   </button>
+  //                   <button className="bg-white/80 hover:bg-white text-blue-800 px-4 py-2 rounded-lg text-sm transition-colors">
+  //                     Watch Video Tutorial
+  //                   </button>
+  //                 </div>
+  //               </div>
+  //             </div>
+  //           </div>
+  //           {/* Documentation Categories */}
+  //           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
+  //             {/* Installation & Setup */}
+  //             <div className="bg-card border border-border rounded-lg p-6">
+  //               <div className="flex items-center gap-3 mb-4">
+  //                 <div className="w-10 h-10 bg-green-100 rounded-lg flex items-center justify-center">
+  //                   <span className="text-green-600">⚙️</span>
+  //                 </div>
+  //                 <h3 className="font-medium">Installation & Setup</h3>
+  //               </div>
+  //               <div className="space-y-2">
+  //                 <button className="w-full text-left text-sm text-blue-600 hover:underline py-1">Installing SpeedPress Plugin</button>
+  //                 <button className="w-full text-left text-sm text-blue-600 hover:underline py-1">License Activation Guide</button>
+  //                 <button className="w-full text-left text-sm text-blue-600 hover:underline py-1">Initial Configuration</button>
+  //                 <button className="w-full text-left text-sm text-blue-600 hover:underline py-1">System Requirements</button>
+  //               </div>
+  //               <button className="text-xs text-muted-foreground hover:text-foreground mt-3">View all articles →</button>
+  //             </div>
+  //             {/* Product Features */}
+  //             <div className="bg-card border border-border rounded-lg p-6">
+  //               <div className="flex items-center gap-3 mb-4">
+  //                 <div className="w-10 h-10 bg-purple-100 rounded-lg flex items-center justify-center">
+  //                   <span className="text-purple-600">📦</span>
+  //                 </div>
+  //                 <h3 className="font-medium">Product Features</h3>
+  //               </div>
+  //               <div className="space-y-2">
+  //                 <button className="w-full text-left text-sm text-blue-600 hover:underline py-1">Product Bundles Setup</button>
+  //                 <button className="w-full text-left text-sm text-blue-600 hover:underline py-1">Custom Product Tabs</button>
+  //                 <button className="w-full text-left text-sm text-blue-600 hover:underline py-1">Product Badges Configuration</button>
+  //                 <button className="w-full text-left text-sm text-blue-600 hover:underline py-1">Quick View Modal</button>
+  //                 <button className="w-full text-left text-sm text-blue-600 hover:underline py-1">Advanced Search Options</button>
+  //               </div>
+  //               <button className="text-xs text-muted-foreground hover:text-foreground mt-3">View all articles →</button>
+  //             </div>
+  //             {/* Cart & Checkout */}
+  //             <div className="bg-card border border-border rounded-lg p-6">
+  //               <div className="flex items-center gap-3 mb-4">
+  //                 <div className="w-10 h-10 bg-orange-100 rounded-lg flex items-center justify-center">
+  //                   <span className="text-orange-600">🛒</span>
+  //                 </div>
+  //                 <h3 className="font-medium">Cart & Checkout</h3>
+  //               </div>
+  //               <div className="space-y-2">
+  //                 <button className="w-full text-left text-sm text-blue-600 hover:underline py-1">Cart Abandonment Recovery</button>
+  //                 <button className="w-full text-left text-sm text-blue-600 hover:underline py-1">One-Click Checkout Setup</button>
+  //                 <button className="w-full text-left text-sm text-blue-600 hover:underline py-1">Custom Checkout Fields</button>
+  //                 <button className="w-full text-left text-sm text-blue-600 hover:underline py-1">Sliding Cart Drawer</button>
+  //                 <button className="w-full text-left text-sm text-blue-600 hover:underline py-1">Payment Gateway Integration</button>
+  //               </div>
+  //               <button className="text-xs text-muted-foreground hover:text-foreground mt-3">View all articles →</button>
+  //             </div>
+  //             {/* Marketing Tools */}
+  //             <div className="bg-card border border-border rounded-lg p-6">
+  //               <div className="flex items-center gap-3 mb-4">
+  //                 <div className="w-10 h-10 bg-red-100 rounded-lg flex items-center justify-center">
+  //                   <span className="text-red-600">📈</span>
+  //                 </div>
+  //                 <h3 className="font-medium">Marketing Tools</h3>
+  //               </div>
+  //               <div className="space-y-2">
+  //                 <button className="w-full text-left text-sm text-blue-600 hover:underline py-1">Flash Sales Timer</button>
+  //                 <button className="w-full text-left text-sm text-blue-600 hover:underline py-1">Social Proof Notifications</button>
+  //                 <button className="w-full text-left text-sm text-blue-600 hover:underline py-1">Cross-Sell Configuration</button>
+  //                 <button className="w-full text-left text-sm text-blue-600 hover:underline py-1">Wishlist Setup</button>
+  //                 <button className="w-full text-left text-sm text-blue-600 hover:underline py-1">Email Marketing Integration</button>
+  //               </div>
+  //               <button className="text-xs text-muted-foreground hover:text-foreground mt-3">View all articles →</button>
+  //             </div>
+  //             {/* Analytics & Reports */}
+  //             <div className="bg-card border border-border rounded-lg p-6">
+  //               <div className="flex items-center gap-3 mb-4">
+  //                 <div className="w-10 h-10 bg-blue-100 rounded-lg flex items-center justify-center">
+  //                   <span className="text-blue-600">📊</span>
+  //                 </div>
+  //                 <h3 className="font-medium">Analytics & Reports</h3>
+  //               </div>
+  //               <div className="space-y-2">
+  //                 <button className="w-full text-left text-sm text-blue-600 hover:underline py-1">Sales Reports Dashboard</button>
+  //                 <button className="w-full text-left text-sm text-blue-600 hover:underline py-1">Customer Behavior Analytics</button>
+  //                 <button className="w-full text-left text-sm text-blue-600 hover:underline py-1">Performance Monitoring</button>
+  //                 <button className="w-full text-left text-sm text-blue-600 hover:underline py-1">Custom Report Creation</button>
+  //                 <button className="w-full text-left text-sm text-blue-600 hover:underline py-1">Data Export Options</button>
+  //               </div>
+  //               <button className="text-xs text-muted-foreground hover:text-foreground mt-3">View all articles →</button>
+  //             </div>
+  //             {/* Troubleshooting */}
+  //             <div className="bg-card border border-border rounded-lg p-6">
+  //               <div className="flex items-center gap-3 mb-4">
+  //                 <div className="w-10 h-10 bg-yellow-100 rounded-lg flex items-center justify-center">
+  //                   <span className="text-yellow-600">🔧</span>
+  //                 </div>
+  //                 <h3 className="font-medium">Troubleshooting</h3>
+  //               </div>
+  //               <div className="space-y-2">
+  //                 <button className="w-full text-left text-sm text-blue-600 hover:underline py-1">Common Issues & Solutions</button>
+  //                 <button className="w-full text-left text-sm text-blue-600 hover:underline py-1">Plugin Conflicts</button>
+  //                 <button className="w-full text-left text-sm text-blue-600 hover:underline py-1">Performance Issues</button>
+  //                 <button className="w-full text-left text-sm text-blue-600 hover:underline py-1">Database Optimization</button>
+  //                 <button className="w-full text-left text-sm text-blue-600 hover:underline py-1">Debug Mode Guide</button>
+  //               </div>
+  //               <button className="text-xs text-muted-foreground hover:text-foreground mt-3">View all articles →</button>
+  //             </div>
+  //           </div>
+  //           {/* Video Tutorials & FAQ */}
+  //           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
+  //             {/* Video Tutorials */}
+  //             <div className="bg-card border border-border rounded-lg p-6">
+  //               <h3 className="font-medium mb-4 flex items-center gap-2" style={{display:"flex"}}>
+  //                 <div className="w-2 h-2 bg-red-500 rounded-full"></div>
+  //                 Video Tutorials
+  //               </h3>
+  //               <div className="space-y-4">
+  //                 <div className="flex items-start gap-3 p-3 rounded-lg hover:bg-accent/50 transition-colors">
+  //                   <div className="w-16 h-12 bg-red-100 rounded-lg flex items-center justify-center flex-shrink-0">
+  //                     <span className="text-red-600 text-xs">▶️</span>
+  //                   </div>
+  //                   <div className="flex-1">
+  //                     <div className="text-sm font-medium">Getting Started with SpeedPress</div>
+  //                     <div className="text-xs text-muted-foreground">Complete setup guide • 8:42</div>
+  //                   </div>
+  //                 </div>
+  //                 <div className="flex items-start gap-3 p-3 rounded-lg hover:bg-accent/50 transition-colors">
+  //                   <div className="w-16 h-12 bg-red-100 rounded-lg flex items-center justify-center flex-shrink-0">
+  //                     <span className="text-red-600 text-xs">▶️</span>
+  //                   </div>
+  //                   <div className="flex-1">
+  //                     <div className="text-sm font-medium">Setting Up Cart Recovery</div>
+  //                     <div className="text-xs text-muted-foreground">Email templates & automation • 12:15</div>
+  //                   </div>
+  //                 </div>
+  //                 <div className="flex items-start gap-3 p-3 rounded-lg hover:bg-accent/50 transition-colors">
+  //                   <div className="w-16 h-12 bg-red-100 rounded-lg flex items-center justify-center flex-shrink-0">
+  //                     <span className="text-red-600 text-xs">▶️</span>
+  //                   </div>
+  //                   <div className="flex-1">
+  //                     <div className="text-sm font-medium">Creating Product Bundles</div>
+  //                     <div className="text-xs text-muted-foreground">Boost sales with bundles • 9:23</div>
+  //                   </div>
+  //                 </div>
+  //                 <div className="flex items-start gap-3 p-3 rounded-lg hover:bg-accent/50 transition-colors">
+  //                   <div className="w-16 h-12 bg-red-100 rounded-lg flex items-center justify-center flex-shrink-0">
+  //                     <span className="text-red-600 text-xs">▶️</span>
+  //                   </div>
+  //                   <div className="flex-1">
+  //                     <div className="text-sm font-medium">Performance Optimization</div>
+  //                     <div className="text-xs text-muted-foreground">Speed up your store • 15:30</div>
+  //                   </div>
+  //                 </div>
+  //                 <button className="w-full text-center text-sm text-blue-600 hover:underline py-2">
+  //                   View All Video Tutorials
+  //                 </button>
+  //               </div>
+  //             </div>
+  //             {/* Frequently Asked Questions */}
+  //             <div className="bg-card border border-border rounded-lg p-6">
+  //               <h3 className="font-medium mb-4 flex items-center gap-2" style={{display:"flex"}}>
+  //                 <div className="w-2 h-2 bg-indigo-500 rounded-full"></div>
+  //                 Frequently Asked Questions
+  //               </h3>
+  //               <div className="space-y-4">
+  //                 <div className="border-b border-border pb-3">
+  //                   <button className="w-full text-left">
+  //                     <div className="text-sm font-medium mb-1">How do I activate my license?</div>
+  //                     <div className="text-xs text-muted-foreground">Go to License & Updates tab and enter your license key...</div>
+  //                   </button>
+  //                 </div>
+  //                 <div className="border-b border-border pb-3">
+  //                   <button className="w-full text-left">
+  //                     <div className="text-sm font-medium mb-1">Can I use SpeedPress on multiple sites?</div>
+  //                     <div className="text-xs text-muted-foreground">Yes, depending on your license plan. Professional allows...</div>
+  //                   </button>
+  //                 </div>
+  //                 <div className="border-b border-border pb-3">
+  //                   <button className="w-full text-left">
+  //                     <div className="text-sm font-medium mb-1">How do I set up cart abandonment emails?</div>
+  //                     <div className="text-xs text-muted-foreground">Navigate to Cart & Checkout addons and enable...</div>
+  //                   </button>
+  //                 </div>
+  //                 <div className="border-b border-border pb-3">
+  //                   <button className="w-full text-left">
+  //                     <div className="text-sm font-medium mb-1">Is SpeedPress compatible with my theme?</div>
+  //                     <div className="text-xs text-muted-foreground">SpeedPress is designed to work with most themes...</div>
+  //                   </button>
+  //                 </div>
+  //                 <div className="pb-3">
+  //                   <button className="w-full text-left">
+  //                     <div className="text-sm font-medium mb-1">How do I get support?</div>
+  //                     <div className="text-xs text-muted-foreground">Premium users get priority email and live chat support...</div>
+  //                   </button>
+  //                 </div>
+  //                 <button className="w-full text-center text-sm text-blue-600 hover:underline py-2">
+  //                   View All FAQs
+  //                 </button>
+  //               </div>
+  //             </div>
+  //           </div>
+  //           {/* Developer Resources */}
+  //           <div className="bg-card border border-border rounded-lg p-6 mb-8">
+  //             <h3 className="font-medium mb-6 flex items-center gap-2" style={{display:"flex"}}>
+  //               <div className="w-2 h-2 bg-cyan-500 rounded-full"></div>
+  //               Developer Resources
+  //             </h3>
+  //             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+  //               <button className="flex flex-col items-center gap-3 p-4 rounded-lg hover:bg-accent transition-colors text-center">
+  //                 <div className="w-12 h-12 bg-cyan-100 rounded-lg flex items-center justify-center">
+  //                   <span className="text-cyan-600">🔌</span>
+  //                 </div>
+  //                 <div>
+  //                   <div className="text-sm font-medium">API Documentation</div>
+  //                   <div className="text-xs text-muted-foreground mt-1">REST API endpoints and examples</div>
+  //                 </div>
+  //               </button>
+  //               <button className="flex flex-col items-center gap-3 p-4 rounded-lg hover:bg-accent transition-colors text-center">
+  //                 <div className="w-12 h-12 bg-emerald-100 rounded-lg flex items-center justify-center">
+  //                   <span className="text-emerald-600">🎣</span>
+  //                 </div>
+  //                 <div>
+  //                   <div className="text-sm font-medium">Hooks & Filters</div>
+  //                   <div className="text-xs text-muted-foreground mt-1">Custom development hooks</div>
+  //                 </div>
+  //               </button>
+  //               <button className="flex flex-col items-center gap-3 p-4 rounded-lg hover:bg-accent transition-colors text-center">
+  //                 <div className="w-12 h-12 bg-violet-100 rounded-lg flex items-center justify-center">
+  //                   <span className="text-violet-600">💻</span>
+  //                 </div>
+  //                 <div>
+  //                   <div className="text-sm font-medium">Code Examples</div>
+  //                   <div className="text-xs text-muted-foreground mt-1">Ready-to-use code snippets</div>
+  //                 </div>
+  //               </button>
+  //               <button className="flex flex-col items-center gap-3 p-4 rounded-lg hover:bg-accent transition-colors text-center">
+  //                 <div className="w-12 h-12 bg-amber-100 rounded-lg flex items-center justify-center">
+  //                   <span className="text-amber-600">🔧</span>
+  //                 </div>
+  //                 <div>
+  //                   <div className="text-sm font-medium">Custom Addons</div>
+  //                   <div className="text-xs text-muted-foreground mt-1">Build your own addons</div>
+  //                 </div>
+  //               </button>
+  //             </div>
+  //           </div>
+  //           {/* Popular Articles & Community */}
+  //           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+  //             {/* Popular Articles */}
+  //             <div className="bg-card border border-border rounded-lg p-6">
+  //               <h3 className="font-medium mb-4">Most Popular Articles</h3>
+  //               <div className="space-y-3">
+  //                 <div className="flex items-center justify-between py-2 hover:bg-accent/50 rounded px-2 transition-colors">
+  //                   <span className="text-sm">Complete SpeedPress Setup Guide</span>
+  //                   <span className="text-xs bg-green-100 text-green-800 px-2 py-1 rounded dark:bg-green-900 dark:text-green-100">1.2k views</span>
+  //                 </div>
+  //                 <div className="flex items-center justify-between py-2 hover:bg-accent/50 rounded px-2 transition-colors">
+  //                   <span className="text-sm">Cart Abandonment Email Templates</span>
+  //                   <span className="text-xs bg-green-100 text-green-800 px-2 py-1 rounded dark:bg-green-900 dark:text-green-100">950 views</span>
+  //                 </div>
+  //                 <div className="flex items-center justify-between py-2 hover:bg-accent/50 rounded px-2 transition-colors">
+  //                   <span className="text-sm">WooCommerce Compatibility Issues</span>
+  //                   <span className="text-xs bg-green-100 text-green-800 px-2 py-1 rounded dark:bg-green-900 dark:text-green-100">780 views</span>
+  //                 </div>
+  //                 <div className="flex items-center justify-between py-2 hover:bg-accent/50 rounded px-2 transition-colors">
+  //                   <span className="text-sm">Product Bundle Pricing Strategies</span>
+  //                   <span className="text-xs bg-green-100 text-green-800 px-2 py-1 rounded dark:bg-green-900 dark:text-green-100">650 views</span>
+  //                 </div>
+  //                 <div className="flex items-center justify-between py-2 hover:bg-accent/50 rounded px-2 transition-colors">
+  //                   <span className="text-sm">Performance Optimization Tips</span>
+  //                   <span className="text-xs bg-green-100 text-green-800 px-2 py-1 rounded dark:bg-green-900 dark:text-green-100">540 views</span>
+  //                 </div>
+  //               </div>
+  //             </div>
+  //             {/* Community & Support */}
+  //             <div className="bg-card border border-border rounded-lg p-6">
+  //               <h3 className="font-medium mb-4">Community & Support</h3>
+  //               <div className="space-y-3">
+  //                 <button className="w-full flex items-center gap-3 p-3 rounded-lg hover:bg-accent transition-colors text-left">
+  //                   <div className="w-8 h-8 bg-blue-100 rounded-lg flex items-center justify-center">
+  //                     <span className="text-blue-600 text-xs">💬</span>
+  //                   </div>
+  //                   <div>
+  //                     <div className="text-sm font-medium">Community Forum</div>
+  //                     <div className="text-xs text-muted-foreground">Connect with other users</div>
+  //                   </div>
+  //                 </button>
+  //                 <button className="w-full flex items-center gap-3 p-3 rounded-lg hover:bg-accent transition-colors text-left">
+  //                   <div className="w-8 h-8 bg-green-100 rounded-lg flex items-center justify-center">
+  //                     <span className="text-green-600 text-xs">🎧</span>
+  //                   </div>
+  //                   <div>
+  //                     <div className="text-sm font-medium">Live Chat Support</div>
+  //                     <div className="text-xs text-muted-foreground">Get instant help from experts</div>
+  //                   </div>
+  //                 </button>
+  //                 <button className="w-full flex items-center gap-3 p-3 rounded-lg hover:bg-accent transition-colors text-left">
+  //                   <div className="w-8 h-8 bg-purple-100 rounded-lg flex items-center justify-center">
+  //                     <span className="text-purple-600 text-xs">📧</span>
+  //                   </div>
+  //                   <div>
+  //                     <div className="text-sm font-medium">Email Support</div>
+  //                     <div className="text-xs text-muted-foreground">Priority support for premium users</div>
+  //                   </div>
+  //                 </button>
+  //                 <button className="w-full flex items-center gap-3 p-3 rounded-lg hover:bg-accent transition-colors text-left">
+  //                   <div className="w-8 h-8 bg-orange-100 rounded-lg flex items-center justify-center">
+  //                     <span className="text-orange-600 text-xs">🐛</span>
+  //                   </div>
+  //                   <div>
+  //                     <div className="text-sm font-medium">Report Bug</div>
+  //                     <div className="text-xs text-muted-foreground">Help us improve SpeedPress</div>
+  //                   </div>
+  //                 </button>
+  //                 <button className="w-full flex items-center gap-3 p-3 rounded-lg hover:bg-accent transition-colors text-left">
+  //                   <div className="w-8 h-8 bg-pink-100 rounded-lg flex items-center justify-center">
+  //                     <span className="text-pink-600 text-xs">💡</span>
+  //                   </div>
+  //                   <div>
+  //                     <div className="text-sm font-medium">Feature Request</div>
+  //                     <div className="text-xs text-muted-foreground">Suggest new features</div>
+  //                   </div>
+  //                 </button>
+  //               </div>
+  //             </div>
+  //           </div>
+  //         </div>
+  //       </div>
+  //     </div>
+  //   );
+  // }
   // Special handling for license-updates
-  if (activeTab === 'license-updates') {
-    return (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-      className: "h-full flex flex-col",
-      children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ContentHeader__WEBPACK_IMPORTED_MODULE_2__.ContentHeader, {
-        activeTab: activeTab,
-        addons: addons,
-        onOpenSidebar: onOpenSidebar,
-        onAddonSelect: handleAddonSelect
-      }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-        className: "flex-1 p-3 md:p-6 lg:p-8 overflow-auto",
-        children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-          className: "max-w-6xl mx-auto",
-          children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-            className: "mb-8",
-            children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("h1", {
-              className: "text-2xl font-semibold mb-2",
-              children: title
-            }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
-              className: "text-muted-foreground",
-              children: description
-            })]
-          }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-            className: "bg-gradient-to-r from-green-50 to-emerald-50 border border-green-200 rounded-lg p-6 mb-8 dark:from-green-950/20 dark:to-emerald-950/20 dark:border-green-800",
-            children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-              className: "flex items-start justify-between",
-              children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                className: "flex-1",
-                children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                  className: "flex items-center gap-3 mb-4",
-                  children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                    className: "w-12 h-12 bg-green-100 rounded-full flex items-center justify-center",
-                    children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                      className: "text-green-600 text-lg",
-                      children: "\u2713"
-                    })
-                  }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                    children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("h3", {
-                      className: "text-lg font-semibold text-green-800 dark:text-green-200",
-                      children: "License Active"
-                    }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
-                      className: "text-sm text-green-700 dark:text-green-300",
-                      children: "Your SpeedPress Pro license is valid and up to date"
-                    })]
-                  })]
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                  className: "grid grid-cols-1 md:grid-cols-3 gap-4",
-                  children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                    children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                      className: "text-sm text-green-700 dark:text-green-300",
-                      children: "License Type"
-                    }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                      className: "font-semibold text-green-800 dark:text-green-200",
-                      children: "Professional"
-                    })]
-                  }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                    children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                      className: "text-sm text-green-700 dark:text-green-300",
-                      children: "Sites Used"
-                    }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                      className: "font-semibold text-green-800 dark:text-green-200",
-                      children: "1 / 5"
-                    })]
-                  }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                    children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                      className: "text-sm text-green-700 dark:text-green-300",
-                      children: "Expires"
-                    }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                      className: "font-semibold text-green-800 dark:text-green-200",
-                      children: "March 15, 2025"
-                    })]
-                  })]
-                })]
-              }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                className: "flex gap-3",
-                children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("button", {
-                  className: "bg-white/80 hover:bg-white text-green-800 px-4 py-2 rounded-lg transition-colors text-sm",
-                  children: "Renew License"
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("button", {
-                  className: "bg-white/80 hover:bg-white text-green-800 px-4 py-2 rounded-lg transition-colors text-sm",
-                  children: "Upgrade Plan"
-                })]
-              })]
-            })
-          }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-            className: "grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8",
-            children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-              className: "bg-card border border-border rounded-lg p-6",
-              children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("h3", {
-                className: "font-medium mb-4 flex items-center gap-2",
-                style: {
-                  display: "flex"
-                },
-                children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                  className: "w-2 h-2 bg-blue-500 rounded-full"
-                }), "License Key Management"]
-              }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                className: "space-y-4",
-                children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                  children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("label", {
-                    className: "text-sm font-medium mb-2 block",
-                    children: "License Key"
-                  }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                    className: "flex gap-2",
-                    children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("input", {
-                      type: "password",
-                      value: "SP-PRO-XXXX-XXXX-XXXX-XXXX",
-                      className: "flex-1 px-3 py-2 bg-input-background border border-border rounded-lg text-sm",
-                      disabled: true
-                    }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("button", {
-                      className: "px-3 py-2 bg-secondary hover:bg-secondary/80 text-secondary-foreground rounded-lg text-sm transition-colors",
-                      children: "Show"
-                    }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("button", {
-                      className: "px-3 py-2 bg-secondary hover:bg-secondary/80 text-secondary-foreground rounded-lg text-sm transition-colors",
-                      children: "Copy"
-                    })]
-                  })]
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                  children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("button", {
-                    className: "w-full bg-primary hover:bg-primary/90 text-primary-foreground px-4 py-2 rounded-lg transition-colors text-sm",
-                    children: "Refresh License Status"
-                  })
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                  className: "pt-4 border-t border-border",
-                  children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("h4", {
-                    className: "font-medium text-sm mb-3",
-                    children: "License Information"
-                  }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                    className: "space-y-2 text-sm",
-                    children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                      className: "flex justify-between",
-                      children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                        className: "text-muted-foreground",
-                        children: "Customer Email:"
-                      }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                        children: "user@example.com"
-                      })]
-                    }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                      className: "flex justify-between",
-                      children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                        className: "text-muted-foreground",
-                        children: "Purchase Date:"
-                      }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                        children: "March 15, 2024"
-                      })]
-                    }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                      className: "flex justify-between",
-                      children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                        className: "text-muted-foreground",
-                        children: "Order ID:"
-                      }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                        children: "#SP-2024-1234"
-                      })]
-                    })]
-                  })]
-                })]
-              })]
-            }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-              className: "bg-card border border-border rounded-lg p-6",
-              children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("h3", {
-                className: "font-medium mb-4 flex items-center gap-2",
-                style: {
-                  display: "flex"
-                },
-                children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                  className: "w-2 h-2 bg-purple-500 rounded-full"
-                }), "Multi-Site Management"]
-              }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                className: "space-y-4",
-                children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                  className: "flex items-center justify-between p-3 bg-accent rounded-lg",
-                  children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                    children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                      className: "font-medium text-sm",
-                      children: "Current Site"
-                    }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                      className: "text-xs text-muted-foreground",
-                      children: "mystore.com"
-                    })]
-                  }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                    className: "text-xs bg-green-100 text-green-800 px-2 py-1 rounded dark:bg-green-900 dark:text-green-100",
-                    children: "Active"
-                  })]
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                  className: "space-y-2",
-                  children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                    className: "text-sm font-medium",
-                    children: "Available Sites (4 remaining)"
-                  }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                    className: "text-xs text-muted-foreground",
-                    children: "You can activate SpeedPress on 4 more websites with your Professional license."
-                  })]
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                  className: "space-y-2",
-                  children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("input", {
-                    type: "url",
-                    placeholder: "https://newsite.com",
-                    className: "w-full px-3 py-2 bg-input-background border border-border rounded-lg text-sm"
-                  }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("button", {
-                    className: "w-full bg-purple-600 hover:bg-purple-700 text-white px-4 py-2 rounded-lg transition-colors text-sm",
-                    children: "Activate on New Site"
-                  })]
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                  className: "pt-4 border-t border-border",
-                  children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("button", {
-                    className: "text-sm text-blue-600 hover:underline",
-                    children: "View All Licensed Sites"
-                  })
-                })]
-              })]
-            })]
-          }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-            className: "bg-card border border-border rounded-lg p-6 mb-8",
-            children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("h3", {
-              className: "font-medium mb-6 flex items-center gap-2",
-              style: {
-                display: "flex"
-              },
-              children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                className: "w-2 h-2 bg-orange-500 rounded-full"
-              }), "Update Management"]
-            }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-              className: "grid grid-cols-1 lg:grid-cols-2 gap-8",
-              children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("h4", {
-                  className: "font-medium text-sm mb-4",
-                  children: "Current Version"
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                  className: "space-y-4",
-                  children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                    className: "flex items-center justify-between p-4 bg-accent rounded-lg",
-                    children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                      children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                        className: "font-medium",
-                        children: "SpeedPress Pro"
-                      }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                        className: "text-sm text-muted-foreground",
-                        children: "Version 2.1.4"
-                      })]
-                    }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                      className: "text-xs bg-green-100 text-green-800 px-2 py-1 rounded dark:bg-green-900 dark:text-green-100",
-                      children: "Latest"
-                    })]
-                  }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                    className: "p-4 bg-blue-50 border border-blue-200 rounded-lg dark:bg-blue-950/20 dark:border-blue-800",
-                    children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                      className: "flex items-center gap-2 mb-2",
-                      children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                        className: "text-blue-600",
-                        children: "\uD83D\uDCE6"
-                      }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                        className: "font-medium text-sm text-blue-800 dark:text-blue-200",
-                        children: "Update Available"
-                      })]
-                    }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                      className: "text-sm text-blue-700 dark:text-blue-300 mb-3",
-                      children: "Version 2.1.5 is now available with bug fixes and performance improvements."
-                    }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("button", {
-                      className: "bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg text-sm transition-colors",
-                      children: "Update Now"
-                    })]
-                  })]
-                })]
-              }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("h4", {
-                  className: "font-medium text-sm mb-4",
-                  children: "Auto-Update Settings"
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                  className: "space-y-4",
-                  children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                    className: "flex items-center justify-between p-3 border border-border rounded-lg",
-                    children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                      children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                        className: "text-sm font-medium",
-                        children: "Automatic Updates"
-                      }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                        className: "text-xs text-muted-foreground",
-                        children: "Update plugin automatically when new versions are released"
-                      })]
-                    }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("input", {
-                      type: "checkbox",
-                      className: "w-4 h-4",
-                      defaultChecked: true
-                    })]
-                  }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                    className: "flex items-center justify-between p-3 border border-border rounded-lg",
-                    children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                      children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                        className: "text-sm font-medium",
-                        children: "Beta Updates"
-                      }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                        className: "text-xs text-muted-foreground",
-                        children: "Receive early access to beta versions"
-                      })]
-                    }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("input", {
-                      type: "checkbox",
-                      className: "w-4 h-4"
-                    })]
-                  }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                    className: "flex items-center justify-between p-3 border border-border rounded-lg",
-                    children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                      children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                        className: "text-sm font-medium",
-                        children: "Update Notifications"
-                      }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                        className: "text-xs text-muted-foreground",
-                        children: "Email notifications for available updates"
-                      })]
-                    }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("input", {
-                      type: "checkbox",
-                      className: "w-4 h-4",
-                      defaultChecked: true
-                    })]
-                  }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                    className: "flex items-center justify-between p-3 border border-border rounded-lg",
-                    children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                      children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                        className: "text-sm font-medium",
-                        children: "Backup Before Update"
-                      }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                        className: "text-xs text-muted-foreground",
-                        children: "Create automatic backup before updating"
-                      })]
-                    }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("input", {
-                      type: "checkbox",
-                      className: "w-4 h-4",
-                      defaultChecked: true
-                    })]
-                  })]
-                })]
-              })]
-            })]
-          }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-            className: "bg-card border border-border rounded-lg p-6 mb-8",
-            children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("h3", {
-              className: "font-medium mb-4 flex items-center gap-2",
-              style: {
-                display: "flex"
-              },
-              children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                className: "w-2 h-2 bg-indigo-500 rounded-full"
-              }), "Version History"]
-            }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-              className: "space-y-4",
-              children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                className: "border-l-4 border-blue-500 pl-4",
-                children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                  className: "flex items-center justify-between",
-                  children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                    className: "font-medium text-sm",
-                    children: "Version 2.1.4 (Current)"
-                  }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                    className: "text-xs text-muted-foreground",
-                    children: "Released 3 days ago"
-                  })]
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                  className: "text-sm text-muted-foreground mt-1",
-                  children: "Added advanced product filtering, improved checkout flow, enhanced analytics dashboard"
-                })]
-              }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                className: "border-l-4 border-green-500 pl-4",
-                children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                  className: "flex items-center justify-between",
-                  children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                    className: "font-medium text-sm",
-                    children: "Version 2.1.3"
-                  }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                    className: "text-xs text-muted-foreground",
-                    children: "Released 2 weeks ago"
-                  })]
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                  className: "text-sm text-muted-foreground mt-1",
-                  children: "Fixed cart abandonment email templates, improved mobile responsiveness"
-                })]
-              }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                className: "border-l-4 border-purple-500 pl-4",
-                children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                  className: "flex items-center justify-between",
-                  children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                    className: "font-medium text-sm",
-                    children: "Version 2.1.2"
-                  }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                    className: "text-xs text-muted-foreground",
-                    children: "Released 1 month ago"
-                  })]
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                  className: "text-sm text-muted-foreground mt-1",
-                  children: "New flash sales timer addon, performance optimizations, WooCommerce 8.4 compatibility"
-                })]
-              }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                className: "border-l-4 border-orange-500 pl-4",
-                children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                  className: "flex items-center justify-between",
-                  children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                    className: "font-medium text-sm",
-                    children: "Version 2.1.1"
-                  }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                    className: "text-xs text-muted-foreground",
-                    children: "Released 2 months ago"
-                  })]
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                  className: "text-sm text-muted-foreground mt-1",
-                  children: "Security updates, bug fixes for product bundles, improved compatibility"
-                })]
-              }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("button", {
-                className: "text-sm text-blue-600 hover:underline",
-                children: "View Complete Changelog"
-              })]
-            })]
-          }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-            className: "grid grid-cols-1 lg:grid-cols-2 gap-8",
-            children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-              className: "bg-card border border-border rounded-lg p-6",
-              children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("h3", {
-                className: "font-medium mb-4 flex items-center gap-2",
-                style: {
-                  display: "flex"
-                },
-                children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                  className: "w-2 h-2 bg-green-500 rounded-full"
-                }), "Support Entitlements"]
-              }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                className: "space-y-3",
-                children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                  className: "flex items-center justify-between",
-                  children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                    className: "text-sm",
-                    children: "Priority Email Support"
-                  }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                    className: "text-xs bg-green-100 text-green-800 px-2 py-1 rounded dark:bg-green-900 dark:text-green-100",
-                    children: "Included"
-                  })]
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                  className: "flex items-center justify-between",
-                  children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                    className: "text-sm",
-                    children: "Live Chat Support"
-                  }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                    className: "text-xs bg-green-100 text-green-800 px-2 py-1 rounded dark:bg-green-900 dark:text-green-100",
-                    children: "Included"
-                  })]
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                  className: "flex items-center justify-between",
-                  children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                    className: "text-sm",
-                    children: "Installation Support"
-                  }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                    className: "text-xs bg-green-100 text-green-800 px-2 py-1 rounded dark:bg-green-900 dark:text-green-100",
-                    children: "Included"
-                  })]
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                  className: "flex items-center justify-between",
-                  children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                    className: "text-sm",
-                    children: "Custom Development"
-                  }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                    className: "text-xs bg-blue-100 text-blue-800 px-2 py-1 rounded dark:bg-blue-900 dark:text-blue-100",
-                    children: "Available"
-                  })]
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                  className: "pt-3 border-t border-border",
-                  children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("button", {
-                    className: "w-full bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-lg transition-colors text-sm",
-                    children: "Contact Support"
-                  })
-                })]
-              })]
-            }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-              className: "bg-card border border-border rounded-lg p-6",
-              children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("h3", {
-                className: "font-medium mb-4 flex items-center gap-2",
-                style: {
-                  display: "flex"
-                },
-                children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                  className: "w-2 h-2 bg-orange-500 rounded-full"
-                }), "Billing & Account"]
-              }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                className: "space-y-4",
-                children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                  className: "space-y-2",
-                  children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                    className: "flex justify-between text-sm",
-                    children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                      className: "text-muted-foreground",
-                      children: "Next Billing Date:"
-                    }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                      children: "March 15, 2025"
-                    })]
-                  }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                    className: "flex justify-between text-sm",
-                    children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                      className: "text-muted-foreground",
-                      children: "Amount:"
-                    }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                      children: "$79.00 USD"
-                    })]
-                  }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                    className: "flex justify-between text-sm",
-                    children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                      className: "text-muted-foreground",
-                      children: "Payment Method:"
-                    }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                      children: "\u2022\u2022\u2022\u2022 4242"
-                    })]
-                  })]
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                  className: "grid grid-cols-2 gap-3",
-                  children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("button", {
-                    className: "bg-secondary hover:bg-secondary/80 text-secondary-foreground px-4 py-2 rounded-lg transition-colors text-sm",
-                    children: "Update Payment"
-                  }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("button", {
-                    className: "bg-secondary hover:bg-secondary/80 text-secondary-foreground px-4 py-2 rounded-lg transition-colors text-sm",
-                    children: "Download Invoice"
-                  })]
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                  className: "pt-3 border-t border-border",
-                  children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("button", {
-                    className: "text-sm text-blue-600 hover:underline",
-                    children: "Manage Billing in Customer Portal"
-                  })
-                })]
-              })]
-            })]
-          })]
-        })
-      })]
-    });
-  }
+  // if (activeTab === 'license-updates') {
+  //   return (
+  //     <div className="h-full flex flex-col">
+  //       <ContentHeader 
+  //         activeTab={activeTab} 
+  //         addons={addons}
+  //         onOpenSidebar={onOpenSidebar} 
+  //         onAddonSelect={handleAddonSelect}
+  //       />
+  //       <div className="flex-1 p-3 md:p-6 lg:p-8 overflow-auto">
+  //         <div className="max-w-6xl mx-auto">
+  //           <div className="mb-8">
+  //             <h1 className="text-2xl font-semibold mb-2">{title}</h1>
+  //             <p className="text-muted-foreground">{description}</p>
+  //           </div>
+  //           {/* License Status Card */}
+  //           <div className="bg-gradient-to-r from-green-50 to-emerald-50 border border-green-200 rounded-lg p-6 mb-8 dark:from-green-950/20 dark:to-emerald-950/20 dark:border-green-800">
+  //             <div className="flex items-start justify-between">
+  //               <div className="flex-1">
+  //                 <div className="flex items-center gap-3 mb-4">
+  //                   <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center">
+  //                     <span className="text-green-600 text-lg">✓</span>
+  //                   </div>
+  //                   <div>
+  //                     <h3 className="text-lg font-semibold text-green-800 dark:text-green-200">License Active</h3>
+  //                     <p className="text-sm text-green-700 dark:text-green-300">Your SpeedPress Pro license is valid and up to date</p>
+  //                   </div>
+  //                 </div>
+  //                 <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+  //                   <div>
+  //                     <div className="text-sm text-green-700 dark:text-green-300">License Type</div>
+  //                     <div className="font-semibold text-green-800 dark:text-green-200">Professional</div>
+  //                   </div>
+  //                   <div>
+  //                     <div className="text-sm text-green-700 dark:text-green-300">Sites Used</div>
+  //                     <div className="font-semibold text-green-800 dark:text-green-200">1 / 5</div>
+  //                   </div>
+  //                   <div>
+  //                     <div className="text-sm text-green-700 dark:text-green-300">Expires</div>
+  //                     <div className="font-semibold text-green-800 dark:text-green-200">March 15, 2025</div>
+  //                   </div>
+  //                 </div>
+  //               </div>
+  //               <div className="flex gap-3">
+  //                 <button className="bg-white/80 hover:bg-white text-green-800 px-4 py-2 rounded-lg transition-colors text-sm">
+  //                   Renew License
+  //                 </button>
+  //                 <button className="bg-white/80 hover:bg-white text-green-800 px-4 py-2 rounded-lg transition-colors text-sm">
+  //                   Upgrade Plan
+  //                 </button>
+  //               </div>
+  //             </div>
+  //           </div>
+  //           {/* License Management */}
+  //           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
+  //             {/* License Key Management */}
+  //             <div className="bg-card border border-border rounded-lg p-6">
+  //               <h3 className="font-medium mb-4 flex items-center gap-2" style={{display:"flex"}}>
+  //                 <div className="w-2 h-2 bg-blue-500 rounded-full"></div>
+  //                 License Key Management
+  //               </h3>
+  //               <div className="space-y-4">
+  //                 <div>
+  //                   <label className="text-sm font-medium mb-2 block">License Key</label>
+  //                   <div className="flex gap-2">
+  //                     <input 
+  //                       type="password" 
+  //                       value="SP-PRO-XXXX-XXXX-XXXX-XXXX"
+  //                       className="flex-1 px-3 py-2 bg-input-background border border-border rounded-lg text-sm"
+  //                       disabled
+  //                     />
+  //                     <button className="px-3 py-2 bg-secondary hover:bg-secondary/80 text-secondary-foreground rounded-lg text-sm transition-colors">
+  //                       Show
+  //                     </button>
+  //                     <button className="px-3 py-2 bg-secondary hover:bg-secondary/80 text-secondary-foreground rounded-lg text-sm transition-colors">
+  //                       Copy
+  //                     </button>
+  //                   </div>
+  //                 </div>
+  //                 <div>
+  //                   <button className="w-full bg-primary hover:bg-primary/90 text-primary-foreground px-4 py-2 rounded-lg transition-colors text-sm">
+  //                     Refresh License Status
+  //                   </button>
+  //                 </div>
+  //                 <div className="pt-4 border-t border-border">
+  //                   <h4 className="font-medium text-sm mb-3">License Information</h4>
+  //                   <div className="space-y-2 text-sm">
+  //                     <div className="flex justify-between">
+  //                       <span className="text-muted-foreground">Customer Email:</span>
+  //                       <span>user@example.com</span>
+  //                     </div>
+  //                     <div className="flex justify-between">
+  //                       <span className="text-muted-foreground">Purchase Date:</span>
+  //                       <span>March 15, 2024</span>
+  //                     </div>
+  //                     <div className="flex justify-between">
+  //                       <span className="text-muted-foreground">Order ID:</span>
+  //                       <span>#SP-2024-1234</span>
+  //                     </div>
+  //                   </div>
+  //                 </div>
+  //               </div>
+  //             </div>
+  //             {/* Multi-Site Management */}
+  //             <div className="bg-card border border-border rounded-lg p-6">
+  //               <h3 className="font-medium mb-4 flex items-center gap-2" style={{display:"flex"}}>
+  //                 <div className="w-2 h-2 bg-purple-500 rounded-full"></div>
+  //                 Multi-Site Management
+  //               </h3>
+  //               <div className="space-y-4">
+  //                 <div className="flex items-center justify-between p-3 bg-accent rounded-lg">
+  //                   <div>
+  //                     <div className="font-medium text-sm">Current Site</div>
+  //                     <div className="text-xs text-muted-foreground">mystore.com</div>
+  //                   </div>
+  //                   <span className="text-xs bg-green-100 text-green-800 px-2 py-1 rounded dark:bg-green-900 dark:text-green-100">Active</span>
+  //                 </div>
+  //                 <div className="space-y-2">
+  //                   <div className="text-sm font-medium">Available Sites (4 remaining)</div>
+  //                   <div className="text-xs text-muted-foreground">
+  //                     You can activate SpeedPress on 4 more websites with your Professional license.
+  //                   </div>
+  //                 </div>
+  //                 <div className="space-y-2">
+  //                   <input 
+  //                     type="url" 
+  //                     placeholder="https://newsite.com"
+  //                     className="w-full px-3 py-2 bg-input-background border border-border rounded-lg text-sm"
+  //                   />
+  //                   <button className="w-full bg-purple-600 hover:bg-purple-700 text-white px-4 py-2 rounded-lg transition-colors text-sm">
+  //                     Activate on New Site
+  //                   </button>
+  //                 </div>
+  //                 <div className="pt-4 border-t border-border">
+  //                   <button className="text-sm text-blue-600 hover:underline">
+  //                     View All Licensed Sites
+  //                   </button>
+  //                 </div>
+  //               </div>
+  //             </div>
+  //           </div>
+  //           {/* Update Management */}
+  //           <div className="bg-card border border-border rounded-lg p-6 mb-8">
+  //             <h3 className="font-medium mb-6 flex items-center gap-2" style={{display:"flex"}}> 
+  //               <div className="w-2 h-2 bg-orange-500 rounded-full"></div>
+  //               Update Management
+  //             </h3>
+  //             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+  //               {/* Current Version & Updates */}
+  //               <div>
+  //                 <h4 className="font-medium text-sm mb-4">Current Version</h4>
+  //                 <div className="space-y-4">
+  //                   <div className="flex items-center justify-between p-4 bg-accent rounded-lg">
+  //                     <div>
+  //                       <div className="font-medium">SpeedPress Pro</div>
+  //                       <div className="text-sm text-muted-foreground">Version 2.1.4</div>
+  //                     </div>
+  //                     <span className="text-xs bg-green-100 text-green-800 px-2 py-1 rounded dark:bg-green-900 dark:text-green-100">Latest</span>
+  //                   </div>
+  //                   <div className="p-4 bg-blue-50 border border-blue-200 rounded-lg dark:bg-blue-950/20 dark:border-blue-800">
+  //                     <div className="flex items-center gap-2 mb-2">
+  //                       <span className="text-blue-600">📦</span>
+  //                       <span className="font-medium text-sm text-blue-800 dark:text-blue-200">Update Available</span>
+  //                     </div>
+  //                     <div className="text-sm text-blue-700 dark:text-blue-300 mb-3">
+  //                       Version 2.1.5 is now available with bug fixes and performance improvements.
+  //                     </div>
+  //                     <button className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg text-sm transition-colors">
+  //                       Update Now
+  //                     </button>
+  //                   </div>
+  //                 </div>
+  //               </div>
+  //               {/* Auto Update Settings */}
+  //               <div>
+  //                 <h4 className="font-medium text-sm mb-4">Auto-Update Settings</h4>
+  //                 <div className="space-y-4">
+  //                   <div className="flex items-center justify-between p-3 border border-border rounded-lg">
+  //                     <div>
+  //                       <div className="text-sm font-medium">Automatic Updates</div>
+  //                       <div className="text-xs text-muted-foreground">Update plugin automatically when new versions are released</div>
+  //                     </div>
+  //                     <input type="checkbox" className="w-4 h-4" defaultChecked />
+  //                   </div>
+  //                   <div className="flex items-center justify-between p-3 border border-border rounded-lg">
+  //                     <div>
+  //                       <div className="text-sm font-medium">Beta Updates</div>
+  //                       <div className="text-xs text-muted-foreground">Receive early access to beta versions</div>
+  //                     </div>
+  //                     <input type="checkbox" className="w-4 h-4" />
+  //                   </div>
+  //                   <div className="flex items-center justify-between p-3 border border-border rounded-lg">
+  //                     <div>
+  //                       <div className="text-sm font-medium">Update Notifications</div>
+  //                       <div className="text-xs text-muted-foreground">Email notifications for available updates</div>
+  //                     </div>
+  //                     <input type="checkbox" className="w-4 h-4" defaultChecked />
+  //                   </div>
+  //                   <div className="flex items-center justify-between p-3 border border-border rounded-lg">
+  //                     <div>
+  //                       <div className="text-sm font-medium">Backup Before Update</div>
+  //                       <div className="text-xs text-muted-foreground">Create automatic backup before updating</div>
+  //                     </div>
+  //                     <input type="checkbox" className="w-4 h-4" defaultChecked />
+  //                   </div>
+  //                 </div>
+  //               </div>
+  //             </div>
+  //           </div>
+  //           {/* Version History */}
+  //           <div className="bg-card border border-border rounded-lg p-6 mb-8">
+  //             <h3 className="font-medium mb-4 flex items-center gap-2" style={{display:"flex"}}>
+  //               <div className="w-2 h-2 bg-indigo-500 rounded-full"></div>
+  //               Version History
+  //             </h3>
+  //             <div className="space-y-4">
+  //               <div className="border-l-4 border-blue-500 pl-4">
+  //                 <div className="flex items-center justify-between">
+  //                   <div className="font-medium text-sm">Version 2.1.4 (Current)</div>
+  //                   <div className="text-xs text-muted-foreground">Released 3 days ago</div>
+  //                 </div>
+  //                 <div className="text-sm text-muted-foreground mt-1">
+  //                   Added advanced product filtering, improved checkout flow, enhanced analytics dashboard
+  //                 </div>
+  //               </div>
+  //               <div className="border-l-4 border-green-500 pl-4">
+  //                 <div className="flex items-center justify-between">
+  //                   <div className="font-medium text-sm">Version 2.1.3</div>
+  //                   <div className="text-xs text-muted-foreground">Released 2 weeks ago</div>
+  //                 </div>
+  //                 <div className="text-sm text-muted-foreground mt-1">
+  //                   Fixed cart abandonment email templates, improved mobile responsiveness
+  //                 </div>
+  //               </div>
+  //               <div className="border-l-4 border-purple-500 pl-4">
+  //                 <div className="flex items-center justify-between">
+  //                   <div className="font-medium text-sm">Version 2.1.2</div>
+  //                   <div className="text-xs text-muted-foreground">Released 1 month ago</div>
+  //                 </div>
+  //                 <div className="text-sm text-muted-foreground mt-1">
+  //                   New flash sales timer addon, performance optimizations, WooCommerce 8.4 compatibility
+  //                 </div>
+  //               </div>
+  //               <div className="border-l-4 border-orange-500 pl-4">
+  //                 <div className="flex items-center justify-between">
+  //                   <div className="font-medium text-sm">Version 2.1.1</div>
+  //                   <div className="text-xs text-muted-foreground">Released 2 months ago</div>
+  //                 </div>
+  //                 <div className="text-sm text-muted-foreground mt-1">
+  //                   Security updates, bug fixes for product bundles, improved compatibility
+  //                 </div>
+  //               </div>
+  //               <button className="text-sm text-blue-600 hover:underline">
+  //                 View Complete Changelog
+  //               </button>
+  //             </div>
+  //           </div>
+  //           {/* Support & Billing */}
+  //           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+  //             {/* Support Entitlements */}
+  //             <div className="bg-card border border-border rounded-lg p-6">
+  //               <h3 className="font-medium mb-4 flex items-center gap-2" style={{display:"flex"}}>
+  //                 <div className="w-2 h-2 bg-green-500 rounded-full"></div>
+  //                 Support Entitlements
+  //               </h3>
+  //               <div className="space-y-3">
+  //                 <div className="flex items-center justify-between">
+  //                   <span className="text-sm">Priority Email Support</span>
+  //                   <span className="text-xs bg-green-100 text-green-800 px-2 py-1 rounded dark:bg-green-900 dark:text-green-100">Included</span>
+  //                 </div>
+  //                 <div className="flex items-center justify-between">
+  //                   <span className="text-sm">Live Chat Support</span>
+  //                   <span className="text-xs bg-green-100 text-green-800 px-2 py-1 rounded dark:bg-green-900 dark:text-green-100">Included</span>
+  //                 </div>
+  //                 <div className="flex items-center justify-between">
+  //                   <span className="text-sm">Installation Support</span>
+  //                   <span className="text-xs bg-green-100 text-green-800 px-2 py-1 rounded dark:bg-green-900 dark:text-green-100">Included</span>
+  //                 </div>
+  //                 <div className="flex items-center justify-between">
+  //                   <span className="text-sm">Custom Development</span>
+  //                   <span className="text-xs bg-blue-100 text-blue-800 px-2 py-1 rounded dark:bg-blue-900 dark:text-blue-100">Available</span>
+  //                 </div>
+  //                 <div className="pt-3 border-t border-border">
+  //                   <button className="w-full bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-lg transition-colors text-sm">
+  //                     Contact Support
+  //                   </button>
+  //                 </div>
+  //               </div>
+  //             </div>
+  //             {/* Billing & Account */}
+  //             <div className="bg-card border border-border rounded-lg p-6">
+  //               <h3 className="font-medium mb-4 flex items-center gap-2" style={{display:"flex"}}>
+  //                 <div className="w-2 h-2 bg-orange-500 rounded-full"></div>
+  //                 Billing & Account
+  //               </h3>
+  //               <div className="space-y-4">
+  //                 <div className="space-y-2">
+  //                   <div className="flex justify-between text-sm">
+  //                     <span className="text-muted-foreground">Next Billing Date:</span>
+  //                     <span>March 15, 2025</span>
+  //                   </div>
+  //                   <div className="flex justify-between text-sm">
+  //                     <span className="text-muted-foreground">Amount:</span>
+  //                     <span>$79.00 USD</span>
+  //                   </div>
+  //                   <div className="flex justify-between text-sm">
+  //                     <span className="text-muted-foreground">Payment Method:</span>
+  //                     <span>•••• 4242</span>
+  //                   </div>
+  //                 </div>
+  //                 <div className="grid grid-cols-2 gap-3">
+  //                   <button className="bg-secondary hover:bg-secondary/80 text-secondary-foreground px-4 py-2 rounded-lg transition-colors text-sm">
+  //                     Update Payment
+  //                   </button>
+  //                   <button className="bg-secondary hover:bg-secondary/80 text-secondary-foreground px-4 py-2 rounded-lg transition-colors text-sm">
+  //                     Download Invoice
+  //                   </button>
+  //                 </div>
+  //                 <div className="pt-3 border-t border-border">
+  //                   <button className="text-sm text-blue-600 hover:underline">
+  //                     Manage Billing in Customer Portal
+  //                   </button>
+  //                 </div>
+  //               </div>
+  //             </div>
+  //           </div>
+  //         </div>
+  //       </div>
+  //     </div>
+  //   );
+  // }
   // Special handling for custom development portal
-  if (activeTab === 'custom-requests') {
-    return (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-      className: "h-full flex flex-col",
-      children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ContentHeader__WEBPACK_IMPORTED_MODULE_2__.ContentHeader, {
-        activeTab: activeTab,
-        addons: addons,
-        onOpenSidebar: onOpenSidebar,
-        onAddonSelect: handleAddonSelect
-      }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-        className: "flex-1 p-3 md:p-6 lg:p-8 overflow-auto",
-        children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-          className: "max-w-6xl mx-auto",
-          children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_CustomDevelopmentPortal__WEBPACK_IMPORTED_MODULE_5__.CustomDevelopmentPortal, {})
-        })
-      })]
-    });
-  }
+  // if (activeTab === 'custom-requests') {
+  //   return (
+  //     <div className="h-full flex flex-col">
+  //       <ContentHeader 
+  //         activeTab={activeTab} 
+  //         addons={addons}
+  //         onOpenSidebar={onOpenSidebar} 
+  //         onAddonSelect={handleAddonSelect}
+  //       />
+  //       <div className="flex-1 p-3 md:p-6 lg:p-8 overflow-auto">
+  //         <div className="max-w-6xl mx-auto">
+  //           <CustomDevelopmentPortal />
+  //         </div>
+  //       </div>
+  //     </div>
+  //   );
+  // }
   return (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
     className: "h-full flex flex-col",
     children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ContentHeader__WEBPACK_IMPORTED_MODULE_2__.ContentHeader, {
@@ -5594,7 +3874,7 @@ function ContentArea({
               children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("h1", {
                 className: "text-2xl font-semibold",
                 children: title
-              }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_ui_badge__WEBPACK_IMPORTED_MODULE_6__.Badge, {
+              }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_ui_badge__WEBPACK_IMPORTED_MODULE_4__.Badge, {
                 variant: "outline",
                 children: [currentAddons.length, " addon", currentAddons.length !== 1 ? 's' : '', filter !== 'all' && ` (${filter})`]
               })]
@@ -5605,19 +3885,19 @@ function ContentArea({
                 children: "Filter:"
               }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
                 className: "flex items-center gap-1 bg-muted rounded-lg p-1",
-                children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_ui_button__WEBPACK_IMPORTED_MODULE_7__.Button, {
+                children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_ui_button__WEBPACK_IMPORTED_MODULE_5__.Button, {
                   variant: filter === 'all' ? 'default' : 'ghost',
                   size: "sm",
                   onClick: () => onFilterChange('all'),
                   className: "h-7 px-3 text-xs",
                   children: ["All (", allAddons.length, ")"]
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_ui_button__WEBPACK_IMPORTED_MODULE_7__.Button, {
+                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_ui_button__WEBPACK_IMPORTED_MODULE_5__.Button, {
                   variant: filter === 'free' ? 'default' : 'ghost',
                   size: "sm",
                   onClick: () => onFilterChange('free'),
                   className: "h-7 px-3 text-xs",
                   children: ["Free (", allAddons.filter(a => a.type === 'free').length, ")"]
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_ui_button__WEBPACK_IMPORTED_MODULE_7__.Button, {
+                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_ui_button__WEBPACK_IMPORTED_MODULE_5__.Button, {
                   variant: filter === 'premium' ? 'default' : 'ghost',
                   size: "sm",
                   onClick: () => onFilterChange('premium'),
@@ -5654,7 +3934,7 @@ function ContentArea({
           }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
             className: "text-sm text-muted-foreground",
             children: filter === 'all' ? 'Check back later for new addons in this category.' : `Try switching to a different filter to see more addons.`
-          }), filter !== 'all' && (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ui_button__WEBPACK_IMPORTED_MODULE_7__.Button, {
+          }), filter !== 'all' && (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ui_button__WEBPACK_IMPORTED_MODULE_5__.Button, {
             variant: "outline",
             size: "sm",
             onClick: () => onFilterChange('all'),
@@ -5930,1364 +4210,6 @@ function ContentHeader({
         }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ThemeToggle__WEBPACK_IMPORTED_MODULE_2__.ThemeToggle, {})]
       })]
     })
-  });
-}
-
-/***/ }),
-
-/***/ "./admin/src/components/CustomDevelopmentPortal.tsx":
-/*!**********************************************************!*\
-  !*** ./admin/src/components/CustomDevelopmentPortal.tsx ***!
-  \**********************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   CustomDevelopmentPortal: () => (/* binding */ CustomDevelopmentPortal)
-/* harmony export */ });
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-runtime */ "react/jsx-runtime");
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var lucide_react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! lucide-react */ "./node_modules/lucide-react/dist/esm/icons/circle-alert.js");
-/* harmony import */ var lucide_react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! lucide-react */ "./node_modules/lucide-react/dist/esm/icons/circle-check-big.js");
-/* harmony import */ var lucide_react__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! lucide-react */ "./node_modules/lucide-react/dist/esm/icons/circle-x.js");
-/* harmony import */ var lucide_react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! lucide-react */ "./node_modules/lucide-react/dist/esm/icons/square-pen.js");
-/* harmony import */ var lucide_react__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! lucide-react */ "./node_modules/lucide-react/dist/esm/icons/calendar.js");
-/* harmony import */ var lucide_react__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! lucide-react */ "./node_modules/lucide-react/dist/esm/icons/clock.js");
-/* harmony import */ var lucide_react__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! lucide-react */ "./node_modules/lucide-react/dist/esm/icons/dollar-sign.js");
-/* harmony import */ var lucide_react__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! lucide-react */ "./node_modules/lucide-react/dist/esm/icons/file-text.js");
-/* harmony import */ var lucide_react__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! lucide-react */ "./node_modules/lucide-react/dist/esm/icons/message-square.js");
-/* harmony import */ var lucide_react__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! lucide-react */ "./node_modules/lucide-react/dist/esm/icons/paperclip.js");
-/* harmony import */ var lucide_react__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! lucide-react */ "./node_modules/lucide-react/dist/esm/icons/plus.js");
-/* harmony import */ var lucide_react__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! lucide-react */ "./node_modules/lucide-react/dist/esm/icons/trash-2.js");
-/* harmony import */ var lucide_react__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! lucide-react */ "./node_modules/lucide-react/dist/esm/icons/user.js");
-/* harmony import */ var lucide_react__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! lucide-react */ "./node_modules/lucide-react/dist/esm/icons/zap.js");
-/* harmony import */ var _ui_button__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./ui/button */ "./admin/src/components/ui/button.tsx");
-/* harmony import */ var _ui_card__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./ui/card */ "./admin/src/components/ui/card.tsx");
-/* harmony import */ var _ui_badge__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./ui/badge */ "./admin/src/components/ui/badge.tsx");
-/* harmony import */ var _ui_dialog__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./ui/dialog */ "./admin/src/components/ui/dialog.tsx");
-/* harmony import */ var _ui_input__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./ui/input */ "./admin/src/components/ui/input.tsx");
-/* harmony import */ var _ui_label__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./ui/label */ "./admin/src/components/ui/label.tsx");
-/* harmony import */ var _ui_textarea__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./ui/textarea */ "./admin/src/components/ui/textarea.tsx");
-/* harmony import */ var _ui_select__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ./ui/select */ "./admin/src/components/ui/select.tsx");
-/* harmony import */ var _ui_tabs__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ./ui/tabs */ "./admin/src/components/ui/tabs.tsx");
-/* harmony import */ var _ui_progress__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ./ui/progress */ "./admin/src/components/ui/progress.tsx");
-/* harmony import */ var sonner__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! sonner */ "./node_modules/sonner/dist/index.mjs");
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-const mockRequests = [{
-  id: 'REQ-001',
-  title: 'Advanced Product Configurator',
-  description: 'Need a sophisticated product configurator that allows customers to customize products with real-time price updates and 3D visualization.',
-  type: 'new-addon',
-  priority: 'high',
-  status: 'in-development',
-  budgetRange: '$2000-$5000',
-  timeline: '6-8 weeks',
-  submittedDate: '2024-01-15',
-  lastUpdated: '2024-02-01',
-  technicalRequirements: 'Must integrate with existing product catalog, support variable pricing, and work with our current theme.',
-  attachments: ['mockup.pdf', 'requirements.docx'],
-  contactEmail: 'john@example.com',
-  estimatedHours: 120,
-  actualHours: 45,
-  developerNotes: 'Initial framework completed. Working on 3D visualization integration.',
-  progress: 65
-}, {
-  id: 'REQ-002',
-  title: 'Loyalty Program Enhancement',
-  description: 'Enhance existing loyalty program with tier-based rewards, referral bonuses, and social sharing incentives.',
-  type: 'modification',
-  priority: 'medium',
-  status: 'approved',
-  budgetRange: '$800-$1500',
-  timeline: '3-4 weeks',
-  submittedDate: '2024-01-20',
-  lastUpdated: '2024-01-25',
-  technicalRequirements: 'Build upon existing loyalty addon. Add social media integration APIs.',
-  attachments: ['current-flow.png'],
-  contactEmail: 'sarah@example.com',
-  estimatedHours: 60,
-  progress: 0
-}, {
-  id: 'REQ-003',
-  title: 'ERP System Integration',
-  description: 'Custom integration with SAP ERP system for automated inventory sync and order processing.',
-  type: 'integration',
-  priority: 'urgent',
-  status: 'under-review',
-  budgetRange: '$5000+',
-  timeline: '8-12 weeks',
-  submittedDate: '2024-02-05',
-  lastUpdated: '2024-02-07',
-  technicalRequirements: 'Must handle real-time data sync, support batch processing, and include error handling/logging.',
-  attachments: ['sap-api-docs.pdf', 'data-structure.xlsx'],
-  contactEmail: 'mike@enterprise.com',
-  progress: 0
-}];
-function CustomDevelopmentPortal() {
-  const [requests, setRequests] = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)(mockRequests);
-  const [activeTab, setActiveTab] = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)('overview');
-  const [isNewRequestOpen, setIsNewRequestOpen] = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)(false);
-  const [isEditRequestOpen, setIsEditRequestOpen] = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)(false);
-  const [selectedRequest, setSelectedRequest] = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)(null);
-  const [formData, setFormData] = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)({
-    title: '',
-    description: '',
-    type: '',
-    priority: '',
-    budgetRange: '',
-    timeline: '',
-    technicalRequirements: '',
-    contactEmail: ''
-  });
-  const [editFormData, setEditFormData] = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)({
-    title: '',
-    description: '',
-    type: '',
-    priority: '',
-    budgetRange: '',
-    timeline: '',
-    technicalRequirements: '',
-    contactEmail: ''
-  });
-  const getStatusColor = status => {
-    switch (status) {
-      case 'submitted':
-        return 'bg-blue-100 text-blue-800 dark:bg-blue-900/20 dark:text-blue-400';
-      case 'under-review':
-        return 'bg-yellow-100 text-yellow-800 dark:bg-yellow-900/20 dark:text-yellow-400';
-      case 'approved':
-        return 'bg-green-100 text-green-800 dark:bg-green-900/20 dark:text-green-400';
-      case 'in-development':
-        return 'bg-purple-100 text-purple-800 dark:bg-purple-900/20 dark:text-purple-400';
-      case 'testing':
-        return 'bg-orange-100 text-orange-800 dark:bg-orange-900/20 dark:text-orange-400';
-      case 'completed':
-        return 'bg-emerald-100 text-emerald-800 dark:bg-emerald-900/20 dark:text-emerald-400';
-      case 'rejected':
-        return 'bg-red-100 text-red-800 dark:bg-red-900/20 dark:text-red-400';
-      default:
-        return 'bg-gray-100 text-gray-800 dark:bg-gray-900/20 dark:text-gray-400';
-    }
-  };
-  const getPriorityColor = priority => {
-    switch (priority) {
-      case 'low':
-        return 'bg-gray-100 text-gray-800 dark:bg-gray-900/20 dark:text-gray-400';
-      case 'medium':
-        return 'bg-blue-100 text-blue-800 dark:bg-blue-900/20 dark:text-blue-400';
-      case 'high':
-        return 'bg-orange-100 text-orange-800 dark:bg-orange-900/20 dark:text-orange-400';
-      case 'urgent':
-        return 'bg-red-100 text-red-800 dark:bg-red-900/20 dark:text-red-400';
-      default:
-        return 'bg-gray-100 text-gray-800 dark:bg-gray-900/20 dark:text-gray-400';
-    }
-  };
-  const getStatusIcon = status => {
-    switch (status) {
-      case 'submitted':
-        return (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_9__["default"], {
-          className: "w-4 h-4"
-        });
-      case 'under-review':
-        return (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_7__["default"], {
-          className: "w-4 h-4"
-        });
-      case 'approved':
-        return (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_3__["default"], {
-          className: "w-4 h-4"
-        });
-      case 'in-development':
-        return (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_15__["default"], {
-          className: "w-4 h-4"
-        });
-      case 'testing':
-        return (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_2__["default"], {
-          className: "w-4 h-4"
-        });
-      case 'completed':
-        return (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_3__["default"], {
-          className: "w-4 h-4"
-        });
-      case 'rejected':
-        return (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_4__["default"], {
-          className: "w-4 h-4"
-        });
-      default:
-        return (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_9__["default"], {
-          className: "w-4 h-4"
-        });
-    }
-  };
-  const handleSubmitRequest = () => {
-    // Enhanced validation
-    if (!formData.title.trim()) {
-      sonner__WEBPACK_IMPORTED_MODULE_26__.toast.error('Please enter a request title');
-      return;
-    }
-    if (!formData.description.trim()) {
-      sonner__WEBPACK_IMPORTED_MODULE_26__.toast.error('Please provide a detailed description');
-      return;
-    }
-    if (!formData.type) {
-      sonner__WEBPACK_IMPORTED_MODULE_26__.toast.error('Please select a request type');
-      return;
-    }
-    if (!formData.priority) {
-      sonner__WEBPACK_IMPORTED_MODULE_26__.toast.error('Please select a priority level');
-      return;
-    }
-    if (!formData.contactEmail.trim()) {
-      sonner__WEBPACK_IMPORTED_MODULE_26__.toast.error('Please enter your contact email');
-      return;
-    }
-    // Email validation
-    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    if (!emailRegex.test(formData.contactEmail.trim())) {
-      sonner__WEBPACK_IMPORTED_MODULE_26__.toast.error('Please enter a valid email address');
-      return;
-    }
-    const newRequest = {
-      id: `REQ-${(requests.length + 1).toString().padStart(3, '0')}`,
-      title: formData.title.trim(),
-      description: formData.description.trim(),
-      type: formData.type,
-      priority: formData.priority,
-      status: 'submitted',
-      budgetRange: formData.budgetRange || 'consultation',
-      timeline: formData.timeline || 'flexible',
-      submittedDate: new Date().toISOString().split('T')[0],
-      lastUpdated: new Date().toISOString().split('T')[0],
-      technicalRequirements: formData.technicalRequirements.trim(),
-      attachments: [],
-      contactEmail: formData.contactEmail.trim(),
-      progress: 0
-    };
-    setRequests(prev => [newRequest, ...prev]);
-    // Clear form data
-    resetForm();
-    setIsNewRequestOpen(false);
-    sonner__WEBPACK_IMPORTED_MODULE_26__.toast.success('Development request submitted successfully!');
-  };
-  const resetForm = () => {
-    setFormData({
-      title: '',
-      description: '',
-      type: '',
-      priority: '',
-      budgetRange: '',
-      timeline: '',
-      technicalRequirements: '',
-      contactEmail: ''
-    });
-  };
-  const handleDialogClose = open => {
-    setIsNewRequestOpen(open);
-    if (!open) {
-      // Only reset form if user cancels without submitting
-      resetForm();
-    }
-  };
-  const handleEditRequest = request => {
-    setSelectedRequest(request);
-    setEditFormData({
-      title: request.title,
-      description: request.description,
-      type: request.type,
-      priority: request.priority,
-      budgetRange: request.budgetRange,
-      timeline: request.timeline,
-      technicalRequirements: request.technicalRequirements,
-      contactEmail: request.contactEmail
-    });
-    setIsEditRequestOpen(true);
-  };
-  const handleUpdateRequest = () => {
-    if (!selectedRequest) return;
-    // Enhanced validation for edit form
-    if (!editFormData.title.trim()) {
-      sonner__WEBPACK_IMPORTED_MODULE_26__.toast.error('Please enter a request title');
-      return;
-    }
-    if (!editFormData.description.trim()) {
-      sonner__WEBPACK_IMPORTED_MODULE_26__.toast.error('Please provide a detailed description');
-      return;
-    }
-    if (!editFormData.type) {
-      sonner__WEBPACK_IMPORTED_MODULE_26__.toast.error('Please select a request type');
-      return;
-    }
-    if (!editFormData.priority) {
-      sonner__WEBPACK_IMPORTED_MODULE_26__.toast.error('Please select a priority level');
-      return;
-    }
-    if (!editFormData.contactEmail.trim()) {
-      sonner__WEBPACK_IMPORTED_MODULE_26__.toast.error('Please enter your contact email');
-      return;
-    }
-    // Email validation
-    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    if (!emailRegex.test(editFormData.contactEmail.trim())) {
-      sonner__WEBPACK_IMPORTED_MODULE_26__.toast.error('Please enter a valid email address');
-      return;
-    }
-    const updatedRequest = Object.assign(Object.assign({}, selectedRequest), {
-      title: editFormData.title.trim(),
-      description: editFormData.description.trim(),
-      type: editFormData.type,
-      priority: editFormData.priority,
-      budgetRange: editFormData.budgetRange || selectedRequest.budgetRange,
-      timeline: editFormData.timeline || selectedRequest.timeline,
-      technicalRequirements: editFormData.technicalRequirements.trim(),
-      contactEmail: editFormData.contactEmail.trim(),
-      lastUpdated: new Date().toISOString().split('T')[0]
-    });
-    setRequests(prev => prev.map(req => req.id === selectedRequest.id ? updatedRequest : req));
-    setIsEditRequestOpen(false);
-    setSelectedRequest(null);
-    resetEditForm();
-    sonner__WEBPACK_IMPORTED_MODULE_26__.toast.success('Request updated successfully!');
-  };
-  const resetEditForm = () => {
-    setEditFormData({
-      title: '',
-      description: '',
-      type: '',
-      priority: '',
-      budgetRange: '',
-      timeline: '',
-      technicalRequirements: '',
-      contactEmail: ''
-    });
-  };
-  const handleEditDialogClose = open => {
-    setIsEditRequestOpen(open);
-    if (!open) {
-      setSelectedRequest(null);
-      resetEditForm();
-    }
-  };
-  const handleDeleteRequest = requestId => {
-    setRequests(prev => prev.filter(req => req.id !== requestId));
-    sonner__WEBPACK_IMPORTED_MODULE_26__.toast.success('Request deleted successfully');
-  };
-  const getRequestStats = () => {
-    const total = requests.length;
-    const inProgress = requests.filter(r => ['in-development', 'testing'].includes(r.status)).length;
-    const completed = requests.filter(r => r.status === 'completed').length;
-    const pending = requests.filter(r => ['submitted', 'under-review', 'approved'].includes(r.status)).length;
-    return {
-      total,
-      inProgress,
-      completed,
-      pending
-    };
-  };
-  const stats = getRequestStats();
-  return (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-    className: "space-y-6",
-    children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-      className: "flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4",
-      children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-        children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("h2", {
-          className: "text-2xl font-semibold",
-          children: "Custom Development Portal"
-        }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
-          className: "text-muted-foreground",
-          children: "Request custom addons, modifications, and integrations"
-        })]
-      }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_ui_dialog__WEBPACK_IMPORTED_MODULE_19__.Dialog, {
-        open: isNewRequestOpen,
-        onOpenChange: handleDialogClose,
-        children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ui_dialog__WEBPACK_IMPORTED_MODULE_19__.DialogTrigger, {
-          asChild: true,
-          children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_ui_button__WEBPACK_IMPORTED_MODULE_16__.Button, {
-            className: "flex items-center gap-2",
-            children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_12__["default"], {
-              className: "w-4 h-4"
-            }), "New Request"]
-          })
-        }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_ui_dialog__WEBPACK_IMPORTED_MODULE_19__.DialogContent, {
-          className: "max-w-2xl max-h-[90vh] overflow-y-auto",
-          onInteractOutside: e => {
-            // Prevent accidental closing when clicking inside form elements
-            e.preventDefault();
-          },
-          children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_ui_dialog__WEBPACK_IMPORTED_MODULE_19__.DialogHeader, {
-            children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ui_dialog__WEBPACK_IMPORTED_MODULE_19__.DialogTitle, {
-              children: "Submit Development Request"
-            }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ui_dialog__WEBPACK_IMPORTED_MODULE_19__.DialogDescription, {
-              children: "Fill out the form below to submit a custom development request. Our team will review your requirements and provide a detailed quote."
-            })]
-          }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-            className: "space-y-6",
-            children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-              className: "grid grid-cols-1 gap-4",
-              children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ui_label__WEBPACK_IMPORTED_MODULE_21__.Label, {
-                  htmlFor: "title",
-                  className: "text-sm font-medium",
-                  children: "Request Title *"
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ui_input__WEBPACK_IMPORTED_MODULE_20__.Input, {
-                  id: "title",
-                  value: formData.title,
-                  onChange: e => setFormData(prev => Object.assign(Object.assign({}, prev), {
-                    title: e.target.value
-                  })),
-                  placeholder: "Brief title for your request",
-                  className: "mt-1"
-                })]
-              }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ui_label__WEBPACK_IMPORTED_MODULE_21__.Label, {
-                  htmlFor: "contactEmail",
-                  className: "text-sm font-medium",
-                  children: "Contact Email *"
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ui_input__WEBPACK_IMPORTED_MODULE_20__.Input, {
-                  id: "contactEmail",
-                  type: "email",
-                  value: formData.contactEmail,
-                  onChange: e => setFormData(prev => Object.assign(Object.assign({}, prev), {
-                    contactEmail: e.target.value
-                  })),
-                  placeholder: "your@email.com",
-                  className: "mt-1"
-                })]
-              })]
-            }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-              className: "grid grid-cols-1 md:grid-cols-2 gap-4",
-              children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ui_label__WEBPACK_IMPORTED_MODULE_21__.Label, {
-                  htmlFor: "type",
-                  className: "text-sm font-medium",
-                  children: "Request Type *"
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_ui_select__WEBPACK_IMPORTED_MODULE_23__.Select, {
-                  value: formData.type,
-                  onValueChange: value => setFormData(prev => Object.assign(Object.assign({}, prev), {
-                    type: value
-                  })),
-                  children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ui_select__WEBPACK_IMPORTED_MODULE_23__.SelectTrigger, {
-                    className: "mt-1",
-                    children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ui_select__WEBPACK_IMPORTED_MODULE_23__.SelectValue, {
-                      placeholder: "Select request type"
-                    })
-                  }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_ui_select__WEBPACK_IMPORTED_MODULE_23__.SelectContent, {
-                    children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ui_select__WEBPACK_IMPORTED_MODULE_23__.SelectItem, {
-                      value: "new-addon",
-                      children: "New Addon"
-                    }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ui_select__WEBPACK_IMPORTED_MODULE_23__.SelectItem, {
-                      value: "modification",
-                      children: "Modification"
-                    }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ui_select__WEBPACK_IMPORTED_MODULE_23__.SelectItem, {
-                      value: "integration",
-                      children: "Integration"
-                    }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ui_select__WEBPACK_IMPORTED_MODULE_23__.SelectItem, {
-                      value: "bug-fix",
-                      children: "Bug Fix"
-                    }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ui_select__WEBPACK_IMPORTED_MODULE_23__.SelectItem, {
-                      value: "consultation",
-                      children: "Consultation"
-                    })]
-                  })]
-                })]
-              }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ui_label__WEBPACK_IMPORTED_MODULE_21__.Label, {
-                  htmlFor: "priority",
-                  className: "text-sm font-medium",
-                  children: "Priority Level *"
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_ui_select__WEBPACK_IMPORTED_MODULE_23__.Select, {
-                  value: formData.priority,
-                  onValueChange: value => setFormData(prev => Object.assign(Object.assign({}, prev), {
-                    priority: value
-                  })),
-                  children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ui_select__WEBPACK_IMPORTED_MODULE_23__.SelectTrigger, {
-                    className: "mt-1",
-                    children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ui_select__WEBPACK_IMPORTED_MODULE_23__.SelectValue, {
-                      placeholder: "Select priority"
-                    })
-                  }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_ui_select__WEBPACK_IMPORTED_MODULE_23__.SelectContent, {
-                    children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ui_select__WEBPACK_IMPORTED_MODULE_23__.SelectItem, {
-                      value: "low",
-                      children: "Low"
-                    }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ui_select__WEBPACK_IMPORTED_MODULE_23__.SelectItem, {
-                      value: "medium",
-                      children: "Medium"
-                    }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ui_select__WEBPACK_IMPORTED_MODULE_23__.SelectItem, {
-                      value: "high",
-                      children: "High"
-                    }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ui_select__WEBPACK_IMPORTED_MODULE_23__.SelectItem, {
-                      value: "urgent",
-                      children: "Urgent"
-                    })]
-                  })]
-                })]
-              })]
-            }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-              className: "grid grid-cols-1 md:grid-cols-2 gap-4",
-              children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ui_label__WEBPACK_IMPORTED_MODULE_21__.Label, {
-                  htmlFor: "budgetRange",
-                  className: "text-sm font-medium",
-                  children: "Budget Range"
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_ui_select__WEBPACK_IMPORTED_MODULE_23__.Select, {
-                  value: formData.budgetRange,
-                  onValueChange: value => setFormData(prev => Object.assign(Object.assign({}, prev), {
-                    budgetRange: value
-                  })),
-                  children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ui_select__WEBPACK_IMPORTED_MODULE_23__.SelectTrigger, {
-                    className: "mt-1",
-                    children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ui_select__WEBPACK_IMPORTED_MODULE_23__.SelectValue, {
-                      placeholder: "Select budget range"
-                    })
-                  }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_ui_select__WEBPACK_IMPORTED_MODULE_23__.SelectContent, {
-                    children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ui_select__WEBPACK_IMPORTED_MODULE_23__.SelectItem, {
-                      value: "$500-$1000",
-                      children: "$500 - $1,000"
-                    }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ui_select__WEBPACK_IMPORTED_MODULE_23__.SelectItem, {
-                      value: "$1000-$2000",
-                      children: "$1,000 - $2,000"
-                    }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ui_select__WEBPACK_IMPORTED_MODULE_23__.SelectItem, {
-                      value: "$2000-$5000",
-                      children: "$2,000 - $5,000"
-                    }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ui_select__WEBPACK_IMPORTED_MODULE_23__.SelectItem, {
-                      value: "$5000+",
-                      children: "$5,000+"
-                    }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ui_select__WEBPACK_IMPORTED_MODULE_23__.SelectItem, {
-                      value: "consultation",
-                      children: "Consultation Required"
-                    })]
-                  })]
-                })]
-              }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ui_label__WEBPACK_IMPORTED_MODULE_21__.Label, {
-                  htmlFor: "timeline",
-                  className: "text-sm font-medium",
-                  children: "Expected Timeline"
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_ui_select__WEBPACK_IMPORTED_MODULE_23__.Select, {
-                  value: formData.timeline,
-                  onValueChange: value => setFormData(prev => Object.assign(Object.assign({}, prev), {
-                    timeline: value
-                  })),
-                  children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ui_select__WEBPACK_IMPORTED_MODULE_23__.SelectTrigger, {
-                    className: "mt-1",
-                    children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ui_select__WEBPACK_IMPORTED_MODULE_23__.SelectValue, {
-                      placeholder: "Select timeline"
-                    })
-                  }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_ui_select__WEBPACK_IMPORTED_MODULE_23__.SelectContent, {
-                    children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ui_select__WEBPACK_IMPORTED_MODULE_23__.SelectItem, {
-                      value: "1-2 weeks",
-                      children: "1-2 weeks"
-                    }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ui_select__WEBPACK_IMPORTED_MODULE_23__.SelectItem, {
-                      value: "3-4 weeks",
-                      children: "3-4 weeks"
-                    }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ui_select__WEBPACK_IMPORTED_MODULE_23__.SelectItem, {
-                      value: "1-2 months",
-                      children: "1-2 months"
-                    }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ui_select__WEBPACK_IMPORTED_MODULE_23__.SelectItem, {
-                      value: "3+ months",
-                      children: "3+ months"
-                    }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ui_select__WEBPACK_IMPORTED_MODULE_23__.SelectItem, {
-                      value: "flexible",
-                      children: "Flexible"
-                    })]
-                  })]
-                })]
-              })]
-            }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-              children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ui_label__WEBPACK_IMPORTED_MODULE_21__.Label, {
-                htmlFor: "description",
-                className: "text-sm font-medium",
-                children: "Detailed Description *"
-              }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ui_textarea__WEBPACK_IMPORTED_MODULE_22__.Textarea, {
-                id: "description",
-                value: formData.description,
-                onChange: e => setFormData(prev => Object.assign(Object.assign({}, prev), {
-                  description: e.target.value
-                })),
-                placeholder: "Provide a detailed description of what you need...",
-                rows: 4,
-                className: "mt-1 resize-none"
-              }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
-                className: "text-xs text-muted-foreground mt-1",
-                children: "Be as specific as possible to help us provide an accurate quote"
-              })]
-            }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-              children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ui_label__WEBPACK_IMPORTED_MODULE_21__.Label, {
-                htmlFor: "technicalRequirements",
-                className: "text-sm font-medium",
-                children: "Technical Requirements"
-              }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ui_textarea__WEBPACK_IMPORTED_MODULE_22__.Textarea, {
-                id: "technicalRequirements",
-                value: formData.technicalRequirements,
-                onChange: e => setFormData(prev => Object.assign(Object.assign({}, prev), {
-                  technicalRequirements: e.target.value
-                })),
-                placeholder: "Any specific technical requirements, integrations, or constraints...",
-                rows: 3,
-                className: "mt-1 resize-none"
-              }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
-                className: "text-xs text-muted-foreground mt-1",
-                children: "Include existing plugins, theme details, or specific integrations needed"
-              })]
-            }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-              className: "flex flex-col sm:flex-row justify-end gap-3 pt-6 border-t",
-              children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ui_button__WEBPACK_IMPORTED_MODULE_16__.Button, {
-                variant: "outline",
-                onClick: () => {
-                  resetForm();
-                  setIsNewRequestOpen(false);
-                },
-                className: "sm:order-1",
-                children: "Cancel"
-              }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ui_button__WEBPACK_IMPORTED_MODULE_16__.Button, {
-                onClick: handleSubmitRequest,
-                className: "sm:order-2",
-                disabled: !formData.title || !formData.description || !formData.type || !formData.priority || !formData.contactEmail,
-                children: "Submit Request"
-              })]
-            })]
-          })]
-        })]
-      }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ui_dialog__WEBPACK_IMPORTED_MODULE_19__.Dialog, {
-        open: isEditRequestOpen,
-        onOpenChange: handleEditDialogClose,
-        children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_ui_dialog__WEBPACK_IMPORTED_MODULE_19__.DialogContent, {
-          className: "max-w-2xl max-h-[90vh] overflow-y-auto",
-          onInteractOutside: e => {
-            // Prevent accidental closing when clicking inside form elements
-            e.preventDefault();
-          },
-          children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_ui_dialog__WEBPACK_IMPORTED_MODULE_19__.DialogHeader, {
-            children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ui_dialog__WEBPACK_IMPORTED_MODULE_19__.DialogTitle, {
-              children: "Edit Development Request"
-            }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ui_dialog__WEBPACK_IMPORTED_MODULE_19__.DialogDescription, {
-              children: "Update your development request details. Changes will be saved and our team will be notified."
-            })]
-          }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-            className: "space-y-6",
-            children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-              className: "grid grid-cols-1 gap-4",
-              children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ui_label__WEBPACK_IMPORTED_MODULE_21__.Label, {
-                  htmlFor: "edit-title",
-                  className: "text-sm font-medium",
-                  children: "Request Title *"
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ui_input__WEBPACK_IMPORTED_MODULE_20__.Input, {
-                  id: "edit-title",
-                  value: editFormData.title,
-                  onChange: e => setEditFormData(prev => Object.assign(Object.assign({}, prev), {
-                    title: e.target.value
-                  })),
-                  placeholder: "Brief title for your request",
-                  className: "mt-1"
-                })]
-              }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ui_label__WEBPACK_IMPORTED_MODULE_21__.Label, {
-                  htmlFor: "edit-contactEmail",
-                  className: "text-sm font-medium",
-                  children: "Contact Email *"
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ui_input__WEBPACK_IMPORTED_MODULE_20__.Input, {
-                  id: "edit-contactEmail",
-                  type: "email",
-                  value: editFormData.contactEmail,
-                  onChange: e => setEditFormData(prev => Object.assign(Object.assign({}, prev), {
-                    contactEmail: e.target.value
-                  })),
-                  placeholder: "your@email.com",
-                  className: "mt-1"
-                })]
-              })]
-            }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-              className: "grid grid-cols-1 md:grid-cols-2 gap-4",
-              children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ui_label__WEBPACK_IMPORTED_MODULE_21__.Label, {
-                  htmlFor: "edit-type",
-                  className: "text-sm font-medium",
-                  children: "Request Type *"
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_ui_select__WEBPACK_IMPORTED_MODULE_23__.Select, {
-                  value: editFormData.type,
-                  onValueChange: value => setEditFormData(prev => Object.assign(Object.assign({}, prev), {
-                    type: value
-                  })),
-                  children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ui_select__WEBPACK_IMPORTED_MODULE_23__.SelectTrigger, {
-                    className: "mt-1",
-                    children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ui_select__WEBPACK_IMPORTED_MODULE_23__.SelectValue, {
-                      placeholder: "Select request type"
-                    })
-                  }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_ui_select__WEBPACK_IMPORTED_MODULE_23__.SelectContent, {
-                    children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ui_select__WEBPACK_IMPORTED_MODULE_23__.SelectItem, {
-                      value: "new-addon",
-                      children: "New Addon"
-                    }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ui_select__WEBPACK_IMPORTED_MODULE_23__.SelectItem, {
-                      value: "modification",
-                      children: "Modification"
-                    }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ui_select__WEBPACK_IMPORTED_MODULE_23__.SelectItem, {
-                      value: "integration",
-                      children: "Integration"
-                    }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ui_select__WEBPACK_IMPORTED_MODULE_23__.SelectItem, {
-                      value: "bug-fix",
-                      children: "Bug Fix"
-                    }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ui_select__WEBPACK_IMPORTED_MODULE_23__.SelectItem, {
-                      value: "consultation",
-                      children: "Consultation"
-                    })]
-                  })]
-                })]
-              }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ui_label__WEBPACK_IMPORTED_MODULE_21__.Label, {
-                  htmlFor: "edit-priority",
-                  className: "text-sm font-medium",
-                  children: "Priority Level *"
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_ui_select__WEBPACK_IMPORTED_MODULE_23__.Select, {
-                  value: editFormData.priority,
-                  onValueChange: value => setEditFormData(prev => Object.assign(Object.assign({}, prev), {
-                    priority: value
-                  })),
-                  children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ui_select__WEBPACK_IMPORTED_MODULE_23__.SelectTrigger, {
-                    className: "mt-1",
-                    children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ui_select__WEBPACK_IMPORTED_MODULE_23__.SelectValue, {
-                      placeholder: "Select priority"
-                    })
-                  }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_ui_select__WEBPACK_IMPORTED_MODULE_23__.SelectContent, {
-                    children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ui_select__WEBPACK_IMPORTED_MODULE_23__.SelectItem, {
-                      value: "low",
-                      children: "Low"
-                    }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ui_select__WEBPACK_IMPORTED_MODULE_23__.SelectItem, {
-                      value: "medium",
-                      children: "Medium"
-                    }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ui_select__WEBPACK_IMPORTED_MODULE_23__.SelectItem, {
-                      value: "high",
-                      children: "High"
-                    }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ui_select__WEBPACK_IMPORTED_MODULE_23__.SelectItem, {
-                      value: "urgent",
-                      children: "Urgent"
-                    })]
-                  })]
-                })]
-              })]
-            }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-              className: "grid grid-cols-1 md:grid-cols-2 gap-4",
-              children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ui_label__WEBPACK_IMPORTED_MODULE_21__.Label, {
-                  htmlFor: "edit-budgetRange",
-                  className: "text-sm font-medium",
-                  children: "Budget Range"
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_ui_select__WEBPACK_IMPORTED_MODULE_23__.Select, {
-                  value: editFormData.budgetRange,
-                  onValueChange: value => setEditFormData(prev => Object.assign(Object.assign({}, prev), {
-                    budgetRange: value
-                  })),
-                  children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ui_select__WEBPACK_IMPORTED_MODULE_23__.SelectTrigger, {
-                    className: "mt-1",
-                    children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ui_select__WEBPACK_IMPORTED_MODULE_23__.SelectValue, {
-                      placeholder: "Select budget range"
-                    })
-                  }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_ui_select__WEBPACK_IMPORTED_MODULE_23__.SelectContent, {
-                    children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ui_select__WEBPACK_IMPORTED_MODULE_23__.SelectItem, {
-                      value: "$500-$1000",
-                      children: "$500 - $1,000"
-                    }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ui_select__WEBPACK_IMPORTED_MODULE_23__.SelectItem, {
-                      value: "$1000-$2000",
-                      children: "$1,000 - $2,000"
-                    }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ui_select__WEBPACK_IMPORTED_MODULE_23__.SelectItem, {
-                      value: "$2000-$5000",
-                      children: "$2,000 - $5,000"
-                    }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ui_select__WEBPACK_IMPORTED_MODULE_23__.SelectItem, {
-                      value: "$5000+",
-                      children: "$5,000+"
-                    }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ui_select__WEBPACK_IMPORTED_MODULE_23__.SelectItem, {
-                      value: "consultation",
-                      children: "Consultation Required"
-                    })]
-                  })]
-                })]
-              }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ui_label__WEBPACK_IMPORTED_MODULE_21__.Label, {
-                  htmlFor: "edit-timeline",
-                  className: "text-sm font-medium",
-                  children: "Expected Timeline"
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_ui_select__WEBPACK_IMPORTED_MODULE_23__.Select, {
-                  value: editFormData.timeline,
-                  onValueChange: value => setEditFormData(prev => Object.assign(Object.assign({}, prev), {
-                    timeline: value
-                  })),
-                  children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ui_select__WEBPACK_IMPORTED_MODULE_23__.SelectTrigger, {
-                    className: "mt-1",
-                    children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ui_select__WEBPACK_IMPORTED_MODULE_23__.SelectValue, {
-                      placeholder: "Select timeline"
-                    })
-                  }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_ui_select__WEBPACK_IMPORTED_MODULE_23__.SelectContent, {
-                    children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ui_select__WEBPACK_IMPORTED_MODULE_23__.SelectItem, {
-                      value: "1-2 weeks",
-                      children: "1-2 weeks"
-                    }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ui_select__WEBPACK_IMPORTED_MODULE_23__.SelectItem, {
-                      value: "3-4 weeks",
-                      children: "3-4 weeks"
-                    }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ui_select__WEBPACK_IMPORTED_MODULE_23__.SelectItem, {
-                      value: "1-2 months",
-                      children: "1-2 months"
-                    }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ui_select__WEBPACK_IMPORTED_MODULE_23__.SelectItem, {
-                      value: "3+ months",
-                      children: "3+ months"
-                    }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ui_select__WEBPACK_IMPORTED_MODULE_23__.SelectItem, {
-                      value: "flexible",
-                      children: "Flexible"
-                    })]
-                  })]
-                })]
-              })]
-            }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-              children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ui_label__WEBPACK_IMPORTED_MODULE_21__.Label, {
-                htmlFor: "edit-description",
-                className: "text-sm font-medium",
-                children: "Detailed Description *"
-              }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ui_textarea__WEBPACK_IMPORTED_MODULE_22__.Textarea, {
-                id: "edit-description",
-                value: editFormData.description,
-                onChange: e => setEditFormData(prev => Object.assign(Object.assign({}, prev), {
-                  description: e.target.value
-                })),
-                placeholder: "Provide a detailed description of what you need...",
-                rows: 4,
-                className: "mt-1 resize-none"
-              }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
-                className: "text-xs text-muted-foreground mt-1",
-                children: "Be as specific as possible to help us provide an accurate quote"
-              })]
-            }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-              children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ui_label__WEBPACK_IMPORTED_MODULE_21__.Label, {
-                htmlFor: "edit-technicalRequirements",
-                className: "text-sm font-medium",
-                children: "Technical Requirements"
-              }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ui_textarea__WEBPACK_IMPORTED_MODULE_22__.Textarea, {
-                id: "edit-technicalRequirements",
-                value: editFormData.technicalRequirements,
-                onChange: e => setEditFormData(prev => Object.assign(Object.assign({}, prev), {
-                  technicalRequirements: e.target.value
-                })),
-                placeholder: "Any specific technical requirements, integrations, or constraints...",
-                rows: 3,
-                className: "mt-1 resize-none"
-              }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
-                className: "text-xs text-muted-foreground mt-1",
-                children: "Include existing plugins, theme details, or specific integrations needed"
-              })]
-            }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-              className: "flex flex-col sm:flex-row justify-end gap-3 pt-6 border-t",
-              children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ui_button__WEBPACK_IMPORTED_MODULE_16__.Button, {
-                variant: "outline",
-                onClick: () => {
-                  resetEditForm();
-                  setIsEditRequestOpen(false);
-                  setSelectedRequest(null);
-                },
-                className: "sm:order-1",
-                children: "Cancel"
-              }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ui_button__WEBPACK_IMPORTED_MODULE_16__.Button, {
-                onClick: handleUpdateRequest,
-                className: "sm:order-2",
-                disabled: !editFormData.title || !editFormData.description || !editFormData.type || !editFormData.priority || !editFormData.contactEmail,
-                children: "Update Request"
-              })]
-            })]
-          })]
-        })
-      })]
-    }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_ui_tabs__WEBPACK_IMPORTED_MODULE_24__.Tabs, {
-      value: activeTab,
-      onValueChange: setActiveTab,
-      children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_ui_tabs__WEBPACK_IMPORTED_MODULE_24__.TabsList, {
-        className: "grid w-full grid-cols-3",
-        children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ui_tabs__WEBPACK_IMPORTED_MODULE_24__.TabsTrigger, {
-          value: "overview",
-          children: "Overview"
-        }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ui_tabs__WEBPACK_IMPORTED_MODULE_24__.TabsTrigger, {
-          value: "my-requests",
-          children: "My Requests"
-        }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ui_tabs__WEBPACK_IMPORTED_MODULE_24__.TabsTrigger, {
-          value: "guidelines",
-          children: "Guidelines"
-        })]
-      }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_ui_tabs__WEBPACK_IMPORTED_MODULE_24__.TabsContent, {
-        value: "overview",
-        className: "space-y-6",
-        children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-          className: "grid grid-cols-1 md:grid-cols-4 gap-4",
-          children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ui_card__WEBPACK_IMPORTED_MODULE_17__.Card, {
-            children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ui_card__WEBPACK_IMPORTED_MODULE_17__.CardContent, {
-              className: "p-6",
-              children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                className: "flex items-center gap-3",
-                children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                  className: "p-2 bg-blue-100 dark:bg-blue-900/20 rounded-lg",
-                  children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_9__["default"], {
-                    className: "w-5 h-5 text-blue-600 dark:text-blue-400"
-                  })
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                  children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
-                    className: "text-sm text-muted-foreground",
-                    children: "Total Requests"
-                  }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
-                    className: "text-2xl font-semibold",
-                    children: stats.total
-                  })]
-                })]
-              })
-            })
-          }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ui_card__WEBPACK_IMPORTED_MODULE_17__.Card, {
-            children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ui_card__WEBPACK_IMPORTED_MODULE_17__.CardContent, {
-              className: "p-6",
-              children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                className: "flex items-center gap-3",
-                children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                  className: "p-2 bg-orange-100 dark:bg-orange-900/20 rounded-lg",
-                  children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_7__["default"], {
-                    className: "w-5 h-5 text-orange-600 dark:text-orange-400"
-                  })
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                  children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
-                    className: "text-sm text-muted-foreground",
-                    children: "Pending"
-                  }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
-                    className: "text-2xl font-semibold",
-                    children: stats.pending
-                  })]
-                })]
-              })
-            })
-          }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ui_card__WEBPACK_IMPORTED_MODULE_17__.Card, {
-            children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ui_card__WEBPACK_IMPORTED_MODULE_17__.CardContent, {
-              className: "p-6",
-              children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                className: "flex items-center gap-3",
-                children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                  className: "p-2 bg-purple-100 dark:bg-purple-900/20 rounded-lg",
-                  children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_15__["default"], {
-                    className: "w-5 h-5 text-purple-600 dark:text-purple-400"
-                  })
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                  children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
-                    className: "text-sm text-muted-foreground",
-                    children: "In Progress"
-                  }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
-                    className: "text-2xl font-semibold",
-                    children: stats.inProgress
-                  })]
-                })]
-              })
-            })
-          }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ui_card__WEBPACK_IMPORTED_MODULE_17__.Card, {
-            children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ui_card__WEBPACK_IMPORTED_MODULE_17__.CardContent, {
-              className: "p-6",
-              children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                className: "flex items-center gap-3",
-                children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                  className: "p-2 bg-green-100 dark:bg-green-900/20 rounded-lg",
-                  children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_3__["default"], {
-                    className: "w-5 h-5 text-green-600 dark:text-green-400"
-                  })
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                  children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
-                    className: "text-sm text-muted-foreground",
-                    children: "Completed"
-                  }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
-                    className: "text-2xl font-semibold",
-                    children: stats.completed
-                  })]
-                })]
-              })
-            })
-          })]
-        }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-          className: "grid grid-cols-1 md:grid-cols-2 gap-6",
-          children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_ui_card__WEBPACK_IMPORTED_MODULE_17__.Card, {
-            children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ui_card__WEBPACK_IMPORTED_MODULE_17__.CardHeader, {
-              children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_ui_card__WEBPACK_IMPORTED_MODULE_17__.CardTitle, {
-                className: "flex items-center gap-2",
-                children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_10__["default"], {
-                  className: "w-5 h-5"
-                }), "How It Works"]
-              })
-            }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_ui_card__WEBPACK_IMPORTED_MODULE_17__.CardContent, {
-              className: "space-y-3",
-              children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                className: "flex items-start gap-3",
-                children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                  className: "w-6 h-6 bg-blue-100 dark:bg-blue-900/20 rounded-full flex items-center justify-center text-sm font-medium text-blue-600 dark:text-blue-400",
-                  children: "1"
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                  children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
-                    className: "font-medium",
-                    children: "Submit Request"
-                  }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
-                    className: "text-sm text-muted-foreground",
-                    children: "Describe your custom development needs"
-                  })]
-                })]
-              }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                className: "flex items-start gap-3",
-                children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                  className: "w-6 h-6 bg-blue-100 dark:bg-blue-900/20 rounded-full flex items-center justify-center text-sm font-medium text-blue-600 dark:text-blue-400",
-                  children: "2"
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                  children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
-                    className: "font-medium",
-                    children: "Review & Quote"
-                  }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
-                    className: "text-sm text-muted-foreground",
-                    children: "Our team reviews and provides a detailed quote"
-                  })]
-                })]
-              }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                className: "flex items-start gap-3",
-                children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                  className: "w-6 h-6 bg-blue-100 dark:bg-blue-900/20 rounded-full flex items-center justify-center text-sm font-medium text-blue-600 dark:text-blue-400",
-                  children: "3"
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                  children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
-                    className: "font-medium",
-                    children: "Development"
-                  }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
-                    className: "text-sm text-muted-foreground",
-                    children: "Track progress and receive regular updates"
-                  })]
-                })]
-              }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                className: "flex items-start gap-3",
-                children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                  className: "w-6 h-6 bg-blue-100 dark:bg-blue-900/20 rounded-full flex items-center justify-center text-sm font-medium text-blue-600 dark:text-blue-400",
-                  children: "4"
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                  children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
-                    className: "font-medium",
-                    children: "Delivery"
-                  }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
-                    className: "text-sm text-muted-foreground",
-                    children: "Testing, deployment, and ongoing support"
-                  })]
-                })]
-              })]
-            })]
-          }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_ui_card__WEBPACK_IMPORTED_MODULE_17__.Card, {
-            children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ui_card__WEBPACK_IMPORTED_MODULE_17__.CardHeader, {
-              children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_ui_card__WEBPACK_IMPORTED_MODULE_17__.CardTitle, {
-                className: "flex items-center gap-2",
-                children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_8__["default"], {
-                  className: "w-5 h-5"
-                }), "Pricing Information"]
-              })
-            }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_ui_card__WEBPACK_IMPORTED_MODULE_17__.CardContent, {
-              className: "space-y-3",
-              children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                className: "flex justify-between items-center p-3 bg-accent/50 rounded-lg",
-                children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                  className: "font-medium",
-                  children: "Simple Modifications"
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                  className: "text-sm text-muted-foreground",
-                  children: "$500 - $1,000"
-                })]
-              }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                className: "flex justify-between items-center p-3 bg-accent/50 rounded-lg",
-                children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                  className: "font-medium",
-                  children: "New Addons"
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                  className: "text-sm text-muted-foreground",
-                  children: "$1,000 - $5,000"
-                })]
-              }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                className: "flex justify-between items-center p-3 bg-accent/50 rounded-lg",
-                children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                  className: "font-medium",
-                  children: "Complex Integrations"
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                  className: "text-sm text-muted-foreground",
-                  children: "$5,000+"
-                })]
-              }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                className: "flex justify-between items-center p-3 bg-accent/50 rounded-lg",
-                children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                  className: "font-medium",
-                  children: "Consultation"
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                  className: "text-sm text-muted-foreground",
-                  children: "$150/hour"
-                })]
-              })]
-            })]
-          })]
-        })]
-      }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ui_tabs__WEBPACK_IMPORTED_MODULE_24__.TabsContent, {
-        value: "my-requests",
-        className: "space-y-4",
-        children: requests.length === 0 ? (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ui_card__WEBPACK_IMPORTED_MODULE_17__.Card, {
-          children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_ui_card__WEBPACK_IMPORTED_MODULE_17__.CardContent, {
-            className: "p-12 text-center",
-            children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_9__["default"], {
-              className: "w-12 h-12 text-muted-foreground mx-auto mb-4"
-            }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("h3", {
-              className: "font-medium mb-2",
-              children: "No requests yet"
-            }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
-              className: "text-muted-foreground mb-4",
-              children: "Submit your first custom development request to get started."
-            }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_ui_button__WEBPACK_IMPORTED_MODULE_16__.Button, {
-              onClick: () => setIsNewRequestOpen(true),
-              children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_12__["default"], {
-                className: "w-4 h-4 mr-2"
-              }), "Create First Request"]
-            })]
-          })
-        }) : (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-          className: "space-y-4",
-          children: requests.map(request => (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_ui_card__WEBPACK_IMPORTED_MODULE_17__.Card, {
-            className: "hover:shadow-md transition-shadow",
-            children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ui_card__WEBPACK_IMPORTED_MODULE_17__.CardHeader, {
-              className: "pb-3",
-              children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                className: "flex items-start justify-between",
-                children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                  className: "space-y-1",
-                  children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                    className: "flex items-center gap-3",
-                    children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ui_card__WEBPACK_IMPORTED_MODULE_17__.CardTitle, {
-                      className: "text-lg",
-                      children: request.title
-                    }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ui_badge__WEBPACK_IMPORTED_MODULE_18__.Badge, {
-                      className: getPriorityColor(request.priority),
-                      children: request.priority
-                    })]
-                  }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                    className: "flex items-center gap-4 text-sm text-muted-foreground",
-                    children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("span", {
-                      children: ["#", request.id]
-                    }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("span", {
-                      className: "flex items-center gap-1",
-                      children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_6__["default"], {
-                        className: "w-3 h-3"
-                      }), request.submittedDate]
-                    }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("span", {
-                      className: "flex items-center gap-1",
-                      children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_14__["default"], {
-                        className: "w-3 h-3"
-                      }), request.contactEmail]
-                    })]
-                  })]
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                  className: "flex items-center gap-2",
-                  children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_ui_badge__WEBPACK_IMPORTED_MODULE_18__.Badge, {
-                    className: getStatusColor(request.status),
-                    children: [getStatusIcon(request.status), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                      className: "ml-1 capitalize",
-                      children: request.status.replace('-', ' ')
-                    })]
-                  }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ui_button__WEBPACK_IMPORTED_MODULE_16__.Button, {
-                    variant: "ghost",
-                    size: "sm",
-                    onClick: () => handleEditRequest(request),
-                    title: "Edit request",
-                    children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_5__["default"], {
-                      className: "w-4 h-4"
-                    })
-                  }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ui_button__WEBPACK_IMPORTED_MODULE_16__.Button, {
-                    variant: "ghost",
-                    size: "sm",
-                    onClick: () => handleDeleteRequest(request.id),
-                    title: "Delete request",
-                    children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_13__["default"], {
-                      className: "w-4 h-4"
-                    })
-                  })]
-                })]
-              })
-            }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_ui_card__WEBPACK_IMPORTED_MODULE_17__.CardContent, {
-              className: "pt-0",
-              children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
-                className: "text-muted-foreground mb-4",
-                children: request.description
-              }), request.status === 'in-development' && request.progress > 0 && (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                className: "mb-4",
-                children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                  className: "flex justify-between text-sm mb-1",
-                  children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                    children: "Development Progress"
-                  }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("span", {
-                    children: [request.progress, "%"]
-                  })]
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ui_progress__WEBPACK_IMPORTED_MODULE_25__.Progress, {
-                  value: request.progress,
-                  className: "h-2"
-                })]
-              }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                className: "grid grid-cols-2 md:grid-cols-4 gap-4 text-sm",
-                children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                  children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                    className: "text-muted-foreground",
-                    children: "Type:"
-                  }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
-                    className: "font-medium capitalize",
-                    children: request.type.replace('-', ' ')
-                  })]
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                  children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                    className: "text-muted-foreground",
-                    children: "Budget:"
-                  }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
-                    className: "font-medium",
-                    children: request.budgetRange
-                  })]
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                  children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                    className: "text-muted-foreground",
-                    children: "Timeline:"
-                  }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
-                    className: "font-medium",
-                    children: request.timeline
-                  })]
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                  children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                    className: "text-muted-foreground",
-                    children: "Updated:"
-                  }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
-                    className: "font-medium",
-                    children: request.lastUpdated
-                  })]
-                })]
-              }), request.attachments.length > 0 && (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                className: "mt-4",
-                children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
-                  className: "text-sm text-muted-foreground mb-2",
-                  children: "Attachments:"
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-                  className: "flex gap-2",
-                  children: request.attachments.map((attachment, index) => (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_ui_badge__WEBPACK_IMPORTED_MODULE_18__.Badge, {
-                    variant: "outline",
-                    className: "flex items-center gap-1",
-                    children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_11__["default"], {
-                      className: "w-3 h-3"
-                    }), attachment]
-                  }, index))
-                })]
-              }), request.developerNotes && (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                className: "mt-4 p-3 bg-accent/50 rounded-lg",
-                children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
-                  className: "text-sm font-medium mb-1",
-                  children: "Developer Notes:"
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
-                  className: "text-sm text-muted-foreground",
-                  children: request.developerNotes
-                })]
-              })]
-            })]
-          }, request.id))
-        })
-      }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ui_tabs__WEBPACK_IMPORTED_MODULE_24__.TabsContent, {
-        value: "guidelines",
-        className: "space-y-6",
-        children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_ui_card__WEBPACK_IMPORTED_MODULE_17__.Card, {
-          children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ui_card__WEBPACK_IMPORTED_MODULE_17__.CardHeader, {
-            children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ui_card__WEBPACK_IMPORTED_MODULE_17__.CardTitle, {
-              children: "Development Request Guidelines"
-            })
-          }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_ui_card__WEBPACK_IMPORTED_MODULE_17__.CardContent, {
-            className: "space-y-6",
-            children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-              children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("h4", {
-                className: "font-medium mb-3",
-                children: "Before Submitting a Request"
-              }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("ul", {
-                className: "space-y-2 text-sm text-muted-foreground",
-                children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("li", {
-                  children: "\u2022 Check if similar functionality exists in our current addon collection"
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("li", {
-                  children: "\u2022 Prepare detailed requirements and specifications"
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("li", {
-                  children: "\u2022 Consider your budget and timeline constraints"
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("li", {
-                  children: "\u2022 Gather any necessary technical documentation"
-                })]
-              })]
-            }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-              children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("h4", {
-                className: "font-medium mb-3",
-                children: "What to Include in Your Request"
-              }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("ul", {
-                className: "space-y-2 text-sm text-muted-foreground",
-                children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("li", {
-                  children: "\u2022 Clear and detailed description of the functionality needed"
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("li", {
-                  children: "\u2022 Specific use cases and user workflows"
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("li", {
-                  children: "\u2022 Technical requirements and constraints"
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("li", {
-                  children: "\u2022 Mockups, wireframes, or reference examples (if available)"
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("li", {
-                  children: "\u2022 Integration requirements with existing systems"
-                })]
-              })]
-            }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-              children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("h4", {
-                className: "font-medium mb-3",
-                children: "Development Process"
-              }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("ul", {
-                className: "space-y-2 text-sm text-muted-foreground",
-                children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("li", {
-                  children: "\u2022 Initial review and feasibility assessment (1-2 business days)"
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("li", {
-                  children: "\u2022 Detailed technical analysis and quote preparation (3-5 business days)"
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("li", {
-                  children: "\u2022 Development phase with regular progress updates"
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("li", {
-                  children: "\u2022 Testing and quality assurance"
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("li", {
-                  children: "\u2022 Deployment and post-launch support"
-                })]
-              })]
-            }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-              children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("h4", {
-                className: "font-medium mb-3",
-                children: "Support & Maintenance"
-              }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("ul", {
-                className: "space-y-2 text-sm text-muted-foreground",
-                children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("li", {
-                  children: "\u2022 30-day bug fix guarantee on all custom development"
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("li", {
-                  children: "\u2022 6 months of compatibility updates included"
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("li", {
-                  children: "\u2022 Extended support and maintenance plans available"
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("li", {
-                  children: "\u2022 Documentation and training provided for complex features"
-                })]
-              })]
-            }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-              className: "p-4 bg-blue-50 dark:bg-blue-950/20 rounded-lg border border-blue-200 dark:border-blue-800",
-              children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("h4", {
-                className: "font-medium text-blue-900 dark:text-blue-100 mb-2",
-                children: "\uD83D\uDCA1 Pro Tip"
-              }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
-                className: "text-sm text-blue-800 dark:text-blue-200",
-                children: "The more detailed your requirements, the more accurate our quote and timeline will be. Don't hesitate to reach out for a consultation if you're unsure about technical feasibility."
-              })]
-            })]
-          })]
-        })
-      })]
-    })]
   });
 }
 
@@ -8056,330 +4978,6 @@ function QuickActionButton() {
 
 /***/ }),
 
-/***/ "./admin/src/components/SmartRecommendations.tsx":
-/*!*******************************************************!*\
-  !*** ./admin/src/components/SmartRecommendations.tsx ***!
-  \*******************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   SmartRecommendations: () => (/* binding */ SmartRecommendations)
-/* harmony export */ });
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-runtime */ "react/jsx-runtime");
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var lucide_react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! lucide-react */ "./node_modules/lucide-react/dist/esm/icons/circle-alert.js");
-/* harmony import */ var lucide_react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! lucide-react */ "./node_modules/lucide-react/dist/esm/icons/circle-check-big.js");
-/* harmony import */ var lucide_react__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! lucide-react */ "./node_modules/lucide-react/dist/esm/icons/chevron-right.js");
-/* harmony import */ var lucide_react__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! lucide-react */ "./node_modules/lucide-react/dist/esm/icons/clock.js");
-/* harmony import */ var lucide_react__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! lucide-react */ "./node_modules/lucide-react/dist/esm/icons/lightbulb.js");
-/* harmony import */ var lucide_react__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! lucide-react */ "./node_modules/lucide-react/dist/esm/icons/shield.js");
-/* harmony import */ var lucide_react__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! lucide-react */ "./node_modules/lucide-react/dist/esm/icons/star.js");
-/* harmony import */ var lucide_react__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! lucide-react */ "./node_modules/lucide-react/dist/esm/icons/target.js");
-/* harmony import */ var lucide_react__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! lucide-react */ "./node_modules/lucide-react/dist/esm/icons/trending-up.js");
-/* harmony import */ var lucide_react__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! lucide-react */ "./node_modules/lucide-react/dist/esm/icons/x.js");
-/* harmony import */ var lucide_react__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! lucide-react */ "./node_modules/lucide-react/dist/esm/icons/zap.js");
-/* harmony import */ var _ui_button__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./ui/button */ "./admin/src/components/ui/button.tsx");
-/* harmony import */ var _ui_badge__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./ui/badge */ "./admin/src/components/ui/badge.tsx");
-
-
-
-
-
-const categoryIcons = {
-  performance: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_12__["default"], {
-    className: "w-4 h-4"
-  }),
-  conversion: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_10__["default"], {
-    className: "w-4 h-4"
-  }),
-  seo: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_9__["default"], {
-    className: "w-4 h-4"
-  }),
-  security: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_7__["default"], {
-    className: "w-4 h-4"
-  }),
-  analytics: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_6__["default"], {
-    className: "w-4 h-4"
-  })
-};
-const impactColors = {
-  high: 'bg-red-100 text-red-800 dark:bg-red-900/20 dark:text-red-200',
-  medium: 'bg-orange-100 text-orange-800 dark:bg-orange-900/20 dark:text-orange-200',
-  low: 'bg-green-100 text-green-800 dark:bg-green-900/20 dark:text-green-200'
-};
-function SmartRecommendations({
-  addons,
-  onEnableAddon,
-  onTabChange
-}) {
-  const [recommendations, setRecommendations] = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)([]);
-  const [dismissedRecommendations, setDismissedRecommendations] = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)(new Set());
-  const [isVisible, setIsVisible] = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)(true);
-  (0,react__WEBPACK_IMPORTED_MODULE_1__.useEffect)(() => {
-    const generateRecommendations = () => {
-      const allAddons = Object.values(addons).flat();
-      const enabledAddons = allAddons.filter(addon => addon.enabled);
-      const disabledAddons = allAddons.filter(addon => !addon.enabled);
-      const newRecommendations = [];
-      // Performance Recommendations
-      const hasPageSpeed = enabledAddons.some(addon => addon.id.includes('page-speed') || addon.id.includes('minify'));
-      if (!hasPageSpeed && disabledAddons.some(addon => addon.id === 'page-speed-optimizer')) {
-        newRecommendations.push({
-          id: 'enable-page-speed',
-          title: 'Boost Site Performance',
-          description: 'Enable page speed optimization to improve loading times',
-          impact: 'high',
-          category: 'performance',
-          addons: ['page-speed-optimizer', 'minify-assets'],
-          reasoning: 'Sites with faster loading times see 25% higher conversion rates',
-          estimatedBenefit: '+25% conversion rate',
-          priority: 1,
-          icon: categoryIcons.performance
-        });
-      }
-      // Conversion Recommendations
-      const hasCartRecovery = enabledAddons.some(addon => addon.id.includes('cart-abandonment') || addon.id.includes('abandonment'));
-      if (!hasCartRecovery && disabledAddons.some(addon => addon.id === 'cart-abandonment')) {
-        newRecommendations.push({
-          id: 'enable-cart-recovery',
-          title: 'Recover Lost Sales',
-          description: 'Set up cart abandonment recovery to recapture potential customers',
-          impact: 'high',
-          category: 'conversion',
-          addons: ['cart-abandonment'],
-          reasoning: 'Cart abandonment recovery can recover up to 25% of abandoned carts',
-          estimatedBenefit: '+$2,500/month revenue',
-          priority: 2,
-          icon: categoryIcons.conversion
-        });
-      }
-      // SEO Recommendations
-      const hasSEOOptimizer = enabledAddons.some(addon => addon.id.includes('seo') || addon.id.includes('sitemap'));
-      if (!hasSEOOptimizer) {
-        newRecommendations.push({
-          id: 'enable-seo-tools',
-          title: 'Improve Search Rankings',
-          description: 'Enable SEO optimization tools for better search visibility',
-          impact: 'medium',
-          category: 'seo',
-          addons: ['seo-optimizer', 'sitemap-generator', 'schema-markup'],
-          reasoning: 'Better SEO leads to 40% more organic traffic on average',
-          estimatedBenefit: '+40% organic traffic',
-          priority: 3,
-          icon: categoryIcons.seo
-        });
-      }
-      // Security Recommendations
-      const hasSecurityScanner = enabledAddons.some(addon => addon.id.includes('security') || addon.id.includes('ssl'));
-      if (!hasSecurityScanner) {
-        newRecommendations.push({
-          id: 'enable-security',
-          title: 'Enhance Store Security',
-          description: 'Enable security monitoring and SSL certificate tracking',
-          impact: 'high',
-          category: 'security',
-          addons: ['security-scanner', 'ssl-monitor', 'two-factor-auth'],
-          reasoning: 'Security breaches cost an average of $4.45M per incident',
-          estimatedBenefit: 'Prevent costly security breaches',
-          priority: 4,
-          icon: categoryIcons.security
-        });
-      }
-      // Analytics Recommendations
-      const hasAdvancedReports = enabledAddons.some(addon => addon.id.includes('advanced-reports') || addon.id.includes('analytics'));
-      if (!hasAdvancedReports && enabledAddons.length > 5) {
-        newRecommendations.push({
-          id: 'enable-analytics',
-          title: 'Get Deeper Insights',
-          description: 'Enable advanced analytics to track your optimization efforts',
-          impact: 'medium',
-          category: 'analytics',
-          addons: ['advanced-reports', 'customer-analytics', 'conversion-tracking'],
-          reasoning: 'Data-driven decisions improve ROI by 5-8% on average',
-          estimatedBenefit: '+5-8% overall ROI',
-          priority: 5,
-          icon: categoryIcons.analytics
-        });
-      }
-      // Social Proof Recommendations
-      const hasSocialProof = enabledAddons.some(addon => addon.id.includes('social-proof') || addon.id.includes('reviews'));
-      if (!hasSocialProof && enabledAddons.length > 3) {
-        newRecommendations.push({
-          id: 'enable-social-proof',
-          title: 'Build Customer Trust',
-          description: 'Show social proof notifications to increase buyer confidence',
-          impact: 'medium',
-          category: 'conversion',
-          addons: ['social-proof', 'product-reviews-pro', 'urgency-indicators'],
-          reasoning: 'Social proof can increase conversions by 15% on average',
-          estimatedBenefit: '+15% conversion rate',
-          priority: 6,
-          icon: categoryIcons.conversion
-        });
-      }
-      return newRecommendations.filter(rec => !dismissedRecommendations.has(rec.id)).sort((a, b) => a.priority - b.priority);
-    };
-    setRecommendations(generateRecommendations());
-  }, [addons, dismissedRecommendations]);
-  const handleEnableRecommendation = recommendation => {
-    recommendation.addons.forEach(addonId => {
-      // Find the category this addon belongs to
-      const categoryEntry = Object.entries(addons).find(([, categoryAddons]) => categoryAddons.some(addon => addon.id === addonId));
-      if (categoryEntry) {
-        const [categoryId] = categoryEntry;
-        onEnableAddon(categoryId, addonId);
-      }
-    });
-    // Dismiss this recommendation
-    setDismissedRecommendations(prev => new Set([...prev, recommendation.id]));
-  };
-  const handleDismissRecommendation = recommendationId => {
-    setDismissedRecommendations(prev => new Set([...prev, recommendationId]));
-  };
-  const handleViewCategory = recommendation => {
-    // Navigate to the relevant category
-    const categoryMapping = {
-      performance: 'seo-performance',
-      conversion: 'marketing-sales',
-      seo: 'seo-performance',
-      security: 'security-compliance',
-      analytics: 'reports-analytics'
-    };
-    const targetCategory = categoryMapping[recommendation.category] || 'dashboard';
-    if (onTabChange) {
-      onTabChange(targetCategory);
-    }
-  };
-  if (!isVisible || recommendations.length === 0) {
-    return null;
-  }
-  return (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-    className: "bg-gradient-to-r from-blue-50 via-purple-50 to-indigo-50 dark:from-blue-950/20 dark:via-purple-950/20 dark:to-indigo-950/20 border border-blue-200 dark:border-blue-800 rounded-xl p-6 mb-8",
-    children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-      className: "flex items-center justify-between mb-6",
-      children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-        className: "flex items-center gap-3",
-        children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-          className: "w-10 h-10 bg-gradient-to-r from-blue-500 to-purple-600 rounded-lg flex items-center justify-center",
-          children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_6__["default"], {
-            className: "w-5 h-5 text-white"
-          })
-        }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-          children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("h3", {
-            className: "font-semibold text-blue-900 dark:text-blue-100",
-            children: "Smart Recommendations"
-          }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
-            className: "text-sm text-blue-700 dark:text-blue-300",
-            children: "AI-powered suggestions to optimize your store"
-          })]
-        })]
-      }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("button", {
-        onClick: () => setIsVisible(false),
-        className: "p-1 hover:bg-blue-200 dark:hover:bg-blue-800 rounded-lg transition-colors",
-        children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_11__["default"], {
-          className: "w-4 h-4 text-blue-600 dark:text-blue-400"
-        })
-      })]
-    }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-      className: "space-y-4",
-      children: recommendations.slice(0, 3).map(recommendation => (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-        className: "bg-white dark:bg-slate-800/50 rounded-lg p-4 border border-blue-100 dark:border-blue-800",
-        children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-          className: "flex items-start justify-between mb-3",
-          children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-            className: "flex items-start gap-3",
-            children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-              className: "w-8 h-8 bg-blue-100 dark:bg-blue-900/30 rounded-lg flex items-center justify-center flex-shrink-0 mt-0.5",
-              children: recommendation.icon
-            }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-              className: "flex-1",
-              children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                className: "flex items-center gap-2 mb-1",
-                children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("h4", {
-                  className: "font-medium text-blue-900 dark:text-blue-100",
-                  children: recommendation.title
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_ui_badge__WEBPACK_IMPORTED_MODULE_14__.Badge, {
-                  className: `text-xs ${impactColors[recommendation.impact]}`,
-                  children: [recommendation.impact, " impact"]
-                })]
-              }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("p", {
-                className: "text-sm text-blue-700 dark:text-blue-300 mb-2",
-                children: recommendation.description
-              }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                className: "flex items-center gap-4 text-xs text-blue-600 dark:text-blue-400",
-                children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                  className: "flex items-center gap-1",
-                  children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_8__["default"], {
-                    className: "w-3 h-3"
-                  }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                    children: recommendation.estimatedBenefit
-                  })]
-                }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                  className: "flex items-center gap-1",
-                  children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_5__["default"], {
-                    className: "w-3 h-3"
-                  }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("span", {
-                    children: [recommendation.addons.length, " addon", recommendation.addons.length > 1 ? 's' : '']
-                  })]
-                })]
-              })]
-            })]
-          }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("button", {
-            onClick: () => handleDismissRecommendation(recommendation.id),
-            className: "p-1 hover:bg-blue-100 dark:hover:bg-blue-800 rounded transition-colors",
-            children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_11__["default"], {
-              className: "w-3 h-3 text-blue-500"
-            })
-          })]
-        }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-          className: "bg-blue-50 dark:bg-blue-950/30 rounded-lg p-3 mb-4",
-          children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-            className: "flex items-start gap-2",
-            children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_2__["default"], {
-              className: "w-4 h-4 text-blue-600 dark:text-blue-400 flex-shrink-0 mt-0.5"
-            }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("p", {
-              className: "text-sm text-blue-800 dark:text-blue-200",
-              children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
-                className: "font-medium",
-                children: "Why this matters:"
-              }), " ", recommendation.reasoning]
-            })]
-          })
-        }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-          className: "flex items-center gap-2",
-          children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_ui_button__WEBPACK_IMPORTED_MODULE_13__.Button, {
-            onClick: () => handleEnableRecommendation(recommendation),
-            size: "sm",
-            className: "flex items-center gap-2",
-            children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_3__["default"], {
-              className: "w-4 h-4"
-            }), "Enable Now"]
-          }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_ui_button__WEBPACK_IMPORTED_MODULE_13__.Button, {
-            onClick: () => handleViewCategory(recommendation),
-            variant: "outline",
-            size: "sm",
-            className: "flex items-center gap-2",
-            children: ["View Category", (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_4__["default"], {
-              className: "w-3 h-3"
-            })]
-          })]
-        })]
-      }, recommendation.id))
-    }), recommendations.length > 3 && (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("div", {
-      className: "mt-4 pt-4 border-t border-blue-200 dark:border-blue-800",
-      children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("p", {
-        className: "text-sm text-blue-600 dark:text-blue-400 text-center",
-        children: ["+", recommendations.length - 3, " more recommendations available"]
-      })
-    })]
-  });
-}
-
-/***/ }),
-
 /***/ "./admin/src/components/ThemeProvider.tsx":
 /*!************************************************!*\
   !*** ./admin/src/components/ThemeProvider.tsx ***!
@@ -8473,11 +5071,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-runtime */ "react/jsx-runtime");
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var lucide_react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! lucide-react */ "./node_modules/lucide-react/dist/esm/icons/moon.js");
-/* harmony import */ var lucide_react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! lucide-react */ "./node_modules/lucide-react/dist/esm/icons/sun.js");
-/* harmony import */ var _ui_button__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./ui/button */ "./admin/src/components/ui/button.tsx");
-/* harmony import */ var _ui_dropdown_menu__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./ui/dropdown-menu */ "./admin/src/components/ui/dropdown-menu.tsx");
-/* harmony import */ var _ThemeProvider__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./ThemeProvider */ "./admin/src/components/ThemeProvider.tsx");
+/* harmony import */ var lucide_react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! lucide-react */ "./node_modules/lucide-react/dist/esm/icons/monitor.js");
+/* harmony import */ var lucide_react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! lucide-react */ "./node_modules/lucide-react/dist/esm/icons/moon.js");
+/* harmony import */ var lucide_react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! lucide-react */ "./node_modules/lucide-react/dist/esm/icons/sun.js");
+/* harmony import */ var _ui_button__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./ui/button */ "./admin/src/components/ui/button.tsx");
+/* harmony import */ var _ui_dropdown_menu__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./ui/dropdown-menu */ "./admin/src/components/ui/dropdown-menu.tsx");
+/* harmony import */ var _ThemeProvider__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./ThemeProvider */ "./admin/src/components/ThemeProvider.tsx");
 
 
 
@@ -8488,30 +5087,30 @@ function ThemeToggle() {
     theme,
     setTheme,
     actualTheme
-  } = (0,_ThemeProvider__WEBPACK_IMPORTED_MODULE_5__.useTheme)();
-  return (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_ui_dropdown_menu__WEBPACK_IMPORTED_MODULE_4__.DropdownMenu, {
-    children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ui_dropdown_menu__WEBPACK_IMPORTED_MODULE_4__.DropdownMenuTrigger, {
+  } = (0,_ThemeProvider__WEBPACK_IMPORTED_MODULE_6__.useTheme)();
+  return (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_ui_dropdown_menu__WEBPACK_IMPORTED_MODULE_5__.DropdownMenu, {
+    children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ui_dropdown_menu__WEBPACK_IMPORTED_MODULE_5__.DropdownMenuTrigger, {
       asChild: true,
-      children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_ui_button__WEBPACK_IMPORTED_MODULE_3__.Button, {
+      children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_ui_button__WEBPACK_IMPORTED_MODULE_4__.Button, {
         variant: "ghost",
         size: "sm",
         className: "w-full justify-start gap-3 px-3 py-2.5 h-auto font-normal hover:bg-accent",
-        children: [actualTheme === 'dark' ? (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_1__["default"], {
+        children: [actualTheme === 'dark' ? (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_2__["default"], {
           className: "w-4 h-4"
-        }) : (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_2__["default"], {
+        }) : (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_3__["default"], {
           className: "w-4 h-4"
         }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("span", {
           className: "text-sm",
           children: [theme === 'system' ? 'System' : theme === 'dark' ? 'Dark' : 'Light', " Theme"]
         })]
       })
-    }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ui_dropdown_menu__WEBPACK_IMPORTED_MODULE_4__.DropdownMenuContent, {
+    }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_ui_dropdown_menu__WEBPACK_IMPORTED_MODULE_5__.DropdownMenuContent, {
       align: "start",
       className: "w-40",
-      children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_ui_dropdown_menu__WEBPACK_IMPORTED_MODULE_4__.DropdownMenuItem, {
+      children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_ui_dropdown_menu__WEBPACK_IMPORTED_MODULE_5__.DropdownMenuItem, {
         onClick: () => setTheme('light'),
         className: "flex items-center gap-2 cursor-pointer",
-        children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_2__["default"], {
+        children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_3__["default"], {
           className: "w-4 h-4"
         }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
           children: "Light"
@@ -8519,7 +5118,29 @@ function ThemeToggle() {
           className: "ml-auto text-xs",
           children: "\u2713"
         })]
-      })
+      }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_ui_dropdown_menu__WEBPACK_IMPORTED_MODULE_5__.DropdownMenuItem, {
+        onClick: () => setTheme('dark'),
+        className: "flex items-center gap-2 cursor-pointer",
+        children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_2__["default"], {
+          className: "w-4 h-4"
+        }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
+          children: "Dark"
+        }), theme === 'dark' && (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
+          className: "ml-auto text-xs",
+          children: "\u2713"
+        })]
+      }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_ui_dropdown_menu__WEBPACK_IMPORTED_MODULE_5__.DropdownMenuItem, {
+        onClick: () => setTheme('system'),
+        className: "flex items-center gap-2 cursor-pointer",
+        children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_1__["default"], {
+          className: "w-4 h-4"
+        }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
+          children: "System"
+        }), theme === 'system' && (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
+          className: "ml-auto text-xs",
+          children: "\u2713"
+        })]
+      })]
     })]
   });
 }
@@ -9320,56 +5941,6 @@ function Label(_a) {
     "data-slot": "label",
     className: (0,_utils__WEBPACK_IMPORTED_MODULE_2__.cn)("flex items-center gap-2 text-sm leading-none font-medium select-none group-data-[disabled=true]:pointer-events-none group-data-[disabled=true]:opacity-50 peer-disabled:cursor-not-allowed peer-disabled:opacity-50", className)
   }, props));
-}
-
-
-/***/ }),
-
-/***/ "./admin/src/components/ui/progress.tsx":
-/*!**********************************************!*\
-  !*** ./admin/src/components/ui/progress.tsx ***!
-  \**********************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   Progress: () => (/* binding */ Progress)
-/* harmony export */ });
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-runtime */ "react/jsx-runtime");
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _radix_ui_react_progress__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @radix-ui/react-progress */ "./node_modules/@radix-ui/react-progress/dist/index.mjs");
-/* harmony import */ var _utils__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./utils */ "./admin/src/components/ui/utils.ts");
-"use client";
-
-var __rest = undefined && undefined.__rest || function (s, e) {
-  var t = {};
-  for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p) && e.indexOf(p) < 0) t[p] = s[p];
-  if (s != null && typeof Object.getOwnPropertySymbols === "function") for (var i = 0, p = Object.getOwnPropertySymbols(s); i < p.length; i++) {
-    if (e.indexOf(p[i]) < 0 && Object.prototype.propertyIsEnumerable.call(s, p[i])) t[p[i]] = s[p[i]];
-  }
-  return t;
-};
-
-
-
-function Progress(_a) {
-  var {
-      className,
-      value
-    } = _a,
-    props = __rest(_a, ["className", "value"]);
-  return (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_radix_ui_react_progress__WEBPACK_IMPORTED_MODULE_1__.Root, Object.assign({
-    "data-slot": "progress",
-    className: (0,_utils__WEBPACK_IMPORTED_MODULE_2__.cn)("bg-primary/20 relative h-2 w-full overflow-hidden rounded-full", className)
-  }, props, {
-    children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_radix_ui_react_progress__WEBPACK_IMPORTED_MODULE_1__.Indicator, {
-      "data-slot": "progress-indicator",
-      className: "bg-primary h-full w-full flex-1 transition-all",
-      style: {
-        transform: `translateX(-${100 - (value || 0)}%)`
-      }
-    })
-  }));
 }
 
 
@@ -16246,123 +12817,6 @@ var Root = Primitive;
 
 /***/ }),
 
-/***/ "./node_modules/@radix-ui/react-progress/dist/index.mjs":
-/*!**************************************************************!*\
-  !*** ./node_modules/@radix-ui/react-progress/dist/index.mjs ***!
-  \**************************************************************/
-/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   Indicator: () => (/* binding */ Indicator),
-/* harmony export */   Progress: () => (/* binding */ Progress),
-/* harmony export */   ProgressIndicator: () => (/* binding */ ProgressIndicator),
-/* harmony export */   Root: () => (/* binding */ Root),
-/* harmony export */   createProgressScope: () => (/* binding */ createProgressScope)
-/* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var _radix_ui_react_context__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @radix-ui/react-context */ "./node_modules/@radix-ui/react-context/dist/index.mjs");
-/* harmony import */ var _radix_ui_react_primitive__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @radix-ui/react-primitive */ "./node_modules/@radix-ui/react-primitive/dist/index.mjs");
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react/jsx-runtime */ "react/jsx-runtime");
-"use client";
-
-// src/progress.tsx
-
-
-
-
-var PROGRESS_NAME = "Progress";
-var DEFAULT_MAX = 100;
-var [createProgressContext, createProgressScope] = (0,_radix_ui_react_context__WEBPACK_IMPORTED_MODULE_1__.createContextScope)(PROGRESS_NAME);
-var [ProgressProvider, useProgressContext] = createProgressContext(PROGRESS_NAME);
-var Progress = react__WEBPACK_IMPORTED_MODULE_0__.forwardRef(
-  (props, forwardedRef) => {
-    const {
-      __scopeProgress,
-      value: valueProp = null,
-      max: maxProp,
-      getValueLabel = defaultGetValueLabel,
-      ...progressProps
-    } = props;
-    if ((maxProp || maxProp === 0) && !isValidMaxNumber(maxProp)) {
-      console.error(getInvalidMaxError(`${maxProp}`, "Progress"));
-    }
-    const max = isValidMaxNumber(maxProp) ? maxProp : DEFAULT_MAX;
-    if (valueProp !== null && !isValidValueNumber(valueProp, max)) {
-      console.error(getInvalidValueError(`${valueProp}`, "Progress"));
-    }
-    const value = isValidValueNumber(valueProp, max) ? valueProp : null;
-    const valueLabel = isNumber(value) ? getValueLabel(value, max) : void 0;
-    return /* @__PURE__ */ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(ProgressProvider, { scope: __scopeProgress, value, max, children: /* @__PURE__ */ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(
-      _radix_ui_react_primitive__WEBPACK_IMPORTED_MODULE_2__.Primitive.div,
-      {
-        "aria-valuemax": max,
-        "aria-valuemin": 0,
-        "aria-valuenow": isNumber(value) ? value : void 0,
-        "aria-valuetext": valueLabel,
-        role: "progressbar",
-        "data-state": getProgressState(value, max),
-        "data-value": value ?? void 0,
-        "data-max": max,
-        ...progressProps,
-        ref: forwardedRef
-      }
-    ) });
-  }
-);
-Progress.displayName = PROGRESS_NAME;
-var INDICATOR_NAME = "ProgressIndicator";
-var ProgressIndicator = react__WEBPACK_IMPORTED_MODULE_0__.forwardRef(
-  (props, forwardedRef) => {
-    const { __scopeProgress, ...indicatorProps } = props;
-    const context = useProgressContext(INDICATOR_NAME, __scopeProgress);
-    return /* @__PURE__ */ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(
-      _radix_ui_react_primitive__WEBPACK_IMPORTED_MODULE_2__.Primitive.div,
-      {
-        "data-state": getProgressState(context.value, context.max),
-        "data-value": context.value ?? void 0,
-        "data-max": context.max,
-        ...indicatorProps,
-        ref: forwardedRef
-      }
-    );
-  }
-);
-ProgressIndicator.displayName = INDICATOR_NAME;
-function defaultGetValueLabel(value, max) {
-  return `${Math.round(value / max * 100)}%`;
-}
-function getProgressState(value, maxValue) {
-  return value == null ? "indeterminate" : value === maxValue ? "complete" : "loading";
-}
-function isNumber(value) {
-  return typeof value === "number";
-}
-function isValidMaxNumber(max) {
-  return isNumber(max) && !isNaN(max) && max > 0;
-}
-function isValidValueNumber(value, max) {
-  return isNumber(value) && !isNaN(value) && value <= max && value >= 0;
-}
-function getInvalidMaxError(propValue, componentName) {
-  return `Invalid prop \`max\` of value \`${propValue}\` supplied to \`${componentName}\`. Only numbers greater than 0 are valid max values. Defaulting to \`${DEFAULT_MAX}\`.`;
-}
-function getInvalidValueError(propValue, componentName) {
-  return `Invalid prop \`value\` of value \`${propValue}\` supplied to \`${componentName}\`. The \`value\` prop must be:
-  - a positive number
-  - less than the value passed to \`max\` (or ${DEFAULT_MAX} if no \`max\` prop is set)
-  - \`null\` or \`undefined\` if the progress is indeterminate.
-
-Defaulting to \`null\`.`;
-}
-var Root = Progress;
-var Indicator = ProgressIndicator;
-
-//# sourceMappingURL=index.mjs.map
-
-
-/***/ }),
-
 /***/ "./node_modules/@radix-ui/react-radio-group/dist/index.mjs":
 /*!*****************************************************************!*\
   !*** ./node_modules/@radix-ui/react-radio-group/dist/index.mjs ***!
@@ -20294,41 +16748,6 @@ const Bug = (0,_createLucideIcon_js__WEBPACK_IMPORTED_MODULE_0__["default"])("bu
 
 /***/ }),
 
-/***/ "./node_modules/lucide-react/dist/esm/icons/calendar.js":
-/*!**************************************************************!*\
-  !*** ./node_modules/lucide-react/dist/esm/icons/calendar.js ***!
-  \**************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   __iconNode: () => (/* binding */ __iconNode),
-/* harmony export */   "default": () => (/* binding */ Calendar)
-/* harmony export */ });
-/* harmony import */ var _createLucideIcon_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../createLucideIcon.js */ "./node_modules/lucide-react/dist/esm/createLucideIcon.js");
-/**
- * @license lucide-react v0.487.0 - ISC
- *
- * This source code is licensed under the ISC license.
- * See the LICENSE file in the root directory of this source tree.
- */
-
-
-
-const __iconNode = [
-  ["path", { d: "M8 2v4", key: "1cmpym" }],
-  ["path", { d: "M16 2v4", key: "4m81vk" }],
-  ["rect", { width: "18", height: "18", x: "3", y: "4", rx: "2", key: "1hopcy" }],
-  ["path", { d: "M3 10h18", key: "8toen8" }]
-];
-const Calendar = (0,_createLucideIcon_js__WEBPACK_IMPORTED_MODULE_0__["default"])("calendar", __iconNode);
-
-
-//# sourceMappingURL=calendar.js.map
-
-
-/***/ }),
-
 /***/ "./node_modules/lucide-react/dist/esm/icons/chart-column.js":
 /*!******************************************************************!*\
   !*** ./node_modules/lucide-react/dist/esm/icons/chart-column.js ***!
@@ -20615,40 +17034,6 @@ const CircleHelp = (0,_createLucideIcon_js__WEBPACK_IMPORTED_MODULE_0__["default
 
 /***/ }),
 
-/***/ "./node_modules/lucide-react/dist/esm/icons/circle-x.js":
-/*!**************************************************************!*\
-  !*** ./node_modules/lucide-react/dist/esm/icons/circle-x.js ***!
-  \**************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   __iconNode: () => (/* binding */ __iconNode),
-/* harmony export */   "default": () => (/* binding */ CircleX)
-/* harmony export */ });
-/* harmony import */ var _createLucideIcon_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../createLucideIcon.js */ "./node_modules/lucide-react/dist/esm/createLucideIcon.js");
-/**
- * @license lucide-react v0.487.0 - ISC
- *
- * This source code is licensed under the ISC license.
- * See the LICENSE file in the root directory of this source tree.
- */
-
-
-
-const __iconNode = [
-  ["circle", { cx: "12", cy: "12", r: "10", key: "1mglay" }],
-  ["path", { d: "m15 9-6 6", key: "1uzhvr" }],
-  ["path", { d: "m9 9 6 6", key: "z0biqf" }]
-];
-const CircleX = (0,_createLucideIcon_js__WEBPACK_IMPORTED_MODULE_0__["default"])("circle-x", __iconNode);
-
-
-//# sourceMappingURL=circle-x.js.map
-
-
-/***/ }),
-
 /***/ "./node_modules/lucide-react/dist/esm/icons/circle.js":
 /*!************************************************************!*\
   !*** ./node_modules/lucide-react/dist/esm/icons/circle.js ***!
@@ -20675,140 +17060,6 @@ const Circle = (0,_createLucideIcon_js__WEBPACK_IMPORTED_MODULE_0__["default"])(
 
 
 //# sourceMappingURL=circle.js.map
-
-
-/***/ }),
-
-/***/ "./node_modules/lucide-react/dist/esm/icons/clock.js":
-/*!***********************************************************!*\
-  !*** ./node_modules/lucide-react/dist/esm/icons/clock.js ***!
-  \***********************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   __iconNode: () => (/* binding */ __iconNode),
-/* harmony export */   "default": () => (/* binding */ Clock)
-/* harmony export */ });
-/* harmony import */ var _createLucideIcon_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../createLucideIcon.js */ "./node_modules/lucide-react/dist/esm/createLucideIcon.js");
-/**
- * @license lucide-react v0.487.0 - ISC
- *
- * This source code is licensed under the ISC license.
- * See the LICENSE file in the root directory of this source tree.
- */
-
-
-
-const __iconNode = [
-  ["circle", { cx: "12", cy: "12", r: "10", key: "1mglay" }],
-  ["polyline", { points: "12 6 12 12 16 14", key: "68esgv" }]
-];
-const Clock = (0,_createLucideIcon_js__WEBPACK_IMPORTED_MODULE_0__["default"])("clock", __iconNode);
-
-
-//# sourceMappingURL=clock.js.map
-
-
-/***/ }),
-
-/***/ "./node_modules/lucide-react/dist/esm/icons/code-xml.js":
-/*!**************************************************************!*\
-  !*** ./node_modules/lucide-react/dist/esm/icons/code-xml.js ***!
-  \**************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   __iconNode: () => (/* binding */ __iconNode),
-/* harmony export */   "default": () => (/* binding */ CodeXml)
-/* harmony export */ });
-/* harmony import */ var _createLucideIcon_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../createLucideIcon.js */ "./node_modules/lucide-react/dist/esm/createLucideIcon.js");
-/**
- * @license lucide-react v0.487.0 - ISC
- *
- * This source code is licensed under the ISC license.
- * See the LICENSE file in the root directory of this source tree.
- */
-
-
-
-const __iconNode = [
-  ["path", { d: "m18 16 4-4-4-4", key: "1inbqp" }],
-  ["path", { d: "m6 8-4 4 4 4", key: "15zrgr" }],
-  ["path", { d: "m14.5 4-5 16", key: "e7oirm" }]
-];
-const CodeXml = (0,_createLucideIcon_js__WEBPACK_IMPORTED_MODULE_0__["default"])("code-xml", __iconNode);
-
-
-//# sourceMappingURL=code-xml.js.map
-
-
-/***/ }),
-
-/***/ "./node_modules/lucide-react/dist/esm/icons/dollar-sign.js":
-/*!*****************************************************************!*\
-  !*** ./node_modules/lucide-react/dist/esm/icons/dollar-sign.js ***!
-  \*****************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   __iconNode: () => (/* binding */ __iconNode),
-/* harmony export */   "default": () => (/* binding */ DollarSign)
-/* harmony export */ });
-/* harmony import */ var _createLucideIcon_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../createLucideIcon.js */ "./node_modules/lucide-react/dist/esm/createLucideIcon.js");
-/**
- * @license lucide-react v0.487.0 - ISC
- *
- * This source code is licensed under the ISC license.
- * See the LICENSE file in the root directory of this source tree.
- */
-
-
-
-const __iconNode = [
-  ["line", { x1: "12", x2: "12", y1: "2", y2: "22", key: "7eqyqh" }],
-  ["path", { d: "M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6", key: "1b0p4s" }]
-];
-const DollarSign = (0,_createLucideIcon_js__WEBPACK_IMPORTED_MODULE_0__["default"])("dollar-sign", __iconNode);
-
-
-//# sourceMappingURL=dollar-sign.js.map
-
-
-/***/ }),
-
-/***/ "./node_modules/lucide-react/dist/esm/icons/download.js":
-/*!**************************************************************!*\
-  !*** ./node_modules/lucide-react/dist/esm/icons/download.js ***!
-  \**************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   __iconNode: () => (/* binding */ __iconNode),
-/* harmony export */   "default": () => (/* binding */ Download)
-/* harmony export */ });
-/* harmony import */ var _createLucideIcon_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../createLucideIcon.js */ "./node_modules/lucide-react/dist/esm/createLucideIcon.js");
-/**
- * @license lucide-react v0.487.0 - ISC
- *
- * This source code is licensed under the ISC license.
- * See the LICENSE file in the root directory of this source tree.
- */
-
-
-
-const __iconNode = [
-  ["path", { d: "M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4", key: "ih7n3h" }],
-  ["polyline", { points: "7 10 12 15 17 10", key: "2ggqvy" }],
-  ["line", { x1: "12", x2: "12", y1: "15", y2: "3", key: "1vk2je" }]
-];
-const Download = (0,_createLucideIcon_js__WEBPACK_IMPORTED_MODULE_0__["default"])("download", __iconNode);
-
-
-//# sourceMappingURL=download.js.map
 
 
 /***/ }),
@@ -20879,47 +17130,6 @@ const FileText = (0,_createLucideIcon_js__WEBPACK_IMPORTED_MODULE_0__["default"]
 
 
 //# sourceMappingURL=file-text.js.map
-
-
-/***/ }),
-
-/***/ "./node_modules/lucide-react/dist/esm/icons/gift.js":
-/*!**********************************************************!*\
-  !*** ./node_modules/lucide-react/dist/esm/icons/gift.js ***!
-  \**********************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   __iconNode: () => (/* binding */ __iconNode),
-/* harmony export */   "default": () => (/* binding */ Gift)
-/* harmony export */ });
-/* harmony import */ var _createLucideIcon_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../createLucideIcon.js */ "./node_modules/lucide-react/dist/esm/createLucideIcon.js");
-/**
- * @license lucide-react v0.487.0 - ISC
- *
- * This source code is licensed under the ISC license.
- * See the LICENSE file in the root directory of this source tree.
- */
-
-
-
-const __iconNode = [
-  ["rect", { x: "3", y: "8", width: "18", height: "4", rx: "1", key: "bkv52" }],
-  ["path", { d: "M12 8v13", key: "1c76mn" }],
-  ["path", { d: "M19 12v7a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2v-7", key: "6wjy6b" }],
-  [
-    "path",
-    {
-      d: "M7.5 8a2.5 2.5 0 0 1 0-5A4.8 8 0 0 1 12 8a4.8 8 0 0 1 4.5-5 2.5 2.5 0 0 1 0 5",
-      key: "1ihvrl"
-    }
-  ]
-];
-const Gift = (0,_createLucideIcon_js__WEBPACK_IMPORTED_MODULE_0__["default"])("gift", __iconNode);
-
-
-//# sourceMappingURL=gift.js.map
 
 
 /***/ }),
@@ -21171,6 +17381,40 @@ const MessageSquare = (0,_createLucideIcon_js__WEBPACK_IMPORTED_MODULE_0__["defa
 
 /***/ }),
 
+/***/ "./node_modules/lucide-react/dist/esm/icons/monitor.js":
+/*!*************************************************************!*\
+  !*** ./node_modules/lucide-react/dist/esm/icons/monitor.js ***!
+  \*************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   __iconNode: () => (/* binding */ __iconNode),
+/* harmony export */   "default": () => (/* binding */ Monitor)
+/* harmony export */ });
+/* harmony import */ var _createLucideIcon_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../createLucideIcon.js */ "./node_modules/lucide-react/dist/esm/createLucideIcon.js");
+/**
+ * @license lucide-react v0.487.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */
+
+
+
+const __iconNode = [
+  ["rect", { width: "20", height: "14", x: "2", y: "3", rx: "2", key: "48i651" }],
+  ["line", { x1: "8", x2: "16", y1: "21", y2: "21", key: "1svkeh" }],
+  ["line", { x1: "12", x2: "12", y1: "17", y2: "21", key: "vw1qmm" }]
+];
+const Monitor = (0,_createLucideIcon_js__WEBPACK_IMPORTED_MODULE_0__["default"])("monitor", __iconNode);
+
+
+//# sourceMappingURL=monitor.js.map
+
+
+/***/ }),
+
 /***/ "./node_modules/lucide-react/dist/esm/icons/moon.js":
 /*!**********************************************************!*\
   !*** ./node_modules/lucide-react/dist/esm/icons/moon.js ***!
@@ -21316,113 +17560,6 @@ const Palette = (0,_createLucideIcon_js__WEBPACK_IMPORTED_MODULE_0__["default"])
 
 
 //# sourceMappingURL=palette.js.map
-
-
-/***/ }),
-
-/***/ "./node_modules/lucide-react/dist/esm/icons/paperclip.js":
-/*!***************************************************************!*\
-  !*** ./node_modules/lucide-react/dist/esm/icons/paperclip.js ***!
-  \***************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   __iconNode: () => (/* binding */ __iconNode),
-/* harmony export */   "default": () => (/* binding */ Paperclip)
-/* harmony export */ });
-/* harmony import */ var _createLucideIcon_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../createLucideIcon.js */ "./node_modules/lucide-react/dist/esm/createLucideIcon.js");
-/**
- * @license lucide-react v0.487.0 - ISC
- *
- * This source code is licensed under the ISC license.
- * See the LICENSE file in the root directory of this source tree.
- */
-
-
-
-const __iconNode = [
-  ["path", { d: "M13.234 20.252 21 12.3", key: "1cbrk9" }],
-  [
-    "path",
-    {
-      d: "m16 6-8.414 8.586a2 2 0 0 0 0 2.828 2 2 0 0 0 2.828 0l8.414-8.586a4 4 0 0 0 0-5.656 4 4 0 0 0-5.656 0l-8.415 8.585a6 6 0 1 0 8.486 8.486",
-      key: "1pkts6"
-    }
-  ]
-];
-const Paperclip = (0,_createLucideIcon_js__WEBPACK_IMPORTED_MODULE_0__["default"])("paperclip", __iconNode);
-
-
-//# sourceMappingURL=paperclip.js.map
-
-
-/***/ }),
-
-/***/ "./node_modules/lucide-react/dist/esm/icons/plus.js":
-/*!**********************************************************!*\
-  !*** ./node_modules/lucide-react/dist/esm/icons/plus.js ***!
-  \**********************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   __iconNode: () => (/* binding */ __iconNode),
-/* harmony export */   "default": () => (/* binding */ Plus)
-/* harmony export */ });
-/* harmony import */ var _createLucideIcon_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../createLucideIcon.js */ "./node_modules/lucide-react/dist/esm/createLucideIcon.js");
-/**
- * @license lucide-react v0.487.0 - ISC
- *
- * This source code is licensed under the ISC license.
- * See the LICENSE file in the root directory of this source tree.
- */
-
-
-
-const __iconNode = [
-  ["path", { d: "M5 12h14", key: "1ays0h" }],
-  ["path", { d: "M12 5v14", key: "s699le" }]
-];
-const Plus = (0,_createLucideIcon_js__WEBPACK_IMPORTED_MODULE_0__["default"])("plus", __iconNode);
-
-
-//# sourceMappingURL=plus.js.map
-
-
-/***/ }),
-
-/***/ "./node_modules/lucide-react/dist/esm/icons/refresh-cw.js":
-/*!****************************************************************!*\
-  !*** ./node_modules/lucide-react/dist/esm/icons/refresh-cw.js ***!
-  \****************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   __iconNode: () => (/* binding */ __iconNode),
-/* harmony export */   "default": () => (/* binding */ RefreshCw)
-/* harmony export */ });
-/* harmony import */ var _createLucideIcon_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../createLucideIcon.js */ "./node_modules/lucide-react/dist/esm/createLucideIcon.js");
-/**
- * @license lucide-react v0.487.0 - ISC
- *
- * This source code is licensed under the ISC license.
- * See the LICENSE file in the root directory of this source tree.
- */
-
-
-
-const __iconNode = [
-  ["path", { d: "M3 12a9 9 0 0 1 9-9 9.75 9.75 0 0 1 6.74 2.74L21 8", key: "v9h5vc" }],
-  ["path", { d: "M21 3v5h-5", key: "1q7to0" }],
-  ["path", { d: "M21 12a9 9 0 0 1-9 9 9.75 9.75 0 0 1-6.74-2.74L3 16", key: "3uifl3" }],
-  ["path", { d: "M8 16H3v5", key: "1cv678" }]
-];
-const RefreshCw = (0,_createLucideIcon_js__WEBPACK_IMPORTED_MODULE_0__["default"])("refresh-cw", __iconNode);
-
-
-//# sourceMappingURL=refresh-cw.js.map
 
 
 /***/ }),
@@ -21650,45 +17787,6 @@ const Smartphone = (0,_createLucideIcon_js__WEBPACK_IMPORTED_MODULE_0__["default
 
 /***/ }),
 
-/***/ "./node_modules/lucide-react/dist/esm/icons/square-pen.js":
-/*!****************************************************************!*\
-  !*** ./node_modules/lucide-react/dist/esm/icons/square-pen.js ***!
-  \****************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   __iconNode: () => (/* binding */ __iconNode),
-/* harmony export */   "default": () => (/* binding */ SquarePen)
-/* harmony export */ });
-/* harmony import */ var _createLucideIcon_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../createLucideIcon.js */ "./node_modules/lucide-react/dist/esm/createLucideIcon.js");
-/**
- * @license lucide-react v0.487.0 - ISC
- *
- * This source code is licensed under the ISC license.
- * See the LICENSE file in the root directory of this source tree.
- */
-
-
-
-const __iconNode = [
-  ["path", { d: "M12 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7", key: "1m0v6g" }],
-  [
-    "path",
-    {
-      d: "M18.375 2.625a1 1 0 0 1 3 3l-9.013 9.014a2 2 0 0 1-.853.505l-2.873.84a.5.5 0 0 1-.62-.62l.84-2.873a2 2 0 0 1 .506-.852z",
-      key: "ohrbg2"
-    }
-  ]
-];
-const SquarePen = (0,_createLucideIcon_js__WEBPACK_IMPORTED_MODULE_0__["default"])("square-pen", __iconNode);
-
-
-//# sourceMappingURL=square-pen.js.map
-
-
-/***/ }),
-
 /***/ "./node_modules/lucide-react/dist/esm/icons/star.js":
 /*!**********************************************************!*\
   !*** ./node_modules/lucide-react/dist/esm/icons/star.js ***!
@@ -21797,42 +17895,6 @@ const Target = (0,_createLucideIcon_js__WEBPACK_IMPORTED_MODULE_0__["default"])(
 
 
 //# sourceMappingURL=target.js.map
-
-
-/***/ }),
-
-/***/ "./node_modules/lucide-react/dist/esm/icons/trash-2.js":
-/*!*************************************************************!*\
-  !*** ./node_modules/lucide-react/dist/esm/icons/trash-2.js ***!
-  \*************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   __iconNode: () => (/* binding */ __iconNode),
-/* harmony export */   "default": () => (/* binding */ Trash2)
-/* harmony export */ });
-/* harmony import */ var _createLucideIcon_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../createLucideIcon.js */ "./node_modules/lucide-react/dist/esm/createLucideIcon.js");
-/**
- * @license lucide-react v0.487.0 - ISC
- *
- * This source code is licensed under the ISC license.
- * See the LICENSE file in the root directory of this source tree.
- */
-
-
-
-const __iconNode = [
-  ["path", { d: "M3 6h18", key: "d0wm0j" }],
-  ["path", { d: "M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6", key: "4alrt4" }],
-  ["path", { d: "M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2", key: "v07s0e" }],
-  ["line", { x1: "10", x2: "10", y1: "11", y2: "17", key: "1uufr5" }],
-  ["line", { x1: "14", x2: "14", y1: "11", y2: "17", key: "xtxkd" }]
-];
-const Trash2 = (0,_createLucideIcon_js__WEBPACK_IMPORTED_MODULE_0__["default"])("trash-2", __iconNode);
-
-
-//# sourceMappingURL=trash-2.js.map
 
 
 /***/ }),
@@ -21948,39 +18010,6 @@ const Truck = (0,_createLucideIcon_js__WEBPACK_IMPORTED_MODULE_0__["default"])("
 
 
 //# sourceMappingURL=truck.js.map
-
-
-/***/ }),
-
-/***/ "./node_modules/lucide-react/dist/esm/icons/user.js":
-/*!**********************************************************!*\
-  !*** ./node_modules/lucide-react/dist/esm/icons/user.js ***!
-  \**********************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   __iconNode: () => (/* binding */ __iconNode),
-/* harmony export */   "default": () => (/* binding */ User)
-/* harmony export */ });
-/* harmony import */ var _createLucideIcon_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../createLucideIcon.js */ "./node_modules/lucide-react/dist/esm/createLucideIcon.js");
-/**
- * @license lucide-react v0.487.0 - ISC
- *
- * This source code is licensed under the ISC license.
- * See the LICENSE file in the root directory of this source tree.
- */
-
-
-
-const __iconNode = [
-  ["path", { d: "M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2", key: "975kel" }],
-  ["circle", { cx: "12", cy: "7", r: "4", key: "17ys0d" }]
-];
-const User = (0,_createLucideIcon_js__WEBPACK_IMPORTED_MODULE_0__["default"])("user", __iconNode);
-
-
-//# sourceMappingURL=user.js.map
 
 
 /***/ }),

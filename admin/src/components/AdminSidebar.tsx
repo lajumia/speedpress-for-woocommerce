@@ -131,30 +131,30 @@ const tabs = [
     icon: BarChart3,
     hasCount: true,
   },
-  {
-    id: "free-addons",
-    label: "Free Addons",
-    icon: Gift,
-    hasCount: true,
-  },
-  {
-    id: "custom-requests",
-    label: "Custom Development",
-    icon: Code2,
-    hasCount: false,
-  },
-  {
-    id: "license-updates",
-    label: "License & Updates",
-    icon: Settings,
-    hasCount: false,
-  },
-  {
-    id: "help-docs",
-    label: "Help & Documentation",
-    icon: HelpCircle,
-    hasCount: false,
-  },
+  // {
+  //   id: "free-addons",
+  //   label: "Free Addons",
+  //   icon: Gift,
+  //   hasCount: true,
+  // },
+  // {
+  //   id: "custom-requests",
+  //   label: "Custom Development",
+  //   icon: Code2,
+  //   hasCount: false,
+  // },
+  // {
+  //   id: "license-updates",
+  //   label: "License & Updates",
+  //   icon: Settings,
+  //   hasCount: false,
+  // },
+  // {
+  //   id: "help-docs",
+  //   label: "Help & Documentation",
+  //   icon: HelpCircle,
+  //   hasCount: false,
+  // },
 ];
 
 export function AdminSidebar({activeTab,onTabChange,addons = {},isMobile = false,onClose,}: SidebarProps) {
