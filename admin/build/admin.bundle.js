@@ -8473,11 +8473,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-runtime */ "react/jsx-runtime");
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var lucide_react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! lucide-react */ "./node_modules/lucide-react/dist/esm/icons/moon.js");
-/* harmony import */ var lucide_react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! lucide-react */ "./node_modules/lucide-react/dist/esm/icons/sun.js");
-/* harmony import */ var _ui_button__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./ui/button */ "./admin/src/components/ui/button.tsx");
-/* harmony import */ var _ui_dropdown_menu__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./ui/dropdown-menu */ "./admin/src/components/ui/dropdown-menu.tsx");
-/* harmony import */ var _ThemeProvider__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./ThemeProvider */ "./admin/src/components/ThemeProvider.tsx");
+/* harmony import */ var lucide_react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! lucide-react */ "./node_modules/lucide-react/dist/esm/icons/monitor.js");
+/* harmony import */ var lucide_react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! lucide-react */ "./node_modules/lucide-react/dist/esm/icons/moon.js");
+/* harmony import */ var lucide_react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! lucide-react */ "./node_modules/lucide-react/dist/esm/icons/sun.js");
+/* harmony import */ var _ui_button__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./ui/button */ "./admin/src/components/ui/button.tsx");
+/* harmony import */ var _ui_dropdown_menu__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./ui/dropdown-menu */ "./admin/src/components/ui/dropdown-menu.tsx");
+/* harmony import */ var _ThemeProvider__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./ThemeProvider */ "./admin/src/components/ThemeProvider.tsx");
 
 
 
@@ -8488,30 +8489,30 @@ function ThemeToggle() {
     theme,
     setTheme,
     actualTheme
-  } = (0,_ThemeProvider__WEBPACK_IMPORTED_MODULE_5__.useTheme)();
-  return (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_ui_dropdown_menu__WEBPACK_IMPORTED_MODULE_4__.DropdownMenu, {
-    children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ui_dropdown_menu__WEBPACK_IMPORTED_MODULE_4__.DropdownMenuTrigger, {
+  } = (0,_ThemeProvider__WEBPACK_IMPORTED_MODULE_6__.useTheme)();
+  return (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_ui_dropdown_menu__WEBPACK_IMPORTED_MODULE_5__.DropdownMenu, {
+    children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ui_dropdown_menu__WEBPACK_IMPORTED_MODULE_5__.DropdownMenuTrigger, {
       asChild: true,
-      children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_ui_button__WEBPACK_IMPORTED_MODULE_3__.Button, {
+      children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_ui_button__WEBPACK_IMPORTED_MODULE_4__.Button, {
         variant: "ghost",
         size: "sm",
         className: "w-full justify-start gap-3 px-3 py-2.5 h-auto font-normal hover:bg-accent",
-        children: [actualTheme === 'dark' ? (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_1__["default"], {
+        children: [actualTheme === 'dark' ? (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_2__["default"], {
           className: "w-4 h-4"
-        }) : (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_2__["default"], {
+        }) : (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_3__["default"], {
           className: "w-4 h-4"
         }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("span", {
           className: "text-sm",
           children: [theme === 'system' ? 'System' : theme === 'dark' ? 'Dark' : 'Light', " Theme"]
         })]
       })
-    }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_ui_dropdown_menu__WEBPACK_IMPORTED_MODULE_4__.DropdownMenuContent, {
+    }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_ui_dropdown_menu__WEBPACK_IMPORTED_MODULE_5__.DropdownMenuContent, {
       align: "start",
       className: "w-40",
-      children: (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_ui_dropdown_menu__WEBPACK_IMPORTED_MODULE_4__.DropdownMenuItem, {
+      children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_ui_dropdown_menu__WEBPACK_IMPORTED_MODULE_5__.DropdownMenuItem, {
         onClick: () => setTheme('light'),
         className: "flex items-center gap-2 cursor-pointer",
-        children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_2__["default"], {
+        children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_3__["default"], {
           className: "w-4 h-4"
         }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
           children: "Light"
@@ -8519,7 +8520,29 @@ function ThemeToggle() {
           className: "ml-auto text-xs",
           children: "\u2713"
         })]
-      })
+      }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_ui_dropdown_menu__WEBPACK_IMPORTED_MODULE_5__.DropdownMenuItem, {
+        onClick: () => setTheme('dark'),
+        className: "flex items-center gap-2 cursor-pointer",
+        children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_2__["default"], {
+          className: "w-4 h-4"
+        }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
+          children: "Dark"
+        }), theme === 'dark' && (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
+          className: "ml-auto text-xs",
+          children: "\u2713"
+        })]
+      }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(_ui_dropdown_menu__WEBPACK_IMPORTED_MODULE_5__.DropdownMenuItem, {
+        onClick: () => setTheme('system'),
+        className: "flex items-center gap-2 cursor-pointer",
+        children: [(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(lucide_react__WEBPACK_IMPORTED_MODULE_1__["default"], {
+          className: "w-4 h-4"
+        }), (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
+          children: "System"
+        }), theme === 'system' && (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("span", {
+          className: "ml-auto text-xs",
+          children: "\u2713"
+        })]
+      })]
     })]
   });
 }
@@ -21167,6 +21190,40 @@ const MessageSquare = (0,_createLucideIcon_js__WEBPACK_IMPORTED_MODULE_0__["defa
 
 
 //# sourceMappingURL=message-square.js.map
+
+
+/***/ }),
+
+/***/ "./node_modules/lucide-react/dist/esm/icons/monitor.js":
+/*!*************************************************************!*\
+  !*** ./node_modules/lucide-react/dist/esm/icons/monitor.js ***!
+  \*************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   __iconNode: () => (/* binding */ __iconNode),
+/* harmony export */   "default": () => (/* binding */ Monitor)
+/* harmony export */ });
+/* harmony import */ var _createLucideIcon_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../createLucideIcon.js */ "./node_modules/lucide-react/dist/esm/createLucideIcon.js");
+/**
+ * @license lucide-react v0.487.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */
+
+
+
+const __iconNode = [
+  ["rect", { width: "20", height: "14", x: "2", y: "3", rx: "2", key: "48i651" }],
+  ["line", { x1: "8", x2: "16", y1: "21", y2: "21", key: "1svkeh" }],
+  ["line", { x1: "12", x2: "12", y1: "17", y2: "21", key: "vw1qmm" }]
+];
+const Monitor = (0,_createLucideIcon_js__WEBPACK_IMPORTED_MODULE_0__["default"])("monitor", __iconNode);
+
+
+//# sourceMappingURL=monitor.js.map
 
 
 /***/ }),

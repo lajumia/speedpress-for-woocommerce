@@ -38,22 +38,22 @@ export function ThemeToggle() {
           <span>Light</span>
           {theme === 'light' && <span className="ml-auto text-xs">✓</span>}
         </DropdownMenuItem>
-        {/* <DropdownMenuItem 
-          // onClick={() => setTheme('dark')}
+        <DropdownMenuItem 
+           onClick={() => setTheme('dark')}
           className="flex items-center gap-2 cursor-pointer"
         >
           <Moon className="w-4 h-4" />
           <span>Dark</span>
           {theme === 'dark' && <span className="ml-auto text-xs">✓</span>}
-        </DropdownMenuItem> */}
-        {/* <DropdownMenuItem 
-          // onClick={() => setTheme('system')}
+        </DropdownMenuItem>
+        <DropdownMenuItem 
+          onClick={() => setTheme('system')}
           className="flex items-center gap-2 cursor-pointer"
         >
           <Monitor className="w-4 h-4" />
           <span>System</span>
           {theme === 'system' && <span className="ml-auto text-xs">✓</span>}
-        </DropdownMenuItem> */}
+        </DropdownMenuItem>
       </DropdownMenuContent>
     </DropdownMenu>
   );
