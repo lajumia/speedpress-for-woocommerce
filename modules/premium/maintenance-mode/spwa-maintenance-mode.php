@@ -1,10 +1,11 @@
 <?php
 /**
- * Addon: Maintenance Mode
- * Description: Redirects visitors to a custom link when maintenance mode is enabled.
- * Category: General
- * Type: Free
- * Author: SpeedPress
+ * Addon        : Maintenance Mode
+ * Description  : Redirects visitors to a custom link when maintenance mode is enabled.
+ * Category     : General
+ * Type         : Free
+ * Author       : SpeedPress
+ * Version      : 1.0.0
  */
 
 if ( ! defined( 'ABSPATH' ) ) {

@@ -1,9 +1,11 @@
 <?php
 /**
- * Addon Name: SPWA - Block Countries by Name (Case-Insensitive)
- * Description: Block customers from placing WooCommerce orders based on country name (case-insensitive).
- * Version: 1.0.0
- * Author: SpeedPress
+ * Addon        : SPWA - Block Countries by Name (Case-Insensitive)
+ * Description  : Block customers from placing WooCommerce orders based on country name (case-insensitive).
+ * Category     : General
+ * Type         : Free
+ * Author       : SpeedPress
+ * Version      : 1.0.0
  */
 
 if ( ! defined( 'ABSPATH' ) ) {

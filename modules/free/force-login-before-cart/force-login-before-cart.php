@@ -1,9 +1,11 @@
 <?php
 /**
- * Addon Name: SPWA - Force Login Before Cart & Checkout
- * Description: Redirects non-logged-in users to the login page when accessing WooCommerce cart or checkout pages.
- * Version: 1.0.0
- * Author: SpeedPress
+ * Addon        : SPWA - Force Login Before Cart & Checkout
+ * Description  : Redirects non-logged-in users to the login page when accessing WooCommerce cart or checkout pages.
+ * Category     : General
+ * Type         : Free
+ * Author       : SpeedPress
+ * Version      : 1.0.0
  */
 
 if ( ! defined( 'ABSPATH' ) ) {

@@ -1,10 +1,11 @@
 <?php
 /**
- * Addon: Low Stock Notifier
- * Description: Sends an email to the site admin when a product's stock falls below a set threshold.
- * Category: General
- * Type: Free
- * Author: SpeedPress
+ * Addon        : Low Stock Notifier
+ * Description  : Sends an email to the site admin when a product's stock falls below a set threshold.
+ * Category     : General
+ * Type         : Free
+ * Author       : SpeedPress
+ * Version      : 1.0.0
  */
 
 if ( ! defined( 'ABSPATH' ) ) {

@@ -1,10 +1,11 @@
 <?php
 /**
- * Plugin Module: Product Views Counter
- * Description: Counts and displays how many times each WooCommerce product has been viewed.
- * Category : General
- * Type: Free
- * Author: SpeedPress
+ * Addon        : Product Views Counter
+ * Description  : Counts and displays how many times each WooCommerce product has been viewed.
+ * Category     : General
+ * Type         : Free
+ * Author       : SpeedPress
+ * Version      : 1.0.0
  * 
  */
 

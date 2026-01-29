@@ -1,9 +1,11 @@
 <?php
 /**
- * Plugin Name: Auto Apply Coupon
- * Description: Automatically applies a coupon if the cart total exceeds a set threshold (customizable in Customizer).
- * Author: SpeedPress
- * Version: 1.1
+ * Addon        : Auto Apply Coupon
+ * Description  : Automatically applies a coupon if the cart total exceeds a set threshold (customizable in Customizer).
+ * Category     : cart and checkout
+ * Type         : Free
+ * Author       : SpeedPress
+ * Version      : 1.0.0
  */
 
 if ( ! defined( 'ABSPATH' ) ) exit;

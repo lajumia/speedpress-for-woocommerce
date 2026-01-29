@@ -1,10 +1,11 @@
 <?php
 /**  
- * Addon: Product Purchase Counter  
- * Description: Counts and displays how many times each WooCommerce product was purchased.  
- * Category: General  
- * Type: Free  
- * Author: SpeedPress  
+ * Addon        : Product Purchase Counter  
+ * Description  : Counts and displays how many times each WooCommerce product was purchased.  
+ * Category     : General
+ * Type         : Free
+ * Author       : SpeedPress
+ * Version      : 1.0.0
  */  
 
 if ( ! defined( 'ABSPATH' ) ) { 

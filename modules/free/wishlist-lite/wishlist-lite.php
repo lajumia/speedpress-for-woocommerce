@@ -1,7 +1,11 @@
 <?php
 /**
- * Addon: Wishlist Lite
- * Description: Allow users to favorite (wishlist) WooCommerce products.
+ * Addon        : Wishlist Lite
+ * Description  : Allow users to favorite (wishlist) WooCommerce products.
+ * Category     : Products
+ * Type         : Free
+ * Author       : SpeedPress
+ * Version      : 1.0.0
  */
 
 if ( ! defined( 'ABSPATH' ) ) exit;
