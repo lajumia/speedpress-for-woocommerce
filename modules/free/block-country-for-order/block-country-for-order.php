@@ -1,8 +1,8 @@
 <?php
 /**
  * Plugin Name: SPWA - Block Countries by Name (Case-Insensitive)
- * Description: Block customers from placing WooCommerce orders based on country name (case-insensitive). Country names are entered in Customizer (e.g. Bangladesh, canada, IRAN).
- * Version: 1.3
+ * Description: Block customers from placing WooCommerce orders based on country name (case-insensitive).
+ * Version: 1.4
  * Author: SpeedPress
  */
 
@@ -14,7 +14,7 @@ class SPWA_Block_Countries_By_Name {
 
     public function __construct() {
         add_action( 'customize_register', [ $this, 'register_customizer_setting' ] );
-        add_action( 'woocommerce_after_checkout_validation', [ $this, 'maybe_block_checkout' ], 10, 2 );
+        add_action( 'woocommerce_after_checkout_validation', [ $this, 'maybe_block_checkout' ] );
     }
 
     /**
@@ -35,14 +35,14 @@ class SPWA_Block_Countries_By_Name {
 
         $wp_customize->add_control( 'spwa_blocked_country_names', [
             'label'       => __( 'Blocked Country Names (Case-insensitive)', 'speedpress-for-woocommerce' ),
-            'description' => __( 'Enter comma-separated country names (e.g., bangladesh, Canada, INDIA). Case doesn’t matter.', 'speedpress-for-woocommerce' ),
+            'description' => __( 'Enter comma-separated country names (e.g., bangladesh, Canada, INDIA).', 'speedpress-for-woocommerce' ),
             'section'     => 'spwa_blocked_countries_section',
             'type'        => 'text',
         ] );
     }
 
     /**
-     * Sanitize and clean user input
+     * Sanitize input
      */
     public function sanitize_country_names( $input ) {
         if ( empty( $input ) ) {
@@ -57,33 +57,46 @@ class SPWA_Block_Countries_By_Name {
     }
 
     /**
-     * Block checkout if country name matches (case-insensitive)
+     * Block checkout by country name (case-insensitive)
      */
-    public function maybe_block_checkout( $fields, $errors ) {
+    public function maybe_block_checkout() {
+
+        error_log( 'SPWA: woocommerce_checkout_process fired' );
+
         $raw_input = get_theme_mod( 'spwa_blocked_country_names', '' );
 
-        if ( empty( $raw_input ) ) {
+        if ( empty( $raw_input ) || ! WC()->customer ) {
             return;
         }
 
-        $blocked_input = array_map( 'trim', explode( ',', $raw_input ) );
-        $blocked_input = array_filter( $blocked_input );
+        // Prepare blocked list
+        $blocked = array_map( 'trim', explode( ',', $raw_input ) );
+        $blocked = array_filter( $blocked );
+        $blocked = array_map( 'strtolower', $blocked );
 
-        // Normalize to lowercase for comparison
-        $blocked_normalized = array_map( 'strtolower', $blocked_input );
+        // Get customer country codes
+        $billing_country  = WC()->customer->get_billing_country();
+        $shipping_country = WC()->customer->get_shipping_country();
 
-        $billing_country  = isset( $fields['billing_country'] ) ? $fields['billing_country'] : '';
-        $shipping_country = isset( $fields['shipping_country'] ) ? $fields['shipping_country'] : '';
+        if ( ! $billing_country && ! $shipping_country ) {
+            return;
+        }
 
-        $wc_countries = new WC_Countries();
-        $billing_name  = $wc_countries->countries[ $billing_country ] ?? '';
-        $shipping_name = $wc_countries->countries[ $shipping_country ] ?? '';
+        // Convert codes → country names
+        $countries = WC()->countries->countries;
 
+        $billing_name  = isset( $countries[ $billing_country ] ) ? strtolower( $countries[ $billing_country ] ) : '';
+        $shipping_name = isset( $countries[ $shipping_country ] ) ? strtolower( $countries[ $shipping_country ] ) : '';
+
+        // Match
         if (
-            in_array( strtolower( $billing_name ), $blocked_normalized, true ) ||
-            in_array( strtolower( $shipping_name ), $blocked_normalized, true )
+            in_array( $billing_name, $blocked, true ) ||
+            in_array( $shipping_name, $blocked, true )
         ) {
-            $errors->add( 'blocked_country_error', __( 'We do not accept orders from your country.', 'speedpress-for-woocommerce' ) );
+            wc_add_notice(
+                __( 'We do not accept orders from your country.', 'speedpress-for-woocommerce' ),
+                'error'
+            );
         }
     }
 }
